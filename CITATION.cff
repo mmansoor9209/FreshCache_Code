@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use FreshCache or FreshCache-Bench, please cite the paper."
+title: "FreshCache: Freshness-Aware Caching for Open-Web Retrieval-Augmented LLMs"
+authors:
+  - name: "Anonymous Author(s)"
+year: 2027
+conference: "WWW '27"
+repository-code: "https://github.com/<anonymous>/FreshCache"
+license: MIT
