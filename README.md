@@ -2,8 +2,7 @@
 
 Code, benchmark metadata, frozen configurations, row-level results and verification
 procedures for the paper *FreshCache: Freshness-Aware Caching for Open-Web
-Retrieval-Augmented LLMs* (WWW '27, anonymous submission). The paper is in
-[`paper/FreshCache_Final_Paper.pdf`](paper/FreshCache_Final_Paper.pdf).
+Retrieval-Augmented LLMs* (WWW '27, anonymous submission). 
 
 FreshCache is a three-tier cache for open-web RAG. It reuses **answers (L1)**,
 **URL lists (L2)** and **page content (L3)** under separate semantic and temporal
