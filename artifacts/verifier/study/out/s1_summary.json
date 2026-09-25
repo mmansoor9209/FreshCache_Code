@@ -1,0 +1,15 @@
+{
+  "model": "BAAI/bge-m3",
+  "pooling": "CLS, L2-normalised",
+  "max_length": 512,
+  "page_text_loader": "e2e.load_snapshot_text (2000-char cap), same text the generator sees",
+  "n_queries": 31201,
+  "n_pages": 39403,
+  "rounds": [
+    "run_00",
+    "rerun_1h",
+    "rerun_12h",
+    "rerun_24h",
+    "rerun_7d"
+  ]
+}

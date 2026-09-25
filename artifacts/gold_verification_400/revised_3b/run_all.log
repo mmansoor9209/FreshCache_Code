@@ -1,0 +1,138 @@
+=== revised Stage 3b started 2026-09-20T17:19:07+00:00  GPU=3 ===
+--- r1 build (already run; re-running is idempotent) ---
+LearnedRiskModel: loaded data/risk_model.pt (T=1.4672)
+  MLP risk model: loaded
+  units: 715
+  question types: {'DATED': 36, 'with_evidence': 715, 'HISTORICAL': 72, 'CURRENT_SEEKING': 396, 'RECURRING_UNMARKED': 210, 'DATED_CURRENT': 1}
+  mode split: {'AS_STATED': 108, 'CURRENT': 607}
+  evidence chars: old total 1,167,465 -> new total 2,253,352 (1.93x)
+  pages kept: old 852 -> new 1015
+  units with no evidence: 0
+--- r2 judge llama8b ---
+  [llama8b] 0 done, 715 to judge
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:32,  8.91it/s]Loading weights:   1%|          | 2/291 [00:00<00:41,  6.93it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:06, 43.69it/s]Loading weights:   8%|▊         | 24/291 [00:00<00:04, 56.44it/s]Loading weights:  11%|█▏        | 33/291 [00:00<00:04, 62.35it/s]Loading weights:  14%|█▍        | 42/291 [00:00<00:03, 66.49it/s]Loading weights:  18%|█▊        | 51/291 [00:00<00:03, 69.55it/s]Loading weights:  21%|██        | 60/291 [00:01<00:03, 71.02it/s]Loading weights:  24%|██▎       | 69/291 [00:01<00:03, 72.20it/s]Loading weights:  27%|██▋       | 78/291 [00:01<00:02, 73.17it/s]Loading weights:  30%|██▉       | 87/291 [00:01<00:02, 73.90it/s]Loading weights:  33%|███▎      | 96/291 [00:01<00:02, 73.93it/s]Loading weights:  36%|███▌      | 105/291 [00:01<00:02, 74.25it/s]Loading weights:  39%|███▉      | 114/291 [00:01<00:02, 74.16it/s]Loading weights:  42%|████▏     | 123/291 [00:01<00:02, 74.15it/s]Loading weights:  45%|████▌     | 132/291 [00:01<00:02, 73.99it/s]Loading weights:  48%|████▊     | 141/291 [00:02<00:02, 74.59it/s]Loading weights:  52%|█████▏    | 150/291 [00:02<00:01, 74.81it/s]Loading weights:  55%|█████▍    | 159/291 [00:02<00:01, 74.50it/s]Loading weights:  58%|█████▊    | 168/291 [00:02<00:01, 74.30it/s]Loading weights:  61%|██████    | 177/291 [00:02<00:01, 74.49it/s]Loading weights:  64%|██████▍   | 186/291 [00:02<00:01, 74.39it/s]Loading weights:  67%|██████▋   | 195/291 [00:02<00:01, 74.64it/s]Loading weights:  70%|███████   | 204/291 [00:02<00:01, 74.94it/s]Loading weights:  73%|███████▎  | 213/291 [00:03<00:01, 74.85it/s]Loading weights:  76%|███████▋  | 222/291 [00:03<00:00, 74.57it/s]Loading weights:  79%|███████▉  | 231/291 [00:03<00:00, 75.01it/s]Loading weights:  82%|████████▏ | 240/291 [00:03<00:00, 74.83it/s]Loading weights:  86%|████████▌ | 249/291 [00:03<00:00, 74.78it/s]Loading weights:  89%|████████▊ | 258/291 [00:03<00:00, 75.20it/s]Loading weights:  92%|█████████▏| 267/291 [00:03<00:00, 75.48it/s]Loading weights:  95%|█████████▍| 276/291 [00:03<00:00, 75.36it/s]Loading weights:  98%|█████████▊| 285/291 [00:04<00:00, 74.92it/s]Loading weights: 100%|██████████| 291/291 [00:04<00:00, 71.84it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    [llama8b] 50/715
+    [llama8b] 100/715
+    [llama8b] 150/715
+    [llama8b] 200/715
+    [llama8b] 250/715
+    [llama8b] 300/715
+    [llama8b] 350/715
+    [llama8b] 400/715
+    [llama8b] 450/715
+    [llama8b] 500/715
+    [llama8b] 550/715
+    [llama8b] 600/715
+    [llama8b] 650/715
+    [llama8b] 700/715
+  [llama8b] done -> r_validity_llama8b.jsonl
+--- r2 judge qwen7b ---
+  [qwen7b] 0 done, 715 to judge
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:51,  6.62it/s]Loading weights:   1%|          | 2/339 [00:00<00:57,  5.87it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 46.79it/s]Loading weights:   8%|▊         | 27/339 [00:00<00:05, 61.77it/s]Loading weights:  12%|█▏        | 40/339 [00:00<00:04, 74.63it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:03, 79.89it/s]Loading weights:  19%|█▉        | 64/339 [00:01<00:03, 76.09it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 76.52it/s]Loading weights:  26%|██▌       | 88/339 [00:01<00:03, 78.97it/s]Loading weights:  30%|███       | 102/339 [00:01<00:02, 87.16it/s]Loading weights:  34%|███▎      | 114/339 [00:01<00:02, 88.99it/s]Loading weights:  37%|███▋      | 126/339 [00:01<00:02, 89.96it/s]Loading weights:  41%|████      | 138/339 [00:01<00:02, 90.38it/s]Loading weights:  44%|████▍     | 150/339 [00:01<00:02, 90.79it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:01, 90.89it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:01, 90.90it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 90.84it/s]Loading weights:  58%|█████▊    | 198/339 [00:02<00:01, 90.52it/s]Loading weights:  62%|██████▏   | 209/339 [00:02<00:01, 88.13it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 91.19it/s]Loading weights:  69%|██████▉   | 234/339 [00:02<00:01, 92.07it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 91.74it/s]Loading weights:  76%|███████▌  | 257/339 [00:03<00:00, 89.21it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 92.16it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 91.97it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 91.44it/s]Loading weights:  90%|████████▉ | 305/339 [00:03<00:00, 93.05it/s]Loading weights:  94%|█████████▎| 317/339 [00:03<00:00, 92.82it/s]Loading weights:  97%|█████████▋| 329/339 [00:03<00:00, 84.78it/s]Loading weights: 100%|██████████| 339/339 [00:03<00:00, 85.29it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    [qwen7b] 50/715
+    [qwen7b] 100/715
+    [qwen7b] 150/715
+    [qwen7b] 200/715
+    [qwen7b] 250/715
+    [qwen7b] 300/715
+    [qwen7b] 350/715
+    [qwen7b] 400/715
+    [qwen7b] 450/715
+    [qwen7b] 500/715
+    [qwen7b] 550/715
+    [qwen7b] 600/715
+    [qwen7b] 650/715
+    [qwen7b] 700/715
+  [qwen7b] done -> r_validity_qwen7b.jsonl
+--- r3 tie-break set ---
+  primary pair judged: 715 / 715
+  disagreements needing a third judge: 331
+  pattern: {('VALID_AT_T', 'SUPERSEDED_AT_T'): 141, ('VALID_AT_T', 'CONTRADICTED_AS_STATED'): 53, ('INDETERMINATE_AT_T', 'SUPERSEDED_AT_T'): 51, ('SUPERSEDED_AT_T', 'INDETERMINATE_AT_T'): 41, ('VALID_AT_T', 'INDETERMINATE_AT_T'): 22, ('INDETERMINATE_AT_T', 'CONTRADICTED_AS_STATED'): 14, ('INDETERMINATE_AT_T', 'VALID_AT_T'): 6, ('SUPERSEDED_AT_T', 'VALID_AT_T'): 2}
+--- r2 judge mistral7b (disagreements only) ---
+  tie-break mode: 331 units
+  [mistral7b] 0 done, 331 to judge
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|          | 2/291 [00:00<00:27, 10.36it/s]Loading weights:   2%|▏         | 5/291 [00:00<00:16, 17.87it/s]Loading weights:   3%|▎         | 10/291 [00:00<00:09, 28.34it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:10, 27.55it/s]Loading weights:   6%|▌         | 18/291 [00:00<00:08, 30.58it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:08, 32.78it/s]Loading weights:   9%|▉         | 26/291 [00:00<00:09, 29.38it/s]Loading weights:  11%|█         | 31/291 [00:01<00:07, 33.70it/s]Loading weights:  12%|█▏        | 35/291 [00:01<00:08, 30.36it/s]Loading weights:  14%|█▎        | 40/291 [00:01<00:07, 33.97it/s]Loading weights:  15%|█▌        | 44/291 [00:01<00:08, 30.60it/s]Loading weights:  17%|█▋        | 49/291 [00:01<00:07, 34.05it/s]Loading weights:  18%|█▊        | 53/291 [00:01<00:07, 31.23it/s]Loading weights:  20%|█▉        | 58/291 [00:01<00:06, 34.73it/s]Loading weights:  21%|██▏       | 62/291 [00:02<00:07, 31.13it/s]Loading weights:  23%|██▎       | 67/291 [00:02<00:06, 34.55it/s]Loading weights:  24%|██▍       | 71/291 [00:02<00:07, 30.82it/s]Loading weights:  26%|██▌       | 76/291 [00:02<00:06, 33.20it/s]Loading weights:  27%|██▋       | 80/291 [00:02<00:06, 30.20it/s]Loading weights:  29%|██▉       | 85/291 [00:02<00:06, 32.84it/s]Loading weights:  31%|███       | 89/291 [00:02<00:06, 30.09it/s]Loading weights:  32%|███▏      | 94/291 [00:03<00:05, 33.59it/s]Loading weights:  34%|███▎      | 98/291 [00:03<00:06, 31.08it/s]Loading weights:  35%|███▌      | 103/291 [00:03<00:05, 33.70it/s]Loading weights:  37%|███▋      | 107/291 [00:03<00:05, 30.97it/s]Loading weights:  38%|███▊      | 112/291 [00:03<00:05, 34.36it/s]Loading weights:  40%|███▉      | 116/291 [00:03<00:05, 31.52it/s]Loading weights:  42%|████▏     | 121/291 [00:03<00:04, 34.79it/s]Loading weights:  43%|████▎     | 125/291 [00:03<00:05, 32.16it/s]Loading weights:  45%|████▍     | 130/291 [00:04<00:04, 35.04it/s]Loading weights:  46%|████▌     | 134/291 [00:04<00:04, 31.42it/s]Loading weights:  48%|████▊     | 139/291 [00:04<00:04, 33.35it/s]Loading weights:  49%|████▉     | 143/291 [00:04<00:04, 30.41it/s]Loading weights:  51%|█████     | 148/291 [00:04<00:04, 33.42it/s]Loading weights:  52%|█████▏    | 152/291 [00:04<00:04, 30.82it/s]Loading weights:  54%|█████▍    | 157/291 [00:04<00:03, 33.87it/s]Loading weights:  55%|█████▌    | 161/291 [00:05<00:04, 30.75it/s]Loading weights:  57%|█████▋    | 166/291 [00:05<00:03, 33.67it/s]Loading weights:  58%|█████▊    | 170/291 [00:05<00:03, 30.65it/s]Loading weights:  60%|██████    | 175/291 [00:05<00:03, 33.39it/s]Loading weights:  62%|██████▏   | 179/291 [00:05<00:03, 30.78it/s]Loading weights:  63%|██████▎   | 184/291 [00:05<00:03, 34.11it/s]Loading weights:  65%|██████▍   | 188/291 [00:05<00:03, 31.25it/s]Loading weights:  66%|██████▋   | 193/291 [00:06<00:02, 34.78it/s]Loading weights:  68%|██████▊   | 197/291 [00:06<00:02, 31.41it/s]Loading weights:  69%|██████▉   | 202/291 [00:06<00:02, 34.12it/s]Loading weights:  71%|███████   | 206/291 [00:06<00:02, 31.33it/s]Loading weights:  73%|███████▎  | 211/291 [00:06<00:02, 34.86it/s]Loading weights:  74%|███████▍  | 215/291 [00:06<00:02, 31.85it/s]Loading weights:  76%|███████▌  | 220/291 [00:06<00:02, 35.32it/s]Loading weights:  77%|███████▋  | 224/291 [00:07<00:02, 32.57it/s]Loading weights:  79%|███████▊  | 229/291 [00:07<00:01, 36.30it/s]Loading weights:  80%|████████  | 233/291 [00:07<00:01, 32.23it/s]Loading weights:  82%|████████▏ | 238/291 [00:07<00:01, 34.28it/s]Loading weights:  83%|████████▎ | 242/291 [00:07<00:01, 31.33it/s]Loading weights:  85%|████████▍ | 247/291 [00:07<00:01, 34.87it/s]Loading weights:  86%|████████▋ | 251/291 [00:07<00:01, 31.35it/s]Loading weights:  88%|████████▊ | 256/291 [00:07<00:01, 34.54it/s]Loading weights:  89%|████████▉ | 260/291 [00:08<00:00, 31.58it/s]Loading weights:  91%|█████████ | 265/291 [00:08<00:00, 34.18it/s]Loading weights:  92%|█████████▏| 269/291 [00:08<00:00, 30.92it/s]Loading weights:  94%|█████████▍| 274/291 [00:08<00:00, 33.44it/s]Loading weights:  96%|█████████▌| 278/291 [00:08<00:00, 30.41it/s]Loading weights:  97%|█████████▋| 283/291 [00:08<00:00, 33.35it/s]Loading weights:  99%|█████████▊| 287/291 [00:08<00:00, 30.69it/s]Loading weights: 100%|██████████| 291/291 [00:08<00:00, 32.36it/s]
+    [mistral7b] 50/331
+    [mistral7b] 100/331
+    [mistral7b] 150/331
+    [mistral7b] 200/331
+    [mistral7b] 250/331
+    [mistral7b] 300/331
+  [mistral7b] done -> r_validity_mistral7b.jsonl
+--- r4 analyze ---
+  units judged by the primary pair: 715
+  units judged by the third model : 331
+
+  PAIR resolution    : {'VALID_AT_T': 94, 'JUDGE_DISAGREEMENT': 331, 'INDETERMINATE_AT_T': 64, 'SUPERSEDED_AT_T': 224, 'CONTRADICTED_AS_STATED': 2}
+  MAJORITY resolution: {'VALID_AT_T': 277, 'NO_MAJORITY': 61, 'INDETERMINATE_AT_T': 114, 'SUPERSEDED_AT_T': 261, 'CONTRADICTED_AS_STATED': 2}
+  majority source    : {'pair_agreement': 384, 'three_way_split': 61, 'third_judge_majority': 270}
+
+  vs ORIGINAL Stage 3b: {'VALID_AT_T': 95, 'SUPERSEDED_AT_T': 175, 'INDETERMINATE_AT_T': 124, 'JUDGE_DISAGREEMENT': 321}
+  transition old -> revised(majority), top 12:
+    JUDGE_DISAGREEMENT     -> VALID_AT_T                 159
+    SUPERSEDED_AT_T        -> SUPERSEDED_AT_T            150
+    JUDGE_DISAGREEMENT     -> SUPERSEDED_AT_T            97
+    VALID_AT_T             -> VALID_AT_T                 92
+    INDETERMINATE_AT_T     -> INDETERMINATE_AT_T         78
+    JUDGE_DISAGREEMENT     -> INDETERMINATE_AT_T         32
+    JUDGE_DISAGREEMENT     -> NO_MAJORITY                32
+    INDETERMINATE_AT_T     -> NO_MAJORITY                24
+    SUPERSEDED_AT_T        -> VALID_AT_T                 15
+    INDETERMINATE_AT_T     -> VALID_AT_T                 11
+    INDETERMINATE_AT_T     -> SUPERSEDED_AT_T            11
+    SUPERSEDED_AT_T        -> NO_MAJORITY                5
+
+  by question mode (majority):
+    AS_STATED  n= 108  {'VALID_AT_T': 79, 'NO_MAJORITY': 22, 'CONTRADICTED_AS_STATED': 2, 'INDETERMINATE_AT_T': 5}
+    CURRENT    n= 607  {'INDETERMINATE_AT_T': 109, 'VALID_AT_T': 198, 'SUPERSEDED_AT_T': 261, 'NO_MAJORITY': 39}
+  by freshness class (majority VALID rate):
+    TIMELESS  VALID 145/171  =  84.8%
+    SLOW      VALID  63/179  =  35.2%
+    MEDIUM    VALID  37/180  =  20.6%
+    FAST      VALID  32/185  =  17.3%
+  by gold source (majority VALID rate):
+    freshqa              VALID  21/46   =  45.7%
+    temporal_align_qa    VALID 124/513  =  24.2%
+    triviaqa             VALID 132/156  =  84.6%
+
+  EVIDENCE-VALID requests (pair): 77
+
+  EVIDENCE-VALID requests (majority): 215
+
+  full-sample reproduction gate: PASSED ['400/400', '66/66', '6/6', '58/58', '400/400', '81/81', '7/7', '64/64']
+
+  === mixed_age_400 ===
+    metric                             published       orig Stage4      revised PAIR    revised MAJORITY
+    N                                        400                39                39                 110
+    fresh correct                             66                31                32                  52
+    FreshCache correct                        61                29                30                  47
+    FreshCache WAI                             6                 2                 2                   5
+    FreshCache cond.WAI %                  9.091            6.4516              6.25               9.615
+    gate-off correct                          59                28                28                  47
+    gate-off WAI                               8                 3                 5                   6
+    gate-off cond.WAI %                   12.121            9.6774            15.625              11.538
+    SemanticTTL correct                        9                 5                 5                   7
+    SemanticTTL WAI                           58                26                27                  45
+    SemanticTTL cond.WAI %                87.879            83.871            84.375              86.538
+    paired McNemar full     : {'wai_both': 6, 'only_sttl_k1_8': 52, 'only_on': 0, 'exact_mcnemar_p': 4.440892098500626e-16}
+    paired McNemar PAIR     : {'wai_both': 2, 'only_sttl_k1_8': 25, 'only_on': 0, 'exact_mcnemar_p': 5.960464477539063e-08}
+    paired McNemar MAJORITY : {'wai_both': 5, 'only_sttl_k1_8': 40, 'only_on': 0, 'exact_mcnemar_p': 1.8189894035458565e-12}
+
+  === heldout_400 ===
+    metric                             published       orig Stage4      revised PAIR    revised MAJORITY
+    N                                        400                42                39                 107
+    fresh correct                             81                31                26                  49
+    FreshCache correct                        75                28                24                  45
+    FreshCache WAI                             7                 3                 2                   4
+    FreshCache cond.WAI %                  8.642            9.6774             7.692               8.163
+    SemanticTTL correct                       16                 7                 5                  12
+    SemanticTTL WAI                           64                24                21                  37
+    SemanticTTL cond.WAI %                79.012           77.4194            80.769               75.51
+    paired McNemar full     : {'wai_both': 7, 'only_sttl': 57, 'only_fc': 0, 'exact_mcnemar_p': 1.3877787807814457e-17}
+    paired McNemar PAIR     : {'wai_both': 2, 'only_sttl': 19, 'only_fc': 0, 'exact_mcnemar_p': 3.814697265625e-06}
+    paired McNemar MAJORITY : {'wai_both': 4, 'only_sttl': 33, 'only_fc': 0, 'exact_mcnemar_p': 2.3283064365386963e-10}
+
+  wrote r_gold_validity.csv, r4_summary.json, r4.log
+=== revised Stage 3b finished 2026-09-20T17:27:42+00:00 ===

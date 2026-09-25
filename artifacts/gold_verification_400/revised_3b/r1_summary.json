@@ -1,0 +1,25 @@
+{
+  "units": 715,
+  "question_types": {
+    "DATED": 36,
+    "with_evidence": 715,
+    "HISTORICAL": 72,
+    "CURRENT_SEEKING": 396,
+    "RECURRING_UNMARKED": 210,
+    "DATED_CURRENT": 1
+  },
+  "old_evidence_chars": 1167465,
+  "new_evidence_chars": 2253352,
+  "expansion_factor": 1.9301,
+  "caps": {
+    "per_page": 5000,
+    "total": 12000,
+    "min_page": 0
+  },
+  "previous_caps": {
+    "per_page": 2000,
+    "total": 2800,
+    "min_page": 200
+  },
+  "web_retrieval": 0
+}

@@ -1,0 +1,57 @@
+{
+  "stage": "2 — gold temporal volatility",
+  "corpus_year": 2026,
+  "sources": {
+    "temporal_align_qa": {
+      "rows": 9000,
+      "indexed": 9000,
+      "unparsable": 0
+    },
+    "freshqa_10_06": {
+      "rows": 500,
+      "indexed": 500
+    },
+    "trivia_qa": "not loaded; NOT_TIME_KEYED by gold_source"
+  },
+  "base_queries": 703,
+  "verification_units": 715,
+  "volatility_base_queries": {
+    "NOT_TIME_KEYED": 154,
+    "VOLATILE": 504,
+    "SINGLE_YEAR": 45
+  },
+  "volatility_units": {
+    "NOT_TIME_KEYED": 156,
+    "VOLATILE": 513,
+    "SINGLE_YEAR": 46
+  },
+  "gold_vs_annotation": {
+    "year_keyed_base_queries": 504,
+    "gold_not_equal_latest_annotated": 0,
+    "gold_differs_from_some_annotated_year": 499,
+    "volatile_with_gold_differing": 499
+  },
+  "latest_annotated_year": {
+    "(none)": 154,
+    "2023": 519,
+    "2022": 16,
+    "before 2022": 13,
+    "2021": 1
+  },
+  "years_gap_to_corpus": {
+    "3": 519,
+    "4": 16,
+    "5": 1
+  },
+  "n_years_annotated": {
+    "24": 504,
+    "1": 45
+  },
+  "issues_total": 0,
+  "issues_by_kind": {},
+  "interpretation_limit": "STABLE = unchanged across annotated years only. The latest annotated year precedes corpus collection, so STABLE is NOT evidence of correctness in 2026. SINGLE_YEAR and NOT_TIME_KEYED are UNDETERMINED.",
+  "llm_calls": 0,
+  "gpu_used": false,
+  "web_calls": 0,
+  "source_datasets_modified": false
+}

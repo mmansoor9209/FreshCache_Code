@@ -1,0 +1,50 @@
+  units: 715
+
+  OVERALL (715 verification units)
+    all units                  n  715  VALID   95  SUPERSEDED  175  INDET  124  DISAGREE  321  agree 55.1%  kappa 0.3465
+
+  BY FRESHNESS CLASS (unit may span classes; counted per class)
+    TIMELESS                   n  171  VALID   73  SUPERSEDED    5  INDET   21  DISAGREE   72  agree 57.89%  kappa 0.2717
+    SLOW                       n  179  VALID   20  SUPERSEDED   40  INDET   37  DISAGREE   82  agree 54.19%  kappa 0.3508
+    MEDIUM                     n  180  VALID    1  SUPERSEDED   60  INDET   36  DISAGREE   83  agree 53.89%  kappa 0.2589
+    FAST                       n  185  VALID    1  SUPERSEDED   70  INDET   30  DISAGREE   84  agree 54.59%  kappa 0.225
+
+  BY GOLD SOURCE
+    freshqa                    n   46  VALID    7  SUPERSEDED   13  INDET    3  DISAGREE   23  agree 50.0%  kappa 0.2586
+    temporal_align_qa          n  513  VALID   20  SUPERSEDED  157  INDET  101  DISAGREE  235  agree 54.19%  kappa 0.2934
+    triviaqa                   n  156  VALID   68  SUPERSEDED    5  INDET   20  DISAGREE   63  agree 59.62%  kappa 0.2934
+
+  BY ANNOTATION YEAR
+    (none)                     n  156  VALID   68  SUPERSEDED    5  INDET   20  DISAGREE   63  agree 59.62%  kappa 0.2934
+    2021                       n    1  VALID    0  SUPERSEDED    0  INDET    0  DISAGREE    1  agree 0.0%  kappa 0.0
+    2022                       n   16  VALID    3  SUPERSEDED    4  INDET    1  DISAGREE    8  agree 50.0%  kappa 0.2889
+    2023                       n  528  VALID   20  SUPERSEDED  164  INDET  102  DISAGREE  242  agree 54.17%  kappa 0.2909
+    before 2022                n   14  VALID    4  SUPERSEDED    2  INDET    1  DISAGREE    7  agree 50.0%  kappa 0.2794
+
+  BY TEMPORAL VOLATILITY (Stage 2)
+    NOT_TIME_KEYED             n  156  VALID   68  SUPERSEDED    5  INDET   20  DISAGREE   63  agree 59.62%  kappa 0.2934
+    SINGLE_YEAR                n   46  VALID    7  SUPERSEDED   13  INDET    3  DISAGREE   23  agree 50.0%  kappa 0.2586
+    VOLATILE                   n  513  VALID   20  SUPERSEDED  157  INDET  101  DISAGREE  235  agree 54.19%  kappa 0.2934
+
+  WAI REQUESTS — primary 59, held-out 64, distinct union 122
+    they map to 115 distinct verification units
+    WAI units                  n  115  VALID   55  SUPERSEDED    6  INDET    9  DISAGREE   45  agree 60.87%  kappa 0.2772
+    WAI request-level status (a request inherits its unit's status)
+      INDETERMINATE_AT_T     9
+      JUDGE_DISAGREEMENT     45
+      SUPERSEDED_AT_T        6
+      VALID_AT_T             62
+    primary-only WAI requests: 58   held-out-only: 63   both: 1
+
+  JUDGE CONFUSION MATRIX (rows Llama-3.1-8B, cols Qwen2.5-7B)
+                              INDETERMINATE_AT_T       SUPERSEDED_AT_T            VALID_AT_T
+    INDETERMINATE_AT_T                       124                    63                     7
+    SUPERSEDED_AT_T                           42                   175                     2
+    VALID_AT_T                                43                   164                    95
+
+  LIMITS: VALID_AT_T is evidence-based temporal validity, not a
+  correctness verification. INDETERMINATE_AT_T never implies the gold
+  is wrong. A 2023 annotation is not assumed to hold in 2026.
+
+  wrote gold_validity_at_t.csv, wai_unit_validity.csv, stage3b_summary.json, stage3b.log
+  STOP — Stages 3c and 4 not started, as instructed.

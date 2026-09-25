@@ -1,0 +1,135 @@
+=== s6 audit started 2026-09-21T10:56:17+00:00 GPU=3 ===
+  0 done, 55 to generate
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   5%|▍         | 12/254 [00:00<00:02, 115.53it/s]Loading weights:  13%|█▎        | 32/254 [00:00<00:01, 154.19it/s]Loading weights:  20%|█▉        | 50/254 [00:00<00:01, 164.20it/s]Loading weights:  27%|██▋       | 68/254 [00:00<00:01, 166.06it/s]Loading weights:  34%|███▍      | 86/254 [00:00<00:01, 164.53it/s]Loading weights:  41%|████      | 104/254 [00:00<00:00, 164.12it/s]Loading weights:  48%|████▊     | 122/254 [00:00<00:00, 164.54it/s]Loading weights:  55%|█████▌    | 140/254 [00:00<00:00, 164.15it/s]Loading weights:  62%|██████▏   | 158/254 [00:00<00:00, 165.11it/s]Loading weights:  69%|██████▉   | 176/254 [00:01<00:00, 165.90it/s]Loading weights:  76%|███████▋  | 194/254 [00:01<00:00, 166.53it/s]Loading weights:  83%|████████▎ | 212/254 [00:01<00:00, 167.08it/s]Loading weights:  91%|█████████ | 230/254 [00:01<00:00, 167.74it/s]Loading weights:  98%|█████████▊| 248/254 [00:01<00:00, 168.02it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 167.13it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  generation done
+  [llama8b] reusing 816 existing judgments; 15 new
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:31,  9.08it/s]Loading weights:   1%|          | 2/291 [00:00<00:41,  7.03it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:06, 44.65it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:04, 58.55it/s]Loading weights:  11%|█         | 32/291 [00:00<00:04, 63.21it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:03, 66.97it/s]Loading weights:  17%|█▋        | 50/291 [00:00<00:03, 69.85it/s]Loading weights:  20%|██        | 59/291 [00:00<00:03, 70.80it/s]Loading weights:  23%|██▎       | 68/291 [00:01<00:03, 71.51it/s]Loading weights:  26%|██▋       | 77/291 [00:01<00:02, 74.47it/s]Loading weights:  30%|██▉       | 86/291 [00:01<00:02, 74.39it/s]Loading weights:  33%|███▎      | 95/291 [00:01<00:02, 74.62it/s]Loading weights:  36%|███▌      | 104/291 [00:01<00:02, 74.75it/s]Loading weights:  39%|███▉      | 113/291 [00:01<00:02, 78.38it/s]Loading weights:  42%|████▏     | 122/291 [00:01<00:02, 79.57it/s]Loading weights:  45%|████▌     | 131/291 [00:01<00:02, 77.84it/s]Loading weights:  48%|████▊     | 141/291 [00:02<00:01, 77.51it/s]Loading weights:  52%|█████▏    | 150/291 [00:02<00:01, 78.89it/s]Loading weights:  55%|█████▍    | 159/291 [00:02<00:01, 78.66it/s]Loading weights:  58%|█████▊    | 168/291 [00:02<00:01, 77.17it/s]Loading weights:  61%|██████    | 177/291 [00:02<00:01, 80.14it/s]Loading weights:  64%|██████▍   | 186/291 [00:02<00:01, 79.23it/s]Loading weights:  67%|██████▋   | 195/291 [00:02<00:01, 77.69it/s]Loading weights:  70%|███████   | 204/291 [00:02<00:01, 76.90it/s]Loading weights:  73%|███████▎  | 213/291 [00:02<00:01, 75.78it/s]Loading weights:  76%|███████▋  | 222/291 [00:03<00:00, 75.05it/s]Loading weights:  79%|███████▉  | 231/291 [00:03<00:00, 75.47it/s]Loading weights:  82%|████████▏ | 240/291 [00:03<00:00, 74.99it/s]Loading weights:  86%|████████▌ | 249/291 [00:03<00:00, 74.51it/s]Loading weights:  89%|████████▊ | 258/291 [00:03<00:00, 74.93it/s]Loading weights:  92%|█████████▏| 267/291 [00:03<00:00, 74.04it/s]Loading weights:  95%|█████████▍| 276/291 [00:03<00:00, 73.97it/s]Loading weights:  98%|█████████▊| 285/291 [00:03<00:00, 75.79it/s]Loading weights: 100%|██████████| 291/291 [00:03<00:00, 73.50it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  [llama8b] done
+  [qwen7b] reusing 816 existing judgments; 15 new
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:49,  6.85it/s]Loading weights:   1%|          | 2/339 [00:00<00:55,  6.08it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 50.08it/s]Loading weights:   8%|▊         | 27/339 [00:00<00:05, 57.65it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:04, 74.25it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 80.02it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 83.55it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:02, 88.48it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:02, 89.39it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 91.66it/s]Loading weights:  33%|███▎      | 112/339 [00:01<00:02, 89.38it/s]Loading weights:  37%|███▋      | 124/339 [00:01<00:02, 90.35it/s]Loading weights:  40%|████      | 137/339 [00:01<00:02, 94.21it/s]Loading weights:  44%|████▍     | 149/339 [00:01<00:02, 86.29it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:01, 90.19it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:01, 92.79it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 94.19it/s]Loading weights:  58%|█████▊    | 198/339 [00:02<00:01, 94.25it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 96.32it/s]Loading weights:  65%|██████▌   | 221/339 [00:02<00:01, 96.77it/s]Loading weights:  69%|██████▉   | 234/339 [00:02<00:01, 100.63it/s]Loading weights:  73%|███████▎  | 246/339 [00:02<00:00, 98.21it/s] Loading weights:  76%|███████▌  | 258/339 [00:03<00:00, 96.09it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 94.91it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 93.84it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 93.57it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 93.44it/s]Loading weights:  94%|█████████▍| 318/339 [00:03<00:00, 93.48it/s]Loading weights:  97%|█████████▋| 330/339 [00:03<00:00, 93.60it/s]Loading weights: 100%|██████████| 339/339 [00:03<00:00, 88.89it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  [qwen7b] done
+  [suff llama8b] 0 done, 800 to judge
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:31,  9.34it/s]Loading weights:   1%|          | 2/291 [00:00<00:41,  7.01it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:06, 43.95it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:04, 55.41it/s]Loading weights:  11%|█         | 32/291 [00:00<00:04, 62.43it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:03, 67.52it/s]Loading weights:  17%|█▋        | 50/291 [00:00<00:03, 73.44it/s]Loading weights:  20%|██        | 59/291 [00:00<00:03, 73.38it/s]Loading weights:  23%|██▎       | 68/291 [00:01<00:02, 74.92it/s]Loading weights:  26%|██▋       | 77/291 [00:01<00:02, 76.69it/s]Loading weights:  30%|██▉       | 86/291 [00:01<00:02, 76.01it/s]Loading weights:  33%|███▎      | 95/291 [00:01<00:02, 77.40it/s]Loading weights:  36%|███▌      | 104/291 [00:01<00:02, 79.66it/s]Loading weights:  39%|███▉      | 113/291 [00:01<00:02, 78.71it/s]Loading weights:  42%|████▏     | 122/291 [00:01<00:02, 80.37it/s]Loading weights:  45%|████▌     | 131/291 [00:01<00:02, 79.77it/s]Loading weights:  48%|████▊     | 140/291 [00:02<00:01, 78.39it/s]Loading weights:  51%|█████     | 149/291 [00:02<00:01, 77.40it/s]Loading weights:  54%|█████▍    | 158/291 [00:02<00:01, 76.59it/s]Loading weights:  57%|█████▋    | 167/291 [00:02<00:01, 76.13it/s]Loading weights:  60%|██████    | 176/291 [00:02<00:01, 75.44it/s]Loading weights:  64%|██████▎   | 185/291 [00:02<00:01, 74.78it/s]Loading weights:  67%|██████▋   | 194/291 [00:02<00:01, 75.21it/s]Loading weights:  70%|██████▉   | 203/291 [00:02<00:01, 75.59it/s]Loading weights:  73%|███████▎  | 212/291 [00:02<00:01, 75.14it/s]Loading weights:  76%|███████▌  | 221/291 [00:03<00:00, 76.57it/s]Loading weights:  79%|███████▉  | 230/291 [00:03<00:00, 79.94it/s]Loading weights:  82%|████████▏ | 239/291 [00:03<00:00, 78.52it/s]Loading weights:  85%|████████▌ | 248/291 [00:03<00:00, 79.81it/s]Loading weights:  88%|████████▊ | 257/291 [00:03<00:00, 78.68it/s]Loading weights:  91%|█████████▏| 266/291 [00:03<00:00, 78.15it/s]Loading weights:  95%|█████████▍| 275/291 [00:03<00:00, 76.13it/s]Loading weights:  98%|█████████▊| 284/291 [00:03<00:00, 75.37it/s]Loading weights: 100%|██████████| 291/291 [00:03<00:00, 73.76it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    [suff llama8b] 100/800
+    [suff llama8b] 200/800
+    [suff llama8b] 300/800
+    [suff llama8b] 400/800
+    [suff llama8b] 500/800
+    [suff llama8b] 600/800
+    [suff llama8b] 700/800
+    [suff llama8b] 800/800
+  [suff llama8b] done
+  [suff qwen7b] 0 done, 800 to judge
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:53,  6.30it/s]Loading weights:   1%|          | 2/339 [00:00<00:57,  5.88it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:06, 48.76it/s]Loading weights:   8%|▊         | 28/339 [00:00<00:05, 61.52it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:04, 73.99it/s]Loading weights:  16%|█▌        | 53/339 [00:00<00:03, 79.80it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:03, 80.59it/s]Loading weights:  22%|██▏       | 76/339 [00:01<00:03, 83.26it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:02, 88.13it/s]Loading weights:  30%|██▉       | 101/339 [00:01<00:02, 89.26it/s]Loading weights:  33%|███▎      | 112/339 [00:01<00:02, 80.21it/s]Loading weights:  37%|███▋      | 126/339 [00:01<00:02, 87.58it/s]Loading weights:  41%|████      | 138/339 [00:01<00:02, 88.55it/s]Loading weights:  44%|████▍     | 149/339 [00:01<00:02, 87.31it/s]Loading weights:  47%|████▋     | 161/339 [00:02<00:02, 88.56it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:01, 91.69it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 91.32it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:01, 88.94it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 91.95it/s]Loading weights:  65%|██████▌   | 222/339 [00:02<00:01, 91.75it/s]Loading weights:  68%|██████▊   | 232/339 [00:02<00:01, 87.00it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:01, 92.95it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:00, 91.77it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 91.29it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 91.80it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 91.54it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 91.90it/s]Loading weights:  94%|█████████▍| 318/339 [00:03<00:00, 91.83it/s]Loading weights:  97%|█████████▋| 330/339 [00:03<00:00, 91.64it/s]Loading weights: 100%|██████████| 339/339 [00:03<00:00, 85.94it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    [suff qwen7b] 100/800
+    [suff qwen7b] 200/800
+    [suff qwen7b] 300/800
+    [suff qwen7b] 400/800
+    [suff qwen7b] 500/800
+    [suff qwen7b] 600/800
+    [suff qwen7b] 700/800
+    [suff qwen7b] 800/800
+  [suff qwen7b] done
+{
+ "N": 400,
+ "fresh_correct": 81,
+ "fc": {
+  "correct": 75,
+  "abstain": 2,
+  "accuracy_pct": 18.75,
+  "accuracy_ci95": [
+   15.229,
+   22.866
+  ],
+  "wai": 7,
+  "wai_pct": 1.75,
+  "wai_ci95": [
+   0.85,
+   3.568
+  ],
+  "conditional_wai_pct": 8.642,
+  "conditional_wai_ci95": [
+   4.249,
+   16.78
+  ]
+ },
+ "lv": {
+  "correct": 79,
+  "abstain": 2,
+  "accuracy_pct": 19.75,
+  "accuracy_ci95": [
+   16.144,
+   23.931
+  ],
+  "wai": 4,
+  "wai_pct": 1.0,
+  "wai_ci95": [
+   0.39,
+   2.543
+  ],
+  "conditional_wai_pct": 4.938,
+  "conditional_wai_ci95": [
+   1.937,
+   12.02
+  ]
+ },
+ "paired_wai": {
+  "both": 4,
+  "fc_only": 3,
+  "lv_only": 0,
+  "exact_mcnemar_p": 0.25
+ },
+ "paired_correctness": {
+  "fc_only": 0,
+  "lv_only": 4,
+  "exact_mcnemar_p": 0.125
+ },
+ "serving_changed": 166,
+ "sufficiency": {
+  "fc": {
+   "n": 400,
+   "SUFFICIENT": 129,
+   "INSUFFICIENT": 180,
+   "UNCLEAR": 0,
+   "JUDGE_DISAGREEMENT": 91,
+   "sufficient_pct_of_all": 32.25,
+   "ci95_of_all": [
+    27.857,
+    36.981
+   ],
+   "sufficient_pct_of_agreed": 41.748,
+   "ci95_of_agreed": [
+    36.383,
+    47.315
+   ]
+  },
+  "lv": {
+   "n": 400,
+   "SUFFICIENT": 145,
+   "INSUFFICIENT": 161,
+   "UNCLEAR": 0,
+   "JUDGE_DISAGREEMENT": 94,
+   "sufficient_pct_of_all": 36.25,
+   "ci95_of_all": [
+    31.69,
+    41.071
+   ],
+   "sufficient_pct_of_agreed": 47.386,
+   "ci95_of_agreed": [
+    41.858,
+    52.978
+   ]
+  },
+  "paired": {
+   "fc_sufficient_only": 3,
+   "lv_sufficient_only": 19,
+   "exact_mcnemar_p": 0.0008554458618164062
+  }
+ }
+}
+=== finished 2026-09-21T11:04:42+00:00 ===

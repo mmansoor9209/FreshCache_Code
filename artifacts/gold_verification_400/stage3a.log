@@ -1,0 +1,51 @@
+  both judges present for all 668 paraphrase requests
+
+  reused existing fidelity judgments: 12
+  newly judged by both models: 656
+
+  OVERALL (final labels; the 12 reused keep their stored verdict)
+    all paraphrase requests            n  668  SAME  411  DIFFERENT   57  UNCLEAR   0  DISAGREE 200  agree  69.6%  kappa 0.2523
+    newly judged only                  n  656  SAME  403  DIFFERENT   53  UNCLEAR   0  DISAGREE 200  agree  69.5%  kappa 0.2543
+
+  BY AUDIT
+    mixed_age_400                      n  341  SAME  212  DIFFERENT   32  UNCLEAR   0  DISAGREE  97  agree  71.3%  kappa 0.2897
+    heldout_400                        n  341  SAME  207  DIFFERENT   25  UNCLEAR   0  DISAGREE 109  agree  67.5%  kappa 0.2078
+    in both audits                     n   14  SAME    8  DIFFERENT    0  UNCLEAR   0  DISAGREE   6  agree  57.1%  kappa 0.087
+
+  BY SOURCE DATASET
+    freshqa                            n   46  SAME   28  DIFFERENT    5  UNCLEAR   0  DISAGREE  13  agree  71.7%  kappa 0.3228
+    temporal_align_qa                  n  468  SAME  286  DIFFERENT   42  UNCLEAR   0  DISAGREE 140  agree  69.7%  kappa 0.2615
+    triviaqa                           n  154  SAME   97  DIFFERENT   10  UNCLEAR   0  DISAGREE  47  agree  68.8%  kappa 0.1996
+
+  BY FRESHNESS CLASS
+    FAST                               n  167  SAME  107  DIFFERENT   17  UNCLEAR   0  DISAGREE  43  agree  74.2%  kappa 0.3428
+    MEDIUM                             n  165  SAME   96  DIFFERENT   14  UNCLEAR   0  DISAGREE  55  agree  66.1%  kappa 0.2079
+    SLOW                               n  169  SAME  101  DIFFERENT   16  UNCLEAR   0  DISAGREE  52  agree  68.6%  kappa 0.2652
+    TIMELESS                           n  167  SAME  107  DIFFERENT   10  UNCLEAR   0  DISAGREE  50  agree  69.5%  kappa 0.1927
+
+  JUDGE CONFUSION MATRIX (rows Llama-3.1-8B, cols Qwen2.5-7B)
+                   DIFFERENT        SAME     UNCLEAR
+    DIFFERENT             53           1           0
+    SAME                 196         412           0
+    UNCLEAR                6           0           0
+
+  OVERLAP CHECK — stored 3B verdict vs the two new judges (12 reused)
+    p_q_0e39d599_1     stored DIFFERENT  llama8b SAME       qwen7b DIFFERENT
+    p_q_807cdee5_0     stored DIFFERENT  llama8b SAME       qwen7b SAME
+    p_q_79daac81_3     stored SAME       llama8b SAME       qwen7b SAME
+    p_q_70ab2a41_3     stored SAME       llama8b SAME       qwen7b SAME
+    p_q_613da476_0     stored SAME       llama8b SAME       qwen7b SAME
+    p_q_25725075_0     stored DIFFERENT  llama8b SAME       qwen7b SAME
+    p_q_82aed09c_0     stored SAME       llama8b SAME       qwen7b SAME
+    p_q_3055ab76_0     stored SAME       llama8b SAME       qwen7b DIFFERENT
+    p_q_379e630f_3     stored SAME       llama8b SAME       qwen7b SAME
+    p_q_c9965b56_2     stored DIFFERENT  llama8b SAME       qwen7b DIFFERENT
+    p_q_8f04e897_1     stored SAME       llama8b SAME       qwen7b SAME
+    p_q_96b1bf1a_1     stored SAME       llama8b SAME       qwen7b SAME
+    stored == llama8b on 8/12, stored == qwen7b on 9/12
+
+  LIMIT: SAME means the two questions seek the same fact. It does NOT
+  establish gold-answer correctness, and none is claimed.
+
+  wrote paraphrase_fidelity.csv, stage3a_summary.json, stage3a.log
+  STOP — Stages 3b, 3c and 4 not started, as instructed.

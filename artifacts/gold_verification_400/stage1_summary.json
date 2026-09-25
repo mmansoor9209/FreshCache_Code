@@ -1,0 +1,82 @@
+{
+  "stage": "1 — build verification dataset",
+  "stage0_gate_passed": true,
+  "audit_rows_preserved": 800,
+  "unique_requests": 786,
+  "requests_in_both_audits": 14,
+  "fully_mapped_requests": 786,
+  "base_queries": 703,
+  "verification_units": 715,
+  "unit_round_spread": {
+    "rerun_24h": 661,
+    "rerun_1h": 24,
+    "rerun_12h": 29,
+    "run_00": 1
+  },
+  "paraphrase_requests": 668,
+  "fidelity_reusable": 12,
+  "fidelity_needs_new": 656,
+  "base_query_requests": 118,
+  "snapshots": {
+    "distinct_urls_needed": 1131,
+    "distinct_urls_present": 1117,
+    "pct_present": 98.7622,
+    "requests_complete": 772,
+    "requests_with_none": 0,
+    "units_with_any": 715,
+    "units_complete": 702
+  },
+  "gold": {
+    "matches_c2_gold_answers": 786,
+    "by_source": {
+      "temporal_align_qa": 555,
+      "freshqa": 54,
+      "triviaqa": 177
+    },
+    "by_year": {
+      "2023": 573,
+      "2022": 18,
+      "before 2022": 17,
+      "2021": 1,
+      "(none)": 177
+    },
+    "by_provenance_note": {
+      "propagated from verified-faithful paraphrase": 651,
+      "(own gold)": 48,
+      "latest annotated year in the answer dictionary": 87
+    }
+  },
+  "issues_total": 34,
+  "issues_by_kind": {
+    "unavailable_snapshot": 14,
+    "missing_metadata": 20
+  },
+  "llm_calls": 0,
+  "gpu_used": false,
+  "web_calls": 0,
+  "answer_generation": 0,
+  "judging": 0,
+  "input_artifacts_unchanged": true,
+  "hashes_pre": {
+    "validation/mixed_age_full_policy_audit/sample400.jsonl": "2de09ce1bdea6749ffacf31ccaafb09924017320dd3eb6275d045213ccda0650",
+    "validation/baseline_operating_points/sttl_sample400.jsonl": "dd0b36e9f6bf6098acb0b1dfae6b11b9e126df667a6d210cb4c7cb7865b73e92",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/sample.json": "de3eff60b01f7559be8a4a353c650f8e392cc490b7472569f588ee21a70ba3db",
+    "data/paraphrase_clusters.jsonl": "d2cff6222d5dbc06b3f000826ccac8c2b56a08a455b384af6e66e2c9c3459fd5",
+    "data/paraphrase_fidelity_judgments.jsonl": "48d41c9ed0a2208a7f8af94587513f41cfc30aa84b1ce3ccb51e3249fb794053",
+    "data/queries.jsonl": "33bc54a5f2e57923cb54967b8a18d7e8456a75499feb048a7a50021eae8643b0",
+    "v10_remaining_feedback/c2_gold_answers.json": "9864044e788ccfe75921c4fe1445776500e4f53e89f4c0479b44ace0a197a566",
+    "v10_remaining_feedback/c2_gold_provenance.csv": "17079ecf91395af3d6593e4ce5fdf951729e38d2a9d20bf78c120c24df0917bf",
+    "data/url_manifest.jsonl": "4424c4a2374c17b10832080db5aa246d2eb4583d01cb91563c7be4d1b6b820c9"
+  },
+  "hashes_post": {
+    "validation/mixed_age_full_policy_audit/sample400.jsonl": "2de09ce1bdea6749ffacf31ccaafb09924017320dd3eb6275d045213ccda0650",
+    "validation/baseline_operating_points/sttl_sample400.jsonl": "dd0b36e9f6bf6098acb0b1dfae6b11b9e126df667a6d210cb4c7cb7865b73e92",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/sample.json": "de3eff60b01f7559be8a4a353c650f8e392cc490b7472569f588ee21a70ba3db",
+    "data/paraphrase_clusters.jsonl": "d2cff6222d5dbc06b3f000826ccac8c2b56a08a455b384af6e66e2c9c3459fd5",
+    "data/paraphrase_fidelity_judgments.jsonl": "48d41c9ed0a2208a7f8af94587513f41cfc30aa84b1ce3ccb51e3249fb794053",
+    "data/queries.jsonl": "33bc54a5f2e57923cb54967b8a18d7e8456a75499feb048a7a50021eae8643b0",
+    "v10_remaining_feedback/c2_gold_answers.json": "9864044e788ccfe75921c4fe1445776500e4f53e89f4c0479b44ace0a197a566",
+    "v10_remaining_feedback/c2_gold_provenance.csv": "17079ecf91395af3d6593e4ce5fdf951729e38d2a9d20bf78c120c24df0917bf",
+    "data/url_manifest.jsonl": "4424c4a2374c17b10832080db5aa246d2eb4583d01cb91563c7be4d1b6b820c9"
+  }
+}

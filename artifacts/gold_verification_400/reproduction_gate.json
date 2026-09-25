@@ -1,0 +1,499 @@
+{
+  "stage": "0 \u2014 reproduction gate",
+  "gate_passed": true,
+  "checks_passed": 48,
+  "checks_total": 48,
+  "checks": [
+    {
+      "check": "A1 N",
+      "reproduced": 400,
+      "required": 400,
+      "ok": true
+    },
+    {
+      "check": "A1 dropped_incomplete",
+      "reproduced": 0,
+      "required": 0,
+      "ok": true
+    },
+    {
+      "check": "A1 fresh correct",
+      "reproduced": 66,
+      "required": 66,
+      "ok": true
+    },
+    {
+      "check": "A1 fresh abstain",
+      "reproduced": 4,
+      "required": 4,
+      "ok": true
+    },
+    {
+      "check": "A1 gate-on correct",
+      "reproduced": 61,
+      "required": 61,
+      "ok": true
+    },
+    {
+      "check": "A1 gate-on abstain",
+      "reproduced": 5,
+      "required": 5,
+      "ok": true
+    },
+    {
+      "check": "A1 gate-on WAI",
+      "reproduced": 6,
+      "required": 6,
+      "ok": true
+    },
+    {
+      "check": "A1 gate-on reverse",
+      "reproduced": 1,
+      "required": 1,
+      "ok": true
+    },
+    {
+      "check": "A1 gate-off correct",
+      "reproduced": 59,
+      "required": 59,
+      "ok": true
+    },
+    {
+      "check": "A1 gate-off abstain",
+      "reproduced": 4,
+      "required": 4,
+      "ok": true
+    },
+    {
+      "check": "A1 gate-off WAI",
+      "reproduced": 8,
+      "required": 8,
+      "ok": true
+    },
+    {
+      "check": "A1 paired WAI off-only",
+      "reproduced": 5,
+      "required": 5,
+      "ok": true
+    },
+    {
+      "check": "A1 paired WAI on-only",
+      "reproduced": 3,
+      "required": 3,
+      "ok": true
+    },
+    {
+      "check": "A1 paired WAI McNemar p",
+      "reproduced": 0.7265625,
+      "required": 0.7265625,
+      "ok": true
+    },
+    {
+      "check": "A1b same_400_ids_as_corrected_audit",
+      "reproduced": true,
+      "required": true,
+      "ok": true
+    },
+    {
+      "check": "A1b shared_fresh_reference_identical",
+      "reproduced": true,
+      "required": true,
+      "ok": true
+    },
+    {
+      "check": "A1b sample ids identical to audit 1, in order",
+      "reproduced": true,
+      "required": true,
+      "ok": true
+    },
+    {
+      "check": "A1b N",
+      "reproduced": 400,
+      "required": 400,
+      "ok": true
+    },
+    {
+      "check": "A1b dropped_incomplete",
+      "reproduced": 0,
+      "required": 0,
+      "ok": true
+    },
+    {
+      "check": "A1b FreshCache correct",
+      "reproduced": 61,
+      "required": 61,
+      "ok": true
+    },
+    {
+      "check": "A1b FreshCache WAI",
+      "reproduced": 6,
+      "required": 6,
+      "ok": true
+    },
+    {
+      "check": "A1b SemanticTTL correct",
+      "reproduced": 9,
+      "required": 9,
+      "ok": true
+    },
+    {
+      "check": "A1b SemanticTTL abstain",
+      "reproduced": 1,
+      "required": 1,
+      "ok": true
+    },
+    {
+      "check": "A1b SemanticTTL WAI",
+      "reproduced": 58,
+      "required": 58,
+      "ok": true
+    },
+    {
+      "check": "A1b SemanticTTL reverse",
+      "reproduced": 1,
+      "required": 1,
+      "ok": true
+    },
+    {
+      "check": "A1b paired WAI SemanticTTL-only",
+      "reproduced": 52,
+      "required": 52,
+      "ok": true
+    },
+    {
+      "check": "A1b paired WAI FreshCache-only",
+      "reproduced": 0,
+      "required": 0,
+      "ok": true
+    },
+    {
+      "check": "A1b paired WAI McNemar p",
+      "reproduced": 4.440892098500626e-16,
+      "required": 4.440892098500626e-16,
+      "ok": true
+    },
+    {
+      "check": "A1b WAI difference pp",
+      "reproduced": 13.0,
+      "required": 13.0,
+      "ok": true
+    },
+    {
+      "check": "A2 N_scored",
+      "reproduced": 400,
+      "required": 400,
+      "ok": true
+    },
+    {
+      "check": "A2 dropped_unjudgeable",
+      "reproduced": 0,
+      "required": 0,
+      "ok": true
+    },
+    {
+      "check": "A2 fresh correct",
+      "reproduced": 81,
+      "required": 81,
+      "ok": true
+    },
+    {
+      "check": "A2 fresh abstain",
+      "reproduced": 2,
+      "required": 2,
+      "ok": true
+    },
+    {
+      "check": "A2 FreshCache correct",
+      "reproduced": 75,
+      "required": 75,
+      "ok": true
+    },
+    {
+      "check": "A2 FreshCache abstain",
+      "reproduced": 2,
+      "required": 2,
+      "ok": true
+    },
+    {
+      "check": "A2 FreshCache WAI",
+      "reproduced": 7,
+      "required": 7,
+      "ok": true
+    },
+    {
+      "check": "A2 FreshCache conditional WAI %",
+      "reproduced": 8.641975,
+      "required": 8.641975,
+      "ok": true
+    },
+    {
+      "check": "A2 SemanticTTL correct",
+      "reproduced": 16,
+      "required": 16,
+      "ok": true
+    },
+    {
+      "check": "A2 SemanticTTL abstain",
+      "reproduced": 7,
+      "required": 7,
+      "ok": true
+    },
+    {
+      "check": "A2 SemanticTTL WAI",
+      "reproduced": 64,
+      "required": 64,
+      "ok": true
+    },
+    {
+      "check": "A2 SemanticTTL conditional WAI %",
+      "reproduced": 79.012346,
+      "required": 79.012346,
+      "ok": true
+    },
+    {
+      "check": "A2 WAI both",
+      "reproduced": 7,
+      "required": 7,
+      "ok": true
+    },
+    {
+      "check": "A2 WAI SemanticTTL-only",
+      "reproduced": 57,
+      "required": 57,
+      "ok": true
+    },
+    {
+      "check": "A2 WAI FreshCache-only",
+      "reproduced": 0,
+      "required": 0,
+      "ok": true
+    },
+    {
+      "check": "A2 WAI McNemar p",
+      "reproduced": 1.3877787807814457e-17,
+      "required": 1.3877787807814457e-17,
+      "ok": true
+    },
+    {
+      "check": "A2 correctness both_correct",
+      "reproduced": 16,
+      "required": 16,
+      "ok": true
+    },
+    {
+      "check": "A2 correctness FreshCache-only",
+      "reproduced": 59,
+      "required": 59,
+      "ok": true
+    },
+    {
+      "check": "A2 correctness SemanticTTL-only",
+      "reproduced": 0,
+      "required": 0,
+      "ok": true
+    }
+  ],
+  "abstention_vocabularies": {
+    "primary_analyze2_py_21_23": [
+      "i don't know",
+      "i dont know",
+      "cannot determine",
+      "not enough information",
+      "insufficient",
+      "no information",
+      "unclear from the context"
+    ],
+    "heldout_analyze_py_23_25": [
+      "i don't know",
+      "i do not know",
+      "cannot be determined",
+      "not enough information",
+      "insufficient",
+      "unable to determine",
+      "no information"
+    ],
+    "applied_per_audit": true
+  },
+  "results": {
+    "audit1_primary": {
+      "fresh": {
+        "WRONG": 330,
+        "CORRECT": 66,
+        "ABSTAIN": 4
+      },
+      "gate_on": {
+        "N": 400,
+        "correct": 61,
+        "wrong": 334,
+        "abstain": 5,
+        "correct_pct": 15.25,
+        "wai": 6,
+        "wai_pct": 1.5,
+        "wai_ci95_pct": [
+          0.6892,
+          3.2335
+        ],
+        "reverse": 1,
+        "fresh_correct": 66,
+        "conditional_wai_pct": 9.090909090909092
+      },
+      "gate_off": {
+        "N": 400,
+        "correct": 59,
+        "wrong": 337,
+        "abstain": 4,
+        "correct_pct": 14.75,
+        "wai": 8,
+        "wai_pct": 2.0,
+        "wai_ci95_pct": [
+          1.0168,
+          3.8964
+        ],
+        "reverse": 1,
+        "fresh_correct": 66,
+        "conditional_wai_pct": 12.121212121212121
+      },
+      "paired_wai": {
+        "wai_both": 3,
+        "wai_only_off": 5,
+        "wai_only_on": 3,
+        "exact_mcnemar_p": 0.7265625
+      },
+      "dropped": 0
+    },
+    "audit1b_semanticttl_k1_8": {
+      "freshcache": {
+        "N": 400,
+        "correct": 61,
+        "wrong": 334,
+        "abstain": 5,
+        "correct_pct": 15.25,
+        "wai": 6,
+        "wai_pct": 1.5,
+        "wai_ci95_pct": [
+          0.6892,
+          3.2335
+        ],
+        "reverse": 1,
+        "fresh_correct": 66,
+        "conditional_wai_pct": 9.090909090909092
+      },
+      "semanticttl": {
+        "N": 400,
+        "correct": 9,
+        "wrong": 390,
+        "abstain": 1,
+        "correct_pct": 2.25,
+        "wai": 58,
+        "wai_pct": 14.5,
+        "wai_ci95_pct": [
+          11.387,
+          18.2884
+        ],
+        "reverse": 1,
+        "fresh_correct": 66,
+        "conditional_wai_pct": 87.87878787878788
+      },
+      "paired_wai": {
+        "wai_both": 6,
+        "wai_only_sttl": 52,
+        "wai_only_fc": 0,
+        "exact_mcnemar_p": 4.440892098500626e-16
+      },
+      "dropped": 0
+    },
+    "audit2_heldout_k1_16": {
+      "fresh": {
+        "WRONG": 317,
+        "CORRECT": 81,
+        "ABSTAIN": 2
+      },
+      "freshcache": {
+        "N": 400,
+        "correct": 75,
+        "wrong": 323,
+        "abstain": 2,
+        "correct_pct": 18.75,
+        "wai": 7,
+        "wai_pct": 1.75,
+        "wai_ci95_pct": [
+          0.8502,
+          3.5678
+        ],
+        "reverse": 1,
+        "fresh_correct": 81,
+        "conditional_wai_pct": 8.641975308641975
+      },
+      "semanticttl": {
+        "N": 400,
+        "correct": 16,
+        "wrong": 377,
+        "abstain": 7,
+        "correct_pct": 4.0,
+        "wai": 64,
+        "wai_pct": 16.0,
+        "wai_ci95_pct": [
+          12.7332,
+          19.9136
+        ],
+        "reverse": 0,
+        "fresh_correct": 81,
+        "conditional_wai_pct": 79.01234567901234
+      },
+      "paired_wai": {
+        "wai_both": 7,
+        "wai_only_sttl": 57,
+        "wai_only_fc": 0,
+        "exact_mcnemar_p": 1.3877787807814457e-17
+      },
+      "dropped": 0
+    }
+  },
+  "cross_vocabulary_diagnostic": {
+    "primary_gate_on_wai_under_heldout_vocabulary": 5,
+    "primary_gate_on_wai_correct": 6,
+    "flipped_query_ids": [
+      "p_q_1ed44863_1"
+    ],
+    "note": "records why an earlier reconstruction reported WAI 5; the published value 6 is correct. No gate uses this."
+  },
+  "answer_generation": 0,
+  "judging": 0,
+  "gpu_used": false,
+  "web_calls": 0,
+  "input_artifacts_unchanged": true,
+  "hashes_pre": {
+    "validation/mixed_age_full_policy_audit/sample400.jsonl": "2de09ce1bdea6749ffacf31ccaafb09924017320dd3eb6275d045213ccda0650",
+    "validation/mixed_age_full_policy_audit/answers2.jsonl": "df83f6434c056e2d786217defbaf0d6d84b7c843df3908bc3e173720eb7dbfc4",
+    "validation/mixed_age_full_policy_audit/judge2_llama8b.jsonl": "89a6e8073594872019725f8e641498ab73a713991be77461be8f9b29b8265b2b",
+    "validation/mixed_age_full_policy_audit/judge2_qwen7b.jsonl": "54c40bb604dd73a4fe2276cc8be3d37aa4ccdde7d30ae385f6f9e594d8e588ed",
+    "validation/mixed_age_full_policy_audit/corrected_results.json": "18597a8c8362b8dd57f4092557bc86d816a8e1d3c1f91e79e6dac5df7c757cd3",
+    "validation/baseline_operating_points/sttl_sample400.jsonl": "dd0b36e9f6bf6098acb0b1dfae6b11b9e126df667a6d210cb4c7cb7865b73e92",
+    "validation/baseline_operating_points/sttl_answers.jsonl": "07cb0f8a2edf38021219a76106b7cb24a744921e86cf955394d9676d19550e5c",
+    "validation/baseline_operating_points/sttl_judge_llama8b.jsonl": "8e1cb0335a5b4e230d7c24983b16e06ae4676e2282a0c7ef5b4ac09d81176fac",
+    "validation/baseline_operating_points/sttl_judge_qwen7b.jsonl": "4b5bbb5126868fe310c1f7f4e3a8ebd796567d14dcf00fbdf8d993f3530f245f",
+    "validation/baseline_operating_points/sttl_vs_freshcache_results.json": "a562ae8676131a92cc80f33073cbf7ae7e13ac3a93a61a229edfd542ba655d95",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/sample.json": "de3eff60b01f7559be8a4a353c650f8e392cc490b7472569f588ee21a70ba3db",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/answers.jsonl": "7af736a7accb2e2e184cb5f4b4044a3b348fa51650478c97084f0e49a76b221d",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/judge_llama8b.jsonl": "24a439ca1243242769b029394e527526199cbdadd2b1b509a408946163b9d722",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/judge_qwen7b.jsonl": "3dd266cddb0605eac6590e671897d601a7f286db99e482fc1beb4cf38a8c24ba",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/answer_audit_results.json": "5a542bbe27faeea271b25d1714477e736983504ba64276935b12c5974ea70181"
+  },
+  "hashes_post": {
+    "validation/mixed_age_full_policy_audit/sample400.jsonl": "2de09ce1bdea6749ffacf31ccaafb09924017320dd3eb6275d045213ccda0650",
+    "validation/mixed_age_full_policy_audit/answers2.jsonl": "df83f6434c056e2d786217defbaf0d6d84b7c843df3908bc3e173720eb7dbfc4",
+    "validation/mixed_age_full_policy_audit/judge2_llama8b.jsonl": "89a6e8073594872019725f8e641498ab73a713991be77461be8f9b29b8265b2b",
+    "validation/mixed_age_full_policy_audit/judge2_qwen7b.jsonl": "54c40bb604dd73a4fe2276cc8be3d37aa4ccdde7d30ae385f6f9e594d8e588ed",
+    "validation/mixed_age_full_policy_audit/corrected_results.json": "18597a8c8362b8dd57f4092557bc86d816a8e1d3c1f91e79e6dac5df7c757cd3",
+    "validation/baseline_operating_points/sttl_sample400.jsonl": "dd0b36e9f6bf6098acb0b1dfae6b11b9e126df667a6d210cb4c7cb7865b73e92",
+    "validation/baseline_operating_points/sttl_answers.jsonl": "07cb0f8a2edf38021219a76106b7cb24a744921e86cf955394d9676d19550e5c",
+    "validation/baseline_operating_points/sttl_judge_llama8b.jsonl": "8e1cb0335a5b4e230d7c24983b16e06ae4676e2282a0c7ef5b4ac09d81176fac",
+    "validation/baseline_operating_points/sttl_judge_qwen7b.jsonl": "4b5bbb5126868fe310c1f7f4e3a8ebd796567d14dcf00fbdf8d993f3530f245f",
+    "validation/baseline_operating_points/sttl_vs_freshcache_results.json": "a562ae8676131a92cc80f33073cbf7ae7e13ac3a93a61a229edfd542ba655d95",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/sample.json": "de3eff60b01f7559be8a4a353c650f8e392cc490b7472569f588ee21a70ba3db",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/answers.jsonl": "7af736a7accb2e2e184cb5f4b4044a3b348fa51650478c97084f0e49a76b221d",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/judge_llama8b.jsonl": "24a439ca1243242769b029394e527526199cbdadd2b1b509a408946163b9d722",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/judge_qwen7b.jsonl": "3dd266cddb0605eac6590e671897d601a7f286db99e482fc1beb4cf38a8c24ba",
+    "validation/heldout_baseline_tuning/answer_audit_k1_16/answer_audit_results.json": "5a542bbe27faeea271b25d1714477e736983504ba64276935b12c5974ea70181"
+  }
+}

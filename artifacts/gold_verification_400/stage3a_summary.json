@@ -1,0 +1,292 @@
+{
+  "stage": "3a — paraphrase fidelity",
+  "judges": {
+    "llama8b": "meta-llama/Llama-3.1-8B-Instruct",
+    "qwen7b": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "primary_judge": "llama8b",
+  "decoding": "chat template, greedy, do_sample=False, max_new_tokens=6, bfloat16",
+  "labels": [
+    "SAME",
+    "DIFFERENT",
+    "UNCLEAR"
+  ],
+  "agreement_rule": "a label is assigned only when both judges agree; otherwise JUDGE_DISAGREEMENT",
+  "prompt_system": "You are evaluating a semantic cache for a question-answering system. You will be given two questions. Decide whether a single correct answer would satisfy BOTH questions, so that serving the stored answer for Question A in response to Question B would be correct.\n\nRules:\n- SAME       if both questions ask for the same fact about the same entity, even if worded very differently or in different languages.\n- DIFFERENT  if they ask about different entities, different attributes of the same entity, different time references, or different events.\n- DIFFERENT  if Question B is garbled, incoherent, or so vague that it no longer asks for the specific fact Question A asks for.\n- UNCLEAR    only if Question B cannot be interpreted well enough to decide either way.\n\nReply with exactly one word: SAME, DIFFERENT, or UNCLEAR.",
+  "paraphrase_requests": 668,
+  "reused_existing_judgments": 12,
+  "newly_judged": 656,
+  "overall": {
+    "n": 668,
+    "judges_agree": 465,
+    "judges_agree_pct": 69.61,
+    "judge_disagreement": 203,
+    "SAME": 411,
+    "DIFFERENT": 57,
+    "UNCLEAR": 0,
+    "JUDGE_DISAGREEMENT": 200,
+    "UNPARSED": 0,
+    "llama8b": {
+      "SAME": 608,
+      "UNCLEAR": 6,
+      "DIFFERENT": 54
+    },
+    "qwen7b": {
+      "DIFFERENT": 255,
+      "SAME": 413
+    },
+    "cohens_kappa": 0.2523
+  },
+  "newly_judged_only": {
+    "n": 656,
+    "judges_agree": 456,
+    "judges_agree_pct": 69.51,
+    "judge_disagreement": 200,
+    "SAME": 403,
+    "DIFFERENT": 53,
+    "UNCLEAR": 0,
+    "JUDGE_DISAGREEMENT": 200,
+    "UNPARSED": 0,
+    "llama8b": {
+      "SAME": 596,
+      "UNCLEAR": 6,
+      "DIFFERENT": 54
+    },
+    "qwen7b": {
+      "DIFFERENT": 252,
+      "SAME": 404
+    },
+    "cohens_kappa": 0.2543
+  },
+  "by_audit": {
+    "mixed_age_400": {
+      "n": 341,
+      "judges_agree": 243,
+      "judges_agree_pct": 71.26,
+      "judge_disagreement": 98,
+      "SAME": 212,
+      "DIFFERENT": 32,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 97,
+      "UNPARSED": 0,
+      "llama8b": {
+        "SAME": 307,
+        "UNCLEAR": 4,
+        "DIFFERENT": 30
+      },
+      "qwen7b": {
+        "DIFFERENT": 128,
+        "SAME": 213
+      },
+      "cohens_kappa": 0.2897
+    },
+    "heldout_400": {
+      "n": 341,
+      "judges_agree": 230,
+      "judges_agree_pct": 67.45,
+      "judge_disagreement": 111,
+      "SAME": 207,
+      "DIFFERENT": 25,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 109,
+      "UNPARSED": 0,
+      "llama8b": {
+        "UNCLEAR": 3,
+        "SAME": 314,
+        "DIFFERENT": 24
+      },
+      "qwen7b": {
+        "DIFFERENT": 133,
+        "SAME": 208
+      },
+      "cohens_kappa": 0.2078
+    }
+  },
+  "in_both_audits": {
+    "n": 14,
+    "judges_agree": 8,
+    "judges_agree_pct": 57.14,
+    "judge_disagreement": 6,
+    "SAME": 8,
+    "DIFFERENT": 0,
+    "UNCLEAR": 0,
+    "JUDGE_DISAGREEMENT": 6,
+    "UNPARSED": 0,
+    "llama8b": {
+      "UNCLEAR": 1,
+      "SAME": 13
+    },
+    "qwen7b": {
+      "DIFFERENT": 6,
+      "SAME": 8
+    },
+    "cohens_kappa": 0.087
+  },
+  "by_source_dataset": {
+    "freshqa": {
+      "n": 46,
+      "judges_agree": 33,
+      "judges_agree_pct": 71.74,
+      "judge_disagreement": 13,
+      "SAME": 28,
+      "DIFFERENT": 5,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 13,
+      "UNPARSED": 0,
+      "llama8b": {
+        "DIFFERENT": 6,
+        "SAME": 39,
+        "UNCLEAR": 1
+      },
+      "qwen7b": {
+        "DIFFERENT": 17,
+        "SAME": 29
+      },
+      "cohens_kappa": 0.3228
+    },
+    "temporal_align_qa": {
+      "n": 468,
+      "judges_agree": 326,
+      "judges_agree_pct": 69.66,
+      "judge_disagreement": 142,
+      "SAME": 286,
+      "DIFFERENT": 42,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 140,
+      "UNPARSED": 0,
+      "llama8b": {
+        "SAME": 425,
+        "UNCLEAR": 4,
+        "DIFFERENT": 39
+      },
+      "qwen7b": {
+        "DIFFERENT": 181,
+        "SAME": 287
+      },
+      "cohens_kappa": 0.2615
+    },
+    "triviaqa": {
+      "n": 154,
+      "judges_agree": 106,
+      "judges_agree_pct": 68.83,
+      "judge_disagreement": 48,
+      "SAME": 97,
+      "DIFFERENT": 10,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 47,
+      "UNPARSED": 0,
+      "llama8b": {
+        "UNCLEAR": 1,
+        "DIFFERENT": 9,
+        "SAME": 144
+      },
+      "qwen7b": {
+        "DIFFERENT": 57,
+        "SAME": 97
+      },
+      "cohens_kappa": 0.1996
+    }
+  },
+  "by_freshness_class": {
+    "FAST": {
+      "n": 167,
+      "judges_agree": 124,
+      "judges_agree_pct": 74.25,
+      "judge_disagreement": 43,
+      "SAME": 107,
+      "DIFFERENT": 17,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 43,
+      "UNPARSED": 0,
+      "llama8b": {
+        "SAME": 149,
+        "UNCLEAR": 1,
+        "DIFFERENT": 17
+      },
+      "qwen7b": {
+        "DIFFERENT": 60,
+        "SAME": 107
+      },
+      "cohens_kappa": 0.3428
+    },
+    "MEDIUM": {
+      "n": 165,
+      "judges_agree": 109,
+      "judges_agree_pct": 66.06,
+      "judge_disagreement": 56,
+      "SAME": 96,
+      "DIFFERENT": 14,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 55,
+      "UNPARSED": 0,
+      "llama8b": {
+        "SAME": 152,
+        "DIFFERENT": 12,
+        "UNCLEAR": 1
+      },
+      "qwen7b": {
+        "DIFFERENT": 68,
+        "SAME": 97
+      },
+      "cohens_kappa": 0.2079
+    },
+    "SLOW": {
+      "n": 169,
+      "judges_agree": 116,
+      "judges_agree_pct": 68.64,
+      "judge_disagreement": 53,
+      "SAME": 101,
+      "DIFFERENT": 16,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 52,
+      "UNPARSED": 0,
+      "llama8b": {
+        "SAME": 150,
+        "DIFFERENT": 16,
+        "UNCLEAR": 3
+      },
+      "qwen7b": {
+        "DIFFERENT": 67,
+        "SAME": 102
+      },
+      "cohens_kappa": 0.2652
+    },
+    "TIMELESS": {
+      "n": 167,
+      "judges_agree": 116,
+      "judges_agree_pct": 69.46,
+      "judge_disagreement": 51,
+      "SAME": 107,
+      "DIFFERENT": 10,
+      "UNCLEAR": 0,
+      "JUDGE_DISAGREEMENT": 50,
+      "UNPARSED": 0,
+      "llama8b": {
+        "UNCLEAR": 1,
+        "DIFFERENT": 9,
+        "SAME": 157
+      },
+      "qwen7b": {
+        "DIFFERENT": 60,
+        "SAME": 107
+      },
+      "cohens_kappa": 0.1927
+    }
+  },
+  "judge_confusion_matrix": {
+    "SAME|DIFFERENT": 196,
+    "UNCLEAR|DIFFERENT": 6,
+    "DIFFERENT|DIFFERENT": 53,
+    "SAME|SAME": 412,
+    "DIFFERENT|SAME": 1
+  },
+  "reused_overlap_check": {
+    "stored_vs_llama8b_agree": 8,
+    "stored_vs_qwen7b_agree": 9,
+    "n": 12,
+    "note": "the stored verdicts come from Llama-3.2-3B-Instruct with a binary SAME/DIFFERENT prompt; they are not directly comparable to the new 8B/7B three-way labels"
+  },
+  "interpretation_limit": "A SAME judgment means the two questions seek the same fact. It does NOT establish that the gold answer is correct, nor that it was valid at the request timestamp.",
+  "answer_generation": 0,
+  "web_calls": 0
+}

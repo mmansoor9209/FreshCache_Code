@@ -1,0 +1,310 @@
+{
+  "seed": 42,
+  "n_sample": 40,
+  "measurement": "direct wall-clock, one process, per request",
+  "policies": {
+    "NoCache": {
+      "total": {
+        "n": 40,
+        "mean_ms": 3255.342925,
+        "p50_ms": 3014.4365,
+        "p95_ms": 5050.3256,
+        "min_ms": 1551.1281,
+        "max_ms": 6870.6398
+      },
+      "stages": {
+        "embedding": {
+          "n": 40,
+          "mean_ms": 0.0,
+          "p50_ms": 0.0,
+          "p95_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        },
+        "l1_lookup": {
+          "n": 40,
+          "mean_ms": 0.0,
+          "p50_ms": 0.0,
+          "p95_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        },
+        "l2_lookup": {
+          "n": 40,
+          "mean_ms": 0.0,
+          "p50_ms": 0.0,
+          "p95_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        },
+        "l3_processing": {
+          "n": 40,
+          "mean_ms": 0.0,
+          "p50_ms": 0.0,
+          "p95_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        },
+        "search_api": {
+          "n": 40,
+          "mean_ms": 1158.4745425,
+          "p50_ms": 1008.2405,
+          "p95_ms": 1651.7468,
+          "min_ms": 767.6154,
+          "max_ms": 4451.7176
+        },
+        "page_fetch": {
+          "n": 40,
+          "mean_ms": 1448.6702325,
+          "p50_ms": 1332.5697,
+          "p95_ms": 2837.401,
+          "min_ms": 127.9846,
+          "max_ms": 3483.642
+        },
+        "llm_generation": {
+          "n": 40,
+          "mean_ms": 621.2248575000001,
+          "p50_ms": 521.8136,
+          "p95_ms": 1207.8439,
+          "min_ms": 230.9317,
+          "max_ms": 1227.8374
+        }
+      },
+      "paths": {
+        "nocache": 40
+      },
+      "live_searches": 40,
+      "live_fetches": 79,
+      "cache_reads": 0
+    },
+    "SemanticTTL_k1_16": {
+      "total": {
+        "n": 40,
+        "mean_ms": 703.2608825,
+        "p50_ms": 13.5103,
+        "p95_ms": 3832.4685,
+        "min_ms": 11.5664,
+        "max_ms": 3939.7321
+      },
+      "stages": {
+        "embedding": {
+          "n": 40,
+          "mean_ms": 10.340695,
+          "p50_ms": 11.853,
+          "p95_ms": 16.0098,
+          "min_ms": 0.0,
+          "max_ms": 19.6722
+        },
+        "l1_lookup": {
+          "n": 40,
+          "mean_ms": 0.9988250000000001,
+          "p50_ms": 0.3235,
+          "p95_ms": 4.9572,
+          "min_ms": 0.0,
+          "max_ms": 8.0518
+        },
+        "l2_lookup": {
+          "n": 40,
+          "mean_ms": 0.0,
+          "p50_ms": 0.0,
+          "p95_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        },
+        "l3_processing": {
+          "n": 40,
+          "mean_ms": 0.0,
+          "p50_ms": 0.0,
+          "p95_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        },
+        "search_api": {
+          "n": 40,
+          "mean_ms": 237.10690999999997,
+          "p50_ms": 0.0,
+          "p95_ms": 1215.4046,
+          "min_ms": 0.0,
+          "max_ms": 1666.7805
+        },
+        "page_fetch": {
+          "n": 40,
+          "mean_ms": 266.91021,
+          "p50_ms": 0.0,
+          "p95_ms": 1646.836,
+          "min_ms": 0.0,
+          "max_ms": 2326.171
+        },
+        "llm_generation": {
+          "n": 40,
+          "mean_ms": 182.829655,
+          "p50_ms": 0.0,
+          "p95_ms": 1223.234,
+          "min_ms": 0.0,
+          "max_ms": 1245.5025
+        }
+      },
+      "paths": {
+        "L1": 31,
+        "miss": 1,
+        "realtime_bypass": 8
+      },
+      "live_searches": 9,
+      "live_fetches": 28,
+      "cache_reads": 0
+    },
+    "FreshCache_NoL1": {
+      "total": {
+        "n": 40,
+        "mean_ms": 1238.1736775000002,
+        "p50_ms": 742.9898,
+        "p95_ms": 3558.2709,
+        "min_ms": 107.5301,
+        "max_ms": 4817.3413
+      },
+      "stages": {
+        "embedding": {
+          "n": 40,
+          "mean_ms": 9.1681925,
+          "p50_ms": 10.8255,
+          "p95_ms": 13.9457,
+          "min_ms": 0.0,
+          "max_ms": 14.0546
+        },
+        "l1_lookup": {
+          "n": 40,
+          "mean_ms": 0.0,
+          "p50_ms": 0.0,
+          "p95_ms": 0.0,
+          "min_ms": 0.0,
+          "max_ms": 0.0
+        },
+        "l2_lookup": {
+          "n": 40,
+          "mean_ms": 17.21978,
+          "p50_ms": 7.3219,
+          "p95_ms": 35.5622,
+          "min_ms": 0.0,
+          "max_ms": 79.454
+        },
+        "l3_processing": {
+          "n": 40,
+          "mean_ms": 0.26234999999999997,
+          "p50_ms": 0.24,
+          "p95_ms": 0.6001,
+          "min_ms": 0.0,
+          "max_ms": 1.0567
+        },
+        "search_api": {
+          "n": 40,
+          "mean_ms": 394.30071000000004,
+          "p50_ms": 0.0,
+          "p95_ms": 1267.7645,
+          "min_ms": 0.0,
+          "max_ms": 1592.1493
+        },
+        "page_fetch": {
+          "n": 40,
+          "mean_ms": 239.22095499999995,
+          "p50_ms": 0.0,
+          "p95_ms": 1434.1646,
+          "min_ms": 0.0,
+          "max_ms": 2573.4484
+        },
+        "llm_generation": {
+          "n": 40,
+          "mean_ms": 571.1202625,
+          "p50_ms": 475.8983,
+          "p95_ms": 1181.9407,
+          "min_ms": 67.7671,
+          "max_ms": 1260.7246
+        }
+      },
+      "paths": {
+        "miss": 7,
+        "L2": 25,
+        "realtime_bypass": 8
+      },
+      "live_searches": 15,
+      "live_fetches": 28,
+      "cache_reads": 47
+    },
+    "FreshCache": {
+      "total": {
+        "n": 40,
+        "mean_ms": 1214.4276324999998,
+        "p50_ms": 563.846,
+        "p95_ms": 3107.3237,
+        "min_ms": 47.0014,
+        "max_ms": 3970.0426
+      },
+      "stages": {
+        "embedding": {
+          "n": 40,
+          "mean_ms": 8.8733775,
+          "p50_ms": 9.7977,
+          "p95_ms": 14.1648,
+          "min_ms": 0.0,
+          "max_ms": 15.0404
+        },
+        "l1_lookup": {
+          "n": 40,
+          "mean_ms": 25.597007500000004,
+          "p50_ms": 21.5959,
+          "p95_ms": 52.6719,
+          "min_ms": 0.0,
+          "max_ms": 53.416
+        },
+        "l2_lookup": {
+          "n": 40,
+          "mean_ms": 4.9818775,
+          "p50_ms": 6.9037,
+          "p95_ms": 7.3361,
+          "min_ms": 0.0,
+          "max_ms": 7.783
+        },
+        "l3_processing": {
+          "n": 40,
+          "mean_ms": 0.19956500000000002,
+          "p50_ms": 0.2066,
+          "p95_ms": 0.385,
+          "min_ms": 0.0,
+          "max_ms": 0.4522
+        },
+        "search_api": {
+          "n": 40,
+          "mean_ms": 424.0250399999999,
+          "p50_ms": 0.0,
+          "p95_ms": 1442.1859,
+          "min_ms": 0.0,
+          "max_ms": 1941.3427
+        },
+        "page_fetch": {
+          "n": 40,
+          "mean_ms": 216.969455,
+          "p50_ms": 0.0,
+          "p95_ms": 1430.7094,
+          "min_ms": 0.0,
+          "max_ms": 1832.1105
+        },
+        "llm_generation": {
+          "n": 40,
+          "mean_ms": 527.6007725,
+          "p50_ms": 434.8727,
+          "p95_ms": 1211.0086,
+          "min_ms": 0.0,
+          "max_ms": 1224.6141
+        }
+      },
+      "paths": {
+        "L1": 3,
+        "miss": 8,
+        "L2": 21,
+        "realtime_bypass": 8
+      },
+      "live_searches": 16,
+      "live_fetches": 28,
+      "cache_reads": 41
+    }
+  }
+}

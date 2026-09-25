@@ -1,0 +1,8 @@
+{
+  "validation_l2_hits": 5034,
+  "excluded_audited": 75,
+  "eligible": 4959,
+  "sampled": 600,
+  "seed": 42,
+  "strata": 20
+}

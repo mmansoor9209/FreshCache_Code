@@ -1,0 +1,72 @@
+STAGE 0 — Feedback 1 gold verification: REPRODUCTION GATE
+  read-only on every existing artifact; no generation, no judging, no GPU
+  hashed 15 input artifacts
+  abstention vocabularies differ: primary-only ['cannot determine', 'i dont know', 'unclear from the context'], held-out-only ['cannot be determined', 'i do not know', 'unable to determine']
+
+  AUDIT 1 — primary mixed-age (fresh / gate-on / gate-off)
+    rebuilt 400 rows, dropped 0
+    PASS  A1 N                                                 got 400   required 400
+    PASS  A1 dropped_incomplete                                got 0   required 0
+    PASS  A1 fresh correct                                     got 66   required 66
+    PASS  A1 fresh abstain                                     got 4   required 4
+    PASS  A1 gate-on correct                                   got 61   required 61
+    PASS  A1 gate-on abstain                                   got 5   required 5
+    PASS  A1 gate-on WAI                                       got 6   required 6
+    PASS  A1 gate-on reverse                                   got 1   required 1
+    PASS  A1 gate-off correct                                  got 59   required 59
+    PASS  A1 gate-off abstain                                  got 4   required 4
+    PASS  A1 gate-off WAI                                      got 8   required 8
+    PASS  A1 paired WAI off-only                               got 5   required 5
+    PASS  A1 paired WAI on-only                                got 3   required 3
+    PASS  A1 paired WAI McNemar p                              got 0.7265625   required 0.7265625
+
+  AUDIT 1b — primary SemanticTTL k=1/8 (same 400 ids)
+    PASS  A1b same_400_ids_as_corrected_audit                  got True   required True
+    PASS  A1b shared_fresh_reference_identical                 got True   required True
+    PASS  A1b sample ids identical to audit 1, in order        got True   required True
+    rebuilt 400 rows, dropped 0
+    PASS  A1b N                                                got 400   required 400
+    PASS  A1b dropped_incomplete                               got 0   required 0
+    PASS  A1b FreshCache correct                               got 61   required 61
+    PASS  A1b FreshCache WAI                                   got 6   required 6
+    PASS  A1b SemanticTTL correct                              got 9   required 9
+    PASS  A1b SemanticTTL abstain                              got 1   required 1
+    PASS  A1b SemanticTTL WAI                                  got 58   required 58
+    PASS  A1b SemanticTTL reverse                              got 1   required 1
+    PASS  A1b paired WAI SemanticTTL-only                      got 52   required 52
+    PASS  A1b paired WAI FreshCache-only                       got 0   required 0
+    PASS  A1b paired WAI McNemar p                             got 4.440892098500626e-16   required 4.440892098500626e-16
+    PASS  A1b WAI difference pp                                got 13.0   required 13.0
+
+  AUDIT 2 — held-out k=1/16 (fresh / FreshCache / SemanticTTL)
+    rebuilt 400 rows, dropped 0
+    PASS  A2 N_scored                                          got 400   required 400
+    PASS  A2 dropped_unjudgeable                               got 0   required 0
+    PASS  A2 fresh correct                                     got 81   required 81
+    PASS  A2 fresh abstain                                     got 2   required 2
+    PASS  A2 FreshCache correct                                got 75   required 75
+    PASS  A2 FreshCache abstain                                got 2   required 2
+    PASS  A2 FreshCache WAI                                    got 7   required 7
+    PASS  A2 FreshCache conditional WAI %                      got 8.641975   required 8.641975
+    PASS  A2 SemanticTTL correct                               got 16   required 16
+    PASS  A2 SemanticTTL abstain                               got 7   required 7
+    PASS  A2 SemanticTTL WAI                                   got 64   required 64
+    PASS  A2 SemanticTTL conditional WAI %                     got 79.012346   required 79.012346
+    PASS  A2 WAI both                                          got 7   required 7
+    PASS  A2 WAI SemanticTTL-only                              got 57   required 57
+    PASS  A2 WAI FreshCache-only                               got 0   required 0
+    PASS  A2 WAI McNemar p                                     got 1.3877787807814457e-17   required 1.3877787807814457e-17
+    PASS  A2 correctness both_correct                          got 16   required 16
+    PASS  A2 correctness FreshCache-only                       got 59   required 59
+    PASS  A2 correctness SemanticTTL-only                      got 0   required 0
+
+  DIAGNOSTIC — cross-applied abstention vocabulary (not used by any gate)
+    primary gate-on under the HELD-OUT vocabulary: WAI 5, abstain 6  (correct rule gives WAI 6, abstain 5)
+    requests whose gate-on outcome flips: ['p_q_1ed44863_1']
+
+  CHECKS PASSED: 48/48
+  input artifacts unchanged: True
+  STAGE 0 GATE: PASSED
+
+  wrote reproduction_gate.json, input_hashes.json, stage0.log
+  STOP — Stage 1 not started, as instructed.

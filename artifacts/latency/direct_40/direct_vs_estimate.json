@@ -1,0 +1,163 @@
+{
+  "n_sample": 40,
+  "workload_class_mix": {
+    "TIMELESS": 6929,
+    "SLOW": 8137,
+    "MEDIUM": 7626,
+    "FAST": 8155,
+    "REAL_TIME": 354
+  },
+  "policies": {
+    "NoCache": {
+      "direct_sample": {
+        "mean_ms": 3255.342925,
+        "p50_ms": 3014.4365,
+        "p95_ms": 5050.3256
+      },
+      "direct_class_reweighted": {
+        "mean_ms": 3271.3768378769914,
+        "p50_ms": 3014.4365,
+        "p95_ms": 5050.3256
+      },
+      "montecarlo_estimate": {
+        "mean_ms": 3940.410830585558,
+        "p50_ms": 3417.3504,
+        "p95_ms": 7860.861999999999
+      },
+      "stage_means_ms": {
+        "embedding": 0.0,
+        "l1_lookup": 0.0,
+        "l2_lookup": 0.0,
+        "l3_processing": 0.0,
+        "search_api": 1158.4745425,
+        "page_fetch": 1448.6702325,
+        "llm_generation": 621.2248575000001
+      },
+      "paths": {
+        "nocache": 40
+      },
+      "class_counts": {
+        "TIMELESS": 8,
+        "SLOW": 8,
+        "MEDIUM": 8,
+        "FAST": 8,
+        "REAL_TIME": 8
+      }
+    },
+    "SemanticTTL_k1_16": {
+      "direct_sample": {
+        "mean_ms": 703.2608825,
+        "p50_ms": 13.5103,
+        "p95_ms": 3832.4685
+      },
+      "direct_class_reweighted": {
+        "mean_ms": 142.6747533476491,
+        "p50_ms": 12.9175,
+        "p95_ms": 24.53
+      },
+      "montecarlo_estimate": {
+        "mean_ms": 328.7956756479369,
+        "p50_ms": 11.36198482348947,
+        "p95_ms": 3056.1688700000004
+      },
+      "stage_means_ms": {
+        "embedding": 10.340695,
+        "l1_lookup": 0.9988250000000001,
+        "l2_lookup": 0.0,
+        "l3_processing": 0.0,
+        "search_api": 237.10690999999997,
+        "page_fetch": 266.91021,
+        "llm_generation": 182.829655
+      },
+      "paths": {
+        "L1": 31,
+        "realtime_bypass": 8,
+        "miss": 1
+      },
+      "class_counts": {
+        "TIMELESS": 8,
+        "SLOW": 8,
+        "MEDIUM": 8,
+        "FAST": 8,
+        "REAL_TIME": 8
+      }
+    },
+    "FreshCache_NoL1": {
+      "direct_sample": {
+        "mean_ms": 1238.1736775000002,
+        "p50_ms": 742.9898,
+        "p95_ms": 3558.2709
+      },
+      "direct_class_reweighted": {
+        "mean_ms": 852.8882720481718,
+        "p50_ms": 509.6443,
+        "p95_ms": 2405.9101
+      },
+      "montecarlo_estimate": {
+        "mean_ms": 1534.0469778888425,
+        "p50_ms": 795.5849495081442,
+        "p95_ms": 4621.727599999999
+      },
+      "stage_means_ms": {
+        "embedding": 9.1681925,
+        "l1_lookup": 0.0,
+        "l2_lookup": 17.21978,
+        "l3_processing": 0.26234999999999997,
+        "search_api": 394.30071000000004,
+        "page_fetch": 239.22095499999995,
+        "llm_generation": 571.1202625
+      },
+      "paths": {
+        "realtime_bypass": 8,
+        "L2": 25,
+        "miss": 7
+      },
+      "class_counts": {
+        "TIMELESS": 8,
+        "SLOW": 8,
+        "MEDIUM": 8,
+        "FAST": 8,
+        "REAL_TIME": 8
+      }
+    },
+    "FreshCache": {
+      "direct_sample": {
+        "mean_ms": 1214.4276324999998,
+        "p50_ms": 563.846,
+        "p95_ms": 3107.3237
+      },
+      "direct_class_reweighted": {
+        "mean_ms": 885.9349816820775,
+        "p50_ms": 521.4718,
+        "p95_ms": 2942.2873
+      },
+      "montecarlo_estimate": {
+        "mean_ms": 1514.8600242149223,
+        "p50_ms": 759.6798500686015,
+        "p95_ms": 4624.146727282739
+      },
+      "stage_means_ms": {
+        "embedding": 8.8733775,
+        "l1_lookup": 25.597007500000004,
+        "l2_lookup": 4.9818775,
+        "l3_processing": 0.19956500000000002,
+        "search_api": 424.0250399999999,
+        "page_fetch": 216.969455,
+        "llm_generation": 527.6007725
+      },
+      "paths": {
+        "L1": 3,
+        "realtime_bypass": 8,
+        "L2": 21,
+        "miss": 8
+      },
+      "class_counts": {
+        "TIMELESS": 8,
+        "SLOW": 8,
+        "MEDIUM": 8,
+        "FAST": 8,
+        "REAL_TIME": 8
+      }
+    }
+  }
+}

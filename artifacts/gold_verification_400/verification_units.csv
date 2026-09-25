@@ -1,0 +1,716 @@
+unit_id,base_query_id,snapshot_round,base_query,n_requests,request_ids,gold,n_distinct_golds,gold_source,gold_year,n_distinct_urls,n_snapshots_available,snapshot_complete,any_snapshot
+q_008dbbf5@rerun_24h,q_008dbbf5,rerun_24h,"The cyclepath/footpath in Devon which follows the Rivers Taw and Torridge is named after which eponymous persecuted animal in the 1926 book by Henry Williamson, made into a film in 1979?",1,p_q_008dbbf5_1,tarka the otter,1,triviaqa,,1,1,1,1
+q_0095371b@rerun_24h,q_0095371b,rerun_24h,In which city was the ILCA 7 World Championship held?,1,p_q_0095371b_0,the hague,1,temporal_align_qa,2023,1,1,1,1
+q_00b36de6@rerun_24h,q_00b36de6,rerun_24h,Which game has the nickname 'Nero's Game' and is probably the oldest dice game still played?,1,q_00b36de6,backgammon,1,triviaqa,,1,1,1,1
+q_01679395@rerun_24h,q_01679395,rerun_24h,Which cyclist came third in the most recent La Flèche Wallonne Féminine?,1,q_01679395,gaia realini,1,temporal_align_qa,2023,2,2,1,1
+q_01db3ce8@rerun_24h,q_01db3ce8,rerun_24h,Who partnered Robert Palmer as lead vocalist in the 1970'sband 'Vinegar Joe'?,1,p_q_01db3ce8_0,elkie brooks,1,triviaqa,,1,1,1,1
+q_0263c2b0@rerun_24h,q_0263c2b0,rerun_24h,The River Thames has its source in which county?,1,p_q_0263c2b0_2,gloucestershire,1,triviaqa,,1,1,1,1
+q_02665be9@rerun_24h,q_02665be9,rerun_24h,Which television series does Damien Garvey appear in?,1,p_q_02665be9_2,the artful dodger,1,temporal_align_qa,2023,1,1,1,1
+q_02819f41@rerun_24h,q_02819f41,rerun_24h,"What is the name of the principal currently in office at St Clare's College, Waverley?",1,p_q_02819f41_3,ann freeman,1,temporal_align_qa,2023,1,1,1,1
+q_02895ac6@rerun_24h,q_02895ac6,rerun_24h,Who was the trainer of the horse that won the latest Galway Hurdle?,1,p_q_02895ac6_0,willie mullins,1,temporal_align_qa,2023,2,2,1,1
+q_02dd7c17@rerun_1h,q_02dd7c17,rerun_1h,Who is the current representative of California's 31st congressional district?,1,q_02dd7c17,100px pete aguilar,1,temporal_align_qa,2023,2,2,1,1
+q_02fa4ec7@rerun_12h,q_02fa4ec7,rerun_12h,Who was the top league scorer for Everton F.C.?,1,p_q_02fa4ec7_1,d. mcneil,1,temporal_align_qa,2023,1,1,1,1
+q_032b7664@rerun_12h,q_032b7664,rerun_12h,Who are presenting the trophy at the Kentucky Derby?,1,p_q_032b7664_1,rebecca lowe and ahmed fareed,1,temporal_align_qa,2023,1,1,1,1
+q_039dd524@rerun_24h,q_039dd524,rerun_24h,From what school did the latest Dan Hodge Trophy winner come from?,2,p_q_039dd524_2|p_q_039dd524_1,michigan,1,temporal_align_qa,2023,2,2,1,1
+q_03f72c57@rerun_24h,q_03f72c57,rerun_24h,Where was the last FA Trophy final held?,1,p_q_03f72c57_0,wembley stadium,1,temporal_align_qa,2023,1,1,1,1
+q_04a0842f@rerun_24h,q_04a0842f,rerun_24h,In what city did the first successful heart transplant from a pig to a human patient take place?,1,q_04a0842f,baltimore,1,freshqa,2022,3,3,1,1
+q_04a7276c@rerun_24h,q_04a7276c,rerun_24h,What type of bird is a ptarmigan?,1,q_04a7276c,grouse,1,triviaqa,,1,1,1,1
+q_04bb5dc1@rerun_24h,q_04bb5dc1,rerun_24h,Which horse won the Chesham Stakes most recently?,1,p_q_04bb5dc1_2,snellen,1,temporal_align_qa,2023,1,1,1,1
+q_056f7935@rerun_24h,q_056f7935,rerun_24h,Which city is the home of the most recent champion of the Campeonato Paulista Série A3?,1,p_q_056f7935_3,capivari,1,temporal_align_qa,2023,1,1,1,1
+q_06267d08@rerun_24h,q_06267d08,rerun_24h,Who were the editors of the 'Varsity' (Cambridge) publication in the Michaelmas term most recently?,1,p_q_06267d08_1,megan byrom & famke veenstra-ashmore,1,temporal_align_qa,2023,1,1,1,1
+q_06c15fe9@rerun_24h,q_06c15fe9,rerun_24h,What colour is Santa Claus' belt?,1,p_q_06c15fe9_1,black,1,triviaqa,,2,2,1,1
+q_083bf58e@rerun_24h,q_083bf58e,rerun_24h,Who is the current kit supplier for the Peru national football team?,1,p_q_083bf58e_1,germany adidas,1,temporal_align_qa,2023,1,1,1,1
+q_0862570f@rerun_24h,q_0862570f,rerun_24h,Who holds the position of representative for Utah's 4th congressional district?,1,p_q_0862570f_2,burgess owens,1,temporal_align_qa,2023,2,1,0,1
+q_0899721b@rerun_24h,q_0899721b,rerun_24h,Who is the University of California student regent?,1,p_q_0899721b_0,marlenee blas pedral,1,temporal_align_qa,2023,2,2,1,1
+q_091915f0@rerun_24h,q_091915f0,rerun_24h,Which horse won the Persian War Novices' Hurdle recently?,1,p_q_091915f0_0,captain teague,1,temporal_align_qa,2023,1,1,1,1
+q_091c3460@rerun_24h,q_091c3460,rerun_24h,Which basketball team is the most recent runner-up in the Georgian Superliga?,1,p_q_091c3460_2,bc rustavi,1,temporal_align_qa,2023,1,1,1,1
+q_093b18d5@rerun_24h,q_093b18d5,rerun_24h,Who owned the winning horse in the latest Takamatsunomiya Kinen?,1,q_093b18d5,koji yasuhara,1,temporal_align_qa,2023,2,2,1,1
+q_09b65984@rerun_1h,q_09b65984,rerun_1h,What is the chemical compound Calcium Oxide commonly known as?,1,q_09b65984,quicklime (or burnt lime),1,triviaqa,,2,2,1,1
+q_0a3d5709@rerun_24h,q_0a3d5709,rerun_24h,Which football club is the current champion of the NIFL Championship?,1,p_q_0a3d5709_3,loughgall,1,temporal_align_qa,2023,1,1,1,1
+q_0a45943e@rerun_24h,q_0a45943e,rerun_24h,Carl XVI Gustav became king of which European country in September 1973?,1,p_q_0a45943e_0,sweden,1,triviaqa,,1,1,1,1
+q_0a6fd0c3@rerun_24h,q_0a6fd0c3,rerun_24h,Who is the jockey that rode the latest winning horse in the Prix Jean-Luc Lagardère?,2,p_q_0a6fd0c3_1|p_q_0a6fd0c3_0,sean levey,1,temporal_align_qa,2023,1,1,1,1
+q_0abe1d0e@rerun_24h,q_0abe1d0e,rerun_24h,What was the number of conference wins achieved by the Clemson Tigers men's soccer team in their latest season?,1,p_q_0abe1d0e_2,4,1,temporal_align_qa,2023,1,1,1,1
+q_0b649394@rerun_24h,q_0b649394,rerun_24h,The War of Jenkins' Ear was part of which bigger war?,1,p_q_0b649394_1,austrian succession,1,triviaqa,,1,1,1,1
+q_0bf77f06@rerun_24h,q_0bf77f06,rerun_24h,Who is the PFA Scotland Players' Player of the Year for the Scottish Championship?,1,p_q_0bf77f06_0,dipo akinyemi,1,temporal_align_qa,2023,2,2,1,1
+q_0c3fca22@rerun_24h,q_0c3fca22,rerun_24h,What is the name of the index of average daily prices on the New York Stock Exchange?,1,p_q_0c3fca22_0,dow jones,1,triviaqa,,1,1,1,1
+q_0c4788f0@rerun_24h,q_0c4788f0,rerun_24h,Welsh singer Michael Barratt is better known by which name?,2,p_q_0c4788f0_0|p_q_0c4788f0_1,shakin' stevens,1,triviaqa,,1,1,1,1
+q_0c61ace3@rerun_24h,q_0c61ace3,rerun_24h,Which athlete won the Giant Slalom Men's World Cup?,1,p_q_0c61ace3_3,marco odermatt,1,temporal_align_qa,2023,1,1,1,1
+q_0c7e44a5@rerun_24h,q_0c7e44a5,rerun_24h,Who is the current senator representing the Lagos West Senatorial District?,2,q_0c7e44a5|p_q_0c7e44a5_0,oluranti adebule,1,temporal_align_qa,2023,2,2,1,1
+q_0d1a4b7c@rerun_24h,q_0d1a4b7c,rerun_24h,Who was the jockey riding the horse that recently won the Portland Handicap?,1,p_q_0d1a4b7c_0,rossa ryan,1,temporal_align_qa,2023,1,1,1,1
+q_0da13098@rerun_24h,q_0da13098,rerun_24h,What is the motto of the current Frankfurt Book Fair?,1,p_q_0da13098_2,honeycomb of words,1,temporal_align_qa,2023,1,1,1,1
+q_0df35e70@rerun_24h,q_0df35e70,rerun_24h,Who trained the winning horse of the Celebration Mile?,1,p_q_0df35e70_1,ralph beckett,1,temporal_align_qa,2023,1,1,1,1
+q_0e39d599@rerun_24h,q_0e39d599,rerun_24h,What role did Larry Joe Campbell play in his most recent television series appearance?,1,p_q_0e39d599_1,park ranger,1,temporal_align_qa,2023,1,1,1,1
+q_0e3fb3ca@rerun_24h,q_0e3fb3ca,rerun_24h,"What famous event for daredevils happens in Pamplona, Spain?",2,p_q_0e3fb3ca_0|q_0e3fb3ca,running of the bulls,1,triviaqa,,2,2,1,1
+q_0f14ed28@rerun_24h,q_0f14ed28,rerun_24h,Fernando Alonso drives for which F1 team?,1,p_q_0f14ed28_1,scuderia ferrari,1,triviaqa,,2,2,1,1
+q_10399b97@rerun_24h,q_10399b97,rerun_24h,Which team does the top scorer of the 2. Liga in Slovakia play for?,1,p_q_10399b97_0,tatran prešov,1,temporal_align_qa,2023,1,1,1,1
+q_10c25152@rerun_24h,q_10c25152,rerun_24h,Who was appointed the first woman cabinet minister in the UK?,2,p_q_10c25152_1|q_10c25152,margaret bondfield,1,triviaqa,,1,1,1,1
+q_10fbddc5@rerun_24h,q_10fbddc5,rerun_24h,Which artists won the Grammy Award for Best Large Jazz Ensemble Album most recently?,1,p_q_10fbddc5_2,"steven feifke, bijon watson & the generation gap jazz orchestra",1,temporal_align_qa,2023,1,1,1,1
+q_113fc559@rerun_24h,q_113fc559,rerun_24h,Who is the most recent winner of the Beacon Award for the Fremantle Football Club?,1,p_q_113fc559_1,jye amiss,1,temporal_align_qa,2023,2,2,1,1
+q_12d05949@rerun_24h,q_12d05949,rerun_24h,Which jockey rode the winning horse in the latest Superlative Stakes?,1,p_q_12d05949_0,ryan moore,1,temporal_align_qa,2023,2,2,1,1
+q_134739ad@rerun_24h,q_134739ad,rerun_24h,Who were the drivers of the winning four-wheeler team in the most recent Baja 1000?,2,p_q_134739ad_2|p_q_134739ad_3,bryce menzies andy mcmillin tavo vildósola,1,temporal_align_qa,2023,2,2,1,1
+q_134c8d29@rerun_24h,q_134c8d29,rerun_24h,Who is serving as the chair of the Education Commission of the States?,1,p_q_134c8d29_3,asa hutchinson,1,temporal_align_qa,2023,2,2,1,1
+q_1387f241@rerun_24h,q_1387f241,rerun_24h,What is the hometown of the reigning Miss Iowa Teen USA?,1,p_q_1387f241_3,ankeny,1,temporal_align_qa,2023,2,2,1,1
+q_13a1eaa3@rerun_24h,q_13a1eaa3,rerun_24h,Who is the current head coach of the Denver Nuggets?,1,q_13a1eaa3,michael malone,1,temporal_align_qa,2023,1,1,1,1
+q_13b3027b@rerun_24h,q_13b3027b,rerun_24h,What is the most recent achievement of the Club La Matica basketball team?,1,p_q_13b3027b_2,potros de la matica,1,temporal_align_qa,2023,2,2,1,1
+q_13dd3bf9@rerun_24h,q_13dd3bf9,rerun_24h,Who is the current British champion in triple jump for men?,1,p_q_13dd3bf9_1,efe uwaifo,1,temporal_align_qa,2023,1,1,1,1
+q_145203c8@rerun_24h,q_145203c8,rerun_24h,Who was the jockey that rode the winning horse in the most recent Preis von Europa?,1,p_q_145203c8_3,rene piechulek,1,temporal_align_qa,2023,1,1,1,1
+q_14607683@rerun_24h,q_14607683,rerun_24h,Which trainer prepared the winning horse of the latest Norfolk Stakes (Great Britain)?,2,p_q_14607683_0|p_q_14607683_1,adrian murray,1,temporal_align_qa,2023,1,1,1,1
+q_1480c99d@rerun_24h,q_1480c99d,rerun_24h,What school recently claimed the title in the Iowa High School Athletic Association Baseball Summer 3A State Tournament?,1,p_q_1480c99d_0,western dubuque,1,temporal_align_qa,2023,1,1,1,1
+q_14993a2f@rerun_24h,q_14993a2f,rerun_24h,Who is the current Formula One World Drivers' Champion?,1,q_14993a2f,max verstappen,1,temporal_align_qa,2023,2,2,1,1
+q_15c4dc42@rerun_24h,q_15c4dc42,rerun_24h,Who is the winner of the most recent Sierre-Zinal race?,1,p_q_15c4dc42_3,philemon ombogo kiriago,1,temporal_align_qa,2023,1,1,1,1
+q_15c687de@rerun_24h,q_15c687de,rerun_24h,Who was the victorious driver in the Daytona 300 race?,1,p_q_15c687de_0,austin hill,1,temporal_align_qa,2023,2,2,1,1
+q_16bfd035@rerun_24h,q_16bfd035,rerun_24h,Where was the final of the latest Derry Senior Football Championship held?,1,q_16bfd035,celtic park,1,temporal_align_qa,2023,1,1,1,1
+q_16e427cd@rerun_24h,q_16e427cd,rerun_24h,In which capital city is the Tivoli amusement park?,2,p_q_16e427cd_0|p_q_16e427cd_2,copenhagen,1,triviaqa,,2,2,1,1
+q_16f7110e@rerun_24h,q_16f7110e,rerun_24h,Which football club was the runner-up in the last KNVB Women's Cup final?,1,p_q_16f7110e_1,psv,1,temporal_align_qa,2023,1,1,1,1
+q_1719b6dd@rerun_24h,q_1719b6dd,rerun_24h,Who is the director of the film that won the most recent Sonje Award at the Busan International Film Festival?,1,p_q_1719b6dd_2,"jeon do-hee, kim so-hee",1,temporal_align_qa,2023,1,1,1,1
+q_177880b1@rerun_24h,q_177880b1,rerun_24h,Who is the head coach of the Washington Mystics?,1,p_q_177880b1_1,eric thibault,1,temporal_align_qa,2023,1,1,1,1
+q_17f33f25@rerun_24h,q_17f33f25,rerun_24h,Which language has the third largest population by total number of speakers?,1,p_q_17f33f25_1,hindi,1,freshqa,before 2022,1,1,1,1
+q_180c42e7@rerun_24h,q_180c42e7,rerun_24h,Which horse won the most recent Nassau Stakes?,1,p_q_180c42e7_2,al husn,1,temporal_align_qa,2023,1,1,1,1
+q_1816d40e@rerun_24h,q_1816d40e,rerun_24h,Which video game did Vanessa Marshall voice a character in?,1,p_q_1816d40e_1,justice league: cosmic chaos,1,temporal_align_qa,2023,1,1,1,1
+q_18279081@rerun_24h,q_18279081,rerun_24h,Who currently serves as the speaker of the Alaska House of Representatives?,1,p_q_18279081_1,louise stutes,1,temporal_align_qa,2023,1,1,1,1
+q_18350211@rerun_24h,q_18350211,rerun_24h,Which Major League Soccer team had the lowest average attendance?,1,q_18350211,houston dynamo fc,1,temporal_align_qa,2023,1,1,1,1
+q_18c91502@rerun_24h,q_18c91502,rerun_24h,"""What is a synonym for """"irritable""""?""",1,p_q_18c91502_2,crotchety,1,triviaqa,,2,2,1,1
+q_18f5cfa8@rerun_24h,q_18f5cfa8,rerun_24h,Who is the current elected representative of the Electoral district of Pittwater?,1,p_q_18f5cfa8_0,rob stokes,1,temporal_align_qa,2023,1,1,1,1
+q_19312ca9@rerun_24h,q_19312ca9,rerun_24h,What's the latest project Victor Webster has worked on?,1,p_q_19312ca9_3,the wedding veil journey,1,temporal_align_qa,2023,1,1,1,1
+q_196f0aca@rerun_24h,q_196f0aca,rerun_24h,When did the current manager of Stoke City F.C. begin their term?,1,p_q_196f0aca_2,december 2023,1,temporal_align_qa,2023,1,1,1,1
+q_19e1347b@rerun_24h,q_19e1347b,rerun_24h,Where was the most recent Opening Day game for the Los Angeles Angels held?,1,p_q_19e1347b_1,ringcentral coliseum,1,temporal_align_qa,2023,1,1,1,1
+q_1b42ed48@rerun_24h,q_1b42ed48,rerun_24h,Which professional wrestling promotion hosted the latest event at the Tokyo Dome?,1,p_q_1b42ed48_2,noah,1,temporal_align_qa,2023,1,1,1,1
+q_1c1961cd@rerun_24h,q_1c1961cd,rerun_24h,In what country was the current Miss World born?,1,p_q_1c1961cd_2,poland,1,freshqa,2022,1,1,1,1
+q_1c20f8ba@rerun_24h,q_1c20f8ba,rerun_24h,What slogan is featured on a current specialty license plate in Wisconsin?,1,p_q_1c20f8ba_0,share the road,1,temporal_align_qa,2023,2,2,1,1
+q_1c3ba216@rerun_24h,q_1c3ba216,rerun_24h,Which pair took home the bronze medal in the latest Nebelhorn Trophy Senior Pairs competition?,1,p_q_1c3ba216_2,annika hocke / robert kunkel,1,temporal_align_qa,2023,1,1,1,1
+q_1dc7b96e@rerun_24h,q_1dc7b96e,rerun_24h,Who is the most recent winner of the Turf Classic Stakes?,1,p_q_1dc7b96e_3,up to the mark,1,temporal_align_qa,2023,1,1,1,1
+q_1ed44863@rerun_24h,q_1ed44863,rerun_24h,Who is the current representative for Louisiana's 4th congressional district?,1,p_q_1ed44863_1,mike johnson,1,temporal_align_qa,2023,1,1,1,1
+q_1eee07b1@rerun_12h,q_1eee07b1,rerun_12h,What is the title of the documentary narrated by Stephen Mangan?,1,q_1eee07b1,artist of the year,1,temporal_align_qa,2023,1,1,1,1
+q_1ef14187@rerun_24h,q_1ef14187,rerun_24h,Which team took the victory at the most recent 12 Hours of Sebring race?,1,p_q_1ef14187_0,whelen engineering racing,1,temporal_align_qa,2023,3,3,1,1
+q_1fe5242d@rerun_24h,q_1fe5242d,rerun_24h,Who was the jockey that rode the winning horse in the latest Hong Kong Sprint?,1,p_q_1fe5242d_3,zac purton,1,temporal_align_qa,2023,2,2,1,1
+q_1ff720ce@rerun_24h,q_1ff720ce,rerun_24h,From which state is the senator who currently has the Candy Desk in the United States Senate?,1,p_q_1ff720ce_2,pennsylvania,1,temporal_align_qa,2023,1,1,1,1
+q_20085526@rerun_24h,q_20085526,rerun_24h,Who is the National League Gold Glove Award winner for first base?,1,p_q_20085526_2,christian walker,1,temporal_align_qa,2023,1,1,1,1
+q_2053c0d3@rerun_24h,q_2053c0d3,rerun_24h,Who is the current Professional Referee of the Year in Belgian professional football?,1,p_q_2053c0d3_3,jonathan lardot,1,temporal_align_qa,2023,1,1,1,1
+q_21078da3@rerun_24h,q_21078da3,rerun_24h,Which pair is the runners-up in the Australian Open mixed doubles championship?,1,p_q_21078da3_1,sania mirza rohan bopanna,1,temporal_align_qa,2023,2,2,1,1
+q_21593fd1@rerun_1h,q_21593fd1,rerun_1h,"""The album """"Good Girl Gone Bad"""" was the number 1 selling album in the UK in 2009 with sales of 1.5 million. Who was the singer?""",1,q_21593fd1,rihanna,1,triviaqa,,1,1,1,1
+q_21593fd1@rerun_24h,q_21593fd1,rerun_24h,"""The album """"Good Girl Gone Bad"""" was the number 1 selling album in the UK in 2009 with sales of 1.5 million. Who was the singer?""",1,p_q_21593fd1_3,rihanna,1,triviaqa,,1,1,1,1
+q_226ccc1f@rerun_24h,q_226ccc1f,rerun_24h,What is the latest release by Soulfly?,1,p_q_226ccc1f_3,*totem,1,temporal_align_qa,2023,2,2,1,1
+q_22adabe9@rerun_24h,q_22adabe9,rerun_24h,What was the model name of the Williams Grand Prix Engineering car that had USA Logan Sargeant and THA Alexander Albon as drivers?,1,p_q_22adabe9_1,fw45,1,temporal_align_qa,2023,1,1,1,1
+q_23194df6@rerun_12h,q_23194df6,rerun_12h,Who is the President of the East Texas Yamboree for the current festival?,1,p_q_23194df6_1,abigail elaine stewart,1,temporal_align_qa,2023,1,1,1,1
+q_23265c46@rerun_24h,q_23265c46,rerun_24h,El Capitan was free climbed is January 2015 - in which US National Park is it found?,1,p_q_23265c46_2,yosemite,1,triviaqa,,1,1,1,1
+q_23baebab@rerun_24h,q_23baebab,rerun_24h,What character was portrayed by the winner of the most recent Metro Manila Film Festival Award for Best Actress?,1,p_q_23baebab_2,eileen,1,temporal_align_qa,2023,2,2,1,1
+q_2520c5d9@rerun_24h,q_2520c5d9,rerun_24h,Which duo won the gold medal in the European Beach Volleyball Championship most recently?,1,p_q_2520c5d9_0,david åhman jonatan hellvig,1,temporal_align_qa,2023,2,2,1,1
+q_25725075@rerun_24h,q_25725075,rerun_24h,Which team is the current champion of the Liga Departamental de Áncash?,1,p_q_25725075_0,san marcos,1,temporal_align_qa,2023,1,1,1,1
+q_25a74024@rerun_24h,q_25a74024,rerun_24h,Who is one of the current hosts of Vision Australia's Carols by Candlelight?,1,p_q_25a74024_0,sarah abo and david campbell,1,temporal_align_qa,2023,1,1,1,1
+q_25f44bbf@rerun_24h,q_25f44bbf,rerun_24h,Who is the current leader of the Union of Jewish Students?,1,p_q_25f44bbf_1,joel rosen,1,temporal_align_qa,2023,1,1,1,1
+q_261a287e@rerun_24h,q_261a287e,rerun_24h,Which team won the National League East division?,1,p_q_261a287e_0,atlanta braves,1,temporal_align_qa,2023,1,1,1,1
+q_26393420@rerun_24h,q_26393420,rerun_24h,Which trainer prepared the winning horse of the latest Queen Elizabeth II Challenge Cup Stakes?,2,p_q_26393420_3|p_q_26393420_2,saeed bin suroor,1,temporal_align_qa,2023,2,2,1,1
+q_268237ac@rerun_24h,q_268237ac,rerun_24h,Who was the jockey riding the winning horse in the latest Tenno Sho Autumn?,2,q_268237ac|p_q_268237ac_1,christophe lemaire,1,temporal_align_qa,2023,2,2,1,1
+q_27293a94@rerun_24h,q_27293a94,rerun_24h,Who is the current President of Nigeria?,1,p_q_27293a94_1,bola tinubu,1,temporal_align_qa,2023,1,1,1,1
+q_2761fdfe@rerun_24h,q_2761fdfe,rerun_24h,"The story of Joseph featuring the coat of many colours, appears in which book of the Bible?",1,p_q_2761fdfe_1,genesis,1,triviaqa,,2,2,1,1
+q_28911a13@rerun_24h,q_28911a13,rerun_24h,Who is the current Australian of the Year?,1,p_q_28911a13_1,taryn brumfitt,1,temporal_align_qa,2023,1,1,1,1
+q_28b0bd9f@rerun_24h,q_28b0bd9f,rerun_24h,Which film won the Grand Prize at the most recent Baeksang Arts Award?,2,p_q_28b0bd9f_3|p_q_28b0bd9f_0,decision to leave award winner,1,temporal_align_qa,2023,1,1,1,1
+q_29032ea3@rerun_24h,q_29032ea3,rerun_24h,"In which city would you find the following; Aventine, Caelian, Capitoline, Esquiline, Palatine, Quirinal and Viminal?",1,p_q_29032ea3_1,rome,1,triviaqa,,1,1,1,1
+q_292449b7@rerun_24h,q_292449b7,rerun_24h,Who trained the winning horse of the most current Jeff Ruby Steaks?,1,p_q_292449b7_1,larry rivelli,1,temporal_align_qa,2023,1,1,1,1
+q_295700b1@rerun_24h,q_295700b1,rerun_24h,Which horse won the most recent Vincent O'Brien National Stakes?,1,p_q_295700b1_0,henry longfellow,1,temporal_align_qa,2023,1,1,1,1
+q_297334f5@rerun_24h,q_297334f5,rerun_24h,Who was the replay official in the most recent Super Bowl?,1,p_q_297334f5_3,mark butterworth,1,temporal_align_qa,2023,1,1,1,1
+q_29e53c6d@rerun_24h,q_29e53c6d,rerun_24h,Who rode the winning horse in the latest edition of the Black-Eyed Susan Stakes?,1,q_29e53c6d,rafael bejarano,1,temporal_align_qa,2023,1,1,1,1
+q_29f9cc16@rerun_24h,q_29f9cc16,rerun_24h,Who is the featured subject of the William Hill Sports Book of the Year winning title?,1,p_q_29f9cc16_1,lauren fleshman,1,temporal_align_qa,2023,1,1,1,1
+q_2a49e766@rerun_24h,q_2a49e766,rerun_24h,Who currently holds the position of manager for Beijing Guoan F.C.?,1,p_q_2a49e766_3,netherlands stanley menzo,1,temporal_align_qa,2023,2,2,1,1
+q_2a87233c@rerun_24h,q_2a87233c,rerun_24h,"Little Big Horn, the scene of Custer's last stand, is in which US state?",1,p_q_2a87233c_3,montana,1,triviaqa,,1,1,1,1
+q_2ac34d0d@rerun_24h,q_2ac34d0d,rerun_24h,Which jockey rode the winning horse in the most recent February Stakes?,1,p_q_2ac34d0d_1,ryusei sakai,1,temporal_align_qa,2023,3,3,1,1
+q_2b247cc4@rerun_1h,q_2b247cc4,rerun_1h,"Commissioned by Queen Victoria in memory of her husband, in which Royal park would you find the Albert Memorial?",1,p_q_2b247cc4_0,kensington gardens,1,triviaqa,,1,1,1,1
+q_2b37471e@rerun_24h,q_2b37471e,rerun_24h,What was the outcome of Judson High School's final game?,1,p_q_2b37471e_0,lost in area round to state quarterfinalist dripping springs 34-38,1,temporal_align_qa,2023,1,1,1,1
+q_2b61b711@rerun_24h,q_2b61b711,rerun_24h,Which team was the runner-up in the last Lietuvos krepšinio lyga season?,3,p_q_2b61b711_2|p_q_2b61b711_1|p_q_2b61b711_3,rytas,1,temporal_align_qa,2023,1,1,1,1
+q_2ba29c4f@rerun_24h,q_2ba29c4f,rerun_24h,Who was the US Attorney General to J F Kennedy?,1,p_q_2ba29c4f_0,robert kennedy,1,triviaqa,,1,1,1,1
+q_2bbc82e4@rerun_24h,q_2bbc82e4,rerun_24h,Who is the most recent recipient of the Ebony Shoe Award?,1,p_q_2bbc82e4_2,mike trésor,1,temporal_align_qa,2023,1,1,1,1
+q_2be2d65b@rerun_24h,q_2be2d65b,rerun_24h,At which athletics meet was the newest Puerto Rican record in heptathlon set?,1,p_q_2be2d65b_2,new mexico collegiate classic,1,temporal_align_qa,2023,1,1,1,1
+q_2c023058@rerun_24h,q_2c023058,rerun_24h,How many fatalities were reported as a result of the Atlantic hurricane season?,1,p_q_2c023058_3,15,1,temporal_align_qa,2023,2,2,1,1
+q_2c3456d3@rerun_12h,q_2c3456d3,rerun_12h,Who is the skip of Colin Hufman's curling team?,1,p_q_2c3456d3_3,john shuster,1,temporal_align_qa,2023,2,2,1,1
+q_2ca95d4e@rerun_1h,q_2ca95d4e,rerun_1h,Who claimed the Points classification victory in the Vuelta a Burgos men's race?,1,q_2ca95d4e,primož roglič,1,temporal_align_qa,2023,1,1,1,1
+q_2ca95d4e@rerun_24h,q_2ca95d4e,rerun_24h,Who claimed the Points classification victory in the Vuelta a Burgos men's race?,1,p_q_2ca95d4e_3,primož roglič,1,temporal_align_qa,2023,1,1,1,1
+q_2cbafc2e@rerun_24h,q_2cbafc2e,rerun_24h,What is the English title of the latest film submitted by Iceland for the Academy Award for Best International Feature Film?,1,p_q_2cbafc2e_1,godland,1,temporal_align_qa,2023,1,1,1,1
+q_2d02fb45@rerun_24h,q_2d02fb45,rerun_24h,The Tyrol is a region in which mountain range?,3,p_q_2d02fb45_3|p_q_2d02fb45_2|p_q_2d02fb45_1,alps,1,triviaqa,,1,1,1,1
+q_2d2c3ec0@rerun_24h,q_2d2c3ec0,rerun_24h,"November 27, 1701 saw the birth of a Swedish astronomer, who proposed what temperature scale where in which water freezes at 0 degrees and boils at 100 degrees?",1,p_q_2d2c3ec0_0,celsius,1,triviaqa,,2,2,1,1
+q_2d3da894@rerun_24h,q_2d3da894,rerun_24h,Who held the cleanup spot for the Miami Marlins in their latest opening day lineup?,1,p_q_2d3da894_1,jazz chisholm jr. cf,1,temporal_align_qa,2023,2,2,1,1
+q_2d8fe2cc@rerun_24h,q_2d8fe2cc,rerun_24h,Who rode the winning horse in the most recent Prix Robert Papin?,1,p_q_2d8fe2cc_3,aurelien lemaitre,1,temporal_align_qa,2023,1,1,1,1
+q_2d965d45@rerun_24h,q_2d965d45,rerun_24h,Who is the current president of the Richmond Football Club?,1,q_2d965d45,brendon gale,1,temporal_align_qa,2023,1,1,1,1
+q_2db8b371@rerun_24h,q_2db8b371,rerun_24h,Which year saw the dissolution of the Soviet Union?,1,p_q_2db8b371_3,1991,1,triviaqa,,1,1,1,1
+q_2dc6d84a@rerun_24h,q_2dc6d84a,rerun_24h,Horatio Nelson lost his arm in an abortive attack on which island?,1,p_q_2dc6d84a_3,tenerife,1,triviaqa,,1,1,1,1
+q_2e0c6ace@rerun_24h,q_2e0c6ace,rerun_24h,Who is currently serving as the Secretary of the Pennsylvania Department of Health?,1,p_q_2e0c6ace_2,denise johnson,1,temporal_align_qa,2023,2,2,1,1
+q_2e845b85@rerun_24h,q_2e845b85,rerun_24h,From which league was the latest number-one draft pick of the Australian Football League recruited?,1,p_q_2e845b85_1,nab league,1,temporal_align_qa,2023,1,1,1,1
+q_2efc3bf0@rerun_24h,q_2efc3bf0,rerun_24h,Who is the winner of the most recent NASCAR Xfinity Series at Homestead-Miami?,1,p_q_2efc3bf0_2,sam mayer,1,temporal_align_qa,2023,2,2,1,1
+q_2f36649c@rerun_12h,q_2f36649c,rerun_12h,For which film was the National Board of Review Award for Best Actress most recently given?,1,p_q_2f36649c_0,killers of the flower moon,1,temporal_align_qa,2023,2,2,1,1
+q_2f991c6e@rerun_24h,q_2f991c6e,rerun_24h,Who is the most recent recipient of the European Association for Theoretical Computer Science EATCS Award?,1,p_q_2f991c6e_1,amos fiat,1,temporal_align_qa,2023,1,1,1,1
+q_2fafc2f1@rerun_24h,q_2fafc2f1,rerun_24h,Who is the current head coach of Stade Malherbe Caen?,1,p_q_2fafc2f1_0,stéphane moulin,1,temporal_align_qa,2023,1,1,1,1
+q_30501636@rerun_24h,q_30501636,rerun_24h,Who represented France most recently at the Eurovision Song Contest?,1,p_q_30501636_1,la zarra,1,temporal_align_qa,2023,1,1,1,1
+q_3055ab76@rerun_24h,q_3055ab76,rerun_24h,Which team won the Syrian Cup in the latest final?,2,p_q_3055ab76_1|p_q_3055ab76_0,tishreen,1,temporal_align_qa,2023,1,1,1,1
+q_30b7af38@rerun_24h,q_30b7af38,rerun_24h,What is the name of the trainer who trained the victory horse in the most recent Takamatsunomiya Kinen?,1,p_q_30b7af38_1,masayuki nishimura,1,temporal_align_qa,2023,1,1,1,1
+q_30cbc023@rerun_12h,q_30cbc023,rerun_12h,"Herodotus, one of the earliest writers now to be called a historian, lived when?",1,p_q_30cbc023_2,5th century bce,1,triviaqa,,2,2,1,1
+q_311e11e2@rerun_24h,q_311e11e2,rerun_24h,Which horse won the most recent Thyestes Chase?,1,p_q_311e11e2_1,carefully selected,1,temporal_align_qa,2023,1,1,1,1
+q_3122ceda@rerun_24h,q_3122ceda,rerun_24h,"According to the Bible, what are three theological virtues?",1,p_q_3122ceda_0,"faith, hope and charity",1,triviaqa,,1,1,1,1
+q_3141e273@rerun_24h,q_3141e273,rerun_24h,Which jockey rode the winning horse in the latest Mehl-Mülhens-Rennen?,1,p_q_3141e273_1,andrea atzeni,1,temporal_align_qa,2023,1,1,1,1
+q_3237dda9@rerun_1h,q_3237dda9,rerun_1h,What is the heraldic term for right?,1,p_q_3237dda9_3,dexter,1,triviaqa,,2,2,1,1
+q_32711fba@rerun_12h,q_32711fba,rerun_12h,Who was Britain’s Prime Minister before Winston Churchill’s first term in office?,1,q_32711fba,neville chamberlain,1,triviaqa,,1,1,1,1
+q_32bb1cf2@rerun_24h,q_32bb1cf2,rerun_24h,What is the regular-season winning percentage of the St. Paul Saints?,2,p_q_32bb1cf2_2|p_q_32bb1cf2_0,0.568,1,temporal_align_qa,2023,1,1,1,1
+q_33b33ec1@rerun_24h,q_33b33ec1,rerun_24h,What is the Portuguese title of the latest film submitted by Portugal for the Academy Award for Best International Feature Film?,1,p_q_33b33ec1_2,mal viver,1,temporal_align_qa,2023,1,1,1,1
+q_33ca27e1@rerun_24h,q_33ca27e1,rerun_24h,Who was the jockey for the winning horse at the Musidora Stakes?,3,p_q_33ca27e1_2|p_q_33ca27e1_3|p_q_33ca27e1_0,frankie dettori,1,temporal_align_qa,2023,1,1,1,1
+q_33f8046d@rerun_24h,q_33f8046d,rerun_24h,Who is the current Individual Speedway World Championship winner?,1,p_q_33f8046d_2,bartosz zmarzlik,1,temporal_align_qa,2023,1,1,1,1
+q_3484eada@rerun_24h,q_3484eada,rerun_24h,"As at January 2015 who is the only person to have held all the major offices of State in the UK – Prime Minister, Chancellor of the Exchequer, Foreign Secretary and Home Secretary",1,p_q_3484eada_3,james callaghan,1,triviaqa,,1,1,1,1
+q_34965476@rerun_24h,q_34965476,rerun_24h,When did Elon Musk officially become Twitter's owner?,2,p_q_34965476_1|q_34965476,"oct 27, 2022",1,freshqa,2022,1,1,1,1
+q_3568ac16@rerun_24h,q_3568ac16,rerun_24h,Which entity owned the winning horse in the most recent Fourstardave Handicap?,1,p_q_3568ac16_2,lre racing & jeh racing stable,1,temporal_align_qa,2023,2,2,1,1
+q_3582cba5@rerun_24h,q_3582cba5,rerun_24h,"""Who wrote the plays """"The Seagull"""", """"The Cherry Orchard"""", """"The Three Sisters"""" and """"Uncle Vanya""""?""",1,p_q_3582cba5_1,chekhov,1,triviaqa,,1,1,1,1
+q_359f65e2@rerun_24h,q_359f65e2,rerun_24h,Which movie won the latest Academy Award for Best Picture?,1,p_q_359f65e2_2,everything everywhere all at once,1,freshqa,2023,2,2,1,1
+q_35e41392@rerun_24h,q_35e41392,rerun_24h,"Which constellation, that lies between Cancer and Virgo, contains the stars called Regulus, Denebola, Regulus, Wolf 359, Gliese 436, and Algieba?",1,p_q_35e41392_1,leo,1,triviaqa,,1,1,1,1
+q_36c62536@rerun_24h,q_36c62536,rerun_24h,Which team is the most recent winner of the Suomi-sarja gold medal?,1,p_q_36c62536_1,pyry,1,temporal_align_qa,2023,1,1,1,1
+q_36d47c00@rerun_24h,q_36d47c00,rerun_24h,Which was the first country to detect a case of mpox in the most recent outbreak?,1,p_q_36d47c00_2,united kingdom,1,freshqa,2022,3,3,1,1
+q_36e2eae5@rerun_24h,q_36e2eae5,rerun_24h,Who is currently serving as the U.S. Representative for Maine's 2nd congressional district?,2,p_q_36e2eae5_1|p_q_36e2eae5_2,jared golden,1,temporal_align_qa,2023,1,1,1,1
+q_371cd160@rerun_24h,q_371cd160,rerun_24h,What name is given to the unit of electrical power represented by a current of 1 ampere flowing through a circuit whose potential difference is 1 volt?,1,p_q_371cd160_2,watt,1,triviaqa,,2,2,1,1
+q_376b8a53@rerun_24h,q_376b8a53,rerun_24h,Who is the highest-paid NBA player currently?,1,q_376b8a53,stephen curry,1,temporal_align_qa,2023,1,1,1,1
+q_379e630f@rerun_24h,q_379e630f,rerun_24h,Which team is the current champion of the Georgian Superliga?,2,p_q_379e630f_0|p_q_379e630f_3,bc tsu tbilisi,1,temporal_align_qa,2023,1,1,1,1
+q_37fa4f89@rerun_24h,q_37fa4f89,rerun_24h,Who is currently serving as the Attorney General of Texas?,1,p_q_37fa4f89_0,angela colmenero interim,1,temporal_align_qa,2023,2,2,1,1
+q_384b354b@rerun_24h,q_384b354b,rerun_24h,"As at 2012 Nisiyama Onsen Keiunkan, a hot spring hotel in Hayakawa, Yamanashi, Japan, is officially regarded as being what world-record-holding business?",2,q_384b354b|p_q_384b354b_0,oldest,1,triviaqa,,1,1,1,1
+q_3853dba1@rerun_24h,q_3853dba1,rerun_24h,The National Trust property Clouds Hill in Dorset was the home of which military man and writer?,1,p_q_3853dba1_0,t e lawrence,1,triviaqa,,1,1,1,1
+q_3863ccbb@rerun_24h,q_3863ccbb,rerun_24h,What team won the Little 500 race?,1,q_3863ccbb,cutters,1,temporal_align_qa,2023,2,2,1,1
+q_389476c5@rerun_24h,q_389476c5,rerun_24h,How often are the Oberammergau Passion Plays held?,1,p_q_389476c5_1,every ten years,1,triviaqa,,1,1,1,1
+q_394f249c@rerun_24h,q_394f249c,rerun_24h,From which club is the leading goalscorer in the latest season of the Armenian Premier League?,1,q_394f249c,"luka juričić, yusuf otubanjo",1,temporal_align_qa,2023,1,1,1,1
+q_39c51b6d@rerun_24h,q_39c51b6d,rerun_24h,What team finished eleventh in the Western Conference most recently?,1,q_39c51b6d,dal,1,temporal_align_qa,2023,1,1,1,1
+q_39cd95a7@rerun_24h,q_39cd95a7,rerun_24h,Where will NeurIPS be located this year?,2,p_q_39cd95a7_1|p_q_39cd95a7_3,new orleans,1,freshqa,2023,3,3,1,1
+q_3a68f125@rerun_24h,q_3a68f125,rerun_24h,Which official knocks three times on the doors to the chamber of the House of Commons at the state opening of a British parliament?,1,p_q_3a68f125_0,black rod,1,triviaqa,,2,2,1,1
+q_3a9da6a0@rerun_24h,q_3a9da6a0,rerun_24h,Which team secured the runner-up position in the recent Kyrgyz Premier League season?,1,p_q_3a9da6a0_3,alay osh,1,temporal_align_qa,2023,1,1,1,1
+q_3ac69f62@rerun_24h,q_3ac69f62,rerun_24h,Who is the current representative serving as the member of the legislative assembly for Pelabuhan Klang?,1,p_q_3ac69f62_0,azmizam zaman huri,1,temporal_align_qa,2023,1,1,1,1
+q_3b2665fb@rerun_24h,q_3b2665fb,rerun_24h,Who wrote the musical We Will Rock You in collaboration with Queen members Brian May and Roger Taylor?,1,p_q_3b2665fb_0,ben elton,1,triviaqa,,1,1,1,1
+q_3b2d2b15@rerun_24h,q_3b2d2b15,rerun_24h,"October 4th 1910, which European monarch was deposed and fled on the Royal Yacht 'Amelia' to Gibraltar?",1,p_q_3b2d2b15_1,king manuel of portugal,1,triviaqa,,1,1,1,1
+q_3b332e4e@rerun_24h,q_3b332e4e,rerun_24h,Who are the current champions in the Luge World Cup Men's doubles?,1,p_q_3b332e4e_2,germany tobias wendl tobias arlt,1,temporal_align_qa,2023,1,1,1,1
+q_3c3ee393@rerun_24h,q_3c3ee393,rerun_24h,Who is the current member of the Legislative Assembly for Lesser Slave Lake?,1,p_q_3c3ee393_2,pat rehn,1,temporal_align_qa,2023,2,2,1,1
+q_3c4c45fe@rerun_24h,q_3c4c45fe,rerun_24h,Who is the current captain of the West Indies ODI cricket team?,1,p_q_3c4c45fe_1,shai hope,1,temporal_align_qa,2023,1,1,1,1
+q_3c890437@rerun_12h,q_3c890437,rerun_12h,Who was the owner of the winning horse in the most recent Woodbine Oaks?,1,q_3c890437,"team valor international, gary barber",1,temporal_align_qa,2023,2,2,1,1
+q_3c890437@rerun_24h,q_3c890437,rerun_24h,Who was the owner of the winning horse in the most recent Woodbine Oaks?,1,p_q_3c890437_3,"team valor international, gary barber",1,temporal_align_qa,2023,2,2,1,1
+q_3c8d7d2d@rerun_12h,q_3c8d7d2d,rerun_12h,Where did the most recent Texas Rangers first-round draft pick attend school?,1,q_3c8d7d2d,university of florida,1,temporal_align_qa,2023,1,1,1,1
+q_3c8e1699@rerun_24h,q_3c8e1699,rerun_24h,Where was the European Amateur Championship last played?,1,p_q_3c8e1699_1,pärnu bay golf links,1,temporal_align_qa,2023,2,2,1,1
+q_3cae62d9@rerun_24h,q_3cae62d9,rerun_24h,Who is the current representative for Calgary-Shaw in the Legislative Assembly?,1,p_q_3cae62d9_1,rebecca schulz,1,temporal_align_qa,2023,2,2,1,1
+q_3cff3dce@rerun_24h,q_3cff3dce,rerun_24h,Who is the latest recipient of the Gatorade National Baseball Player of the Year award?,1,p_q_3cff3dce_2,max clark baseball,1,temporal_align_qa,2023,1,1,1,1
+q_3d46fcdf@rerun_24h,q_3d46fcdf,rerun_24h,Which artistic movement was founded around 1920 in Russia and was associated with Naum Gabo and Antoine Pevsner?,1,p_q_3d46fcdf_1,constructivism,1,triviaqa,,1,1,1,1
+q_3dd86b7b@rerun_24h,q_3dd86b7b,rerun_24h,What was the name given to actions by Timothy McVeigh on 19 April 1995 at the Alfred P. Murrah Federal Building?,1,p_q_3dd86b7b_2,the oklahoma city bombing,1,triviaqa,,1,1,1,1
+q_3df25b36@rerun_24h,q_3df25b36,rerun_24h,Which publisher released the book that most recently won the Miles Franklin Award?,1,q_3df25b36,ultimo press,1,temporal_align_qa,2023,1,1,1,1
+q_3df9aae8@rerun_1h,q_3df9aae8,rerun_1h,Who is the current delegate representing Guam's at-large congressional district?,1,q_3df9aae8,100px michael san nicolas,1,temporal_align_qa,2023,1,1,1,1
+q_3e28f963@rerun_24h,q_3e28f963,rerun_24h,What's the current Tomatometer score of The Lord of the Rings: The Rings of Power on Rotten Tomatoes?,1,p_q_3e28f963_1,83%,1,freshqa,2022,3,3,1,1
+q_3e574628@rerun_24h,q_3e574628,rerun_24h,How many bonus points have the Highlanders achieved in their last reported rugby union season standings?,2,p_q_3e574628_1|q_3e574628,2,1,temporal_align_qa,2023,1,1,1,1
+q_3e5fda75@rerun_24h,q_3e5fda75,rerun_24h,What is the capital of Cambodia?,1,p_q_3e5fda75_0,phnom penh,1,triviaqa,,1,1,1,1
+q_3ec48396@rerun_24h,q_3ec48396,rerun_24h,What train model won the most recent Blue Ribbon Award (railway)?,1,p_q_3ec48396_1,hc85 series demu,1,temporal_align_qa,2023,2,2,1,1
+q_3ee7411d@rerun_24h,q_3ee7411d,rerun_24h,Who is the current bench coach for the St. Louis Cardinals?,2,p_q_3ee7411d_0|q_3ee7411d,joe mcewing,1,temporal_align_qa,2023,1,1,1,1
+q_3f0409f7@rerun_24h,q_3f0409f7,rerun_24h,Which team was led by the most recent WNBA Coach of the Year Award winner?,1,p_q_3f0409f7_0,connecticut sun,1,temporal_align_qa,2023,1,1,1,1
+q_3f541a35@rerun_24h,q_3f541a35,rerun_24h,Which university is hosting the ongoing UAAP season?,1,p_q_3f541a35_3,adamson university,1,temporal_align_qa,2023,1,1,1,1
+q_3f8c84fb@rerun_24h,q_3f8c84fb,rerun_24h,Which school holds the championship title for Class 2A in the Iowa Girls High School Athletic Union Softball?,1,p_q_3f8c84fb_1,iowa city regina,1,temporal_align_qa,2023,2,2,1,1
+q_40d3878e@rerun_24h,q_40d3878e,rerun_24h,Who was the runner-up in the Veikkausliiga?,1,p_q_40d3878e_3,hjk,1,temporal_align_qa,2023,1,1,1,1
+q_41540d4e@rerun_24h,q_41540d4e,rerun_24h,What unusual means of transport connects North Greenwich to the Royal Docks?,2,p_q_41540d4e_2|p_q_41540d4e_1,cable car,1,triviaqa,,1,1,1,1
+q_41afd862@rerun_24h,q_41afd862,rerun_24h,Which team did the Los Angeles Angels face in their most recent Opening Day game?,1,p_q_41afd862_3,oakland athletics,1,temporal_align_qa,2023,2,2,1,1
+q_4209c718@rerun_24h,q_4209c718,rerun_24h,Who is serving as the U.S. House representative for South Carolina's 4th congressional district?,1,p_q_4209c718_2,william timmons,1,temporal_align_qa,2023,2,1,0,1
+q_4241a3d3@rerun_24h,q_4241a3d3,rerun_24h,Who is the most recent recipient of the Norm Smith Medal?,1,p_q_4241a3d3_1,bobby hill australian footballer,1,temporal_align_qa,2023,2,2,1,1
+q_424c03e3@rerun_24h,q_424c03e3,rerun_24h,Who was Craig Lowndes' co-driver in the last race he participated in the Bathurst 1000?,1,p_q_424c03e3_2,zane goddard,1,temporal_align_qa,2023,1,1,1,1
+q_43f2a8a0@rerun_24h,q_43f2a8a0,rerun_24h,What team ended up thirteenth in the standings of the Western Conference most recently?,1,p_q_43f2a8a0_3,portugal,1,temporal_align_qa,2023,1,1,1,1
+q_440c74b3@rerun_1h,q_440c74b3,rerun_1h,Odette and Prince Siegfried are lovers in which ballet?,1,q_440c74b3,swan lake,1,triviaqa,,1,1,1,1
+q_44acf3c6@rerun_24h,q_44acf3c6,rerun_24h,Which jockey rode the winning horse in the latest Del Mar Debutante Stakes?,1,p_q_44acf3c6_0,mike e. smith,1,temporal_align_qa,2023,1,1,1,1
+q_44d9dff7@rerun_24h,q_44d9dff7,rerun_24h,At which battle of 1403 did Henry 'Hotspur' Percy die?,2,p_q_44d9dff7_0|p_q_44d9dff7_3,shrewsbury,1,triviaqa,,2,2,1,1
+q_450041cf@rerun_24h,q_450041cf,rerun_24h,"Who won the 2022 Nobel Prize in Chemistry from University of Copenhagen, Denmark?",1,p_q_450041cf_2,morten meldal,1,freshqa,2022,2,2,1,1
+q_450e7484@rerun_24h,q_450e7484,rerun_24h,"How high in feet, normally, is a standard basketball hoop off the ground?",1,q_450e7484,ten feet,1,triviaqa,,2,1,0,1
+q_470d2d0f@rerun_24h,q_470d2d0f,rerun_24h,Who is the most recent recipient of the Edgar Martínez Award?,1,p_q_470d2d0f_2,shohei ohtani,1,temporal_align_qa,2023,1,1,1,1
+q_47ba6dcb@rerun_24h,q_47ba6dcb,rerun_24h,What company is displayed as the current shirt sponsor on Hapoel Haifa F.C.'s jerseys?,1,p_q_47ba6dcb_1,leos,1,temporal_align_qa,2023,1,1,1,1
+q_486683c8@rerun_24h,q_486683c8,rerun_24h,Which areas are included in the California's 10th congressional district as of now?,1,p_q_486683c8_3,2013–2023 300px central valley including modesto and tracy,1,temporal_align_qa,2023,1,1,1,1
+q_4882dc27@rerun_24h,q_4882dc27,rerun_24h,Who is the current head coach of the Iceland men's national handball team?,1,p_q_4882dc27_3,guðmundur guðmundsson,1,temporal_align_qa,2023,2,2,1,1
+q_48e27a79@rerun_24h,q_48e27a79,rerun_24h,Which pair earned the silver medal in the Pairs category at the last European Figure Skating Championships?,1,p_q_48e27a79_2,rebecca ghilardi / filippo ambrosini,1,temporal_align_qa,2023,1,1,1,1
+q_4913788c@rerun_24h,q_4913788c,rerun_24h,What role is performed by the latest aircraft type added to the Executive Transport Wing of the German Air Force?,1,p_q_4913788c_1,medical evacuation,1,temporal_align_qa,2023,1,1,1,1
+q_493b174b@rerun_24h,q_493b174b,rerun_24h,What is the most recent Walt Disney Animation Studios's animated film?,1,q_493b174b,strange world,1,freshqa,2022,2,2,1,1
+q_49493ec6@rerun_24h,q_49493ec6,rerun_24h,What is the SI unit of resistance?,1,p_q_49493ec6_0,ohm,1,triviaqa,,2,2,1,1
+q_4987dd97@rerun_24h,q_4987dd97,rerun_24h,"French mariner, Jacques Cartier, left home in 1534 to sail across the Atlantic, to explore which river?",1,p_q_4987dd97_3,st. lawrence,1,triviaqa,,1,1,1,1
+q_498e07da@rerun_1h,q_498e07da,rerun_1h,Who currently represents New York's 22nd congressional district?,1,q_498e07da,100px brandon williams,1,temporal_align_qa,2023,2,2,1,1
+q_498e07da@rerun_24h,q_498e07da,rerun_24h,Who currently represents New York's 22nd congressional district?,1,p_q_498e07da_0,100px brandon williams,1,temporal_align_qa,2023,2,1,0,1
+q_4a625c6c@rerun_24h,q_4a625c6c,rerun_24h,Which team does the current Les Cunningham Award winner play for?,1,q_4a625c6c,calgary wranglers,1,temporal_align_qa,2023,3,3,1,1
+q_4bc25294@rerun_24h,q_4bc25294,rerun_24h,Who plays the position of third on Colin Hufman's current curling team?,1,p_q_4bc25294_0,chris plys,1,temporal_align_qa,2023,1,1,1,1
+q_4ccc0c84@rerun_24h,q_4ccc0c84,rerun_24h,What is the car number of the A-GAME 200 winning vehicle?,1,p_q_4ccc0c84_0,19,1,temporal_align_qa,2023,1,1,1,1
+q_4d8a4de4@rerun_24h,q_4d8a4de4,rerun_24h,Which artist(s) performed on the most recent winner of the Grammy Award for Best Historical Album?,2,p_q_4d8a4de4_1|q_4d8a4de4,wilco,1,temporal_align_qa,2023,2,2,1,1
+q_4ddbae0c@rerun_24h,q_4ddbae0c,rerun_24h,Who is the current Master of the Worshipful Company of Security Professionals?,1,p_q_4ddbae0c_0,paul miller,1,temporal_align_qa,2023,2,2,1,1
+q_4deb87ba@rerun_24h,q_4deb87ba,rerun_24h,Which English town is twinned with Disney World?,1,p_q_4deb87ba_3,swindon,1,triviaqa,,1,1,1,1
+q_4dfb357f@rerun_24h,q_4dfb357f,rerun_24h,What was the winning score at the latest Price Cutter Charity Championship?,1,p_q_4dfb357f_0,263,1,temporal_align_qa,2023,2,2,1,1
+q_4e2156f7@rerun_24h,q_4e2156f7,rerun_24h,Who is the coach of the team that won the most recent Úrvalsdeild karla (basketball) championship?,1,p_q_4e2156f7_3,pavel ermolinskij,1,temporal_align_qa,2023,1,1,1,1
+q_4e2929ec@rerun_24h,q_4e2929ec,rerun_24h,How many humans have landed on Mars?,1,p_q_4e2929ec_0,no humans have been to mars yet.,1,freshqa,before 2022,1,1,1,1
+q_4e6d28cb@rerun_24h,q_4e6d28cb,rerun_24h,Who is one of the players currently leading as top scorer in the UEFA Europa League?,1,p_q_4e6d28cb_0,eng marcus rashford,1,temporal_align_qa,2023,1,1,1,1
+q_4ec7b3d4@rerun_24h,q_4ec7b3d4,rerun_24h,Who holds the UAE Pro League top scorer title?,1,p_q_4ec7b3d4_1,kodjo laba,1,temporal_align_qa,2023,1,1,1,1
+q_4ee9519a@rerun_24h,q_4ee9519a,rerun_24h,Although it can come in colourless varieties what is the usual colour of the drink Absinthe?,1,p_q_4ee9519a_1,green,1,triviaqa,,2,2,1,1
+q_4ef6bd87@rerun_1h,q_4ef6bd87,rerun_1h,Who is the current president of Lake Erie College?,1,q_4ef6bd87,brian posler,1,temporal_align_qa,2023,1,1,1,1
+q_4efb2d83@rerun_24h,q_4efb2d83,rerun_24h,"What name was given to Colleen LaRose, who was accused of conspiring with fighters overseas and pledging to commit murder in the name of a Muslim holy war, and pleaded not guilty in court in Philadelphia in March 2010?",2,p_q_4efb2d83_3|q_4efb2d83,jihad jane,1,triviaqa,,2,2,1,1
+q_50156db6@rerun_24h,q_50156db6,rerun_24h,How many votes were against the initial Budget Implementation Act for the latest Canadian federal budget?,1,p_q_50156db6_0,115,1,temporal_align_qa,2023,1,1,1,1
+q_5026a65e@rerun_12h,q_5026a65e,rerun_12h,"Appointed in 2012, who is the President of the Fifth French Republic?",1,p_q_5026a65e_2,francois hollande,1,triviaqa,,1,1,1,1
+q_50abcf1d@rerun_24h,q_50abcf1d,rerun_24h,"Britain's first stretch of motorway, opened in December 1958, bypassed which town (now officially a city) ?",1,p_q_50abcf1d_0,preston,1,triviaqa,,1,1,1,1
+q_50e17bb5@rerun_24h,q_50e17bb5,rerun_24h,"Lee Marvin had a number one hit record with 'Wanderin' Star' in 1970, but which actor had a minor hit with the flipside - 'I Talk To The Trees'?",1,p_q_50e17bb5_0,clint eastwood,1,triviaqa,,1,1,1,1
+q_511a84fd@rerun_24h,q_511a84fd,rerun_24h,Which division is Jeanfield Swifts F.C. currently competing in?,1,p_q_511a84fd_1,east of scotland premier division,1,temporal_align_qa,2023,1,1,1,1
+q_51ad3d0a@rerun_24h,q_51ad3d0a,rerun_24h,Which athlete placed third in the latest Iceland's Strongest Man event?,1,p_q_51ad3d0a_0,theodór már gudmundsson,1,temporal_align_qa,2023,1,1,1,1
+q_51b242c2@rerun_24h,q_51b242c2,rerun_24h,Which cricket team won the Nottinghamshire Cricket Board Premier League most recently?,1,p_q_51b242c2_3,cuckney,1,temporal_align_qa,2023,1,1,1,1
+q_51c973e7@rerun_24h,q_51c973e7,rerun_24h,Who is the most recent NBA player to score 60 or more points in a single game?,1,p_q_51c973e7_3,damian lillard,1,freshqa,2023,3,3,1,1
+q_52507e09@rerun_24h,q_52507e09,rerun_24h,I what year did the 'Cod' war between Britain and Iceland begin?,1,p_q_52507e09_0,1972,1,triviaqa,,1,1,1,1
+q_526494bb@rerun_24h,q_526494bb,rerun_24h,Which basketball team won the most recent BSN championship?,1,p_q_526494bb_0,gigantes de carolina,1,temporal_align_qa,2023,1,1,1,1
+q_5284772a@rerun_24h,q_5284772a,rerun_24h,Who is the most recent recipient of the Babe Ruth Award?,2,p_q_5284772a_1|p_q_5284772a_2,adolis garcía,1,temporal_align_qa,2023,1,1,1,1
+q_52957594@rerun_24h,q_52957594,rerun_24h,In which television series is LL Cool J currently starring as a main cast member?,1,p_q_52957594_0,hip hop treasures,1,temporal_align_qa,2023,1,1,1,1
+q_531f875a@rerun_24h,q_531f875a,rerun_24h,What is the name of the horse that won the most recent Avondale Cup at Avondale Racecourse?,1,p_q_531f875a_2,aquacade,1,temporal_align_qa,2023,3,3,1,1
+q_5329f934@rerun_24h,q_5329f934,rerun_24h,Who is the leading goalkicker for the Brisbane Lions Australian Football League team?,1,p_q_5329f934_3,joe daniher,1,temporal_align_qa,2023,1,1,1,1
+q_534fcd60@rerun_24h,q_534fcd60,rerun_24h,How many novels has Stephen King published?,1,p_q_534fcd60_3,66 novels,1,freshqa,2023,2,2,1,1
+q_53b66262@rerun_24h,q_53b66262,rerun_24h,Where is Tesla's headquarters?,1,p_q_53b66262_0,"austin, tx",1,freshqa,before 2022,1,1,1,1
+q_53e77e63@rerun_24h,q_53e77e63,rerun_24h,How many games are there in the Ace Attorney main series?,2,q_53e77e63|p_q_53e77e63_0,6,1,freshqa,before 2022,3,3,1,1
+q_5431673a@rerun_24h,q_5431673a,rerun_24h,Where was the Rugby Europe Under-18 Championship final held?,1,p_q_5431673a_3,prague,1,temporal_align_qa,2023,1,1,1,1
+q_54467ccf@rerun_24h,q_54467ccf,rerun_24h,Who is one of the outfielders in the National League who has won a Gold Glove Award?,1,p_q_54467ccf_3,ian happ,1,temporal_align_qa,2023,1,1,1,1
+q_54cc8f89@rerun_24h,q_54cc8f89,rerun_24h,Who is the top scorer in the current Allsvenskan season?,1,p_q_54cc8f89_3,sweden isaac kiese thelin,1,temporal_align_qa,2023,2,1,0,1
+q_560436e5@rerun_24h,q_560436e5,rerun_24h,Who is the Sheffield Wednesday F.C. Player of the Year?,1,p_q_560436e5_2,liam palmer,1,temporal_align_qa,2023,1,1,1,1
+q_5653e571@rerun_24h,q_5653e571,rerun_24h,Where was the World Junior Speed Skating Championships held most recently?,1,q_5653e571,inzell,1,temporal_align_qa,2023,2,2,1,1
+q_56a62a28@rerun_24h,q_56a62a28,rerun_24h,What is the title of the book that won the Ethel Turner Prize for Young People's Literature recently?,1,p_q_56a62a28_2,the upwelling,1,temporal_align_qa,2023,2,2,1,1
+q_56aea0d0@rerun_24h,q_56aea0d0,rerun_24h,Which team won the Algerian Women's Championship most recently?,1,p_q_56aea0d0_1,afak relizane,1,temporal_align_qa,2023,1,1,1,1
+q_56e02d43@rerun_24h,q_56e02d43,rerun_24h,Along what tectonic plate boundary were yeti crabs first discovered?,1,p_q_56e02d43_1,pacific-antarctic ridge,1,freshqa,before 2022,2,2,1,1
+q_56ebbb98@rerun_12h,q_56ebbb98,rerun_12h,How many podium finishes has Nicolas Lapierre had this season?,1,q_56ebbb98,5,1,temporal_align_qa,2023,1,1,1,1
+q_56ee58f4@rerun_24h,q_56ee58f4,rerun_24h,Who is the reigning champion of the C division for the Montana High School Association Cross Country State Championships?,1,q_56ee58f4,roberts,1,temporal_align_qa,2023,2,2,1,1
+q_579c926b@rerun_24h,q_579c926b,rerun_24h,Which American invented the computer mouse whilst working at the Stamford Research Institute in 1964?,1,p_q_579c926b_1,douglas englebart,1,triviaqa,,1,1,1,1
+q_57bc7dc8@rerun_24h,q_57bc7dc8,rerun_24h,Which brand and model of motorcycle won the Baja 500?,1,p_q_57bc7dc8_2,ktm,1,temporal_align_qa,2023,1,1,1,1
+q_57d1c01a@rerun_24h,q_57d1c01a,rerun_24h,Who is the current manager of FK Partizan?,1,p_q_57d1c01a_3,gordan petrić,1,temporal_align_qa,2023,1,1,1,1
+q_58db0825@rerun_24h,q_58db0825,rerun_24h,Which jockey rode the winning horse in the Southwest Stakes with a time of 1,2,p_q_58db0825_0|p_q_58db0825_2,john r. velazquez,1,temporal_align_qa,2023,2,2,1,1
+q_59076011@rerun_24h,q_59076011,rerun_24h,Who is the most recent recipient of the Doak Walker Award?,1,p_q_59076011_1,ollie gordon ii,1,temporal_align_qa,2023,2,2,1,1
+q_593f6d73@rerun_24h,q_593f6d73,rerun_24h,What is the name of the school that came in eighth in the South Australian Head of the River race?,1,p_q_593f6d73_3,adelaide hs,1,temporal_align_qa,2023,2,2,1,1
+q_594b8e7a@rerun_24h,q_594b8e7a,rerun_24h,What was the venue of the most recent game between the Brisbane Broncos and the North Queensland Cowboys?,1,p_q_594b8e7a_3,queensland country bank stadium,1,temporal_align_qa,2023,2,2,1,1
+q_595ca0b6@rerun_24h,q_595ca0b6,rerun_24h,Who finished third in the latest edition of the World Freshwater Angling Championships?,1,q_595ca0b6,england sean ashby,1,temporal_align_qa,2023,2,2,1,1
+q_5a80cc0d@rerun_24h,q_5a80cc0d,rerun_24h,Who is the champion of the men’s category in the Walt Disney World Marathon?,1,p_q_5a80cc0d_2,daniel dos santos,1,temporal_align_qa,2023,2,2,1,1
+q_5aac65b6@rerun_12h,q_5aac65b6,rerun_12h,Which film won the Toronto International Film Festival People's Choice Award most recently?,1,q_5aac65b6,the holdovers,1,temporal_align_qa,2023,1,1,1,1
+q_5aac65b6@rerun_24h,q_5aac65b6,rerun_24h,Which film won the Toronto International Film Festival People's Choice Award most recently?,1,p_q_5aac65b6_1,the holdovers,1,temporal_align_qa,2023,1,1,1,1
+q_5abb871e@rerun_24h,q_5abb871e,rerun_24h,Which team does the latest Performance Index Rating leader of the Greek Basket League play for?,1,p_q_5abb871e_2,olympiacos,1,temporal_align_qa,2023,1,1,1,1
+q_5ac8d92d@rerun_24h,q_5ac8d92d,rerun_24h,When does this year's Passover start?,1,p_q_5ac8d92d_3,"apr 5, 2023",1,freshqa,2023,1,1,1,1
+q_5ad30881@rerun_24h,q_5ad30881,rerun_24h,"In 1967, the Republic of Biafra declared independence from which country?",1,p_q_5ad30881_0,nigeria,1,triviaqa,,1,1,1,1
+q_5b78283a@rerun_24h,q_5b78283a,rerun_24h,What is the hometown of the most recent Miss Arkansas winner?,1,p_q_5b78283a_3,stuttgart,1,temporal_align_qa,2023,3,3,1,1
+q_5b859382@rerun_24h,q_5b859382,rerun_24h,Who are the analysts providing commentary for the Preakness Stakes?,2,p_q_5b859382_3|p_q_5b859382_2,"randy moss, jerry bailey and matt bernier",1,temporal_align_qa,2023,2,2,1,1
+q_5cb9d6ad@rerun_24h,q_5cb9d6ad,rerun_24h,"""Who played the title role in Woody Allen's film """"Annie Hall""""?""",1,p_q_5cb9d6ad_2,diane keaton,1,triviaqa,,2,2,1,1
+q_5d7bcc7e@rerun_24h,q_5d7bcc7e,rerun_24h,Who is the most recent recipient of the Anisfield-Wolf Book Award for Lifetime Achievement?,1,q_5d7bcc7e,charlayne hunter-gault,1,temporal_align_qa,2023,2,2,1,1
+q_5e06e717@rerun_24h,q_5e06e717,rerun_24h,Who is the most recent champion of the Boston Marathon Men's wheelchair division?,1,p_q_5e06e717_3,marcel hug,1,temporal_align_qa,2023,2,2,1,1
+q_5e68b428@rerun_1h,q_5e68b428,rerun_1h,From which city is the latest winner of the Bulwer-Lytton Fiction Contest?,1,q_5e68b428,"maya pasic new york, new york",1,temporal_align_qa,2023,2,2,1,1
+q_5e68b428@rerun_24h,q_5e68b428,rerun_24h,From which city is the latest winner of the Bulwer-Lytton Fiction Contest?,1,p_q_5e68b428_2,"maya pasic new york, new york",1,temporal_align_qa,2023,2,2,1,1
+q_5e69097f@rerun_24h,q_5e69097f,rerun_24h,Which school did the North Dakota Mr. Basketball Award winner attend?,1,p_q_5e69097f_1,minot,1,temporal_align_qa,2023,1,1,1,1
+q_5eaf6b2e@rerun_24h,q_5eaf6b2e,rerun_24h,Which team took the victory in the Fresh From Florida 250?,1,p_q_5eaf6b2e_0,front row motorsports,1,temporal_align_qa,2023,4,3,0,1
+q_5ee0c56a@rerun_24h,q_5ee0c56a,rerun_24h,What is the most recent massacre that took place in Ethiopia?,1,p_q_5ee0c56a_2,finote selam drone strike,1,temporal_align_qa,2023,2,2,1,1
+q_5efb60e3@rerun_12h,q_5efb60e3,rerun_12h,Which university did the latest Outland Trophy recipient play for?,1,q_5efb60e3,texas,1,temporal_align_qa,2023,1,1,1,1
+q_5f279acb@rerun_1h,q_5f279acb,rerun_1h,Which city was the capital of California the year it became a state?,1,q_5f279acb,san jose,1,freshqa,before 2022,1,1,1,1
+q_5f279acb@rerun_24h,q_5f279acb,rerun_24h,Which city was the capital of California the year it became a state?,2,p_q_5f279acb_2|p_q_5f279acb_0,san jose,1,freshqa,before 2022,1,1,1,1
+q_5fb43c16@rerun_24h,q_5fb43c16,rerun_24h,"Whose March 31, 1994 appearance on Late Show with David Letterman resulted in the episode becoming the most censored in American network television talk-show history for obvious reasons?",1,q_5fb43c16,madonna,1,triviaqa,,1,1,1,1
+q_60131439@rerun_24h,q_60131439,rerun_24h,Which team won the American Basketball Association championship most recently?,1,p_q_60131439_3,burning river buckets / indiana lyons,1,temporal_align_qa,2023,1,1,1,1
+q_60502f3b@rerun_24h,q_60502f3b,rerun_24h,Which team won the BBC Sports Personality Team of the Year Award?,1,p_q_60502f3b_1,manchester city f.c.,1,temporal_align_qa,2023,1,1,1,1
+q_60703185@rerun_24h,q_60703185,rerun_24h,Who is the champion driver of the Indian National Rally Championship?,1,p_q_60703185_3,aroor arjun rao,1,temporal_align_qa,2023,1,1,1,1
+q_60e402de@rerun_24h,q_60e402de,rerun_24h,Which book won the Orbis Pictus Award for the most recent year awarded?,1,p_q_60e402de_3,blue: a history of the color as deep as the sea and as wide as the sky,1,temporal_align_qa,2023,2,2,1,1
+q_611d707f@rerun_1h,q_611d707f,rerun_1h,What is the television show in which Christopher McDonald most recently appeared?,1,p_q_611d707f_0,captain fall,1,temporal_align_qa,2023,1,1,1,1
+q_613da476@rerun_24h,q_613da476,rerun_24h,Who is the winner of the most recent Grandmaster Tournament at the Biel Chess Festival?,1,p_q_613da476_0,lê quang liêm,1,temporal_align_qa,2023,1,1,1,1
+q_617ac749@rerun_1h,q_617ac749,rerun_1h,Who is the current Dean of the Virginia Tech College of Architecture and Urban Studies?,1,q_617ac749,rosemary blieszner,1,temporal_align_qa,2023,2,2,1,1
+q_618650f8@rerun_1h,q_618650f8,rerun_1h,Who is the current manager of US Monastir football team?,1,p_q_618650f8_1,darko nović,1,temporal_align_qa,2023,1,1,1,1
+q_624c6c50@rerun_24h,q_624c6c50,rerun_24h,Who received the Country Music Association Award for Male Vocalist of the Year?,1,p_q_624c6c50_2,chris stapleton,1,temporal_align_qa,2023,2,2,1,1
+q_62a24122@rerun_24h,q_62a24122,rerun_24h,Who won the 2020 Formula 1 world driver's championship?,1,p_q_62a24122_1,lewis hamilton,1,freshqa,before 2022,3,3,1,1
+q_63335fe3@rerun_24h,q_63335fe3,rerun_24h,Who won the top division championship at the January sumo tournament in Tokyo?,1,p_q_63335fe3_0,takakeishō,1,temporal_align_qa,2023,1,1,1,1
+q_63a44892@rerun_24h,q_63a44892,rerun_24h,Which team won the Estonian Supercup?,2,p_q_63a44892_2|q_63a44892,paide,1,temporal_align_qa,2023,1,1,1,1
+q_63c4c1ca@rerun_24h,q_63c4c1ca,rerun_24h,Which horse won the Oaks d'Italia most recently?,1,p_q_63c4c1ca_1,shavasana,1,temporal_align_qa,2023,2,2,1,1
+q_645572d1@rerun_24h,q_645572d1,rerun_24h,Which team was the runner-up in the Korvpalli Meistriliiga championship?,1,p_q_645572d1_1,tartu ülikool maks & moorits,1,temporal_align_qa,2023,1,1,1,1
+q_64800213@rerun_24h,q_64800213,rerun_24h,Which woman was the singer with Jefferson Airplane?,1,p_q_64800213_3,grace slick,1,triviaqa,,1,1,1,1
+q_65d75670@rerun_24h,q_65d75670,rerun_24h,"""What is the occupation of the title character in """"Finnegan's Wake"""" by James Joyce?""",1,p_q_65d75670_0,hod carrier,1,triviaqa,,2,2,1,1
+q_6657182b@rerun_1h,q_6657182b,rerun_1h,Which male athlete won the Callahan Award most recently?,1,q_6657182b,justin burnett,1,temporal_align_qa,2023,1,1,1,1
+q_6657182b@rerun_24h,q_6657182b,rerun_24h,Which male athlete won the Callahan Award most recently?,1,p_q_6657182b_0,justin burnett,1,temporal_align_qa,2023,1,1,1,1
+q_665a6704@rerun_24h,q_665a6704,rerun_24h,Who is the most recent champion of the Chubb Classic?,1,p_q_665a6704_2,deu bernhard langer,1,temporal_align_qa,2023,2,2,1,1
+q_66b78d55@rerun_24h,q_66b78d55,rerun_24h,Who hosted the Juno Awards ceremony?,2,q_66b78d55|p_q_66b78d55_0,simu liu,1,temporal_align_qa,2023,1,1,1,1
+q_6757b6a9@rerun_24h,q_6757b6a9,rerun_24h,Who is the most recent recipient of the Los Angeles Film Critics Association Award for Best Director?,1,p_q_6757b6a9_0,jonathan glazer,1,temporal_align_qa,2023,2,2,1,1
+q_67c87177@rerun_24h,q_67c87177,rerun_24h,Who was the most recent recipient of the Ron McAuliffe Medal?,2,p_q_67c87177_1|p_q_67c87177_3,reuben cotter,1,temporal_align_qa,2023,2,2,1,1
+q_6875d955@rerun_24h,q_6875d955,rerun_24h,Who was the runner-up in the last Honinbo competition?,1,p_q_6875d955_0,yuta iyama,1,temporal_align_qa,2023,2,2,1,1
+q_68d60970@rerun_24h,q_68d60970,rerun_24h,Who is the current title holder of the Kisei tournament in Go?,1,p_q_68d60970_2,ichiriki ryo,1,temporal_align_qa,2023,1,1,1,1
+q_69646c02@rerun_24h,q_69646c02,rerun_24h,How old is the most-followed user on TikTok?,1,p_q_69646c02_0,23 years old,1,freshqa,2023,2,2,1,1
+q_697c0008@rerun_24h,q_697c0008,rerun_24h,Which pitcher gave up the most recent home run that landed in McCovey Cove?,1,p_q_697c0008_3,anthony desclafani,1,temporal_align_qa,2023,1,1,1,1
+q_69b0bd6d@rerun_24h,q_69b0bd6d,rerun_24h,Which team did the Great Britain Davis Cup team compete against in its most recent completed match?,1,p_q_69b0bd6d_3,france,1,temporal_align_qa,2023,1,1,1,1
+q_69f7cd76@rerun_24h,q_69f7cd76,rerun_24h,Who is the current representative of Michigan's 7th congressional district?,1,p_q_69f7cd76_3,100px elissa slotkin,1,temporal_align_qa,2023,2,1,0,1
+q_6a00b156@rerun_24h,q_6a00b156,rerun_24h,"Of these sedimentary rocks, which one is not organic, being instead 'clastic'?",1,p_q_6a00b156_3,shale,1,triviaqa,,2,2,1,1
+q_6a6b8494@rerun_24h,q_6a6b8494,rerun_24h,Who posted the most-liked tweet last year?,1,p_q_6a6b8494_3,elon musk,1,freshqa,2023,2,2,1,1
+q_6a754bab@rerun_24h,q_6a754bab,rerun_24h,Who is the current President of the Institute of Physics and Engineering in Medicine?,1,p_q_6a754bab_0,dr robert farley,1,temporal_align_qa,2023,2,2,1,1
+q_6a7dc28e@rerun_24h,q_6a7dc28e,rerun_24h,What is the second highest-grossing Kannada movie of all time?,1,p_q_6a7dc28e_2,kantara,1,freshqa,2022,1,1,1,1
+q_6a82c062@rerun_24h,q_6a82c062,rerun_24h,Who is the latest first-place winner of the Klein Competition?,1,p_q_6a82c062_1,emad zolfaghari,1,temporal_align_qa,2023,2,2,1,1
+q_6a9f5944@rerun_24h,q_6a9f5944,rerun_24h,Which entity owned the winning horse of the most recent Arkansas Derby?,1,q_6a9f5944,albaugh family stables,1,temporal_align_qa,2023,2,2,1,1
+q_6aed1558@rerun_12h,q_6aed1558,rerun_12h,What is the name of the person holding the presidency at Purdue University?,1,q_6aed1558,mung chiang,1,temporal_align_qa,2023,1,1,1,1
+q_6bd3b3c9@rerun_12h,q_6bd3b3c9,rerun_12h,What is the main spirit in a Margarita?,1,q_6bd3b3c9,tequila,1,triviaqa,,2,2,1,1
+q_6c6fbf05@rerun_24h,q_6c6fbf05,rerun_24h,"What award did Yann LeCun, Geoffrey Hinton, and Yoshua Bengio win together?",1,p_q_6c6fbf05_2,turing award,1,freshqa,before 2022,2,2,1,1
+q_6d00c75f@rerun_24h,q_6d00c75f,rerun_24h,When is this year's Ramadan?,1,p_q_6d00c75f_2,"wed, mar 22 – fri, apr 21",1,freshqa,2023,1,1,1,1
+q_6dce83d8@rerun_24h,q_6dce83d8,rerun_24h,How many field goals did the Women's National Basketball Association season scoring leader make?,1,p_q_6dce83d8_2,285,1,temporal_align_qa,2023,1,1,1,1
+q_6e543930@rerun_24h,q_6e543930,rerun_24h,The land of Azeroth features in which video game?,1,p_q_6e543930_1,warcraft,1,triviaqa,,2,2,1,1
+q_6f15c777@rerun_24h,q_6f15c777,rerun_24h,In which country is Mdina Glass made?,1,p_q_6f15c777_2,malta,1,triviaqa,,2,2,1,1
+q_6f19be8a@rerun_24h,q_6f19be8a,rerun_24h,Who is the current recipient of the NABC Player of the Year in NCAA Division II basketball?,1,q_6f19be8a,rj sunahara,1,temporal_align_qa,2023,1,1,1,1
+q_6f1acb10@rerun_24h,q_6f1acb10,rerun_24h,What is the playoffs result for the Western Conference regular season champion?,1,p_q_6f1acb10_3,lost first round,1,temporal_align_qa,2023,1,1,1,1
+q_70ab2a41@rerun_24h,q_70ab2a41,rerun_24h,Who is the current champion of the Italian National Time Trial Championships in the women's category?,1,p_q_70ab2a41_3,elisa longo borghini,1,temporal_align_qa,2023,2,2,1,1
+q_71c4d6a7@rerun_24h,q_71c4d6a7,rerun_24h,Which institution's athlete won the NABC Player of the Year in NCAA Division III most recently?,1,p_q_71c4d6a7_2,wheaton,1,temporal_align_qa,2023,1,1,1,1
+q_71ca7be1@rerun_24h,q_71ca7be1,rerun_24h,Which team is the current winner of the Super League (Ireland) National Cup?,1,p_q_71ca7be1_1,maree,1,temporal_align_qa,2023,1,1,1,1
+q_7378baa7@rerun_24h,q_7378baa7,rerun_24h,Who conducted the trophy presentation at the American League Championship Series?,1,p_q_7378baa7_0,kevin burkhardt,1,temporal_align_qa,2023,2,2,1,1
+q_738b3f1b@rerun_12h,q_738b3f1b,rerun_12h,Who won the Hungarian Grand Prix most recently?,1,q_738b3f1b,max verstappen,1,temporal_align_qa,2023,1,1,1,1
+q_746185c8@rerun_24h,q_746185c8,rerun_24h,"Ngati Toa, a New Zealand tribal group won the intellectual property rights to what?",1,p_q_746185c8_2,the maori haka,1,triviaqa,,1,1,1,1
+q_747bbca1@rerun_24h,q_747bbca1,rerun_24h,What country does the Wimbledon women's champion play for?,1,p_q_747bbca1_3,czech republic,1,freshqa,2023,1,1,1,1
+q_75b15e04@rerun_24h,q_75b15e04,rerun_24h,Which artist won the APRA Music Awards (Australia) Song of the Year lately?,1,p_q_75b15e04_3,flume featuring may-a,1,temporal_align_qa,2023,1,1,1,1
+q_75c9b763@rerun_24h,q_75c9b763,rerun_24h,What is the total purse for the most recent Women's British Open?,1,p_q_75c9b763_1,"9,000,000",1,temporal_align_qa,2023,4,4,1,1
+q_75e28045@rerun_24h,q_75e28045,rerun_24h,Which university’s team won the Design/Build/Fly competition?,2,p_q_75e28045_2|p_q_75e28045_3,rwth aachen university,1,temporal_align_qa,2023,2,2,1,1
+q_76a7b4a6@rerun_24h,q_76a7b4a6,rerun_24h,What was the latest champion's score relative to par at the Japan Women's Open Golf Championship?,1,p_q_76a7b4a6_1,−15,1,temporal_align_qa,2023,2,2,1,1
+q_76be48a4@rerun_24h,q_76be48a4,rerun_24h,Which thoroughbred won the Coronation Stakes most recently?,1,p_q_76be48a4_3,tahiyra,1,temporal_align_qa,2023,1,1,1,1
+q_77b08615@rerun_24h,q_77b08615,rerun_24h,Who was the owner of the horse that won the latest Black-Eyed Susan Stakes?,1,p_q_77b08615_0,"net racing, michael dubb, first row partners & team hanley",1,temporal_align_qa,2023,1,1,1,1
+q_77f52421@rerun_24h,q_77f52421,rerun_24h,Which horse won the Santa Anita Handicap most recently?,1,p_q_77f52421_1,stilleto boy,1,temporal_align_qa,2023,2,2,1,1
+q_7810cebf@rerun_24h,q_7810cebf,rerun_24h,Who is the current head coach of the Los Angeles Sparks?,1,p_q_7810cebf_0,curt miller,1,temporal_align_qa,2023,2,2,1,1
+q_78251db1@rerun_24h,q_78251db1,rerun_24h,What is the location of the football stadium for the Azerbaijan Cup Final match?,1,p_q_78251db1_0,3 june 2023 baku – bakcell arena,1,temporal_align_qa,2023,1,1,1,1
+q_785fdb1b@rerun_24h,q_785fdb1b,rerun_24h,Which trainer prepared the winning horse in the last Cambridgeshire Handicap?,1,p_q_785fdb1b_0,daniel & claire kubler,1,temporal_align_qa,2023,2,2,1,1
+q_787a3f9a@rerun_24h,q_787a3f9a,rerun_24h,Which skater received the bronze medal in the Novice B Ladies category at the Japan Junior Figure Skating Championships?,1,p_q_787a3f9a_1,aoha hoshi,1,temporal_align_qa,2023,1,1,1,1
+q_7889631c@rerun_24h,q_7889631c,rerun_24h,What is the name of the Spokesperson for the United States Department of State who represents the current administration?,1,p_q_7889631c_0,matthew miller,1,temporal_align_qa,2023,2,2,1,1
+q_78ed83ff@rerun_24h,q_78ed83ff,rerun_24h,What team is the current TC2000 Championship champion associated with?,1,p_q_78ed83ff_1,axion energy sport,1,temporal_align_qa,2023,1,1,1,1
+q_79078e30@rerun_24h,q_79078e30,rerun_24h,How many goals did the leading goalkicker for the West Coast Eagles score this season?,1,p_q_79078e30_1,53,1,temporal_align_qa,2023,2,2,1,1
+q_7946d4f3@rerun_24h,q_7946d4f3,rerun_24h,Who is the lead designer of the latest machine released by Stern Pinball?,1,p_q_7946d4f3_0,brian eddy,1,temporal_align_qa,2023,2,2,1,1
+q_794f635d@rerun_24h,q_794f635d,rerun_24h,Who was the jockey that rode the winning horse in the most recent Gordon Stakes race?,1,p_q_794f635d_3,tom marquand,1,temporal_align_qa,2023,1,1,1,1
+q_7954a9bc@rerun_24h,q_7954a9bc,rerun_24h,Which film featured the performance that won the most recent Blue Dragon Film Award for Best Supporting Actor?,1,p_q_7954a9bc_0,smugglers,1,temporal_align_qa,2023,1,1,1,1
+q_79d94239@rerun_24h,q_79d94239,rerun_24h,Where in the body would you find rod cells and cone cells,1,p_q_79d94239_2,in the eye,1,triviaqa,,1,1,1,1
+q_79daac81@rerun_24h,q_79daac81,rerun_24h,How many flights of the Space Launch System have been successfully launched?,2,p_q_79daac81_3|p_q_79daac81_2,1,1,freshqa,2022,2,2,1,1
+q_79f6b4eb@rerun_24h,q_79f6b4eb,rerun_24h,How many finalists were there in the most recent Archibald Prize competition?,1,p_q_79f6b4eb_3,57.0,1,temporal_align_qa,2023,1,1,1,1
+q_7a065d8f@rerun_24h,q_7a065d8f,rerun_24h,Who are the color commentators for the NBA Finals broadcast on national radio?,1,p_q_7a065d8f_1,doris burke and p. j. carlesimo,1,temporal_align_qa,2023,1,1,1,1
+q_7a2157d8@rerun_24h,q_7a2157d8,rerun_24h,"What possession of 'wild west' star Annie Oakley sold at a 2012 auction for $143,000?",1,p_q_7a2157d8_3,gun,1,triviaqa,,2,2,1,1
+q_7b41f83f@rerun_24h,q_7b41f83f,rerun_24h,What is the name of the current co-recipient of the Eddy Choong Player of the Year award?,1,p_q_7b41f83f_3,south korea,1,temporal_align_qa,2023,2,2,1,1
+q_7be67437@rerun_24h,q_7be67437,rerun_24h,Who is the current kit manufacturer for Trabzonspor?,1,p_q_7be67437_0,macron,1,temporal_align_qa,2023,2,2,1,1
+q_7c0a6cba@rerun_12h,q_7c0a6cba,rerun_12h,Who is the current representative for Michigan's 8th congressional district?,1,q_7c0a6cba,100px elissa slotkin,1,temporal_align_qa,2023,2,1,0,1
+q_7c47387f@rerun_24h,q_7c47387f,rerun_24h,Which character did Walton Goggins most recently portray on television?,1,p_q_7c47387f_2,earl 'peanutt' montgomery,1,temporal_align_qa,2023,1,1,1,1
+q_7dd95f30@rerun_1h,q_7dd95f30,rerun_1h,Who hosted BBC Scotland's most recent Hogmanay celebration broadcast?,1,q_7dd95f30,edith bowman amy irons,1,temporal_align_qa,2023,1,1,1,1
+q_7dd95f30@rerun_24h,q_7dd95f30,rerun_24h,Who hosted BBC Scotland's most recent Hogmanay celebration broadcast?,1,p_q_7dd95f30_3,edith bowman amy irons,1,temporal_align_qa,2023,1,1,1,1
+q_7ed2a6d6@rerun_24h,q_7ed2a6d6,rerun_24h,Which institution's representative is serving as the current chair of the Russell Group?,1,p_q_7ed2a6d6_1,manchester,1,temporal_align_qa,2023,2,2,1,1
+q_7fc62b46@rerun_24h,q_7fc62b46,rerun_24h,Who owned the horse that won the latest Hong Kong Sprint?,1,q_7fc62b46,"cheng ming leung, cheng yu tung et al",1,temporal_align_qa,2023,1,1,1,1
+q_801947bd@rerun_24h,q_801947bd,rerun_24h,Which driver claimed victory at the latest Sno*Drift rally?,1,p_q_801947bd_0,canada brandon semenuk,1,temporal_align_qa,2023,2,2,1,1
+q_802fd2cb@rerun_24h,q_802fd2cb,rerun_24h,Who is the current head coach of C.D. Guadalajara?,1,p_q_802fd2cb_1,srb veljko paunović,1,temporal_align_qa,2023,2,2,1,1
+q_807cdee5@rerun_24h,q_807cdee5,rerun_24h,Where is Cambridge City F.C.'s home ground?,1,p_q_807cdee5_0,"bridge road, histon",1,temporal_align_qa,2023,2,2,1,1
+q_80aa22e7@rerun_24h,q_80aa22e7,rerun_24h,"What time of day on August 15, 1947 did India become an independent nation?",1,p_q_80aa22e7_3,12:02 am,1,freshqa,before 2022,3,3,1,1
+q_80aff2cd@rerun_24h,q_80aff2cd,rerun_24h,Which team took the victory in the latest edition of the 24 Hours of Le Mans race?,1,p_q_80aff2cd_0,ferrari – af corse,1,temporal_align_qa,2023,1,1,1,1
+q_80bc432e@rerun_24h,q_80bc432e,rerun_24h,"The ‘Delta Works’ is a series of construction projects in which European country, to protect large areas of land from the sea?",1,p_q_80bc432e_2,netherlands,1,triviaqa,,1,1,1,1
+q_811a9dea@rerun_24h,q_811a9dea,rerun_24h,Who is the reigning junior women's champion of the U.S. Classic?,1,p_q_811a9dea_2,kieryn finnell,1,temporal_align_qa,2023,2,2,1,1
+q_827117d8@rerun_24h,q_827117d8,rerun_24h,Who trained the winning horse in the most recent United Nations Stakes?,1,p_q_827117d8_2,michael j. maker,1,temporal_align_qa,2023,1,1,1,1
+q_829bbe74@rerun_24h,q_829bbe74,rerun_24h,What was the kanji of the year in 2021?,1,p_q_829bbe74_0,gold,1,freshqa,before 2022,3,3,1,1
+q_82aed09c@rerun_24h,q_82aed09c,rerun_24h,Who is the most recent winner of the Seiun Award for Best Artist?,1,p_q_82aed09c_0,naoyuki kato,1,temporal_align_qa,2023,1,1,1,1
+q_82fe96e1@rerun_24h,q_82fe96e1,rerun_24h,What is the best ever result by an African team at a FIFA World Cup?,1,p_q_82fe96e1_2,fourth-place,1,freshqa,2022,1,1,1,1
+q_830461c0@rerun_24h,q_830461c0,rerun_24h,Who owned the horse that won the last Coronation Stakes?,1,p_q_830461c0_2,aga khan iv,1,temporal_align_qa,2023,1,1,1,1
+q_83607c5d@rerun_24h,q_83607c5d,rerun_24h,In which series did Jenson Button most recently compete?,2,p_q_83607c5d_1|p_q_83607c5d_3,nascar cup series,1,temporal_align_qa,2023,1,1,1,1
+q_83e37c6e@rerun_24h,q_83e37c6e,rerun_24h,"""""""The quality of mercy is not strained, It droppeth as the gentle rain from heaven"""" is spoken by which Shakespearean character?""",1,p_q_83e37c6e_2,"""portia in """"the merchant of venice""""""",1,triviaqa,,2,2,1,1
+q_8463aab3@rerun_24h,q_8463aab3,rerun_24h,Who hosted the pregame show for the most recent televised Super Bowl?,1,q_8463aab3,curt menefee,1,temporal_align_qa,2023,2,2,1,1
+q_84993503@rerun_24h,q_84993503,rerun_24h,Who was the third crew member to join the most recent spaceflight involving Russian cosmonauts to the International Space Station?,2,p_q_84993503_1|p_q_84993503_3,francisco rubio launch,1,temporal_align_qa,2023,2,2,1,1
+q_84d66f3a@rerun_12h,q_84d66f3a,rerun_12h,"In golf, what is the amateur equivalent of the Ryder Cup?",1,q_84d66f3a,the walker cup,1,triviaqa,,2,2,1,1
+q_84e159d5@rerun_24h,q_84e159d5,rerun_24h,Who is the head coach for the team playing at Autzen Stadium?,1,p_q_84e159d5_0,dan lanning,1,temporal_align_qa,2023,1,1,1,1
+q_8500b23d@rerun_24h,q_8500b23d,rerun_24h,In which country did the most recent FIS Nordic Junior World Ski Championships take place?,1,p_q_8500b23d_1,canada,1,temporal_align_qa,2023,1,1,1,1
+q_85ab1b76@rerun_24h,q_85ab1b76,rerun_24h,Who was the trainer of the winning horse in the most recent Prix Ganay race?,1,p_q_85ab1b76_1,jean-pierre gauvin,1,temporal_align_qa,2023,2,2,1,1
+q_86cb82cf@rerun_24h,q_86cb82cf,rerun_24h,Into which other war did the War of Jenkins Ear merge?,1,p_q_86cb82cf_1,war of austrian succession,1,triviaqa,,1,1,1,1
+q_86cdf888@rerun_24h,q_86cdf888,rerun_24h,What is the SI unit of temperature?,1,p_q_86cdf888_2,the kelvin,1,triviaqa,,1,1,1,1
+q_86e95f29@rerun_24h,q_86e95f29,rerun_24h,Where was the awards night of the most recent Metro Manila Film Festival held?,1,p_q_86e95f29_0,new frontier theater,1,temporal_align_qa,2023,1,1,1,1
+q_874ffcdd@rerun_24h,q_874ffcdd,rerun_24h,Who is the current skip of the team Ben Hebert plays for?,1,p_q_874ffcdd_0,brendan bottcher,1,temporal_align_qa,2023,2,2,1,1
+q_876bdd3b@rerun_24h,q_876bdd3b,rerun_24h,Most of the state of Nevada is in which time zone?,1,p_q_876bdd3b_3,pacific,1,triviaqa,,1,1,1,1
+q_87ca114c@rerun_24h,q_87ca114c,rerun_24h,For which daily newspaper does Frederick Forsyth write?,2,p_q_87ca114c_0|p_q_87ca114c_2,daily express,1,triviaqa,,2,2,1,1
+q_8853a8be@rerun_24h,q_8853a8be,rerun_24h,Which team was the runner-up in the latest Ranji Trophy final?,1,p_q_8853a8be_2,bengal,1,temporal_align_qa,2023,1,1,1,1
+q_885601a2@rerun_24h,q_885601a2,rerun_24h,Who owns the horse that claimed victory in the most recent running of the Prix Jean-Luc Lagardère?,1,p_q_885601a2_3,sheikh mohammed obaid al maktoum,1,temporal_align_qa,2023,2,2,1,1
+q_885ecd41@rerun_24h,q_885ecd41,rerun_24h,"What was the first name of Mr. Braille, who devised a system allowing blind people to read and write?",1,p_q_885ecd41_0,louis,1,triviaqa,,1,1,1,1
+q_887b8e3c@rerun_24h,q_887b8e3c,rerun_24h,Which player received the most votes for the NBA All-Star game?,1,p_q_887b8e3c_0,lebron james,1,temporal_align_qa,2023,2,2,1,1
+q_8892bc4b@rerun_24h,q_8892bc4b,rerun_24h,Where was the BBL Trophy Final most recently held?,1,p_q_8892bc4b_2,glasgow,1,temporal_align_qa,2023,2,2,1,1
+q_88bc6deb@rerun_24h,q_88bc6deb,rerun_24h,Who was the Lead for the team that clinched the title at the most recent United States Junior Men's Curling Championship?,1,q_88bc6deb,jackson armstrong,1,temporal_align_qa,2023,2,2,1,1
+q_88f50274@rerun_24h,q_88f50274,rerun_24h,Which team currently occupies fourth place in the American League Central?,1,p_q_88f50274_0,chicago white sox,1,temporal_align_qa,2023,1,1,1,1
+q_8a614432@rerun_24h,q_8a614432,rerun_24h,What team finished in third place in the most recent NCAA Division I men's soccer tournament?,1,p_q_8a614432_0,oregon state,1,temporal_align_qa,2023,2,2,1,1
+q_8aa09cab@rerun_24h,q_8aa09cab,rerun_24h,Which team's player is the current top scorer of 2. Bundesliga?,1,p_q_8aa09cab_1,1. fc heidenheim,1,temporal_align_qa,2023,2,2,1,1
+q_8ac2e944@rerun_24h,q_8ac2e944,rerun_24h,What was the probability of the most recent NBA draft lottery winner to get the first pick?,1,p_q_8ac2e944_2,14.0014.00%,1,temporal_align_qa,2023,2,1,0,1
+q_8acef480@rerun_24h,q_8acef480,rerun_24h,What is the capital city of The Maldives?,1,p_q_8acef480_2,mali,1,triviaqa,,1,1,1,1
+q_8af46f37@rerun_24h,q_8af46f37,rerun_24h,Who was the recipient of the Eddie Robinson Award?,1,p_q_8af46f37_3,jimmy rogers,1,temporal_align_qa,2023,1,1,1,1
+q_8b7e079f@rerun_12h,q_8b7e079f,rerun_12h,Where was the last Women's PGA Championship held?,1,q_8b7e079f,baltusrol golf club,1,temporal_align_qa,2023,2,2,1,1
+q_8b7e079f@rerun_24h,q_8b7e079f,rerun_24h,Where was the last Women's PGA Championship held?,1,p_q_8b7e079f_0,baltusrol golf club,1,temporal_align_qa,2023,2,2,1,1
+q_8b83e11f@rerun_24h,q_8b83e11f,rerun_24h,Who is the chair of the latest OOPSLA conference?,1,p_q_8b83e11f_0,vasco vasconcelos,1,temporal_align_qa,2023,2,2,1,1
+q_8bfaeff4@rerun_24h,q_8bfaeff4,rerun_24h,Which areas are currently included in California's 48th congressional district?,1,p_q_8bfaeff4_2,2023–present: 300px central and eastern portions of san diego county,1,temporal_align_qa,2023,1,1,1,1
+q_8c58ce9c@rerun_24h,q_8c58ce9c,rerun_24h,The Macrocarpa tree is native to what continent?,1,p_q_8c58ce9c_2,north america,1,triviaqa,,2,2,1,1
+q_8d51049f@rerun_24h,q_8d51049f,rerun_24h,In which division is Westfields F.C. currently playing?,1,p_q_8d51049f_1,hellenic league premier division,1,temporal_align_qa,2023,1,1,1,1
+q_8dc147d0@rerun_24h,q_8dc147d0,rerun_24h,In what country was the most recent winner of the Nobel Prize for Literature born?,2,p_q_8dc147d0_2|p_q_8dc147d0_0,norway,1,freshqa,2023,2,2,1,1
+q_8e1c3bc4@rerun_24h,q_8e1c3bc4,rerun_24h,Which player won the Calder Memorial Trophy as the rookie of the year in the National Hockey League?,1,p_q_8e1c3bc4_1,matty beniers,1,temporal_align_qa,2023,1,1,1,1
+q_8e283b0e@rerun_24h,q_8e283b0e,rerun_24h,What is the title of Julian Sands' latest film?,1,q_8e283b0e,double soul,1,temporal_align_qa,2023,1,1,1,1
+q_8ea4bd29@rerun_24h,q_8ea4bd29,rerun_24h,In which country is the Great Sandy Desert,1,p_q_8ea4bd29_2,australia,1,triviaqa,,1,1,1,1
+q_8ec920df@rerun_24h,q_8ec920df,rerun_24h,Which team is placed third in the American League West standings?,1,p_q_8ec920df_1,seattle,1,temporal_align_qa,2023,1,1,1,1
+q_8efe208f@rerun_24h,q_8efe208f,rerun_24h,Who was the jockey riding the winning horse in the most recent Rebel Stakes?,1,p_q_8efe208f_0,james graham,1,temporal_align_qa,2023,2,2,1,1
+q_8f04e897@rerun_24h,q_8f04e897,rerun_24h,In cricket what score is known as 'Nelson'?,2,p_q_8f04e897_0|p_q_8f04e897_1,111,1,triviaqa,,1,1,1,1
+q_8fb47752@rerun_24h,q_8fb47752,rerun_24h,In what city was the person currently acting as the U.S. speaker of house born?,2,p_q_8fb47752_1|p_q_8fb47752_2,"gastonia, north carolina",1,freshqa,2023,3,3,1,1
+q_8fda5466@rerun_12h,q_8fda5466,rerun_12h,Who was the runner-up at the Mitsubishi Electric Championship at Hualalai?,1,p_q_8fda5466_3,steven alker nir darren clarke ken tanigawa mike weir,1,temporal_align_qa,2023,2,2,1,1
+q_90bb4e98@rerun_24h,q_90bb4e98,rerun_24h,Who holds the position of director at TG1 right now?,1,p_q_90bb4e98_0,gian marco chiocci,1,temporal_align_qa,2023,1,1,1,1
+q_90cb856a@rerun_24h,q_90cb856a,rerun_24h,Which Cornish cheese uses nettles as an ingredient?,1,p_q_90cb856a_3,yarg,1,triviaqa,,2,2,1,1
+q_91044e4b@rerun_24h,q_91044e4b,rerun_24h,What film does Thomas Lennon most recently appear in?,1,p_q_91044e4b_2,zoey 102,1,temporal_align_qa,2023,1,1,1,1
+q_91a992f1@rerun_24h,q_91a992f1,rerun_24h,"Who is currently serving an 86-year sentence at Federal Medical Center, Carswell?",1,p_q_91a992f1_1,angela baldwin,1,temporal_align_qa,2023,2,2,1,1
+q_91fe9bbc@rerun_24h,q_91fe9bbc,rerun_24h,Who is the current head coach of the Philadelphia Eagles?,1,q_91fe9bbc,nick sirianni,1,temporal_align_qa,2023,1,1,1,1
+q_92b21278@rerun_24h,q_92b21278,rerun_24h,Who is currently serving as Lord Mayor of Cork?,1,q_92b21278,kieran mccarthy,1,temporal_align_qa,2023,1,1,1,1
+q_92bed87f@rerun_24h,q_92bed87f,rerun_24h,"Deluded by a legend, Francisco Orellana and Gonzalo Pizarro departed from Ecuador in 1541 in a disastrous expedition towards the Amazon Basin; they did not find any gold or lost cities but Orellana became the first person to navigate the entire Amazon River. What were they seeking?",1,p_q_92bed87f_2,el dorado,1,triviaqa,,1,1,1,1
+q_92dda9c3@rerun_24h,q_92dda9c3,rerun_24h,Who is serving as the mayor of Denver?,1,q_92dda9c3,michael hancock michael hancock,1,temporal_align_qa,2023,1,1,1,1
+q_935fff1b@rerun_24h,q_935fff1b,rerun_24h,Who was the trainer of the winning horse in the latest edition of the Coronation Stakes?,1,p_q_935fff1b_0,dermot weld,1,temporal_align_qa,2023,2,2,1,1
+q_93aa5399@rerun_24h,q_93aa5399,rerun_24h,"Which French writer published the collection of fairy tales `Contes de ma mere l'Oye', better known as Mother Goose?",1,p_q_93aa5399_1,charles perrault,1,triviaqa,,1,1,1,1
+q_9432e97c@rerun_24h,q_9432e97c,rerun_24h,"Whose likeness did Republicans propose putting on the dime, in 2003?",2,p_q_9432e97c_2|p_q_9432e97c_0,ronald reagan's,1,triviaqa,,2,2,1,1
+q_94939cea@rerun_24h,q_94939cea,rerun_24h,Where was the final match of the Macedonian Football Cup held?,1,p_q_94939cea_0,"petar miloševski training centre, skopje",1,temporal_align_qa,2023,1,1,1,1
+q_94cb7c4a@rerun_24h,q_94cb7c4a,rerun_24h,Where was the USA Gymnastics National Championships held last?,1,p_q_94cb7c4a_1,"san jose, california",1,temporal_align_qa,2023,1,1,1,1
+q_96543752@rerun_12h,q_96543752,rerun_12h,Who is the current top league goalscorer for HNK Hajduk Split?,1,q_96543752,marko livaja,1,temporal_align_qa,2023,1,1,1,1
+q_9654e28e@rerun_24h,q_9654e28e,rerun_24h,In which city was the latest BBL Championship Playoff final played?,1,p_q_9654e28e_3,london,1,temporal_align_qa,2023,1,1,1,1
+q_9679dc80@rerun_24h,q_9679dc80,rerun_24h,Who is the current cabinet minister in the Ministry of Medical Education (Maharashtra)?,1,p_q_9679dc80_2,75px girish mahajan,1,temporal_align_qa,2023,1,1,1,1
+q_96b1bf1a@rerun_24h,q_96b1bf1a,rerun_24h,Who was captain of the England men's cricket team during the 2015 One Day International World Cup?,1,p_q_96b1bf1a_1,eoin) morgan,1,triviaqa,,1,1,1,1
+q_96dff6da@rerun_24h,q_96dff6da,rerun_24h,What month and year did Bitcoin reach its peak value?,1,p_q_96dff6da_0,november 2021,1,freshqa,2021,1,1,1,1
+q_9713cc4c@rerun_24h,q_9713cc4c,rerun_24h,What club does Lewandowski play for?,1,p_q_9713cc4c_3,barcelona,1,freshqa,2022,1,1,1,1
+q_97b198d0@rerun_24h,q_97b198d0,rerun_24h,In which European Cup competition is Gloucester Rugby participating?,1,p_q_97b198d0_3,champions cup,1,temporal_align_qa,2023,2,2,1,1
+q_97cbd451@rerun_24h,q_97cbd451,rerun_24h,Loves Rental Styles is an anagram of which famous actor?,1,p_q_97cbd451_1,sylvester stallone,1,triviaqa,,1,1,1,1
+q_98d7f7da@rerun_24h,q_98d7f7da,rerun_24h,The 'degree' symbol ° indicates what variation of a musical chord?,1,p_q_98d7f7da_2,diminished,1,triviaqa,,2,2,1,1
+q_995c0608@rerun_24h,q_995c0608,rerun_24h,Who is the main starting quarterback for the Florida Gators?,1,p_q_995c0608_1,graham mertz,1,temporal_align_qa,2023,2,2,1,1
+q_99c9cb7f@rerun_24h,q_99c9cb7f,rerun_24h,What is the name of the trainer who trained the most recent winner of the Christmas Hurdle?,1,p_q_99c9cb7f_2,nicky henderson,1,temporal_align_qa,2023,1,1,1,1
+q_99dcb85c@rerun_24h,q_99dcb85c,rerun_24h,Which team won the Wayne County Athletic League boys football championship most recently?,1,p_q_99dcb85c_0,"dalton, northwestern",1,temporal_align_qa,2023,2,2,1,1
+q_9a3d3ff9@rerun_24h,q_9a3d3ff9,rerun_24h,What position does the latest Roberto Clemente Award winner play?,1,p_q_9a3d3ff9_2,outfielder,1,temporal_align_qa,2023,1,1,1,1
+q_9a92a9cc@rerun_24h,q_9a92a9cc,rerun_24h,At which venue was the most recent Japan Women's Open Golf Championship held?,1,p_q_9a92a9cc_2,"awara golf club, sea course",1,temporal_align_qa,2023,2,2,1,1
+q_9aa8fdeb@rerun_24h,q_9aa8fdeb,rerun_24h,What is John Carroll Lynch's character in his most recent television appearance?,1,p_q_9aa8fdeb_0,john n. mitchell,1,temporal_align_qa,2023,1,1,1,1
+q_9acafca8@rerun_24h,q_9acafca8,rerun_24h,"""What is the media nickname of Viktor Bout, a Russian arms dealer who was said to be the inspiration for Nicolas Cage's character in the 2005 film """"Lord of War""""?""",1,p_q_9acafca8_1,merchant of death,1,triviaqa,,1,1,1,1
+q_9ad1cf95@rerun_24h,q_9ad1cf95,rerun_24h,Who was the jockey riding the winning horse in the most recent Queen's Vase?,1,p_q_9ad1cf95_3,frankie dettori,1,temporal_align_qa,2023,1,1,1,1
+q_9ad3d8f7@rerun_12h,q_9ad3d8f7,rerun_12h,Who was the winner of the individual championship in the latest NCAA Women's Division I Cross Country Championship and what team does she represent?,1,p_q_9ad3d8f7_0,parker valby,1,temporal_align_qa,2023,2,2,1,1
+q_9ad3d8f7@rerun_24h,q_9ad3d8f7,rerun_24h,Who was the winner of the individual championship in the latest NCAA Women's Division I Cross Country Championship and what team does she represent?,1,p_q_9ad3d8f7_1,parker valby,1,temporal_align_qa,2023,2,2,1,1
+q_9b44b067@rerun_24h,q_9b44b067,rerun_24h,Who is the current manager of the Thailand national football team?,1,p_q_9b44b067_0,alexandré pölking,1,temporal_align_qa,2023,1,1,1,1
+q_9b57150e@rerun_24h,q_9b57150e,rerun_24h,Where did the Seattle Mariners play their most recent Opening Day game?,1,p_q_9b57150e_1,t-mobile park,1,temporal_align_qa,2023,2,2,1,1
+q_9b65bcba@rerun_1h,q_9b65bcba,rerun_1h,Which horse won the last Irish Gold Cup?,1,q_9b65bcba,galopin des champs,1,temporal_align_qa,2023,2,2,1,1
+q_9bcda30d@rerun_24h,q_9bcda30d,rerun_24h,Who won the Sporting News Manager of the Year Award for the American League?,1,p_q_9bcda30d_2,brandon hyde,1,temporal_align_qa,2023,1,1,1,1
+q_9bf08ec9@rerun_24h,q_9bf08ec9,rerun_24h,Who is currently considered the pound for pound #1 fighter by The Ring magazine?,1,p_q_9bf08ec9_1,oleksandr usyk,1,temporal_align_qa,2023,1,1,1,1
+q_9c334cd8@rerun_12h,q_9c334cd8,rerun_12h,Who is the current LBA Most Valuable Player?,1,q_9c334cd8,colbey ross,1,temporal_align_qa,2023,1,1,1,1
+q_9c8a947a@rerun_24h,q_9c8a947a,rerun_24h,What is the original title of the most recent animated film nominated for the Goya Award for Best Animated Film?,1,p_q_9c8a947a_1,le dispararon al pianista,1,temporal_align_qa,2023,1,1,1,1
+q_9d2666a3@rerun_24h,q_9d2666a3,rerun_24h,On which river does Derby stand?,1,p_q_9d2666a3_1,derwent,1,triviaqa,,1,1,1,1
+q_9d330418@rerun_24h,q_9d330418,rerun_24h,In which decade of the 20th century were the first Academy Awards (Oscars) ceremony?,1,p_q_9d330418_0,1920s,1,triviaqa,,1,1,1,1
+q_9d61a241@rerun_24h,q_9d61a241,rerun_24h,Which trainer trained the winning horse in the King George V Stakes?,1,p_q_9d61a241_0,william haggas,1,temporal_align_qa,2023,2,2,1,1
+q_9e4f27be@rerun_24h,q_9e4f27be,rerun_24h,Who is the winner of the National Book Award for Young People's Literature?,1,p_q_9e4f27be_0,dan santat,1,temporal_align_qa,2023,1,1,1,1
+q_9e9cc170@rerun_24h,q_9e9cc170,rerun_24h,Who was the runner-up in the most recent Bar billiards World Championship?,2,p_q_9e9cc170_3|p_q_9e9cc170_2,trevor gallienne,1,temporal_align_qa,2023,2,2,1,1
+q_9ea9bc19@rerun_24h,q_9ea9bc19,rerun_24h,What is the national park in Wyoming covering 3350 square miles that was opened in 1872?,1,p_q_9ea9bc19_3,yellowstone national park,1,triviaqa,,1,1,1,1
+q_9edf5bd2@rerun_24h,q_9edf5bd2,rerun_24h,Who is the Treasurer of the Commonwealth of Pennsylvania?,2,p_q_9edf5bd2_1|p_q_9edf5bd2_0,stacy garrity,1,temporal_align_qa,2023,1,1,1,1
+q_9f07f1e2@rerun_24h,q_9f07f1e2,rerun_24h,'Red Lion' was for may years accepted as the most popular pubname in Great Britain. What pub name has now succeeded this?,1,p_q_9f07f1e2_3,'the crown',1,triviaqa,,1,1,1,1
+q_9fb844a5@rerun_24h,q_9fb844a5,rerun_24h,Who is the most recent recipient of the Robert F. Kennedy Human Rights Award?,1,p_q_9fb844a5_3,parlamento del pueblo xinka,1,temporal_align_qa,2023,2,2,1,1
+q_9ffc1ed9@rerun_24h,q_9ffc1ed9,rerun_24h,"""The opening sequence of the film """"Airplane"""" (also entitled """"Flying High"""") is a parody of which film?""",1,p_q_9ffc1ed9_0,jaws,1,triviaqa,,2,2,1,1
+q_a05e5c8b@rerun_24h,q_a05e5c8b,rerun_24h,"In nature, what are active, dormant and extinct?",2,p_q_a05e5c8b_2|p_q_a05e5c8b_0,volcanoes,1,triviaqa,,1,1,1,1
+q_a06c234c@rerun_12h,q_a06c234c,rerun_12h,Who were the songwriters of the winning song in the latest Melodifestivalen?,1,p_q_a06c234c_3,"jimmy thörnfeldt, jimmy jansson, lorine talhaoui, moa carlebecker, peter boström, thomas g:son",1,temporal_align_qa,2023,1,1,1,1
+q_a18ad11b@rerun_24h,q_a18ad11b,rerun_24h,Who is the current Republican leader in the United States House of Representatives?,1,p_q_a18ad11b_1,kevin mccarthy,1,temporal_align_qa,2023,1,1,1,1
+q_a1c19e16@rerun_24h,q_a1c19e16,rerun_24h,Who currently represents California's 9th congressional district?,1,q_a1c19e16,100px josh harder,1,temporal_align_qa,2023,1,1,1,1
+q_a21594ce@rerun_24h,q_a21594ce,rerun_24h,Who is the lead in Colin Hufman's curling team?,1,p_q_a21594ce_0,john landsteiner,1,temporal_align_qa,2023,2,2,1,1
+q_a2ed487a@rerun_24h,q_a2ed487a,rerun_24h,Which ice dancing pair won the gold medal at the most recent Australian Figure Skating Championships?,1,q_a2ed487a,romy malcolm / kobi chant,1,temporal_align_qa,2023,1,1,1,1
+q_a3225b4a@rerun_24h,q_a3225b4a,rerun_24h,Who directed the latest Icelandic film submitted for the Academy Award for Best International Feature Film?,1,p_q_a3225b4a_0,hlynur pálmason,1,temporal_align_qa,2023,2,2,1,1
+q_a3b0afc4@rerun_24h,q_a3b0afc4,rerun_24h,Who is the leading scorer in the Israeli Basketball Premier League?,1,p_q_a3b0afc4_2,tyler bey,1,temporal_align_qa,2023,1,1,1,1
+q_a4aacc0f@rerun_24h,q_a4aacc0f,rerun_24h,What colour is copper sulphate?,1,p_q_a4aacc0f_1,blue,1,triviaqa,,1,1,1,1
+q_a5b50e32@rerun_24h,q_a5b50e32,rerun_24h,Do the Toronto Raptors have a winning record in the latest NBA season?,1,p_q_a5b50e32_0,no,1,freshqa,2023,2,2,1,1
+q_a64535bb@rerun_24h,q_a64535bb,rerun_24h,What is the current name of the men's handball team from Komló?,1,p_q_a64535bb_3,sport36-komló,1,temporal_align_qa,2023,1,1,1,1
+q_a6c1b4ce@rerun_24h,q_a6c1b4ce,rerun_24h,Who is playing as the third on Glenn Howard's curling team?,1,p_q_a6c1b4ce_2,scott howard,1,temporal_align_qa,2023,1,1,1,1
+q_a6d31788@rerun_24h,q_a6d31788,rerun_24h,Who is the most recent recipient of the Juno Award for Children's Album of the Year?,1,q_a6d31788,walk off the earth and romeo eats,1,temporal_align_qa,2023,2,2,1,1
+q_a6ef6cf2@rerun_24h,q_a6ef6cf2,rerun_24h,What is the name of the ownership that claimed victory at the last Maker's Mark Mile Stakes?,1,p_q_a6ef6cf2_3,lael stables,1,temporal_align_qa,2023,2,2,1,1
+q_a720c2de@rerun_24h,q_a720c2de,rerun_24h,What were the latest Australian Swimming Championships a selection trial for?,1,p_q_a720c2de_2,the australian selection trials for the 2023 world aquatics championships were held in melbourne from 13–18 june.,1,temporal_align_qa,2023,2,2,1,1
+q_a815ecba@rerun_24h,q_a815ecba,rerun_24h,Where was the most recent West Virginia Open held?,1,q_a815ecba,"berry hills country club, charleston",1,temporal_align_qa,2023,2,2,1,1
+q_a84da252@rerun_24h,q_a84da252,rerun_24h,Which event was won most recently at Silverstone in the Formula One World Championship?,1,p_q_a84da252_0,aramco british grand prix,1,temporal_align_qa,2023,1,1,1,1
+q_a867a828@rerun_24h,q_a867a828,rerun_24h,How many points would you get for the word Scrabble in a game of Scrabble?,2,p_q_a867a828_3|p_q_a867a828_1,14,1,triviaqa,,2,2,1,1
+q_a8f577f5@rerun_24h,q_a8f577f5,rerun_24h,Where was the most recent Grammy Awards ceremony held?,1,q_a8f577f5,crypto.com arena,1,temporal_align_qa,2023,1,1,1,1
+q_a93676a9@rerun_1h,q_a93676a9,rerun_1h,Which Irish musician released a 1988 album entitled ‘Watermark’?,1,q_a93676a9,enya,1,triviaqa,,2,2,1,1
+q_a9520087@rerun_24h,q_a9520087,rerun_24h,What character is Dianne Pilkington portraying in her latest theatre performance?,1,p_q_a9520087_3,wicked witch of the west / miss gulch,1,temporal_align_qa,2023,1,1,1,1
+q_a9f6ddd4@rerun_24h,q_a9f6ddd4,rerun_24h,Who trained the winning horse of the most recent Hong Kong Sprint and in what country?,1,p_q_a9f6ddd4_2,manfred man ka-leung,1,temporal_align_qa,2023,1,1,1,1
+q_aa6288cd@rerun_24h,q_aa6288cd,rerun_24h,Who is currently supplying kits for Bristol City F.C.?,1,p_q_aa6288cd_3,hummel,1,temporal_align_qa,2023,2,2,1,1
+q_ab431fd9@rerun_24h,q_ab431fd9,rerun_24h,Which institution is represented by the NPDA National Champions team?,1,p_q_ab431fd9_0,parliamentary debate at berkeley,1,temporal_align_qa,2023,1,1,1,1
+q_abacb5ad@rerun_24h,q_abacb5ad,rerun_24h,Who is the winner of the Top Fuel category at the most recent Gatornationals?,1,q_abacb5ad,mike salinas,1,temporal_align_qa,2023,2,2,1,1
+q_ac141dc0@rerun_24h,q_ac141dc0,rerun_24h,"Which sport features line-outs, scrums and conversions?",1,p_q_ac141dc0_1,rugby,1,triviaqa,,2,2,1,1
+q_ac1b24c0@rerun_24h,q_ac1b24c0,rerun_24h,Who is the current Downing Street Press Secretary?,1,p_q_ac1b24c0_3,nerissa chesterfield,1,temporal_align_qa,2023,1,1,1,1
+q_ac7fde07@rerun_24h,q_ac7fde07,rerun_24h,Who is the current IBF world welterweight champion?,2,q_ac7fde07|p_q_ac7fde07_1,errol spence jr.,1,temporal_align_qa,2023,1,1,1,1
+q_aca03251@rerun_24h,q_aca03251,rerun_24h,Which team won the Mid-Ohio Athletic Conference Football Championship in the Blue Division?,1,p_q_aca03251_3,"ontario, shelby",1,temporal_align_qa,2023,1,1,1,1
+q_acfe9269@rerun_24h,q_acfe9269,rerun_24h,"If you have insomnia, what can't you do?",1,p_q_acfe9269_0,sleep,1,triviaqa,,1,1,1,1
+q_ad306b01@rerun_24h,q_ad306b01,rerun_24h,During which conflict was the battle of Blenheim fought?,1,q_ad306b01,war of the spanish succession,1,triviaqa,,1,1,1,1
+q_ad4bef3e@rerun_24h,q_ad4bef3e,rerun_24h,What is the type of the Mars probe that has the most recent update on its status?,1,p_q_ad4bef3e_1,flyby,1,temporal_align_qa,2023,1,1,1,1
+q_adf4be31@rerun_24h,q_adf4be31,rerun_24h,Who is the present principal of Ranabima Royal College?,1,p_q_adf4be31_0,ranjith rajapaksha,1,temporal_align_qa,2023,2,2,1,1
+q_ae23812e@rerun_24h,q_ae23812e,rerun_24h,What was the to par score achieved by the winner of the last The American Express golf tournament?,1,q_ae23812e,−27,1,temporal_align_qa,2023,2,2,1,1
+q_ae57c718@rerun_24h,q_ae57c718,rerun_24h,Which composer wrote the operas 'The Flying Dutchman' and 'Parsifal'?,1,p_q_ae57c718_2,richard wagner,1,triviaqa,,2,2,1,1
+q_af23c4b7@rerun_24h,q_af23c4b7,rerun_24h,Which college did the Pittsburgh Steelers' first round draft pick attend?,1,q_af23c4b7,georgia,1,temporal_align_qa,2023,1,1,1,1
+q_b01295a7@rerun_24h,q_b01295a7,rerun_24h,Who trained the winning horse in the most recent Champions Cup (horse race)?,1,p_q_b01295a7_2,hiroyasu tanaka,1,temporal_align_qa,2023,1,1,1,1
+q_b16f0265@rerun_24h,q_b16f0265,rerun_24h,Who rode the winning horse in the most recent Queen Elizabeth II Challenge Cup Stakes?,1,p_q_b16f0265_3,oisin murphy,1,temporal_align_qa,2023,1,1,1,1
+q_b1bd705b@rerun_24h,q_b1bd705b,rerun_24h,In which English county is the town of Wells-next-the- Sea?,1,q_b1bd705b,norfolk,1,triviaqa,,2,2,1,1
+q_b220eed5@rerun_24h,q_b220eed5,rerun_24h,Which driver won the latest HighPoint.com 400 race?,1,p_q_b220eed5_0,denny hamlin,1,temporal_align_qa,2023,4,4,1,1
+q_b2e307b2@rerun_12h,q_b2e307b2,rerun_12h,Who won the most recent La Flèche Wallonne?,1,q_b2e307b2,tadej pogačar,1,temporal_align_qa,2023,1,1,1,1
+q_b32eed02@rerun_24h,q_b32eed02,rerun_24h,Who trained the horse that won the last Preis der Diana?,1,p_q_b32eed02_0,henk grewe,1,temporal_align_qa,2023,1,1,1,1
+q_b37309f3@rerun_24h,q_b37309f3,rerun_24h,Which horse won the Kameko Futurity Trophy?,1,p_q_b37309f3_2,ancient wisdom,1,temporal_align_qa,2023,1,1,1,1
+q_b37330f1@rerun_24h,q_b37330f1,rerun_24h,Who is the current manager of the New York Mets?,2,p_q_b37330f1_0|p_q_b37330f1_1,buck showalter,1,temporal_align_qa,2023,1,1,1,1
+q_b38c44e9@rerun_24h,q_b38c44e9,rerun_24h,In which city was the most recent NHL Entry Draft conducted?,1,p_q_b38c44e9_2,"nashville, tennessee",1,temporal_align_qa,2023,1,1,1,1
+q_b38e651d@rerun_24h,q_b38e651d,rerun_24h,What air mattress genericized trademark is a portmanteau of its two-word description?,2,p_q_b38e651d_0|p_q_b38e651d_3,lilo,1,triviaqa,,1,1,1,1
+q_b3cd7717@rerun_24h,q_b3cd7717,rerun_24h,Who is the champion of the latest Horizon Irish Open?,1,p_q_b3cd7717_2,vincent norrman,1,temporal_align_qa,2023,1,1,1,1
+q_b5910f81@rerun_24h,q_b5910f81,rerun_24h,What is the batting average (AVG) of the National League Silver Slugger Award winner at second base?,1,q_b5910f81,0.354,1,temporal_align_qa,2023,1,1,1,1
+q_b5bab848@rerun_24h,q_b5bab848,rerun_24h,What is the title of the work that won the most recent Latin Grammy Award for Best Salsa Album?,1,p_q_b5bab848_2,niche sinfónico,1,temporal_align_qa,2023,2,1,0,1
+q_b6529205@rerun_24h,q_b6529205,rerun_24h,"Bort or boart refers to waste/inferior what, used for industrial purposes?",1,p_q_b6529205_3,diamonds,1,triviaqa,,1,1,1,1
+q_b6e5a108@rerun_24h,q_b6e5a108,rerun_24h,Which school won the NSW Union of Ex-Oarswomen Rose Evans trophy?,1,p_q_b6e5a108_0,st catherine's,1,temporal_align_qa,2023,2,2,1,1
+q_b8ddab89@rerun_24h,q_b8ddab89,rerun_24h,What was the more common name for the German World War II dive bomber the Junkers Ju 87?,1,p_q_b8ddab89_3,stuka,1,triviaqa,,2,2,1,1
+q_b9172601@rerun_24h,q_b9172601,rerun_24h,Which work secured the Grammy Award for Best Jazz Performance?,1,p_q_b9172601_3,endangered species,1,temporal_align_qa,2023,1,1,1,1
+q_b91d68ca@rerun_24h,q_b91d68ca,rerun_24h,Which jockey rode the winning horse in the most recent Belmont Derby?,1,p_q_b91d68ca_2,josé ortiz,1,temporal_align_qa,2023,1,1,1,1
+q_b96cebd8@rerun_24h,q_b96cebd8,rerun_24h,In which season did the most recent USBWA National Freshman of the Year play?,1,p_q_b96cebd8_2,2022–23,1,temporal_align_qa,2023,1,1,1,1
+q_b9a64a4f@rerun_24h,q_b9a64a4f,rerun_24h,What is the theme of Sydney New Year's Eve celebration?,1,p_q_b9a64a4f_1,"one night, many ways to celebrate",1,temporal_align_qa,2023,2,2,1,1
+q_b9a75c82@rerun_24h,q_b9a75c82,rerun_24h,Which hockey team won the Men's England Hockey League?,1,p_q_b9a75c82_1,old georgians,1,temporal_align_qa,2023,2,2,1,1
+q_b9ad203c@rerun_24h,q_b9ad203c,rerun_24h,What is the alcoholic strength of the most recently released batch of A'bunadh?,1,p_q_b9ad203c_3,60.5%,1,temporal_align_qa,2023,3,3,1,1
+q_b9e48bff@rerun_24h,q_b9e48bff,rerun_24h,Which ownership currently holds the winning title for the Florida Derby?,1,p_q_b9e48bff_0,repole stable & st. elias stable,1,temporal_align_qa,2023,1,1,1,1
+q_ba4e488d@rerun_24h,q_ba4e488d,rerun_24h,How did the current representative for Indiana's 9th congressional district come into office?,2,p_q_ba4e488d_3|p_q_ba4e488d_2,elected in 2016. re-elected in 2018. re-elected in 2020. retired.,1,temporal_align_qa,2023,2,1,0,1
+q_ba85b69b@rerun_24h,q_ba85b69b,rerun_24h,Who is the current kit manufacturer of Al-Arabi SC (Qatar)?,1,q_ba85b69b,puma,1,temporal_align_qa,2023,1,1,1,1
+q_bac0fe01@rerun_24h,q_bac0fe01,rerun_24h,Which team is the current champion of the All-Ireland Junior Ladies' Football Championship?,1,p_q_bac0fe01_3,down,1,temporal_align_qa,2023,1,1,1,1
+q_bad81eda@rerun_24h,q_bad81eda,rerun_24h,"'Blurred Lines' was the biggest selling single record of 2013, who recorded it?",1,p_q_bad81eda_3,robin thicke,1,triviaqa,,2,2,1,1
+q_badb7460@rerun_24h,q_badb7460,rerun_24h,What is the title of the Spanish film submitted for the Academy Award for Best International Feature Film?,1,p_q_badb7460_3,society of the snow,1,temporal_align_qa,2023,1,1,1,1
+q_baf11e36@rerun_24h,q_baf11e36,rerun_24h,Which party does the current second deputy speaker of the Parliament of Finland represent?,2,p_q_baf11e36_1|p_q_baf11e36_2,finns party,1,temporal_align_qa,2023,2,2,1,1
+q_bb9e40d6@rerun_24h,q_bb9e40d6,rerun_24h,Which team is the current champion of the Aruban Division di Honor?,1,p_q_bb9e40d6_0,rca,1,temporal_align_qa,2023,1,1,1,1
+q_bbdfff0f@rerun_24h,q_bbdfff0f,rerun_24h,What was the first operational image taken by the James Webb Space Telescope?,1,p_q_bbdfff0f_2,webb's first deep field,1,freshqa,2022,3,3,1,1
+q_bc586d32@rerun_24h,q_bc586d32,rerun_24h,How many rings are on the Audi car logo?,1,p_q_bc586d32_0,four,1,triviaqa,,2,2,1,1
+q_bc9026c6@rerun_24h,q_bc9026c6,rerun_24h,Who is the recipient of the WTA Most Improved Player award?,1,p_q_bc9026c6_1,zheng qinwen,1,temporal_align_qa,2023,1,1,1,1
+q_bcbdf06e@rerun_24h,q_bcbdf06e,rerun_24h,"On which English motorway can you find services called Baldock, Wetherby and Washington?",1,p_q_bcbdf06e_1,m1,1,triviaqa,,1,1,1,1
+q_bd3621d0@rerun_24h,q_bd3621d0,rerun_24h,In which year was the Aberfan Disaster?,1,p_q_bd3621d0_0,1966,1,triviaqa,,1,1,1,1
+q_bd3daa9d@rerun_24h,q_bd3daa9d,rerun_24h,Which organization's Mars probe is currently en route to its destination?,1,p_q_bd3daa9d_0,nasa,1,temporal_align_qa,2023,2,2,1,1
+q_bd8d50a7@rerun_24h,q_bd8d50a7,rerun_24h,Which athlete holds the third position in the most recent women's snowboard cross FIS Snowboard World Cup standings?,1,p_q_bd8d50a7_3,josie baff,1,temporal_align_qa,2023,2,2,1,1
+q_bd9e6870@rerun_24h,q_bd9e6870,rerun_24h,"Which architect, President of the Royal Academy from 2004 to 2011, is responsible for the National Space Centre in Leicester and the Eden Project in Cornwall?",1,p_q_bd9e6870_0,sir nicholas grimshaw,1,triviaqa,,2,2,1,1
+q_be7863cd@rerun_24h,q_be7863cd,rerun_24h,What is the title of a current American animated television series available on Netflix?,1,p_q_be7863cd_3,nature cat,1,temporal_align_qa,2023,2,2,1,1
+q_bf2150c7@rerun_24h,q_bf2150c7,rerun_24h,"Wroxeter, the site of the Roman city of Viroconium Cornoviorum, is in which English county?",1,p_q_bf2150c7_3,shropshire,1,triviaqa,,1,1,1,1
+q_bff7ff01@rerun_24h,q_bff7ff01,rerun_24h,In which country would you find budgerigars in their natural habitat?,1,p_q_bff7ff01_1,australia,1,triviaqa,,1,1,1,1
+q_c06a0019@rerun_24h,q_c06a0019,rerun_24h,What is the full name of the person currently serving as the Member of the Legislative Assembly for Peace River?,1,p_q_c06a0019_3,dan williams,1,temporal_align_qa,2023,2,2,1,1
+q_c06f1aba@rerun_24h,q_c06f1aba,rerun_24h,Who is the current sideline reporter for the Cleveland Browns radio broadcast?,1,p_q_c06f1aba_3,je'rod cherry,1,temporal_align_qa,2023,1,1,1,1
+q_c0c0cc7f@rerun_24h,q_c0c0cc7f,rerun_24h,What television series is Kevin Eldon a part of?,1,p_q_c0c0cc7f_0,danger mouse,1,temporal_align_qa,2023,1,1,1,1
+q_c1695ecb@rerun_24h,q_c1695ecb,rerun_24h,Who were the Celtic-speaking peoples living in France and Belgium during Roman times?,1,p_q_c1695ecb_0,gauls,1,triviaqa,,1,1,1,1
+q_c1c6c0b6@rerun_1h,q_c1c6c0b6,rerun_1h,Who was the trainer of the winning horse in the most recent Tenno Sho Autumn?,1,q_c1c6c0b6,tetsuya kimura,1,temporal_align_qa,2023,2,2,1,1
+q_c241368e@rerun_1h,q_c241368e,rerun_1h,Who is the most recent winner of the New York City Marathon in the Women's open division?,1,q_c241368e,hellen obiri,1,temporal_align_qa,2023,1,1,1,1
+q_c26c7630@rerun_24h,q_c26c7630,rerun_24h,Who trained the most recent winner of the Prix Robert Papin?,1,p_q_c26c7630_2,christopher head,1,temporal_align_qa,2023,2,2,1,1
+q_c26ddee2@rerun_24h,q_c26ddee2,rerun_24h,What position does the most recent Michigan Wolverines baseball MLB player play?,1,p_q_c26ddee2_1,second baseman,1,temporal_align_qa,2023,1,1,1,1
+q_c2bcbdff@rerun_24h,q_c2bcbdff,rerun_24h,Who won the most recent IndyCar race at Texas Motor Speedway?,1,p_q_c2bcbdff_2,josef newgarden,1,temporal_align_qa,2023,1,1,1,1
+q_c3300be7@rerun_24h,q_c3300be7,rerun_24h,Who was appointed captain of Great Britain's Davis Cup team in 2006?,1,p_q_c3300be7_3,john lloyd,1,triviaqa,,1,1,1,1
+q_c354442b@rerun_24h,q_c354442b,rerun_24h,Who currently holds the position of Minister of Foreign Affairs in Madagascar?,2,p_q_c354442b_1|p_q_c354442b_3,léon rakotonirina acting minister,1,temporal_align_qa,2023,1,1,1,1
+q_c4cf23ca@rerun_24h,q_c4cf23ca,rerun_24h,What is the most populous city in Chile?,1,q_c4cf23ca,santiago,1,freshqa,before 2022,1,1,1,1
+q_c51c0b2b@rerun_24h,q_c51c0b2b,rerun_24h,Who is the United States Representative for Arkansas's 4th congressional district?,1,p_q_c51c0b2b_0,bruce westerman,1,temporal_align_qa,2023,2,1,0,1
+q_c51c7290@rerun_24h,q_c51c7290,rerun_24h,The upcoming Microsoft's Patch Tuesday will come out on what date in North America?,1,p_q_c51c7290_0,"oct 10, 2023",1,freshqa,2023,1,1,1,1
+q_c52c10db@rerun_24h,q_c52c10db,rerun_24h,Which jockey rode the winning horse in the most recent Tenno Sho Spring?,1,p_q_c52c10db_1,christophe lemaire,1,temporal_align_qa,2023,2,2,1,1
+q_c5946497@rerun_24h,q_c5946497,rerun_24h,"Who are the engineers that received the most recent Grammy Award for Best Engineered Album, Classical?",1,p_q_c5946497_1,"shawn murphy, charlie post & gary rydstrom ; michael rowanowski",1,temporal_align_qa,2023,1,1,1,1
+q_c6088f4c@rerun_24h,q_c6088f4c,rerun_24h,Which football club won the Kategoria e Parë championship title?,1,p_q_c6088f4c_2,skënderbeu,1,temporal_align_qa,2023,1,1,1,1
+q_c60b122d@rerun_24h,q_c60b122d,rerun_24h,From which hometown is the current Miss Illinois Teen USA?,1,p_q_c60b122d_1,chicago,1,temporal_align_qa,2023,2,2,1,1
+q_c64ac1d8@rerun_24h,q_c64ac1d8,rerun_24h,What is the name of the top year-end best selling Tropical Album?,1,p_q_c64ac1d8_3,todavia me amas: lo mejor de aventura,1,temporal_align_qa,2023,2,2,1,1
+q_c66aa371@rerun_24h,q_c66aa371,rerun_24h,Which car received a special award for the most advanced technology in Japan?,1,p_q_c66aa371_2,bmw ix nissan x-trail honda civic e:hev/type r nissan sakura/mitsubishi ek x ev,1,temporal_align_qa,2023,1,1,1,1
+q_c685de49@rerun_24h,q_c685de49,rerun_24h,Which company is currently sponsoring AC Milan's shirts?,1,p_q_c685de49_3,the emirates group,1,temporal_align_qa,2023,2,2,1,1
+q_c6b40080@rerun_24h,q_c6b40080,rerun_24h,Which bird of the pigeon family was found in huge numbers in North America until the 19th century but then went into decline due to hunting and became extinct in 1914?,2,q_c6b40080|p_q_c6b40080_1,passenger pigeon,1,triviaqa,,1,1,1,1
+q_c76a7d5e@rerun_24h,q_c76a7d5e,rerun_24h,Which horse won the Royal Hunt Cup most recently?,1,p_q_c76a7d5e_3,jimi hendrix,1,temporal_align_qa,2023,1,1,1,1
+q_c7b2bccd@rerun_24h,q_c7b2bccd,rerun_24h,Who was the personal architect of Hitler and Minister of Armaments and War Production in Nazi Germany during the Second World War?,1,p_q_c7b2bccd_3,albert speer,1,triviaqa,,1,1,1,1
+q_c7e889d2@rerun_24h,q_c7e889d2,rerun_24h,"Which artist or group performed the Grammy Award-winning Best Arrangement, Instrumental or A Cappella?",1,p_q_c7e889d2_1,"magnus lindgren, john beasley & the swr big band ft. martin auer",1,temporal_align_qa,2023,1,1,1,1
+q_c83007d1@rerun_24h,q_c83007d1,rerun_24h,Which 13th century English philosopher and scientist was known as 'Doctor Mirabilis'?,1,p_q_c83007d1_2,roger bacon,1,triviaqa,,1,1,1,1
+q_c8436957@rerun_24h,q_c8436957,rerun_24h,In which ACB season did the most recent winner of the Most Valuable Player award play?,1,p_q_c8436957_2,2022–23,1,temporal_align_qa,2023,1,1,1,1
+q_c8d65331@rerun_24h,q_c8d65331,rerun_24h,From which hometown is the current Miss Kentucky USA?,1,q_c8d65331,lexington,1,temporal_align_qa,2023,1,1,1,1
+q_c914875b@rerun_24h,q_c914875b,rerun_24h,Which club finished third in the most recent season of the Belarusian Premier League?,1,p_q_c914875b_3,torpedo-belaz zhodino,1,temporal_align_qa,2023,1,1,1,1
+q_c96939e7@rerun_24h,q_c96939e7,rerun_24h,"In the 'Harry Potter' books, 'Hogwarts school' has four houses, 'Gryffindor', 'Slytherin' and 'Ravenclaw' are three, what is the fourth?",1,p_q_c96939e7_1,'hufflepuff',1,triviaqa,,2,2,1,1
+q_c973e5b1@rerun_24h,q_c973e5b1,rerun_24h,Who is the recipient of the most recent FWA Tribute Award?,1,p_q_c973e5b1_0,yaya touré,1,temporal_align_qa,2023,1,1,1,1
+q_c988b01c@rerun_24h,q_c988b01c,rerun_24h,Which country hosted the latest World Junior Speed Skating Championships?,1,p_q_c988b01c_2,germany,1,temporal_align_qa,2023,2,2,1,1
+q_c9965b56@rerun_24h,q_c9965b56,rerun_24h,"During the 1900s, Olivetti, Olympia, Underwood, Smith Corona, and Remington were famous makers of?",2,p_q_c9965b56_2|p_q_c9965b56_3,typewriters,1,triviaqa,,1,1,1,1
+q_c997700b@rerun_24h,q_c997700b,rerun_24h,Who is the president of the White House Correspondents' Association?,1,q_c997700b,kelly o'donnell,1,temporal_align_qa,2023,2,2,1,1
+q_caa2a1ae@rerun_24h,q_caa2a1ae,rerun_24h,"Hatha, Jnana, Bhakti and Karma are all branches of which activity?",1,q_caa2a1ae,yoga,1,triviaqa,,2,2,1,1
+q_cad562c6@run_00,q_cad562c6,run_00,Which network broadcasts the NBA Finals?,1,q_cad562c6,espn deportes,1,temporal_align_qa,2023,2,2,1,1
+q_caf45aad@rerun_24h,q_caf45aad,rerun_24h,How many Imperial gallons of beer are in a firkin?,1,p_q_caf45aad_2,nine,1,triviaqa,,1,1,1,1
+q_cb349d3b@rerun_24h,q_cb349d3b,rerun_24h,In how many episodes does Chris Bauer appear in his most recent television role?,1,q_cb349d3b,main role,1,temporal_align_qa,2023,1,1,1,1
+q_cb9cc202@rerun_24h,q_cb9cc202,rerun_24h,In what year was Alaska sold to the US?,1,p_q_cb9cc202_0,1867,1,triviaqa,,1,1,1,1
+q_cc0d02ca@rerun_24h,q_cc0d02ca,rerun_24h,What is the current state of the heaviest Earth observing satellite and Kessler syndrome threat?,1,p_q_cc0d02ca_1,in service,1,temporal_align_qa,2023,2,2,1,1
+q_cc86e7a2@rerun_1h,q_cc86e7a2,rerun_1h,"Who directed the latest theater production of ""Piège pour un homme seul""?",1,q_cc86e7a2,michel fau,1,temporal_align_qa,2023,1,1,1,1
+q_ccd63b11@rerun_24h,q_ccd63b11,rerun_24h,Who is the recent winner of the Miles Franklin Award?,1,p_q_ccd63b11_3,shankari chandran,1,temporal_align_qa,2023,1,1,1,1
+q_cd2a5fda@rerun_24h,q_cd2a5fda,rerun_24h,How many years did it take for the population of the world to reach 8 billion from 7 billion?,1,p_q_cd2a5fda_2,11 years,1,freshqa,2022,2,2,1,1
+q_cd6b4ea7@rerun_24h,q_cd6b4ea7,rerun_24h,"""In 1985 the Greenpeace protest ship """"Rainbow Warrior"""" was bombed and sunk by French agents in which harbour?""",1,p_q_cd6b4ea7_1,"auckland, new zealand",1,triviaqa,,1,1,1,1
+q_ce3247b9@rerun_24h,q_ce3247b9,rerun_24h,What is the name of the most recent horse to win the Gran Premio Carlos Pellegrini?,1,p_q_ce3247b9_3,argentina el encinal,1,temporal_align_qa,2023,1,1,1,1
+q_cf26826b@rerun_24h,q_cf26826b,rerun_24h,Which team won the most recent NCAA Women's Division I Swimming and Diving Championship?,1,p_q_cf26826b_2,virginia,1,temporal_align_qa,2023,1,1,1,1
+q_cf72c65f@rerun_24h,q_cf72c65f,rerun_24h,Who won the latest NBA championship?,1,p_q_cf72c65f_3,denver nuggets,1,freshqa,2023,1,1,1,1
+q_cfb65856@rerun_24h,q_cfb65856,rerun_24h,What model of motorcycle did the winning manufacturer of the Superbike World Championship use?,1,p_q_cfb65856_2,panigale v4 r,1,temporal_align_qa,2023,1,1,1,1
+q_cfdd4441@rerun_24h,q_cfdd4441,rerun_24h,Which school has the most recent Pop-Tarts Bowl MVP hailed from?,2,p_q_cfdd4441_0|p_q_cfdd4441_2,kansas state,1,temporal_align_qa,2023,1,1,1,1
+q_cff65f30@rerun_24h,q_cff65f30,rerun_24h,The babirusa is a wild variety of which domesticated animal?,1,p_q_cff65f30_2,pig,1,triviaqa,,2,2,1,1
+q_d02a1da9@rerun_24h,q_d02a1da9,rerun_24h,Who did California cast its electoral votes for in the recent presidential election?,1,p_q_d02a1da9_0,biden/ harris y,1,temporal_align_qa,2023,2,2,1,1
+q_d0506c00@rerun_24h,q_d0506c00,rerun_24h,Where was the most recent Bridges conference held?,1,p_q_d0506c00_0,"dalhousie university, halifax, nova scotia, canada",1,temporal_align_qa,2023,2,2,1,1
+q_d093f991@rerun_24h,q_d093f991,rerun_24h,Which owner's horse won the Breeders' Cup Filly & Mare Turf?,1,p_q_d093f991_3,cheveley park stud,1,temporal_align_qa,2023,1,1,1,1
+q_d0a493c9@rerun_24h,q_d0a493c9,rerun_24h,Who is the current head coach of KK MZT Skopje?,1,p_q_d0a493c9_1,aleksandar petrović dragan nikolić vasko atanasov,1,temporal_align_qa,2023,2,2,1,1
+q_d0a5e0b6@rerun_24h,q_d0a5e0b6,rerun_24h,Who is the current provincial representative for Keewatinook?,1,p_q_d0a5e0b6_2,ian bushie,1,temporal_align_qa,2023,2,2,1,1
+q_d1fc1f80@rerun_24h,q_d1fc1f80,rerun_24h,Where is the hometown of the current Miss Hawaii?,1,p_q_d1fc1f80_0,honolulu,1,temporal_align_qa,2023,2,2,1,1
+q_d23799e5@rerun_24h,q_d23799e5,rerun_24h,What was the last number one by The Jam,1,p_q_d23799e5_0,beat surrender,1,triviaqa,,2,2,1,1
+q_d23ca3b3@rerun_24h,q_d23ca3b3,rerun_24h,What is the current overall record of Tiger Park's team?,1,p_q_d23ca3b3_1,27-9,1,temporal_align_qa,2023,1,1,1,1
+q_d26e3359@rerun_24h,q_d26e3359,rerun_24h,What is the name of the trainer who trained the Bahrain Trophy's winning horse most recently?,1,p_q_d26e3359_0,charlie appleby,1,temporal_align_qa,2023,2,2,1,1
+q_d3e5ec72@rerun_24h,q_d3e5ec72,rerun_24h,In which city was the most recent Texas State Open played?,1,p_q_d3e5ec72_3,tyler,1,temporal_align_qa,2023,2,2,1,1
+q_d4f726dc@rerun_24h,q_d4f726dc,rerun_24h,Which pair won the L'Open 35 de Saint-Malo doubles final most recently?,1,p_q_d4f726dc_3,greet minnen bibiane schoofs,1,temporal_align_qa,2023,2,2,1,1
+q_d529bed8@rerun_24h,q_d529bed8,rerun_24h,Who is the current Speaker of the Saeima?,1,p_q_d529bed8_1,edvards smiltēns,1,temporal_align_qa,2023,1,1,1,1
+q_d6104cc3@rerun_24h,q_d6104cc3,rerun_24h,Samantha Murray won GB's final medal of the 2012 Olympics in which sport?,1,p_q_d6104cc3_1,(women's) modern pentathlon,1,triviaqa,,2,1,0,1
+q_d62648af@rerun_24h,q_d62648af,rerun_24h,What is the source or reference for the circumstances surrounding the most recent death of a journalist in Bangladesh?,2,p_q_d62648af_0|p_q_d62648af_1,ifj,1,temporal_align_qa,2023,1,1,1,1
+q_d63bf68a@rerun_24h,q_d63bf68a,rerun_24h,What is kitchen tin foil made from?,1,p_q_d63bf68a_0,aluminium,1,triviaqa,,1,1,1,1
+q_d665e7a3@rerun_24h,q_d665e7a3,rerun_24h,Who was the jockey riding the winning horse in the most recent Mile Championship?,1,p_q_d665e7a3_2,kota fujioka,1,temporal_align_qa,2023,2,2,1,1
+q_d78d0eec@rerun_24h,q_d78d0eec,rerun_24h,Who is the serving U.S. Representative for Virginia's 1st congressional district?,1,p_q_d78d0eec_3,rob wittman,1,temporal_align_qa,2023,1,1,1,1
+q_d8b1d102@rerun_24h,q_d8b1d102,rerun_24h,What is another name for a wildebeest?,1,p_q_d8b1d102_2,gnu,1,triviaqa,,2,2,1,1
+q_d9d96160@rerun_24h,q_d9d96160,rerun_24h,Who delivered The MacTaggart Lecture at the Edinburgh International Television Festival most recently?,1,p_q_d9d96160_3,louis theroux,1,temporal_align_qa,2023,2,2,1,1
+q_da1c81d6@rerun_24h,q_da1c81d6,rerun_24h,"Who was Archbishop of Canterbury during the reigns of Henry VIII and Edward VI, was then imprisoned for over two years and burnt at the stake for heresy?",1,p_q_da1c81d6_0,thomas cranmer,1,triviaqa,,1,1,1,1
+q_dafccfb8@rerun_24h,q_dafccfb8,rerun_24h,Who is serving as the current president of the New Democratic Party?,1,q_dafccfb8,mary shortall,1,temporal_align_qa,2023,1,1,1,1
+q_db354b10@rerun_1h,q_db354b10,rerun_1h,Which four-letter word means ‘the prong of a fork’?,1,q_db354b10,tine,1,triviaqa,,2,2,1,1
+q_dbb1cb5d@rerun_24h,q_dbb1cb5d,rerun_24h,Who is the leading goalkicker for Fremantle Football Club?,1,q_dbb1cb5d,jye amiss,1,temporal_align_qa,2023,2,2,1,1
+q_dbf0307d@rerun_24h,q_dbf0307d,rerun_24h,A 'Chorkie' is a dog hybrid obtained by crossing a Yorkshire Terrier with which other breed?,1,p_q_dbf0307d_2,chihuahua,1,triviaqa,,2,2,1,1
+q_dcc6b248@rerun_24h,q_dcc6b248,rerun_24h,Who is the latest WNBA player to win the Rookie of the Year Award?,1,q_dcc6b248,aliyah boston,1,temporal_align_qa,2023,1,1,1,1
+q_dcf1f4d4@rerun_24h,q_dcf1f4d4,rerun_24h,The Briish Airways subsidiary BA Connect was sold to which other airline?,1,p_q_dcf1f4d4_0,flybe.,1,triviaqa,,1,1,1,1
+q_dd7cbef3@rerun_24h,q_dd7cbef3,rerun_24h,"In what month and year was the price of Bitcoin last above $40,000?",1,p_q_dd7cbef3_0,april 2022,1,freshqa,2022,2,2,1,1
+q_dd9fd589@rerun_24h,q_dd9fd589,rerun_24h,How many tornadoes were classified as F3/EF3?,1,p_q_dd9fd589_2,"≥ 2,701",1,temporal_align_qa,2023,2,2,1,1
+q_ddf45443@rerun_24h,q_ddf45443,rerun_24h,Which North Sea port lies at the mouth of the Riyer Esk?,2,p_q_ddf45443_2|p_q_ddf45443_3,whitby,1,triviaqa,,2,2,1,1
+q_df05880a@rerun_24h,q_df05880a,rerun_24h,Which team won the third-place match in the most recent Bulgarian Basketball Cup?,1,p_q_df05880a_1,chernomorets and balkan botevgrad,1,temporal_align_qa,2023,1,1,1,1
+q_df1576bb@rerun_24h,q_df1576bb,rerun_24h,Which former Big Brother contestant who was famous for quotes such as what is the opposite of opposite? and do fish get thirsty? and later went on to present Braniac: Science Abuse on Sky television?,1,p_q_df1576bb_1,jon tickle,1,triviaqa,,2,2,1,1
+q_df76af12@rerun_24h,q_df76af12,rerun_24h,Two shipping forecast areas touch the coast of Denmark: German Bight and which other?,2,p_q_df76af12_1|p_q_df76af12_0,fisher,1,triviaqa,,1,1,1,1
+q_dfefb294@rerun_24h,q_dfefb294,rerun_24h,Which team's driver won the latest Macau Grand Prix?,1,p_q_dfefb294_2,hitech pulse-eight,1,temporal_align_qa,2023,1,1,1,1
+q_e192f364@rerun_24h,q_e192f364,rerun_24h,"Who is the individual known for cosplay, especially of the Joker character, that was incarcerated at the United States Penitentiary, Atlanta?",1,p_q_e192f364_1,"alan li, md",1,temporal_align_qa,2023,2,2,1,1
+q_e2133b50@rerun_24h,q_e2133b50,rerun_24h,Which Argentinean became conductor of the New York Philharmonic in 1970?,1,p_q_e2133b50_0,daniel barenboim,1,triviaqa,,1,1,1,1
+q_e2e6d6d8@rerun_24h,q_e2e6d6d8,rerun_24h,"Which Russian city reverted to its former name, Nizhniy Novgorod, in 1990?",1,p_q_e2e6d6d8_3,gorky,1,triviaqa,,1,1,1,1
+q_e2f9f525@rerun_24h,q_e2f9f525,rerun_24h,Who is currently representing the 3rd congressional district of Nebraska in the U.S. House of Representatives?,1,q_e2f9f525,adrian smith,1,temporal_align_qa,2023,2,2,1,1
+q_e32d9c63@rerun_24h,q_e32d9c63,rerun_24h,What is the name of the US river which flows between St. Paul and Minneapolis?,1,p_q_e32d9c63_3,mississippi,1,triviaqa,,1,1,1,1
+q_e3c14282@rerun_12h,q_e3c14282,rerun_12h,Which tendon joins the calf muscle to the heel bone,1,q_e3c14282,achilles,1,triviaqa,,1,1,1,1
+q_e3c14282@rerun_24h,q_e3c14282,rerun_24h,Which tendon joins the calf muscle to the heel bone,1,p_q_e3c14282_1,achilles,1,triviaqa,,1,1,1,1
+q_e4b76a30@rerun_24h,q_e4b76a30,rerun_24h,Who is recognized as the year-by-year playoff free throw scoring leader in the National Basketball Association?,1,q_e4b76a30,jimmy butler^000mia,1,temporal_align_qa,2023,1,1,1,1
+q_e4dd7c4d@rerun_24h,q_e4dd7c4d,rerun_24h,What team secured the British Basketball League Trophy?,1,p_q_e4dd7c4d_0,caledonia gladiators,1,temporal_align_qa,2023,2,2,1,1
+q_e52c4939@rerun_24h,q_e52c4939,rerun_24h,Which horse won the Los Alamitos Futurity most recently?,2,p_q_e52c4939_0|p_q_e52c4939_1,wynstock,1,temporal_align_qa,2023,1,1,1,1
+q_e5616ef7@rerun_24h,q_e5616ef7,rerun_24h,Which club is currently associated with one of the AFL players from South Australia?,1,p_q_e5616ef7_3,west coast,1,temporal_align_qa,2023,1,1,1,1
+q_e5cbddda@rerun_24h,q_e5cbddda,rerun_24h,Which horse won the Risen Star Stakes most recently?,1,p_q_e5cbddda_1,angel of empire,1,temporal_align_qa,2023,3,3,1,1
+q_e5fcdad4@rerun_24h,q_e5fcdad4,rerun_24h,Who is the current kit manufacturer for Dundee United F.C.?,1,p_q_e5fcdad4_1,macron,1,temporal_align_qa,2023,2,2,1,1
+q_e5feb4c8@rerun_24h,q_e5feb4c8,rerun_24h,You get nothing for a pair was a Bruce Forsyth catchphrase in which programme,1,p_q_e5feb4c8_0,play your cards right,1,triviaqa,,2,2,1,1
+q_e619abe5@rerun_24h,q_e619abe5,rerun_24h,Which famous soccer player of Brazil passed away recently?,1,p_q_e619abe5_1,pelé,1,freshqa,2022,4,4,1,1
+q_e63f6e9e@rerun_24h,q_e63f6e9e,rerun_24h,Which football club won the KNVB Women's Cup most recently?,1,p_q_e63f6e9e_3,fc twente,1,temporal_align_qa,2023,1,1,1,1
+q_e6bc0a36@rerun_24h,q_e6bc0a36,rerun_24h,What is the title of the most recent Christina Stead Prize for Fiction winning book?,1,p_q_e6bc0a36_3,women i know,1,temporal_align_qa,2023,2,2,1,1
+q_e7073d58@rerun_24h,q_e7073d58,rerun_24h,How many countries have recognized same-sex marriage?,1,p_q_e7073d58_2,34 countries,1,freshqa,2022,2,2,1,1
+q_e78970aa@rerun_24h,q_e78970aa,rerun_24h,Who is the latest recipient of the Jack Oatey Medal?,1,p_q_e78970aa_1,lachlan hosie,1,temporal_align_qa,2023,1,1,1,1
+q_e7deca78@rerun_1h,q_e7deca78,rerun_1h,"""When Johnny Weissmuller left a championship career in sport to star in """"Tarzan"""" films, what sport did he leave?""",1,q_e7deca78,swimming,1,triviaqa,,1,1,1,1
+q_e811a942@rerun_24h,q_e811a942,rerun_24h,Who is the current kit manufacturer of St Helens R.F.C.?,1,p_q_e811a942_0,o'neills,1,temporal_align_qa,2023,1,1,1,1
+q_e9470503@rerun_24h,q_e9470503,rerun_24h,Who is the current skip of the men's champion team in the CurlON Championships?,1,p_q_e9470503_0,bryan cochrane,1,temporal_align_qa,2023,2,2,1,1
+q_e9a277e7@rerun_24h,q_e9a277e7,rerun_24h,Which hometown is the current Miss New Mexico from?,1,p_q_e9a277e7_0,las cruces,1,temporal_align_qa,2023,1,1,1,1
+q_e9fd2fb4@rerun_24h,q_e9fd2fb4,rerun_24h,"""""""The Blockheads"""" released a new album in 2009 after nine years' silence. Who used to be their frontman?""",1,p_q_e9fd2fb4_0,ian drury,1,triviaqa,,2,2,1,1
+q_ea668263@rerun_24h,q_ea668263,rerun_24h,Who is the translator that won the Oxford-Weidenfeld Translation Prize most recently?,1,p_q_ea668263_1,monica cure,1,temporal_align_qa,2023,1,1,1,1
+q_ea6dfe5b@rerun_24h,q_ea6dfe5b,rerun_24h,Who won the National Board of Review Award for Best Actor most recently?,1,p_q_ea6dfe5b_0,paul giamatti,1,temporal_align_qa,2023,1,1,1,1
+q_eb3db942@rerun_24h,q_eb3db942,rerun_24h,Which company developed Overwatch?,1,q_eb3db942,blizzard entertainment,1,freshqa,before 2022,1,1,1,1
+q_eb7ff4b6@rerun_24h,q_eb7ff4b6,rerun_24h,Which team was the runner-up in the latest NCAA Men's Water Polo Championship?,1,p_q_eb7ff4b6_1,ucla,1,temporal_align_qa,2023,1,1,1,1
+q_ebb15c73@rerun_24h,q_ebb15c73,rerun_24h,What geometry type has a WKB integer code that includes M dimensions?,1,p_q_ebb15c73_3,spiralcurve,1,temporal_align_qa,2023,2,2,1,1
+q_ebb666ba@rerun_24h,q_ebb666ba,rerun_24h,Who is the current Gatorade Player of the Year in volleyball?,2,p_q_ebb666ba_1|p_q_ebb666ba_3,harper murray,1,temporal_align_qa,2023,2,2,1,1
+q_ec0efdba@rerun_24h,q_ec0efdba,rerun_24h,What character does Lyriq Bent portray on television?,1,p_q_ec0efdba_2,pastor mike butler,1,temporal_align_qa,2023,1,1,1,1
+q_ec7fa565@rerun_24h,q_ec7fa565,rerun_24h,Logophobia is the abnormal fear of what?,1,p_q_ec7fa565_2,words,1,triviaqa,,2,2,1,1
+q_ecea34ae@rerun_24h,q_ecea34ae,rerun_24h,Which team was the runner-up in the latest North Kerry Senior Football Championship final?,2,p_q_ecea34ae_3|p_q_ecea34ae_0,st. senan's,1,temporal_align_qa,2023,1,1,1,1
+q_ed789c0a@rerun_24h,q_ed789c0a,rerun_24h,Who is the latest winner of the Spanish Grand Prix?,1,p_q_ed789c0a_0,max verstappen,1,temporal_align_qa,2023,1,1,1,1
+q_eead7ef7@rerun_24h,q_eead7ef7,rerun_24h,Who is the trainer of the Racking Horse that claimed the World Grand Champion title at the last Racking Horse World Celebration?,1,p_q_eead7ef7_1,chris zahnd,1,temporal_align_qa,2023,1,1,1,1
+q_eed8ece1@rerun_24h,q_eed8ece1,rerun_24h,Where was the most recent UK Championship final played?,1,p_q_eed8ece1_3,"barbican centre, york",1,temporal_align_qa,2023,2,2,1,1
+q_ef0e26fc@rerun_24h,q_ef0e26fc,rerun_24h,Who was the jockey riding the winning horse in the most recent Prix de l'Abbaye de Longchamp?,1,p_q_ef0e26fc_1,jason hart,1,temporal_align_qa,2023,1,1,1,1
+q_efbe3181@rerun_24h,q_efbe3181,rerun_24h,Who is the current chair of the Democratic Governors Association?,1,p_q_efbe3181_2,phil murphy,1,temporal_align_qa,2023,1,1,1,1
+q_efe174f0@rerun_24h,q_efe174f0,rerun_24h,What is the cabinet number currently in office in Turkey?,1,q_efe174f0,66,1,temporal_align_qa,2023,2,2,1,1
+q_f0345793@rerun_24h,q_f0345793,rerun_24h,What television series is Leo Martinez recently in with a recurring role?,1,q_f0345793,senior high,1,temporal_align_qa,2023,1,1,1,1
+q_f070a7a3@rerun_24h,q_f070a7a3,rerun_24h,Who is the first studio analyst on the NFL Today show?,1,p_q_f070a7a3_3,phil simms,1,temporal_align_qa,2023,2,2,1,1
+q_f09060c5@rerun_24h,q_f09060c5,rerun_24h,When is the next U.S. federal holiday?,1,q_f09060c5,columbus day,1,freshqa,2023,2,2,1,1
+q_f0b3ece2@rerun_24h,q_f0b3ece2,rerun_24h,Which team was the runner-up in the latest WSE Cup Finals?,2,p_q_f0b3ece2_2|p_q_f0b3ece2_0,hc braga,1,temporal_align_qa,2023,2,2,1,1
+q_f0b7eef3@rerun_24h,q_f0b7eef3,rerun_24h,Who is the most recent recipient of the Nancy Lieberman Award?,1,p_q_f0b7eef3_2,caitlin clark,1,temporal_align_qa,2023,1,1,1,1
+q_f1176491@rerun_24h,q_f1176491,rerun_24h,Who is the current member of the Legislative Assembly for Subang Jaya constituency?,1,p_q_f1176491_2,michelle ng mei sze,1,temporal_align_qa,2023,1,1,1,1
+q_f1839167@rerun_24h,q_f1839167,rerun_24h,Who wrote 'She' and 'King Solomon's Mines'?,1,p_q_f1839167_1,h rider haggard,1,triviaqa,,1,1,1,1
+q_f1b1aa68@rerun_24h,q_f1b1aa68,rerun_24h,Which common wildflowers belong to the Galanthus family?,1,p_q_f1b1aa68_1,snowdrop,1,triviaqa,,2,2,1,1
+q_f1c6af26@rerun_24h,q_f1c6af26,rerun_24h,What is the name of the tallest building in Bangalore?,1,p_q_f1c6af26_3,cntc presidential tower,1,temporal_align_qa,2023,2,2,1,1
+q_f1d321db@rerun_12h,q_f1d321db,rerun_12h,Which player is batting third for the Miami Marlins in their most recent opening day game?,1,q_f1d321db,garrett cooper 1b,1,temporal_align_qa,2023,2,2,1,1
+q_f3175126@rerun_24h,q_f3175126,rerun_24h,Who is the current shirt sponsor of Derby County F.C.?,1,q_f3175126,nspcc,1,temporal_align_qa,2023,1,1,1,1
+q_f331a4d9@rerun_24h,q_f331a4d9,rerun_24h,Which area does California's 12th congressional district currently cover?,1,p_q_f331a4d9_1,2023–present 300px northwestern portion of alameda county,1,temporal_align_qa,2023,1,1,1,1
+q_f3e7fb13@rerun_24h,q_f3e7fb13,rerun_24h,"Hazel, filbert, and kola are all types of what?",1,p_q_f3e7fb13_1,nuts,1,triviaqa,,1,1,1,1
+q_f46d91c5@rerun_24h,q_f46d91c5,rerun_24h,Who is the most recent recipient of the Betty Roland Prize for Script Writing in the New South Wales Premier's Literary Awards?,1,p_q_f46d91c5_1,del kathryn barton and huna amweero,1,temporal_align_qa,2023,1,1,1,1
+q_f49c2f47@rerun_24h,q_f49c2f47,rerun_24h,What is the name of the Adidas ball currently used in the UEFA Champions League final?,1,p_q_f49c2f47_3,adidas finale 22,1,temporal_align_qa,2023,1,1,1,1
+q_f5380c95@rerun_24h,q_f5380c95,rerun_24h,What launch vehicle will be used for the upcoming Intelsat satellite launches?,1,p_q_f5380c95_0,falcon 9 block 5,1,temporal_align_qa,2023,2,2,1,1
+q_f54d3aa2@rerun_24h,q_f54d3aa2,rerun_24h,Who is the current head coach of Galatasaray S.K. men's basketball team?,1,p_q_f54d3aa2_1,greece andreas pistiolis,1,temporal_align_qa,2023,2,2,1,1
+q_f61856a1@rerun_24h,q_f61856a1,rerun_24h,What division is FSV Zwickau currently playing in?,1,p_q_f61856a1_0,3. liga,1,temporal_align_qa,2023,1,1,1,1
+q_f618e806@rerun_24h,q_f618e806,rerun_24h,In which US city is the National Air and Space Museum?,2,p_q_f618e806_2|p_q_f618e806_0,washington,1,triviaqa,,1,1,1,1
+q_f63307b3@rerun_24h,q_f63307b3,rerun_24h,Who invented the ferris wheel?,1,p_q_f63307b3_3,george washington ferris,1,triviaqa,,1,1,1,1
+q_f6645f8f@rerun_24h,q_f6645f8f,rerun_24h,Who won the gold medal in the women's category of the latest Finnish Junior Figure Skating Championship?,1,p_q_f6645f8f_0,iida karhunen,1,temporal_align_qa,2023,1,1,1,1
+q_f7446447@rerun_24h,q_f7446447,rerun_24h,Who is the most recent recipient of the RSA Award for Excellence in Mathematics?,1,p_q_f7446447_1,paul carl kocher,1,temporal_align_qa,2023,1,1,1,1
+q_f7bf87d7@rerun_24h,q_f7bf87d7,rerun_24h,Which club did the top goalscorer in Ekstraklasa play for?,1,p_q_f7bf87d7_1,jagiellonia białystok,1,temporal_align_qa,2023,1,1,1,1
+q_f7de9f4e@rerun_24h,q_f7de9f4e,rerun_24h,Which Formula One Grand Prix Circuit has corners named Anthony Noghes and La Rascasse?,1,p_q_f7de9f4e_0,monaco,1,triviaqa,,1,1,1,1
+q_f861b3a0@rerun_24h,q_f861b3a0,rerun_24h,Who is the current representative for Oklahoma's 2nd congressional district?,1,p_q_f861b3a0_2,100px josh brecheen,1,temporal_align_qa,2023,2,2,1,1
+q_f8c707c8@rerun_24h,q_f8c707c8,rerun_24h,Where was the International Political Science Association World Congress held?,1,p_q_f8c707c8_3,seoul,1,temporal_align_qa,2023,1,1,1,1
+q_f93213af@rerun_24h,q_f93213af,rerun_24h,What racing series is Sébastien Loeb currently participating in?,1,q_f93213af,dakar rally,1,temporal_align_qa,2023,1,1,1,1
+q_f9667c6d@rerun_24h,q_f9667c6d,rerun_24h,Which jockey rode the winning horse in the most recent Coronation Stakes?,1,q_f9667c6d,chris hayes,1,temporal_align_qa,2023,2,2,1,1
+q_fa771a57@rerun_24h,q_fa771a57,rerun_24h,Which owner's horse won the latest Kikuka-shō?,2,p_q_fa771a57_3|p_q_fa771a57_1,u carrot farm,1,temporal_align_qa,2023,1,1,1,1
+q_fae0b0bb@rerun_24h,q_fae0b0bb,rerun_24h,Which team finished second in the National League East?,1,p_q_fae0b0bb_2,philadelphia,1,temporal_align_qa,2023,1,1,1,1
+q_fbc7a20d@rerun_24h,q_fbc7a20d,rerun_24h,Who won the gold medal in the women’s category at the most recent Swiss Figure Skating Championships?,1,p_q_fbc7a20d_2,livia kaiser,1,temporal_align_qa,2023,2,2,1,1
+q_fc04cade@rerun_24h,q_fc04cade,rerun_24h,Which team does the most recent Lady Byng Memorial Trophy winner belong to?,1,p_q_fc04cade_2,los angeles kings,1,temporal_align_qa,2023,2,2,1,1
+q_fc47ce8e@rerun_24h,q_fc47ce8e,rerun_24h,On what date did the Berlin Wall fall?,2,p_q_fc47ce8e_0|p_q_fc47ce8e_3,"nov 9, 1989",1,freshqa,before 2022,1,1,1,1
+q_fc92fe13@rerun_24h,q_fc92fe13,rerun_24h,Which football team was the runner-up in the 2. Liga in Slovakia?,1,p_q_fc92fe13_3,tatran prešov,1,temporal_align_qa,2023,1,1,1,1
+q_fcc76705@rerun_24h,q_fcc76705,rerun_24h,Who is the most recent recipient of the Hannes Alfvén Prize?,1,q_fcc76705,chandrashekhar janardan joshi,1,temporal_align_qa,2023,2,2,1,1
+q_fd2b644e@rerun_24h,q_fd2b644e,rerun_24h,"Batting, Cornerstones, Sashing and Layer Cake are all terms used in which handicraft?",1,p_q_fd2b644e_0,quilting,1,triviaqa,,2,2,1,1
+q_fdca6dd5@rerun_12h,q_fdca6dd5,rerun_12h,What colour are post/mail boxes in Morocco?,1,q_fdca6dd5,yellow,1,triviaqa,,1,1,1,1
+q_fddc380c@rerun_24h,q_fddc380c,rerun_24h,Which club does the current Grogan Medal winner play for?,1,p_q_fddc380c_2,broadbeach,1,temporal_align_qa,2023,2,2,1,1
+q_feab2243@rerun_24h,q_feab2243,rerun_24h,What role did John Noble play in his most recent television appearance?,1,p_q_feab2243_2,falco,1,temporal_align_qa,2023,1,1,1,1
+q_ff13db06@rerun_24h,q_ff13db06,rerun_24h,Who are the presenters of the Eurovision Song Contest?,1,p_q_ff13db06_0,"alesha dixon, hannah waddingham, julia sanina and graham norton",1,temporal_align_qa,2023,2,2,1,1
+q_ff48fd09@rerun_24h,q_ff48fd09,rerun_24h,In language the term ellipsis refers to missing/omitted what?,1,p_q_ff48fd09_1,words,1,triviaqa,,1,1,1,1
+q_ff4e04a5@rerun_24h,q_ff4e04a5,rerun_24h,What conference is the Penn Quakers men's ice hockey team competing in?,1,p_q_ff4e04a5_0,cschc,1,temporal_align_qa,2023,2,2,1,1
+q_ffbdb73d@rerun_24h,q_ffbdb73d,rerun_24h,Who is the winner of the men's category in the Warsaw Marathon?,1,p_q_ffbdb73d_0,levente szemerei,1,temporal_align_qa,2023,2,2,1,1
+q_ffc74be2@rerun_24h,q_ffc74be2,rerun_24h,Who is the current Director of the Indian Association for the Cultivation of Science?,1,p_q_ffc74be2_1,ranjan sen,1,temporal_align_qa,2023,1,1,1,1

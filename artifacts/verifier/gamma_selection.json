@@ -1,0 +1,655 @@
+{
+  "prereg_sha256": "18c7e0a965846311e4576eb7ab331feb6f38d8512cd5022d9783538ecdff3b69",
+  "usable_labels": 463,
+  "n_insufficient": 292,
+  "n_sufficient": 171,
+  "selected_gamma": 0.55,
+  "selected": {
+    "gamma": 0.55,
+    "tpr_reject_insufficient": 0.6952,
+    "fpr_reject_sufficient": 0.2398,
+    "youden_j": 0.4554,
+    "reject_rate": 0.527
+  },
+  "auc": 0.7787,
+  "sweep": [
+    {
+      "gamma": 0.0,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.01,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.02,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.03,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.04,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.05,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.06,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.07,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.08,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.09,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.1,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.11,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.12,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.13,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.14,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.15,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.16,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.17,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.18,
+      "tpr_reject_insufficient": 0.0,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0,
+      "reject_rate": 0.0
+    },
+    {
+      "gamma": 0.19,
+      "tpr_reject_insufficient": 0.0034,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0034,
+      "reject_rate": 0.0022
+    },
+    {
+      "gamma": 0.2,
+      "tpr_reject_insufficient": 0.0034,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0034,
+      "reject_rate": 0.0022
+    },
+    {
+      "gamma": 0.21,
+      "tpr_reject_insufficient": 0.0137,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0137,
+      "reject_rate": 0.0086
+    },
+    {
+      "gamma": 0.22,
+      "tpr_reject_insufficient": 0.0171,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0171,
+      "reject_rate": 0.0108
+    },
+    {
+      "gamma": 0.23,
+      "tpr_reject_insufficient": 0.0171,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0171,
+      "reject_rate": 0.0108
+    },
+    {
+      "gamma": 0.24,
+      "tpr_reject_insufficient": 0.0274,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0274,
+      "reject_rate": 0.0173
+    },
+    {
+      "gamma": 0.25,
+      "tpr_reject_insufficient": 0.0411,
+      "fpr_reject_sufficient": 0.0,
+      "youden_j": 0.0411,
+      "reject_rate": 0.0259
+    },
+    {
+      "gamma": 0.26,
+      "tpr_reject_insufficient": 0.0479,
+      "fpr_reject_sufficient": 0.0117,
+      "youden_j": 0.0362,
+      "reject_rate": 0.0346
+    },
+    {
+      "gamma": 0.27,
+      "tpr_reject_insufficient": 0.0651,
+      "fpr_reject_sufficient": 0.0175,
+      "youden_j": 0.0475,
+      "reject_rate": 0.0475
+    },
+    {
+      "gamma": 0.28,
+      "tpr_reject_insufficient": 0.0753,
+      "fpr_reject_sufficient": 0.0175,
+      "youden_j": 0.0578,
+      "reject_rate": 0.054
+    },
+    {
+      "gamma": 0.29,
+      "tpr_reject_insufficient": 0.089,
+      "fpr_reject_sufficient": 0.0351,
+      "youden_j": 0.054,
+      "reject_rate": 0.0691
+    },
+    {
+      "gamma": 0.3,
+      "tpr_reject_insufficient": 0.0959,
+      "fpr_reject_sufficient": 0.0351,
+      "youden_j": 0.0608,
+      "reject_rate": 0.0734
+    },
+    {
+      "gamma": 0.31,
+      "tpr_reject_insufficient": 0.1096,
+      "fpr_reject_sufficient": 0.0351,
+      "youden_j": 0.0745,
+      "reject_rate": 0.0821
+    },
+    {
+      "gamma": 0.32,
+      "tpr_reject_insufficient": 0.1267,
+      "fpr_reject_sufficient": 0.0409,
+      "youden_j": 0.0858,
+      "reject_rate": 0.095
+    },
+    {
+      "gamma": 0.33,
+      "tpr_reject_insufficient": 0.137,
+      "fpr_reject_sufficient": 0.0468,
+      "youden_j": 0.0902,
+      "reject_rate": 0.1037
+    },
+    {
+      "gamma": 0.34,
+      "tpr_reject_insufficient": 0.1541,
+      "fpr_reject_sufficient": 0.0526,
+      "youden_j": 0.1015,
+      "reject_rate": 0.1166
+    },
+    {
+      "gamma": 0.35,
+      "tpr_reject_insufficient": 0.1747,
+      "fpr_reject_sufficient": 0.0526,
+      "youden_j": 0.122,
+      "reject_rate": 0.1296
+    },
+    {
+      "gamma": 0.36,
+      "tpr_reject_insufficient": 0.1849,
+      "fpr_reject_sufficient": 0.0526,
+      "youden_j": 0.1323,
+      "reject_rate": 0.1361
+    },
+    {
+      "gamma": 0.37,
+      "tpr_reject_insufficient": 0.1918,
+      "fpr_reject_sufficient": 0.0526,
+      "youden_j": 0.1391,
+      "reject_rate": 0.1404
+    },
+    {
+      "gamma": 0.38,
+      "tpr_reject_insufficient": 0.2021,
+      "fpr_reject_sufficient": 0.0526,
+      "youden_j": 0.1494,
+      "reject_rate": 0.1469
+    },
+    {
+      "gamma": 0.39,
+      "tpr_reject_insufficient": 0.2158,
+      "fpr_reject_sufficient": 0.0585,
+      "youden_j": 0.1573,
+      "reject_rate": 0.1577
+    },
+    {
+      "gamma": 0.4,
+      "tpr_reject_insufficient": 0.2363,
+      "fpr_reject_sufficient": 0.0585,
+      "youden_j": 0.1778,
+      "reject_rate": 0.1706
+    },
+    {
+      "gamma": 0.41,
+      "tpr_reject_insufficient": 0.2466,
+      "fpr_reject_sufficient": 0.0585,
+      "youden_j": 0.1881,
+      "reject_rate": 0.1771
+    },
+    {
+      "gamma": 0.42,
+      "tpr_reject_insufficient": 0.2603,
+      "fpr_reject_sufficient": 0.0702,
+      "youden_j": 0.1901,
+      "reject_rate": 0.1901
+    },
+    {
+      "gamma": 0.43,
+      "tpr_reject_insufficient": 0.2774,
+      "fpr_reject_sufficient": 0.0702,
+      "youden_j": 0.2072,
+      "reject_rate": 0.2009
+    },
+    {
+      "gamma": 0.44,
+      "tpr_reject_insufficient": 0.2979,
+      "fpr_reject_sufficient": 0.076,
+      "youden_j": 0.2219,
+      "reject_rate": 0.216
+    },
+    {
+      "gamma": 0.45,
+      "tpr_reject_insufficient": 0.3253,
+      "fpr_reject_sufficient": 0.0819,
+      "youden_j": 0.2435,
+      "reject_rate": 0.2354
+    },
+    {
+      "gamma": 0.46,
+      "tpr_reject_insufficient": 0.3699,
+      "fpr_reject_sufficient": 0.0994,
+      "youden_j": 0.2704,
+      "reject_rate": 0.27
+    },
+    {
+      "gamma": 0.47,
+      "tpr_reject_insufficient": 0.4075,
+      "fpr_reject_sufficient": 0.1053,
+      "youden_j": 0.3023,
+      "reject_rate": 0.2959
+    },
+    {
+      "gamma": 0.48,
+      "tpr_reject_insufficient": 0.4349,
+      "fpr_reject_sufficient": 0.117,
+      "youden_j": 0.318,
+      "reject_rate": 0.3175
+    },
+    {
+      "gamma": 0.49,
+      "tpr_reject_insufficient": 0.4795,
+      "fpr_reject_sufficient": 0.1228,
+      "youden_j": 0.3566,
+      "reject_rate": 0.3477
+    },
+    {
+      "gamma": 0.5,
+      "tpr_reject_insufficient": 0.5068,
+      "fpr_reject_sufficient": 0.1228,
+      "youden_j": 0.384,
+      "reject_rate": 0.365
+    },
+    {
+      "gamma": 0.51,
+      "tpr_reject_insufficient": 0.5342,
+      "fpr_reject_sufficient": 0.1404,
+      "youden_j": 0.3939,
+      "reject_rate": 0.3888
+    },
+    {
+      "gamma": 0.52,
+      "tpr_reject_insufficient": 0.5582,
+      "fpr_reject_sufficient": 0.1637,
+      "youden_j": 0.3945,
+      "reject_rate": 0.4125
+    },
+    {
+      "gamma": 0.53,
+      "tpr_reject_insufficient": 0.589,
+      "fpr_reject_sufficient": 0.1754,
+      "youden_j": 0.4136,
+      "reject_rate": 0.4363
+    },
+    {
+      "gamma": 0.54,
+      "tpr_reject_insufficient": 0.6438,
+      "fpr_reject_sufficient": 0.2047,
+      "youden_j": 0.4392,
+      "reject_rate": 0.4816
+    },
+    {
+      "gamma": 0.55,
+      "tpr_reject_insufficient": 0.6952,
+      "fpr_reject_sufficient": 0.2398,
+      "youden_j": 0.4554,
+      "reject_rate": 0.527
+    },
+    {
+      "gamma": 0.56,
+      "tpr_reject_insufficient": 0.7329,
+      "fpr_reject_sufficient": 0.2807,
+      "youden_j": 0.4522,
+      "reject_rate": 0.5659
+    },
+    {
+      "gamma": 0.57,
+      "tpr_reject_insufficient": 0.7705,
+      "fpr_reject_sufficient": 0.3333,
+      "youden_j": 0.4372,
+      "reject_rate": 0.6091
+    },
+    {
+      "gamma": 0.58,
+      "tpr_reject_insufficient": 0.8219,
+      "fpr_reject_sufficient": 0.386,
+      "youden_j": 0.436,
+      "reject_rate": 0.6609
+    },
+    {
+      "gamma": 0.59,
+      "tpr_reject_insufficient": 0.8459,
+      "fpr_reject_sufficient": 0.4211,
+      "youden_j": 0.4248,
+      "reject_rate": 0.689
+    },
+    {
+      "gamma": 0.6,
+      "tpr_reject_insufficient": 0.8767,
+      "fpr_reject_sufficient": 0.4912,
+      "youden_j": 0.3855,
+      "reject_rate": 0.7343
+    },
+    {
+      "gamma": 0.61,
+      "tpr_reject_insufficient": 0.8836,
+      "fpr_reject_sufficient": 0.5439,
+      "youden_j": 0.3397,
+      "reject_rate": 0.7581
+    },
+    {
+      "gamma": 0.62,
+      "tpr_reject_insufficient": 0.911,
+      "fpr_reject_sufficient": 0.5965,
+      "youden_j": 0.3145,
+      "reject_rate": 0.7948
+    },
+    {
+      "gamma": 0.63,
+      "tpr_reject_insufficient": 0.9281,
+      "fpr_reject_sufficient": 0.6199,
+      "youden_j": 0.3082,
+      "reject_rate": 0.8143
+    },
+    {
+      "gamma": 0.64,
+      "tpr_reject_insufficient": 0.9315,
+      "fpr_reject_sufficient": 0.6842,
+      "youden_j": 0.2473,
+      "reject_rate": 0.8402
+    },
+    {
+      "gamma": 0.65,
+      "tpr_reject_insufficient": 0.9418,
+      "fpr_reject_sufficient": 0.7368,
+      "youden_j": 0.2049,
+      "reject_rate": 0.8661
+    },
+    {
+      "gamma": 0.66,
+      "tpr_reject_insufficient": 0.9521,
+      "fpr_reject_sufficient": 0.8129,
+      "youden_j": 0.1392,
+      "reject_rate": 0.9006
+    },
+    {
+      "gamma": 0.67,
+      "tpr_reject_insufficient": 0.9658,
+      "fpr_reject_sufficient": 0.8596,
+      "youden_j": 0.1061,
+      "reject_rate": 0.9266
+    },
+    {
+      "gamma": 0.68,
+      "tpr_reject_insufficient": 0.9795,
+      "fpr_reject_sufficient": 0.8889,
+      "youden_j": 0.0906,
+      "reject_rate": 0.946
+    },
+    {
+      "gamma": 0.69,
+      "tpr_reject_insufficient": 0.9829,
+      "fpr_reject_sufficient": 0.9064,
+      "youden_j": 0.0764,
+      "reject_rate": 0.9546
+    },
+    {
+      "gamma": 0.7,
+      "tpr_reject_insufficient": 0.9863,
+      "fpr_reject_sufficient": 0.924,
+      "youden_j": 0.0623,
+      "reject_rate": 0.9633
+    },
+    {
+      "gamma": 0.71,
+      "tpr_reject_insufficient": 0.9897,
+      "fpr_reject_sufficient": 0.9357,
+      "youden_j": 0.0541,
+      "reject_rate": 0.9698
+    },
+    {
+      "gamma": 0.72,
+      "tpr_reject_insufficient": 0.9966,
+      "fpr_reject_sufficient": 0.9532,
+      "youden_j": 0.0434,
+      "reject_rate": 0.9806
+    },
+    {
+      "gamma": 0.73,
+      "tpr_reject_insufficient": 0.9966,
+      "fpr_reject_sufficient": 0.9766,
+      "youden_j": 0.02,
+      "reject_rate": 0.9892
+    },
+    {
+      "gamma": 0.74,
+      "tpr_reject_insufficient": 0.9966,
+      "fpr_reject_sufficient": 0.9825,
+      "youden_j": 0.0141,
+      "reject_rate": 0.9914
+    },
+    {
+      "gamma": 0.75,
+      "tpr_reject_insufficient": 0.9966,
+      "fpr_reject_sufficient": 0.9883,
+      "youden_j": 0.0083,
+      "reject_rate": 0.9935
+    },
+    {
+      "gamma": 0.76,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9883,
+      "youden_j": 0.0117,
+      "reject_rate": 0.9957
+    },
+    {
+      "gamma": 0.77,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9883,
+      "youden_j": 0.0117,
+      "reject_rate": 0.9957
+    },
+    {
+      "gamma": 0.78,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9883,
+      "youden_j": 0.0117,
+      "reject_rate": 0.9957
+    },
+    {
+      "gamma": 0.79,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9883,
+      "youden_j": 0.0117,
+      "reject_rate": 0.9957
+    },
+    {
+      "gamma": 0.8,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9883,
+      "youden_j": 0.0117,
+      "reject_rate": 0.9957
+    },
+    {
+      "gamma": 0.81,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9883,
+      "youden_j": 0.0117,
+      "reject_rate": 0.9957
+    },
+    {
+      "gamma": 0.82,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9942,
+      "youden_j": 0.0058,
+      "reject_rate": 0.9978
+    },
+    {
+      "gamma": 0.83,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 0.9942,
+      "youden_j": 0.0058,
+      "reject_rate": 0.9978
+    },
+    {
+      "gamma": 0.84,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 1.0,
+      "youden_j": 0.0,
+      "reject_rate": 1.0
+    },
+    {
+      "gamma": 0.85,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 1.0,
+      "youden_j": 0.0,
+      "reject_rate": 1.0
+    },
+    {
+      "gamma": 0.86,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 1.0,
+      "youden_j": 0.0,
+      "reject_rate": 1.0
+    },
+    {
+      "gamma": 0.87,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 1.0,
+      "youden_j": 0.0,
+      "reject_rate": 1.0
+    },
+    {
+      "gamma": 0.88,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 1.0,
+      "youden_j": 0.0,
+      "reject_rate": 1.0
+    },
+    {
+      "gamma": 0.89,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 1.0,
+      "youden_j": 0.0,
+      "reject_rate": 1.0
+    },
+    {
+      "gamma": 0.9,
+      "tpr_reject_insufficient": 1.0,
+      "fpr_reject_sufficient": 1.0,
+      "youden_j": 0.0,
+      "reject_rate": 1.0
+    }
+  ],
+  "selection_used_test_data": false
+}

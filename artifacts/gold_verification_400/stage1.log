@@ -1,0 +1,33 @@
+STAGE 1 — build the verification dataset (Revision 4)
+  read-only on existing artifacts; no LLM, no GPU, no web calls
+  Stage 0 gate: PASSED (48/48)
+  hashed 9 input artifacts
+
+  audit rows preserved: 800 (400 primary + 400 held-out)
+  unique requests: 786  (appearing in both audits: 14)
+  successfully mapped requests: 786/786
+  verification units (base query, snapshot round): 715
+    base queries: 703   units with >1 round: 12
+    round spread: {'rerun_24h': 661, 'rerun_1h': 24, 'rerun_12h': 29, 'run_00': 1}
+  paraphrase requests: 668  reusable fidelity judgments: 12  need new: 656
+    reused verdicts: {'DIFFERENT': 4, 'SAME': 8}
+  base-query requests (no paraphrase step): 118
+
+  snapshot availability (per request, at its own round): 1117/1131 distinct URLs present (98.76%)
+    requests with complete snapshots: 772/786
+    requests with no snapshot at all: 0
+    units with at least one snapshot: 715/715
+    units with complete snapshots: 702/715
+
+  issues recorded: 34
+    missing_metadata: 20
+    unavailable_snapshot: 14
+  gold string matches c2_gold_answers: 786/786
+  gold_source spread: {'temporal_align_qa': 555, 'freshqa': 54, 'triviaqa': 177}
+  gold_year spread: {'(none)': 177, '2021': 1, '2022': 18, '2023': 573, 'before 2022': 17}
+  gold provenance note spread: {'propagated from verified-faithful paraphrase': 651, '(own gold)': 48, 'latest annotated year in the answer dictionary': 87}
+
+  input artifacts unchanged: True
+
+  wrote audit_rows.csv, request_map.csv, verification_units.csv, paraphrase_pairs.jsonl, stage1_issues.csv, stage1_summary.json, stage1.log
+  STOP — Stage 2 and all LLM judging not started, as instructed.

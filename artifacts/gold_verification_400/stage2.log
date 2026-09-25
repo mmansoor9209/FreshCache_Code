@@ -1,0 +1,43 @@
+STAGE 2 — gold temporal volatility from original cached annotations
+  offline; no LLM, no GPU, no web calls; source datasets never modified
+  Stage 1: 715 units, 703 base queries, 786 requests
+  distinct base queries to classify: 703
+
+  loading ORIGINAL cached source datasets (read-only, offline)
+    ROIM/temporal-alignment-qa[test]: 9,000 rows, 9,000 with a parsable year dictionary (0 unparsable)
+    natyou/freshqa_10_06[test]: 500 rows, 500 indexed
+    mandarjoshi/trivia_qa: not year-keyed by construction; classified as NOT_TIME_KEYED from gold_source without loading
+
+  VOLATILITY — base queries (n = 703)
+    STABLE           0
+    VOLATILE         504
+    SINGLE_YEAR      45
+    NOT_TIME_KEYED   154
+    NO_ANNOTATION    0
+  VOLATILITY — verification units (n = 715)
+    STABLE           0
+    VOLATILE         513
+    SINGLE_YEAR      46
+    NOT_TIME_KEYED   156
+    NO_ANNOTATION    0
+
+  gold vs source annotation (year-keyed base queries, n = 504)
+    gold NOT equal to the latest annotated answer : 0
+    gold differs from at least one annotated year : 499
+    among VOLATILE (504), gold differs from some year: 499
+
+  years between latest annotation and corpus collection (2026): {'3': 519, '4': 16, '5': 1}
+  latest annotated year spread: {'(none)': 154, '2021': 1, '2022': 16, '2023': 519, 'before 2022': 13}
+  number of annotated years per question: {1: 45, 24: 504}
+
+  missing or ambiguous source annotations: 0
+
+  INTERPRETATION LIMIT: STABLE means unchanged across the years the
+  benchmark annotated. It is NOT evidence that the answer was still
+  correct in 2026; SINGLE_YEAR and NOT_TIME_KEYED are UNDETERMINED,
+  not stable.
+
+  Stage 1 outputs and source metadata re-hashed: {'verification_units.csv': '654da09200fd', 'request_map.csv': '88cd4939438f', 'c2_gold_answers.json': '9864044e788c', 'queries.jsonl': '33bc54a5f2e5'}
+
+  wrote gold_temporal_volatility.csv, unit_temporal_volatility.csv, stage2_issues.csv, stage2_summary.json, stage2.log
+  STOP — Stage 3 and all LLM judging not started, as instructed.

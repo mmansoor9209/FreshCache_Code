@@ -1,0 +1,253 @@
+{
+  "stage": "3b — timestamp-aware gold-answer validity",
+  "judges": {
+    "llama8b": "meta-llama/Llama-3.1-8B-Instruct",
+    "qwen7b": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "primary_judge": "llama8b",
+  "decoding": "chat template, greedy, do_sample=False, max_new_tokens=6, bfloat16",
+  "statuses": [
+    "VALID_AT_T",
+    "SUPERSEDED_AT_T",
+    "INDETERMINATE_AT_T"
+  ],
+  "agreement_rule": "a status is assigned only when both judges agree; otherwise JUDGE_DISAGREEMENT",
+  "missing_evidence_rule": "a unit with no retrievable snapshot text is INDETERMINATE_AT_T with reason NO_EVIDENCE and is never sent to a judge; absence of evidence is never SUPERSEDED",
+  "evidence": {
+    "source": "FreshCache-Bench historical snapshots at each unit's own round",
+    "per_page_cap_chars": 2000,
+    "min_page_chars": 200,
+    "budget_chars": 2800,
+    "assembly": "identical to prep2.ctx_for used by the audits"
+  },
+  "prompt_system": "You are checking whether a benchmark answer was still up to date at a specific point in time, using web page text captured at that time.\n\nYou are given a QUESTION, a BENCHMARK ANSWER with the year it was annotated, and EVIDENCE consisting of web page text captured later, in May-June 2026. Decide what the evidence says about the benchmark answer AT THE TIME THE EVIDENCE WAS CAPTURED.\n\nReply with exactly one word:\nVALID        the evidence indicates the benchmark answer was still the current answer when the evidence was captured.\nSUPERSEDED   the evidence indicates a DIFFERENT current answer, so the benchmark answer was out of date.\nINDETERMINATE the evidence does not settle the question either way.\n\nImportant:\n- Absence of the benchmark answer from the evidence is NOT enough to say SUPERSEDED. Say SUPERSEDED only if the evidence states a different current answer.\n- Do not assume the benchmark answer is still correct merely because it was annotated in an earlier year. Judge only from the evidence.\n- If the evidence is off-topic, incomplete, or silent on the point, say INDETERMINATE.",
+  "units": 715,
+  "judged_units": 715,
+  "overall": {
+    "n": 715,
+    "VALID_AT_T": 95,
+    "SUPERSEDED_AT_T": 175,
+    "INDETERMINATE_AT_T": 124,
+    "JUDGE_DISAGREEMENT": 321,
+    "no_evidence": 0,
+    "judged": 715,
+    "judges_agree_pct": 55.1,
+    "cohens_kappa": 0.3465
+  },
+  "by_freshness_class": {
+    "TIMELESS": {
+      "n": 171,
+      "VALID_AT_T": 73,
+      "SUPERSEDED_AT_T": 5,
+      "INDETERMINATE_AT_T": 21,
+      "JUDGE_DISAGREEMENT": 72,
+      "no_evidence": 0,
+      "judged": 171,
+      "judges_agree_pct": 57.89,
+      "cohens_kappa": 0.2717
+    },
+    "SLOW": {
+      "n": 179,
+      "VALID_AT_T": 20,
+      "SUPERSEDED_AT_T": 40,
+      "INDETERMINATE_AT_T": 37,
+      "JUDGE_DISAGREEMENT": 82,
+      "no_evidence": 0,
+      "judged": 179,
+      "judges_agree_pct": 54.19,
+      "cohens_kappa": 0.3508
+    },
+    "MEDIUM": {
+      "n": 180,
+      "VALID_AT_T": 1,
+      "SUPERSEDED_AT_T": 60,
+      "INDETERMINATE_AT_T": 36,
+      "JUDGE_DISAGREEMENT": 83,
+      "no_evidence": 0,
+      "judged": 180,
+      "judges_agree_pct": 53.89,
+      "cohens_kappa": 0.2589
+    },
+    "FAST": {
+      "n": 185,
+      "VALID_AT_T": 1,
+      "SUPERSEDED_AT_T": 70,
+      "INDETERMINATE_AT_T": 30,
+      "JUDGE_DISAGREEMENT": 84,
+      "no_evidence": 0,
+      "judged": 185,
+      "judges_agree_pct": 54.59,
+      "cohens_kappa": 0.225
+    }
+  },
+  "by_gold_source": {
+    "freshqa": {
+      "n": 46,
+      "VALID_AT_T": 7,
+      "SUPERSEDED_AT_T": 13,
+      "INDETERMINATE_AT_T": 3,
+      "JUDGE_DISAGREEMENT": 23,
+      "no_evidence": 0,
+      "judged": 46,
+      "judges_agree_pct": 50.0,
+      "cohens_kappa": 0.2586
+    },
+    "temporal_align_qa": {
+      "n": 513,
+      "VALID_AT_T": 20,
+      "SUPERSEDED_AT_T": 157,
+      "INDETERMINATE_AT_T": 101,
+      "JUDGE_DISAGREEMENT": 235,
+      "no_evidence": 0,
+      "judged": 513,
+      "judges_agree_pct": 54.19,
+      "cohens_kappa": 0.2934
+    },
+    "triviaqa": {
+      "n": 156,
+      "VALID_AT_T": 68,
+      "SUPERSEDED_AT_T": 5,
+      "INDETERMINATE_AT_T": 20,
+      "JUDGE_DISAGREEMENT": 63,
+      "no_evidence": 0,
+      "judged": 156,
+      "judges_agree_pct": 59.62,
+      "cohens_kappa": 0.2934
+    }
+  },
+  "by_annotation_year": {
+    "(none)": {
+      "n": 156,
+      "VALID_AT_T": 68,
+      "SUPERSEDED_AT_T": 5,
+      "INDETERMINATE_AT_T": 20,
+      "JUDGE_DISAGREEMENT": 63,
+      "no_evidence": 0,
+      "judged": 156,
+      "judges_agree_pct": 59.62,
+      "cohens_kappa": 0.2934
+    },
+    "2021": {
+      "n": 1,
+      "VALID_AT_T": 0,
+      "SUPERSEDED_AT_T": 0,
+      "INDETERMINATE_AT_T": 0,
+      "JUDGE_DISAGREEMENT": 1,
+      "no_evidence": 0,
+      "judged": 1,
+      "judges_agree_pct": 0.0,
+      "cohens_kappa": 0.0
+    },
+    "2022": {
+      "n": 16,
+      "VALID_AT_T": 3,
+      "SUPERSEDED_AT_T": 4,
+      "INDETERMINATE_AT_T": 1,
+      "JUDGE_DISAGREEMENT": 8,
+      "no_evidence": 0,
+      "judged": 16,
+      "judges_agree_pct": 50.0,
+      "cohens_kappa": 0.2889
+    },
+    "2023": {
+      "n": 528,
+      "VALID_AT_T": 20,
+      "SUPERSEDED_AT_T": 164,
+      "INDETERMINATE_AT_T": 102,
+      "JUDGE_DISAGREEMENT": 242,
+      "no_evidence": 0,
+      "judged": 528,
+      "judges_agree_pct": 54.17,
+      "cohens_kappa": 0.2909
+    },
+    "before 2022": {
+      "n": 14,
+      "VALID_AT_T": 4,
+      "SUPERSEDED_AT_T": 2,
+      "INDETERMINATE_AT_T": 1,
+      "JUDGE_DISAGREEMENT": 7,
+      "no_evidence": 0,
+      "judged": 14,
+      "judges_agree_pct": 50.0,
+      "cohens_kappa": 0.2794
+    }
+  },
+  "by_volatility": {
+    "NOT_TIME_KEYED": {
+      "n": 156,
+      "VALID_AT_T": 68,
+      "SUPERSEDED_AT_T": 5,
+      "INDETERMINATE_AT_T": 20,
+      "JUDGE_DISAGREEMENT": 63,
+      "no_evidence": 0,
+      "judged": 156,
+      "judges_agree_pct": 59.62,
+      "cohens_kappa": 0.2934
+    },
+    "SINGLE_YEAR": {
+      "n": 46,
+      "VALID_AT_T": 7,
+      "SUPERSEDED_AT_T": 13,
+      "INDETERMINATE_AT_T": 3,
+      "JUDGE_DISAGREEMENT": 23,
+      "no_evidence": 0,
+      "judged": 46,
+      "judges_agree_pct": 50.0,
+      "cohens_kappa": 0.2586
+    },
+    "VOLATILE": {
+      "n": 513,
+      "VALID_AT_T": 20,
+      "SUPERSEDED_AT_T": 157,
+      "INDETERMINATE_AT_T": 101,
+      "JUDGE_DISAGREEMENT": 235,
+      "no_evidence": 0,
+      "judged": 513,
+      "judges_agree_pct": 54.19,
+      "cohens_kappa": 0.2934
+    }
+  },
+  "wai": {
+    "primary_requests": 59,
+    "heldout_requests": 64,
+    "distinct_requests": 122,
+    "distinct_units": 115,
+    "unmapped_requests": [],
+    "unit_status": {
+      "n": 115,
+      "VALID_AT_T": 55,
+      "SUPERSEDED_AT_T": 6,
+      "INDETERMINATE_AT_T": 9,
+      "JUDGE_DISAGREEMENT": 45,
+      "no_evidence": 0,
+      "judged": 115,
+      "judges_agree_pct": 60.87,
+      "cohens_kappa": 0.2772
+    },
+    "request_status": {
+      "VALID_AT_T": 62,
+      "INDETERMINATE_AT_T": 9,
+      "JUDGE_DISAGREEMENT": 45,
+      "SUPERSEDED_AT_T": 6
+    }
+  },
+  "judge_confusion_matrix": {
+    "VALID_AT_T|VALID_AT_T": 95,
+    "SUPERSEDED_AT_T|SUPERSEDED_AT_T": 175,
+    "INDETERMINATE_AT_T|INDETERMINATE_AT_T": 124,
+    "VALID_AT_T|SUPERSEDED_AT_T": 164,
+    "VALID_AT_T|INDETERMINATE_AT_T": 43,
+    "INDETERMINATE_AT_T|SUPERSEDED_AT_T": 63,
+    "SUPERSEDED_AT_T|INDETERMINATE_AT_T": 42,
+    "INDETERMINATE_AT_T|VALID_AT_T": 7,
+    "SUPERSEDED_AT_T|VALID_AT_T": 2
+  },
+  "interpretation_limits": [
+    "VALID_AT_T means the snapshot evidence indicates the answer was current when captured. It is not a correctness verification.",
+    "INDETERMINATE_AT_T includes units with no evidence; it never implies the gold is wrong.",
+    "A gold annotated in 2023 is not assumed correct in 2026; the judge is asked about the evidence date only."
+  ],
+  "web_calls": 0,
+  "page_fetches": 0,
+  "answer_generation": 0
+}

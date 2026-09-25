@@ -1,0 +1,3685 @@
+{
+  "schedule": "zipf_uniform",
+  "seed": 42,
+  "n_sample": 40,
+  "sample_query_ids": [
+    "p_q_000040_0",
+    "p_q_000142_1",
+    "p_q_000331_1",
+    "p_q_000331_3",
+    "p_q_0b7949bb_0",
+    "p_q_13071539_2",
+    "p_q_177880b1_0",
+    "p_q_1ef7404e_2",
+    "p_q_26309cb6_1",
+    "p_q_35a57f29_2",
+    "p_q_3704b8f2_3",
+    "p_q_43affc2b_0",
+    "p_q_4d556954_1",
+    "p_q_57755f05_2",
+    "p_q_5e007db1_0",
+    "p_q_6566e4ed_3",
+    "p_q_6e543930_3",
+    "p_q_75db3e8b_1",
+    "p_q_7b820346_0",
+    "p_q_813d0e0a_2",
+    "p_q_86cff9f1_0",
+    "p_q_89f7697b_3",
+    "p_q_8b7e079f_3",
+    "p_q_90168b95_3",
+    "p_q_91bc1860_3",
+    "p_q_99ec603a_3",
+    "p_q_a0cf70fb_0",
+    "p_q_a377fb63_0",
+    "p_q_a3aad92f_1",
+    "p_q_a7cec67e_0",
+    "p_q_b148b3f7_1",
+    "p_q_b9a75c82_3",
+    "p_q_bc882466_0",
+    "p_q_c17d761a_1",
+    "p_q_d79c71e4_2",
+    "p_q_d9e3bc12_2",
+    "p_q_dc84c82b_0",
+    "p_q_ef7d80f1_0",
+    "p_q_ef7d80f1_2",
+    "p_q_fea8dfeb_0"
+  ],
+  "url_of": {
+    "4bc535aed1ace0a50df2aebe": "https://www.iqair.com/ko/south-korea/incheon",
+    "3d7f26198f3b99232c9a3a96": "https://www.kpmgwomenspgachampionship.com/",
+    "547ccdd22c10b7147d30f446": "https://www.lpga.com/tournaments/kpmgwomenspgachampionship/overview",
+    "4ce47e28a2c09cc1f8b5d84c": "https://www.newsbytesapp.com/news/business/musk-changes-his-designation-on-x-to-chief-troll-officer/story",
+    "919c10e50d8b80a6b48e2da7": "https://www.quizwise.com/general-knowledge-quiz/2025-02-19",
+    "5d82a666685d499db1db31ba": "https://www.environmentandsociety.org/tools/keywords/underwater-cabinet-meeting-republic-maldives",
+    "fea00cc67b4c2aff0f628b58": "https://www.teamstarkid.com/new-page-63-1-1",
+    "2660101d0a4166cb809eb994": "https://www.englandhockey.co.uk/",
+    "b5b91a88c42b654629cb215c": "https://www.televisionacademy.com/awards/nominees-winners/2025/outstanding-drama-series",
+    "0eeef3f90e2fa6c9e25440ce": "https://www.youtube.com/watch?v=jpHT9IskAYE",
+    "24c2c98e6ec19750e95cca13": "https://www.iqair.com/ko/south-korea/incheon/incheon",
+    "e464b7ea8747515264b4e24e": "https://www.youtube.com/watch?v=ro9Z9wngt1g",
+    "be21f39eafa3d0860e45093b": "https://www.instagram.com/reel/DYPpyFcp0zN/",
+    "57ecd9920f46b14e0b19f4c9": "https://www.instagram.com/p/DYZMpO-T8Dq/",
+    "b85d888235eafb0c731eb319": "https://www.iqair.com/china/beijing/beijing",
+    "4118c7edbdf6b06b4ace2a96": "https://www.thealamo.org/remember/battle-and-revolution",
+    "ce995640f1d51dcc1860ce4b": "https://www.accuweather.com/ko/kr/daegu/223347/hourly-weather-forecast/223347",
+    "9b913c300bff654658611b1a": "https://www.iqair.com/us/china/beijing",
+    "bc55e592886b95f8f439875e": "https://www.facebook.com/FNNNetworksports/videos/ahsaa-4a-football-state-championship-trophy-presentations/1349124860293045/",
+    "dab76dfd47280a8a4371b13e": "https://en.interfax.com.ua/news/sport/1168627.html",
+    "d879bc6c86ab8de3374427e6": "https://kr.investing.com/equities/samsung-sdi",
+    "e1e6f69aae0f7ef952bb2574": "https://www.americanbar.org/groups/public_education/publications/teaching-legal-docs/what-is-an-executive-order-/",
+    "78dfd4524290842afa3e4982": "https://alphasquare.co.kr/home/stock-summary?code=006400",
+    "bf31f4409d788d6f919c9265": "https://www.quizwise.com/entertainment-quiz/2014-12-18",
+    "fef0c0792e257cc0df9aee92": "https://www.reddit.com/r/UmaMusume/comments/1t2e6jg/what_a_finish_croix_du_nord_wins_the_tenno_sho/",
+    "812bc386d0b7244e4b61f65e": "https://www.cyclingnews.com/pro-cycling/races/jackson-medway-takes-solo-victory-at-mens-u23-road-race-at-australian-road-national-championships/",
+    "7dd4ef31027b3a9465b8f8d6": "https://www.sgvtribune.com/2026/04/04/tearful-mark-glatt-wins-santa-anita-derby-with-so-happy/",
+    "e1af2e588a11d75fb9ac7788": "https://politikus.sinarproject.org/organizations/state-assemblies-dewan-undangan-negeri/selangor-state-legislative-assembly/member-of-selangor-state-legislative-assembly-for-jeram",
+    "0f5373533d339d5387519481": "https://mystics.wnba.com/news/washington-mystics-announce-new-leadership",
+    "c4cf08c366fc6bea95d25c2f": "https://www.youtube.com/watch?v=EBQzfbqFKN0",
+    "618770eb951f236662587196": "https://aqicn.org/city/beijing/",
+    "ec2209b28cdc9ff72cd55c58": "https://www.englandhockey.co.uk/competitions-and-events/championships/roll-of-honour",
+    "788faca319d3291cb30a9c09": "https://www.ncei.noaa.gov/access/monitoring/tornadoes/",
+    "2e1ff05f7fa5113968ae5832": "https://www.youtube.com/watch?v=8-BkjNswErU",
+    "46e5aff47495ac46819259b0": "https://mashable.com/article/world-of-warcraft-battle-for-azeroth-review",
+    "545dceb1d88579a574261c5b": "https://www.reddit.com/r/programming/comments/brl69h/grailsort_a_stable_inplace_worstcase_onlogn_sort/",
+    "0481edfb07247802707828ae": "https://www.coingecko.com/ko/%EC%BD%94%EC%9D%B8/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80",
+    "edff313ba697aecae4a6eed7": "https://www.transfermarkt.us/palermo-fc/toptorschuetzen/verein/458",
+    "6c9afb76796e267931b27085": "https://www.bbc.com/travel/article/20170222-the-secret-behind-irans-fabled-wine",
+    "0f9b669b95bf25b94acd638a": "https://aqicn.org/city/incheon/kr/m/",
+    "883c46072e04c4ecca097c00": "https://www.jrailpass.com/shinkansen-bullet-trains",
+    "92f42a4557e2780d414bf655": "https://www.nrcc.org/about-the-chairman/",
+    "66f7140d467f645afa6d476d": "https://www.vitallaw.com/news/trademark-n-d-cal-laches-barred-fitbug-s-infringement-claims-against-fitbit/ipm010c1578d27c121000931690b11c18c90205",
+    "401f8cad5f002e5078a77409": "https://www.instagram.com/p/DZFWzXpCtV3/",
+    "9f160c645ddb6d883cd9e341": "http://hudson.house.gov/media/in-the-news/ncs-hudson-elected-to-chair-national-republican-congressional-committee",
+    "ecad30d2d50b8ac7563e2c20": "https://usafacts.org/articles/how-many-executive-orders-has-each-president-signed/",
+    "0f25ecdae5ac7c8211f1265c": "https://www.thewrap.com/elon-musk-changes-twitter-bio-to-chief-twit-ahead-of-acquisition-deadline/",
+    "8e4b5106dfd90b4d7f337233": "https://www.youtube.com/watch?v=T1N4TyjCqD8",
+    "a4bd5b94910549fa1790557f": "https://daegu.kma.go.kr/",
+    "0a549b17824b2105efd3c673": "https://stackoverflow.com/questions/7818822/sorting-in-onlogn-worst-case",
+    "ed73996cbb370266341d298b": "https://finance.naver.com/item/main.naver?code=006400",
+    "9921bac96dc8bf5ff6a81ccb": "https://www.youtube.com/watch?v=cv3Blig9GIw",
+    "40abbbe4762218d8dcd9be6a": "https://www.delraybeachopen.com/en/tournament/news/player-list-announcement",
+    "8b40aaae16dc8917da02b333": "https://www.instagram.com/tolaodeyemi/?hl=en",
+    "373cb362fecf4a2d374dbe91": "https://kr.investing.com/crypto/ethereum",
+    "909780701a243c1110d8eaba": "https://www.atptour.com/en/tournaments/delray-beach/499/overview",
+    "14ea8f36d6dfc9d246d5b8df": "https://www.presidency.ucsb.edu/statistics/data/executive-orders",
+    "ba43ee17d81c2adf10d1131d": "https://www.threads.com/@missuupdates/post/DQGq7ZhAsnx/universe-meet-the-new-miss-universe-poland-under-the-directorship-of-miss",
+    "e272ee4560e16bb68b5eaeed": "https://www.instagram.com/p/DWcZgZKjXan/?hl=zh-cn",
+    "5147f4d48b6a78820b4b869b": "https://www.skysports.com/football/news/11095/13544428/celtic-crowned-scottish-premiership-champions-how-martin-oneill-turned-chaos-to-celebration-with-final-day-hearts-win",
+    "635e9c3e20c7d3cc440b829c": "https://weather.com/ko-KR/weather/today/l/1d5882e73a2d6a4c481f5c7b96066f1dab708956ee2f9d8f194a2d29d2986333"
+  },
+  "aggregates": {
+    "FreshCache": {
+      "search_calls": 11628,
+      "l1_hits": 1175,
+      "l2_hits": 18398,
+      "l3_hits": 33907,
+      "fetches": 10959,
+      "generations": 30026,
+      "n_requests": 31201,
+      "search_saved_pct": 62.732
+    },
+    "FreshCache_NoL1": {
+      "search_calls": 11623,
+      "l1_hits": 0,
+      "l2_hits": 19578,
+      "l3_hits": 35833,
+      "fetches": 10961,
+      "generations": 31201,
+      "n_requests": 31201,
+      "search_saved_pct": 62.748
+    },
+    "SemanticTTL_k1_16": {
+      "search_calls": 2322,
+      "l1_hits": 28879,
+      "l2_hits": 0,
+      "l3_hits": 0,
+      "fetches": 4113,
+      "generations": 2322,
+      "n_requests": 31201,
+      "search_saved_pct": 92.5579
+    },
+    "NoCache": {
+      "search_calls": 31201,
+      "l1_hits": 0,
+      "l2_hits": 0,
+      "l3_hits": 0,
+      "generations": 31201
+    }
+  },
+  "specs": {
+    "NoCache": [
+      {
+        "query_id": "p_q_000040_0",
+        "pos": 16381,
+        "query": "What is the name given to an algorithm for in-place comparison searching with a worst-case time complexity of O(n log n) and best- case time, time corrected method of combinator/2 times (O(rb->l/k), but no modulo errors?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "0a549b17824b2105efd3c673",
+          "545dceb1d88579a574261c5b",
+          "545dceb1d88579a574261c5b",
+          "0a549b17824b2105efd3c673"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "0a549b17824b2105efd3c673",
+            "from_cache": false
+          },
+          {
+            "url_hash": "545dceb1d88579a574261c5b",
+            "from_cache": false
+          },
+          {
+            "url_hash": "545dceb1d88579a574261c5b",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0a549b17824b2105efd3c673",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000142_1",
+        "pos": 23844,
+        "query": "With his unconventional insinuations and humorist demeanor, Elon Musk's Twitter bio frequently references his close-knit social standing. What title did Musk choose to address himself in their playful comments?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4ce47e28a2c09cc1f8b5d84c",
+          "57ecd9920f46b14e0b19f4c9",
+          "0f25ecdae5ac7c8211f1265c",
+          "be21f39eafa3d0860e45093b"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "4ce47e28a2c09cc1f8b5d84c",
+            "from_cache": false
+          },
+          {
+            "url_hash": "57ecd9920f46b14e0b19f4c9",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0f25ecdae5ac7c8211f1265c",
+            "from_cache": false
+          },
+          {
+            "url_hash": "be21f39eafa3d0860e45093b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000331_1",
+        "pos": 28866,
+        "query": "Based on the current air quality assessment, Beijing provides authoritative input.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000331_3",
+        "pos": 26557,
+        "query": "What are the air quality standards in Beijing at present?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_0b7949bb_0",
+        "pos": 20986,
+        "query": "Which drama series has won the best dramatic show in recent Primetime Emmy award?",
+        "fc": "FAST",
+        "own_urls": [
+          "b5b91a88c42b654629cb215c",
+          "b5b91a88c42b654629cb215c"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "b5b91a88c42b654629cb215c",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b5b91a88c42b654629cb215c",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_13071539_2",
+        "pos": 25496,
+        "query": "Guess who came out on top in the ASA 4A football conference?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "bc55e592886b95f8f439875e"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "bc55e592886b95f8f439875e",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_177880b1_0",
+        "pos": 27335,
+        "query": "Who is in charge of coaching the Washington Mystics?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "0f5373533d339d5387519481"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "0f5373533d339d5387519481",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_1ef7404e_2",
+        "pos": 25611,
+        "query": "Who finished in the second position at Delray Beach Open?",
+        "fc": "FAST",
+        "own_urls": [
+          "40abbbe4762218d8dcd9be6a",
+          "909780701a243c1110d8eaba"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "40abbbe4762218d8dcd9be6a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "909780701a243c1110d8eaba",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_26309cb6_1",
+        "pos": 15870,
+        "query": "Could you inform me of the plot involving Charlotte Gainsbourg's latest film?",
+        "fc": "FAST",
+        "own_urls": [
+          "0eeef3f90e2fa6c9e25440ce"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "0eeef3f90e2fa6c9e25440ce",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_35a57f29_2",
+        "pos": 21153,
+        "query": "What island nation had its inaugural underwater cabinet meeting to publicize global warming?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "5d82a666685d499db1db31ba"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "5d82a666685d499db1db31ba",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_3704b8f2_3",
+        "pos": 23572,
+        "query": "From which town in Iran does the grape syrah' originate?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "6c9afb76796e267931b27085"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "6c9afb76796e267931b27085",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_43affc2b_0",
+        "pos": 19207,
+        "query": "\"How has the phrase \"Bill and Ben, the .... Men\" from the British TV program that debuted in 1952 been lost with its missing words?\"",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "919c10e50d8b80a6b48e2da7",
+          "bf31f4409d788d6f919c9265"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "919c10e50d8b80a6b48e2da7",
+            "from_cache": false
+          },
+          {
+            "url_hash": "bf31f4409d788d6f919c9265",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_4d556954_1",
+        "pos": 29418,
+        "query": "From 2013 to 2016, did Fitbit and Fitbug receive legal recourse for their innovative technology development?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "66f7140d467f645afa6d476d"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "66f7140d467f645afa6d476d",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_57755f05_2",
+        "pos": 21796,
+        "query": "What is the identity of the Postmaster General in Nigeria?",
+        "fc": "SLOW",
+        "own_urls": [
+          "8b40aaae16dc8917da02b333"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "8b40aaae16dc8917da02b333",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_5e007db1_0",
+        "pos": 25654,
+        "query": "\ud604\uc7ac \uc774\ub354\ub9ac\uc6c0 \uac00\uaca9\uc774 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "0481edfb07247802707828ae",
+          "0481edfb07247802707828ae",
+          "373cb362fecf4a2d374dbe91"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "373cb362fecf4a2d374dbe91",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_6566e4ed_3",
+        "pos": 18071,
+        "query": "Who won with the club manager most of other clubs Scottish League championship?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "5147f4d48b6a78820b4b869b"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "5147f4d48b6a78820b4b869b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_6e543930_3",
+        "pos": 26262,
+        "query": "In which video game does the world of Azeroth occur?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "2e1ff05f7fa5113968ae5832",
+          "46e5aff47495ac46819259b0"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "2e1ff05f7fa5113968ae5832",
+            "from_cache": false
+          },
+          {
+            "url_hash": "46e5aff47495ac46819259b0",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_75db3e8b_1",
+        "pos": 25401,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub300\uae30\uc9c8 \uc9c0\uc218\uc758 \uac00\uaca9\uc744 \uc54c\ub824\uc8fc\uc138\uc694.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "24c2c98e6ec19750e95cca13",
+          "24c2c98e6ec19750e95cca13",
+          "4bc535aed1ace0a50df2aebe",
+          "0f9b669b95bf25b94acd638a"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "4bc535aed1ace0a50df2aebe",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0f9b669b95bf25b94acd638a",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_7b820346_0",
+        "pos": 30925,
+        "query": "Which outfit is currently offering the kits for Mansfield Town F.C.?",
+        "fc": "SLOW",
+        "own_urls": [
+          "401f8cad5f002e5078a77409"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "401f8cad5f002e5078a77409",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_813d0e0a_2",
+        "pos": 19364,
+        "query": "Can you tell me the location of the Copa de Espaol final?",
+        "fc": "FAST",
+        "own_urls": [
+          "e272ee4560e16bb68b5eaeed"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "e272ee4560e16bb68b5eaeed",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_86cff9f1_0",
+        "pos": 23534,
+        "query": "What is the name of the author who wrote the book for the newest StarKid play?",
+        "fc": "SLOW",
+        "own_urls": [
+          "fea00cc67b4c2aff0f628b58"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "fea00cc67b4c2aff0f628b58",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_89f7697b_3",
+        "pos": 22879,
+        "query": "Who answers the prayer of Jeram?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1af2e588a11d75fb9ac7788"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "e1af2e588a11d75fb9ac7788",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_8b7e079f_3",
+        "pos": 29461,
+        "query": "When did the Women's PGA Championship last take place?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "3d7f26198f3b99232c9a3a96",
+          "547ccdd22c10b7147d30f446"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "3d7f26198f3b99232c9a3a96",
+            "from_cache": false
+          },
+          {
+            "url_hash": "547ccdd22c10b7147d30f446",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_90168b95_3",
+        "pos": 29769,
+        "query": "What is the count of tornadoes recorded in America this year?",
+        "fc": "FAST",
+        "own_urls": [
+          "788faca319d3291cb30a9c09",
+          "788faca319d3291cb30a9c09"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "788faca319d3291cb30a9c09",
+            "from_cache": false
+          },
+          {
+            "url_hash": "788faca319d3291cb30a9c09",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_91bc1860_3",
+        "pos": 19252,
+        "query": "Who recently won the Australian National Under-23 Men's Road Race Championship?",
+        "fc": "FAST",
+        "own_urls": [
+          "e464b7ea8747515264b4e24e",
+          "812bc386d0b7244e4b61f65e"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "e464b7ea8747515264b4e24e",
+            "from_cache": false
+          },
+          {
+            "url_hash": "812bc386d0b7244e4b61f65e",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_99ec603a_3",
+        "pos": 22439,
+        "query": "Who holds the record of being the most prolific scorer for Palermo FC?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "edff313ba697aecae4a6eed7"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "edff313ba697aecae4a6eed7",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a0cf70fb_0",
+        "pos": 22072,
+        "query": "With whom was the horse trained that won last year's contestant in Tenno Sho Spring?",
+        "fc": "FAST",
+        "own_urls": [
+          "fef0c0792e257cc0df9aee92"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "fef0c0792e257cc0df9aee92",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a377fb63_0",
+        "pos": 22816,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "635e9c3e20c7d3cc440b829c",
+          "635e9c3e20c7d3cc440b829c"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          },
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a3aad92f_1",
+        "pos": 20488,
+        "query": "Who has taken on the responsibility of being coach for the under-21 football team in Ukraine?",
+        "fc": "SLOW",
+        "own_urls": [
+          "dab76dfd47280a8a4371b13e"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "dab76dfd47280a8a4371b13e",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a7cec67e_0",
+        "pos": 22833,
+        "query": "What is the name of who chairs the National Republican Congressional Committee?",
+        "fc": "SLOW",
+        "own_urls": [
+          "92f42a4557e2780d414bf655",
+          "9f160c645ddb6d883cd9e341"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "92f42a4557e2780d414bf655",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9f160c645ddb6d883cd9e341",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_b148b3f7_1",
+        "pos": 26116,
+        "query": "The Prix du Cadran winner at the moment, which horse is currently winning?",
+        "fc": "FAST",
+        "own_urls": [
+          "9921bac96dc8bf5ff6a81ccb"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "9921bac96dc8bf5ff6a81ccb",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_b9a75c82_3",
+        "pos": 28887,
+        "query": "Who came out on top in the Men's England Hockey League final?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "2660101d0a4166cb809eb994",
+          "ec2209b28cdc9ff72cd55c58"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "2660101d0a4166cb809eb994",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ec2209b28cdc9ff72cd55c58",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_bc882466_0",
+        "pos": 25158,
+        "query": "\ud604\uc7ac \uc0bc\uc131SDI \uc8fc\uac00\uac00 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "78dfd4524290842afa3e4982",
+          "ed73996cbb370266341d298b",
+          "d879bc6c86ab8de3374427e6",
+          "78dfd4524290842afa3e4982"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ed73996cbb370266341d298b",
+            "from_cache": false
+          },
+          {
+            "url_hash": "d879bc6c86ab8de3374427e6",
+            "from_cache": false
+          },
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_c17d761a_1",
+        "pos": 19205,
+        "query": "Which high-speed railway project in Japan has been launched last year?",
+        "fc": "SLOW",
+        "own_urls": [
+          "c4cf08c366fc6bea95d25c2f",
+          "883c46072e04c4ecca097c00"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "c4cf08c366fc6bea95d25c2f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "883c46072e04c4ecca097c00",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_d79c71e4_2",
+        "pos": 20800,
+        "query": "Which dizilness did the latest Miss Universe of Poland achieve?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "ba43ee17d81c2adf10d1131d"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "ba43ee17d81c2adf10d1131d",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_d9e3bc12_2",
+        "pos": 27234,
+        "query": "During their entire administration, how many U.S. presidents have issued just one federal executive order?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1e6f69aae0f7ef952bb2574",
+          "14ea8f36d6dfc9d246d5b8df",
+          "14ea8f36d6dfc9d246d5b8df",
+          "ecad30d2d50b8ac7563e2c20"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "e1e6f69aae0f7ef952bb2574",
+            "from_cache": false
+          },
+          {
+            "url_hash": "14ea8f36d6dfc9d246d5b8df",
+            "from_cache": false
+          },
+          {
+            "url_hash": "14ea8f36d6dfc9d246d5b8df",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ecad30d2d50b8ac7563e2c20",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_dc84c82b_0",
+        "pos": 23303,
+        "query": "How did the Mexican forces under command of Santa Anna carry out their siege operation on Feb 23, 1836?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4118c7edbdf6b06b4ace2a96"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "4118c7edbdf6b06b4ace2a96",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_0",
+        "pos": 23527,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_2",
+        "pos": 18709,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub5a4\uac00\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_fea8dfeb_0",
+        "pos": 29007,
+        "query": "Which trainer ran the last vet's Santa Anita Derby winner?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "8e4b5106dfd90b4d7f337233",
+          "7dd4ef31027b3a9465b8f8d6"
+        ],
+        "l1_index": 0,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "nocache",
+        "served": [
+          {
+            "url_hash": "8e4b5106dfd90b4d7f337233",
+            "from_cache": false
+          },
+          {
+            "url_hash": "7dd4ef31027b3a9465b8f8d6",
+            "from_cache": false
+          }
+        ]
+      }
+    ],
+    "SemanticTTL_k1_16": [
+      {
+        "query_id": "p_q_000040_0",
+        "pos": 16381,
+        "query": "What is the name given to an algorithm for in-place comparison searching with a worst-case time complexity of O(n log n) and best- case time, time corrected method of combinator/2 times (O(rb->l/k), but no modulo errors?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "0a549b17824b2105efd3c673",
+          "545dceb1d88579a574261c5b",
+          "545dceb1d88579a574261c5b",
+          "0a549b17824b2105efd3c673"
+        ],
+        "l1_index": 1034,
+        "l2_index": 0,
+        "matched_query": "Calculate the smallest rational number quenched over 1/ 2 havehi().top answer?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_000142_1",
+        "pos": 23844,
+        "query": "With his unconventional insinuations and humorist demeanor, Elon Musk's Twitter bio frequently references his close-knit social standing. What title did Musk choose to address himself in their playful comments?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4ce47e28a2c09cc1f8b5d84c",
+          "57ecd9920f46b14e0b19f4c9",
+          "0f25ecdae5ac7c8211f1265c",
+          "be21f39eafa3d0860e45093b"
+        ],
+        "l1_index": 1511,
+        "l2_index": 0,
+        "matched_query": "By injecting humor into his mockery and insightful criticisms with snap judgments, Elon Musk's internet-based persona stole attention from the platform. However, what title did he refer to in his X bio page before venturing further?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_000331_1",
+        "pos": 28866,
+        "query": "Based on the current air quality assessment, Beijing provides authoritative input.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 1812,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000331_3",
+        "pos": 26557,
+        "query": "What are the air quality standards in Beijing at present?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 1682,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_0b7949bb_0",
+        "pos": 20986,
+        "query": "Which drama series has won the best dramatic show in recent Primetime Emmy award?",
+        "fc": "FAST",
+        "own_urls": [
+          "b5b91a88c42b654629cb215c",
+          "b5b91a88c42b654629cb215c"
+        ],
+        "l1_index": 1308,
+        "l2_index": 0,
+        "matched_query": "Do you know the person or team who delivered the drama Pocoyo in English?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_13071539_2",
+        "pos": 25496,
+        "query": "Guess who came out on top in the ASA 4A football conference?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "bc55e592886b95f8f439875e"
+        ],
+        "l1_index": 1603,
+        "l2_index": 0,
+        "matched_query": "Alabama High School Athletic Association 4A football champion",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_177880b1_0",
+        "pos": 27335,
+        "query": "Who is in charge of coaching the Washington Mystics?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "0f5373533d339d5387519481"
+        ],
+        "l1_index": 1734,
+        "l2_index": 0,
+        "matched_query": "Which organization is operating within the Bosnia and Herzegovina team at present?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_1ef7404e_2",
+        "pos": 25611,
+        "query": "Who finished in the second position at Delray Beach Open?",
+        "fc": "FAST",
+        "own_urls": [
+          "40abbbe4762218d8dcd9be6a",
+          "909780701a243c1110d8eaba"
+        ],
+        "l1_index": 1610,
+        "l2_index": 0,
+        "matched_query": "What position did the Pittsburgh Pirates' pick from first team get chosen for?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_26309cb6_1",
+        "pos": 15870,
+        "query": "Could you inform me of the plot involving Charlotte Gainsbourg's latest film?",
+        "fc": "FAST",
+        "own_urls": [
+          "0eeef3f90e2fa6c9e25440ce"
+        ],
+        "l1_index": 1009,
+        "l2_index": 0,
+        "matched_query": "Who will play M in the new Bond film Spectre?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_35a57f29_2",
+        "pos": 21153,
+        "query": "What island nation had its inaugural underwater cabinet meeting to publicize global warming?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "5d82a666685d499db1db31ba"
+        ],
+        "l1_index": 1325,
+        "l2_index": 0,
+        "matched_query": "Currently, which member state of GRULAC occupies an interim seat on the United Nations Security Council?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_3704b8f2_3",
+        "pos": 23572,
+        "query": "From which town in Iran does the grape syrah' originate?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "6c9afb76796e267931b27085"
+        ],
+        "l1_index": 1493,
+        "l2_index": 0,
+        "matched_query": "Where does Mdina Glass come from?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_43affc2b_0",
+        "pos": 19207,
+        "query": "\"How has the phrase \"Bill and Ben, the .... Men\" from the British TV program that debuted in 1952 been lost with its missing words?\"",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "919c10e50d8b80a6b48e2da7",
+          "bf31f4409d788d6f919c9265"
+        ],
+        "l1_index": 1192,
+        "l2_index": 0,
+        "matched_query": "You get nothing for a pair was a Bruce Forsyth catchphrase in which programme",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_4d556954_1",
+        "pos": 29418,
+        "query": "From 2013 to 2016, did Fitbit and Fitbug receive legal recourse for their innovative technology development?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "66f7140d467f645afa6d476d"
+        ],
+        "l1_index": 1860,
+        "l2_index": 0,
+        "matched_query": "Which latest type of race car runs for the Manabu Orido also used in Super GT?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_57755f05_2",
+        "pos": 21796,
+        "query": "What is the identity of the Postmaster General in Nigeria?",
+        "fc": "SLOW",
+        "own_urls": [
+          "8b40aaae16dc8917da02b333"
+        ],
+        "l1_index": 1381,
+        "l2_index": 0,
+        "matched_query": "Is there currently any political leader who represents Akwa Ibom South in the Nigerian Senate?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_5e007db1_0",
+        "pos": 25654,
+        "query": "\ud604\uc7ac \uc774\ub354\ub9ac\uc6c0 \uac00\uaca9\uc774 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "0481edfb07247802707828ae",
+          "0481edfb07247802707828ae",
+          "373cb362fecf4a2d374dbe91"
+        ],
+        "l1_index": 1612,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "373cb362fecf4a2d374dbe91",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_6566e4ed_3",
+        "pos": 18071,
+        "query": "Who won with the club manager most of other clubs Scottish League championship?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "5147f4d48b6a78820b4b869b"
+        ],
+        "l1_index": 1125,
+        "l2_index": 0,
+        "matched_query": "What happened in the Macedonian Football Cup's final game?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_6e543930_3",
+        "pos": 26262,
+        "query": "In which video game does the world of Azeroth occur?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "2e1ff05f7fa5113968ae5832",
+          "46e5aff47495ac46819259b0"
+        ],
+        "l1_index": 1657,
+        "l2_index": 0,
+        "matched_query": "Within what place on the Greek world did the book 'Captain Corelli's Mandolin' meet?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_75db3e8b_1",
+        "pos": 25401,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub300\uae30\uc9c8 \uc9c0\uc218\uc758 \uac00\uaca9\uc744 \uc54c\ub824\uc8fc\uc138\uc694.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "24c2c98e6ec19750e95cca13",
+          "24c2c98e6ec19750e95cca13",
+          "4bc535aed1ace0a50df2aebe",
+          "0f9b669b95bf25b94acd638a"
+        ],
+        "l1_index": 1594,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "4bc535aed1ace0a50df2aebe",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0f9b669b95bf25b94acd638a",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_7b820346_0",
+        "pos": 30925,
+        "query": "Which outfit is currently offering the kits for Mansfield Town F.C.?",
+        "fc": "SLOW",
+        "own_urls": [
+          "401f8cad5f002e5078a77409"
+        ],
+        "l1_index": 1950,
+        "l2_index": 0,
+        "matched_query": "Which area outside Derbyshire, specifically within a spa town, hosts its own well dressing weekend?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_813d0e0a_2",
+        "pos": 19364,
+        "query": "Can you tell me the location of the Copa de Espaol final?",
+        "fc": "FAST",
+        "own_urls": [
+          "e272ee4560e16bb68b5eaeed"
+        ],
+        "l1_index": 1200,
+        "l2_index": 0,
+        "matched_query": "What is the evident definition of tapas in Spanish, from place to point?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_86cff9f1_0",
+        "pos": 23534,
+        "query": "What is the name of the author who wrote the book for the newest StarKid play?",
+        "fc": "SLOW",
+        "own_urls": [
+          "fea00cc67b4c2aff0f628b58"
+        ],
+        "l1_index": 1491,
+        "l2_index": 0,
+        "matched_query": "On which record is the Spiel des Jahres award-winning board game issued?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_89f7697b_3",
+        "pos": 22879,
+        "query": "Who answers the prayer of Jeram?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1af2e588a11d75fb9ac7788"
+        ],
+        "l1_index": 1455,
+        "l2_index": 0,
+        "matched_query": "Which oath is recognized in Shintoism from a spiritual perspective?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_8b7e079f_3",
+        "pos": 29461,
+        "query": "When did the Women's PGA Championship last take place?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "3d7f26198f3b99232c9a3a96",
+          "547ccdd22c10b7147d30f446"
+        ],
+        "l1_index": 1861,
+        "l2_index": 0,
+        "matched_query": "What is the breakdown of multiple conference games lost by the current Pac-12 Conference women's basketball champion?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_90168b95_3",
+        "pos": 29769,
+        "query": "What is the count of tornadoes recorded in America this year?",
+        "fc": "FAST",
+        "own_urls": [
+          "788faca319d3291cb30a9c09",
+          "788faca319d3291cb30a9c09"
+        ],
+        "l1_index": 1883,
+        "l2_index": 0,
+        "matched_query": "What is the Bureau of Transportation's estimate for the number of railroad tracks in Arlington County that allow passenger travel?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_91bc1860_3",
+        "pos": 19252,
+        "query": "Who recently won the Australian National Under-23 Men's Road Race Championship?",
+        "fc": "FAST",
+        "own_urls": [
+          "e464b7ea8747515264b4e24e",
+          "812bc386d0b7244e4b61f65e"
+        ],
+        "l1_index": 1194,
+        "l2_index": 0,
+        "matched_query": "What was the name of the title winner in the latest YellaWood 500 championship?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_99ec603a_3",
+        "pos": 22439,
+        "query": "Who holds the record of being the most prolific scorer for Palermo FC?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "edff313ba697aecae4a6eed7"
+        ],
+        "l1_index": 1424,
+        "l2_index": 0,
+        "matched_query": "What is the identity of the champions in football, Campeonato Acreano?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_a0cf70fb_0",
+        "pos": 22072,
+        "query": "With whom was the horse trained that won last year's contestant in Tenno Sho Spring?",
+        "fc": "FAST",
+        "own_urls": [
+          "fef0c0792e257cc0df9aee92"
+        ],
+        "l1_index": 1396,
+        "l2_index": 0,
+        "matched_query": "Can you name the jockey of the Scilly Isles Novices' Chase success story?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_a377fb63_0",
+        "pos": 22816,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "635e9c3e20c7d3cc440b829c",
+          "635e9c3e20c7d3cc440b829c"
+        ],
+        "l1_index": 1451,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          },
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a3aad92f_1",
+        "pos": 20488,
+        "query": "Who has taken on the responsibility of being coach for the under-21 football team in Ukraine?",
+        "fc": "SLOW",
+        "own_urls": [
+          "dab76dfd47280a8a4371b13e"
+        ],
+        "l1_index": 1280,
+        "l2_index": 0,
+        "matched_query": "Can someone explain the meaning of kazachok in Russia?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_a7cec67e_0",
+        "pos": 22833,
+        "query": "What is the name of who chairs the National Republican Congressional Committee?",
+        "fc": "SLOW",
+        "own_urls": [
+          "92f42a4557e2780d414bf655",
+          "9f160c645ddb6d883cd9e341"
+        ],
+        "l1_index": 1452,
+        "l2_index": 0,
+        "matched_query": "Which political party controls the 10th congressional district in Michigan?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_b148b3f7_1",
+        "pos": 26116,
+        "query": "The Prix du Cadran winner at the moment, which horse is currently winning?",
+        "fc": "FAST",
+        "own_urls": [
+          "9921bac96dc8bf5ff6a81ccb"
+        ],
+        "l1_index": 1645,
+        "l2_index": 0,
+        "matched_query": "Which competitor defeated F91 Dudelange in Europe?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_b9a75c82_3",
+        "pos": 28887,
+        "query": "Who came out on top in the Men's England Hockey League final?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "2660101d0a4166cb809eb994",
+          "ec2209b28cdc9ff72cd55c58"
+        ],
+        "l1_index": 1812,
+        "l2_index": 0,
+        "matched_query": "Among the performing artists in their final round of contestants, who was perceived as the third best performer on stage (UK), as well as being silent favorites?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_bc882466_0",
+        "pos": 25158,
+        "query": "\ud604\uc7ac \uc0bc\uc131SDI \uc8fc\uac00\uac00 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "78dfd4524290842afa3e4982",
+          "ed73996cbb370266341d298b",
+          "d879bc6c86ab8de3374427e6",
+          "78dfd4524290842afa3e4982"
+        ],
+        "l1_index": 1573,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ed73996cbb370266341d298b",
+            "from_cache": false
+          },
+          {
+            "url_hash": "d879bc6c86ab8de3374427e6",
+            "from_cache": false
+          },
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_c17d761a_1",
+        "pos": 19205,
+        "query": "Which high-speed railway project in Japan has been launched last year?",
+        "fc": "SLOW",
+        "own_urls": [
+          "c4cf08c366fc6bea95d25c2f",
+          "883c46072e04c4ecca097c00"
+        ],
+        "l1_index": 1192,
+        "l2_index": 0,
+        "matched_query": "How deep did the most recent powerful earthquake in Brazil reach?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_d79c71e4_2",
+        "pos": 20800,
+        "query": "Which dizilness did the latest Miss Universe of Poland achieve?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "ba43ee17d81c2adf10d1131d"
+        ],
+        "l1_index": 1305,
+        "l2_index": 0,
+        "matched_query": "Who was the inaugural female president of Slovenia?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_d9e3bc12_2",
+        "pos": 27234,
+        "query": "During their entire administration, how many U.S. presidents have issued just one federal executive order?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1e6f69aae0f7ef952bb2574",
+          "14ea8f36d6dfc9d246d5b8df",
+          "14ea8f36d6dfc9d246d5b8df",
+          "ecad30d2d50b8ac7563e2c20"
+        ],
+        "l1_index": 1731,
+        "l2_index": 0,
+        "matched_query": "\ud604\uc7ac \ud55c\uad6d\uc758 \uad6d\ub9bd\ub300\ud559\uad50 \uc218\ub294 \uba87 \uac1c\uc608\uc694?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_dc84c82b_0",
+        "pos": 23303,
+        "query": "How did the Mexican forces under command of Santa Anna carry out their siege operation on Feb 23, 1836?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4118c7edbdf6b06b4ace2a96"
+        ],
+        "l1_index": 1474,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "4118c7edbdf6b06b4ace2a96",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_0",
+        "pos": 23527,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 1491,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_2",
+        "pos": 18709,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub5a4\uac00\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 1157,
+        "l2_index": 0,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_fea8dfeb_0",
+        "pos": 29007,
+        "query": "Which trainer ran the last vet's Santa Anita Derby winner?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "8e4b5106dfd90b4d7f337233",
+          "7dd4ef31027b3a9465b8f8d6"
+        ],
+        "l1_index": 1818,
+        "l2_index": 0,
+        "matched_query": "Who held the position of a veterinarian in Daktari?",
+        "path": "L1",
+        "served": []
+      }
+    ],
+    "FreshCache_NoL1": [
+      {
+        "query_id": "p_q_000040_0",
+        "pos": 16381,
+        "query": "What is the name given to an algorithm for in-place comparison searching with a worst-case time complexity of O(n log n) and best- case time, time corrected method of combinator/2 times (O(rb->l/k), but no modulo errors?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "0a549b17824b2105efd3c673",
+          "545dceb1d88579a574261c5b",
+          "545dceb1d88579a574261c5b",
+          "0a549b17824b2105efd3c673"
+        ],
+        "l1_index": 0,
+        "l2_index": 16189,
+        "matched_query": "What is the name of the in-place, stable comparison sorting algorithm with a worst-case time complexity of O(n log n) and a best-case time complexity of O(n)?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "0a549b17824b2105efd3c673",
+            "from_cache": true
+          },
+          {
+            "url_hash": "545dceb1d88579a574261c5b",
+            "from_cache": true
+          },
+          {
+            "url_hash": "545dceb1d88579a574261c5b",
+            "from_cache": true
+          },
+          {
+            "url_hash": "0a549b17824b2105efd3c673",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000142_1",
+        "pos": 23844,
+        "query": "With his unconventional insinuations and humorist demeanor, Elon Musk's Twitter bio frequently references his close-knit social standing. What title did Musk choose to address himself in their playful comments?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4ce47e28a2c09cc1f8b5d84c",
+          "57ecd9920f46b14e0b19f4c9",
+          "0f25ecdae5ac7c8211f1265c",
+          "be21f39eafa3d0860e45093b"
+        ],
+        "l1_index": 0,
+        "l2_index": 23566,
+        "matched_query": "Elon Musk's online persona is synonymous with witty comebacks and sarcastic remarks, often aimed at individuals or institutions. What title did he humorously declare himself as in his Twitter bio just days after closing the acquisition deal to take over the platform?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "68fb12caa3a84edfb7b75d83",
+            "from_cache": true
+          },
+          {
+            "url_hash": "694529ad90e1c4b34e55d4f6",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000331_1",
+        "pos": 28866,
+        "query": "Based on the current air quality assessment, Beijing provides authoritative input.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 0,
+        "l2_index": 28530,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000331_3",
+        "pos": 26557,
+        "query": "What are the air quality standards in Beijing at present?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 0,
+        "l2_index": 26251,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_0b7949bb_0",
+        "pos": 20986,
+        "query": "Which drama series has won the best dramatic show in recent Primetime Emmy award?",
+        "fc": "FAST",
+        "own_urls": [
+          "b5b91a88c42b654629cb215c",
+          "b5b91a88c42b654629cb215c"
+        ],
+        "l1_index": 0,
+        "l2_index": 20742,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "b5b91a88c42b654629cb215c",
+            "from_cache": true
+          },
+          {
+            "url_hash": "b5b91a88c42b654629cb215c",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_13071539_2",
+        "pos": 25496,
+        "query": "Guess who came out on top in the ASA 4A football conference?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "bc55e592886b95f8f439875e"
+        ],
+        "l1_index": 0,
+        "l2_index": 25197,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "bc55e592886b95f8f439875e",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_177880b1_0",
+        "pos": 27335,
+        "query": "Who is in charge of coaching the Washington Mystics?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "0f5373533d339d5387519481"
+        ],
+        "l1_index": 0,
+        "l2_index": 27017,
+        "matched_query": "Who currently heads the coaching staff for the Washington Mystics?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "0f5373533d339d5387519481",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_1ef7404e_2",
+        "pos": 25611,
+        "query": "Who finished in the second position at Delray Beach Open?",
+        "fc": "FAST",
+        "own_urls": [
+          "40abbbe4762218d8dcd9be6a",
+          "909780701a243c1110d8eaba"
+        ],
+        "l1_index": 0,
+        "l2_index": 25311,
+        "matched_query": "Which organization secured the second place in today's Delray Beach Open doubles final?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "0a23ed371d8e951cab7db0b8",
+            "from_cache": true
+          },
+          {
+            "url_hash": "909780701a243c1110d8eaba",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_26309cb6_1",
+        "pos": 15870,
+        "query": "Could you inform me of the plot involving Charlotte Gainsbourg's latest film?",
+        "fc": "FAST",
+        "own_urls": [
+          "0eeef3f90e2fa6c9e25440ce"
+        ],
+        "l1_index": 0,
+        "l2_index": 15681,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "0eeef3f90e2fa6c9e25440ce",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_35a57f29_2",
+        "pos": 21153,
+        "query": "What island nation had its inaugural underwater cabinet meeting to publicize global warming?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "5d82a666685d499db1db31ba"
+        ],
+        "l1_index": 0,
+        "l2_index": 20906,
+        "matched_query": "Which island nation held the world's first underwater cabinet meeting to publicize global warming?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "5d82a666685d499db1db31ba",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_3704b8f2_3",
+        "pos": 23572,
+        "query": "From which town in Iran does the grape syrah' originate?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "6c9afb76796e267931b27085"
+        ],
+        "l1_index": 0,
+        "l2_index": 23294,
+        "matched_query": "The grape variety `syrah' takes its name from which town in Iran?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "6c9afb76796e267931b27085",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_43affc2b_0",
+        "pos": 19207,
+        "query": "\"How has the phrase \"Bill and Ben, the .... Men\" from the British TV program that debuted in 1952 been lost with its missing words?\"",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "919c10e50d8b80a6b48e2da7",
+          "bf31f4409d788d6f919c9265"
+        ],
+        "l1_index": 0,
+        "l2_index": 18980,
+        "matched_query": "\"What are the missing words in this phrase from the UK TV series starting in 1952 \"\"Bill and Ben, the .... Men\"\"?\"",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "919c10e50d8b80a6b48e2da7",
+            "from_cache": true
+          },
+          {
+            "url_hash": "bf31f4409d788d6f919c9265",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_4d556954_1",
+        "pos": 29418,
+        "query": "From 2013 to 2016, did Fitbit and Fitbug receive legal recourse for their innovative technology development?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "66f7140d467f645afa6d476d"
+        ],
+        "l1_index": 0,
+        "l2_index": 29079,
+        "matched_query": "The fitness corporations Fitbit and Fitbug, subject of legal actions 2013-16, pioneered?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "66f7140d467f645afa6d476d",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_57755f05_2",
+        "pos": 21796,
+        "query": "What is the identity of the Postmaster General in Nigeria?",
+        "fc": "SLOW",
+        "own_urls": [
+          "8b40aaae16dc8917da02b333"
+        ],
+        "l1_index": 0,
+        "l2_index": 21541,
+        "matched_query": "Who is the Nigerian Postmaster general?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "8b40aaae16dc8917da02b333",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_5e007db1_0",
+        "pos": 25654,
+        "query": "\ud604\uc7ac \uc774\ub354\ub9ac\uc6c0 \uac00\uaca9\uc774 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "0481edfb07247802707828ae",
+          "0481edfb07247802707828ae",
+          "373cb362fecf4a2d374dbe91"
+        ],
+        "l1_index": 0,
+        "l2_index": 25354,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "373cb362fecf4a2d374dbe91",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_6566e4ed_3",
+        "pos": 18071,
+        "query": "Who won with the club manager most of other clubs Scottish League championship?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "5147f4d48b6a78820b4b869b"
+        ],
+        "l1_index": 0,
+        "l2_index": 17859,
+        "matched_query": "When did the club claim victory in winning the Scottish League Championship, and who was exclusively managing that team?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "5147f4d48b6a78820b4b869b",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_6e543930_3",
+        "pos": 26262,
+        "query": "In which video game does the world of Azeroth occur?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "2e1ff05f7fa5113968ae5832",
+          "46e5aff47495ac46819259b0"
+        ],
+        "l1_index": 0,
+        "l2_index": 25957,
+        "matched_query": "The land of Azeroth features in which video game?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "2e1ff05f7fa5113968ae5832",
+            "from_cache": true
+          },
+          {
+            "url_hash": "46e5aff47495ac46819259b0",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_75db3e8b_1",
+        "pos": 25401,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub300\uae30\uc9c8 \uc9c0\uc218\uc758 \uac00\uaca9\uc744 \uc54c\ub824\uc8fc\uc138\uc694.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "24c2c98e6ec19750e95cca13",
+          "24c2c98e6ec19750e95cca13",
+          "4bc535aed1ace0a50df2aebe",
+          "0f9b669b95bf25b94acd638a"
+        ],
+        "l1_index": 0,
+        "l2_index": 25103,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "4bc535aed1ace0a50df2aebe",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0f9b669b95bf25b94acd638a",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_7b820346_0",
+        "pos": 30925,
+        "query": "Which outfit is currently offering the kits for Mansfield Town F.C.?",
+        "fc": "SLOW",
+        "own_urls": [
+          "401f8cad5f002e5078a77409"
+        ],
+        "l1_index": 0,
+        "l2_index": 30574,
+        "matched_query": "WHO is up to date With Mansfield Town F.C: Club Kit?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "401f8cad5f002e5078a77409",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_813d0e0a_2",
+        "pos": 19364,
+        "query": "Can you tell me the location of the Copa de Espaol final?",
+        "fc": "FAST",
+        "own_urls": [
+          "e272ee4560e16bb68b5eaeed"
+        ],
+        "l1_index": 0,
+        "l2_index": 19135,
+        "matched_query": "What is the venue for Copa de Espaol's final match?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e272ee4560e16bb68b5eaeed",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_86cff9f1_0",
+        "pos": 23534,
+        "query": "What is the name of the author who wrote the book for the newest StarKid play?",
+        "fc": "SLOW",
+        "own_urls": [
+          "fea00cc67b4c2aff0f628b58"
+        ],
+        "l1_index": 0,
+        "l2_index": 23257,
+        "matched_query": "Who writes the music and lyrics for this year's StarKid Productions musical?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "f8129d6c163cc0ec13c91a7f",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_89f7697b_3",
+        "pos": 22879,
+        "query": "Who answers the prayer of Jeram?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1af2e588a11d75fb9ac7788"
+        ],
+        "l1_index": 0,
+        "l2_index": 22610,
+        "matched_query": "Can you tell me who holds the seat in Jeram?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e1af2e588a11d75fb9ac7788",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_8b7e079f_3",
+        "pos": 29461,
+        "query": "When did the Women's PGA Championship last take place?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "3d7f26198f3b99232c9a3a96",
+          "547ccdd22c10b7147d30f446"
+        ],
+        "l1_index": 0,
+        "l2_index": 29121,
+        "matched_query": "What was the following place for the Women's PGA Championship?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "3d7f26198f3b99232c9a3a96",
+            "from_cache": true
+          },
+          {
+            "url_hash": "547ccdd22c10b7147d30f446",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_90168b95_3",
+        "pos": 29769,
+        "query": "What is the count of tornadoes recorded in America this year?",
+        "fc": "FAST",
+        "own_urls": [
+          "788faca319d3291cb30a9c09",
+          "788faca319d3291cb30a9c09"
+        ],
+        "l1_index": 0,
+        "l2_index": 29427,
+        "matched_query": "How many tornadoes have been recorded throughout the entirety of America in 2016?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "788faca319d3291cb30a9c09",
+            "from_cache": true
+          },
+          {
+            "url_hash": "788faca319d3291cb30a9c09",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_91bc1860_3",
+        "pos": 19252,
+        "query": "Who recently won the Australian National Under-23 Men's Road Race Championship?",
+        "fc": "FAST",
+        "own_urls": [
+          "e464b7ea8747515264b4e24e",
+          "812bc386d0b7244e4b61f65e"
+        ],
+        "l1_index": 0,
+        "l2_index": 19024,
+        "matched_query": "Who exited the recently held Australian National Under-23 Men's Road Race Championship with a silver medal?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e464b7ea8747515264b4e24e",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_99ec603a_3",
+        "pos": 22439,
+        "query": "Who holds the record of being the most prolific scorer for Palermo FC?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "edff313ba697aecae4a6eed7"
+        ],
+        "l1_index": 0,
+        "l2_index": 22174,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "edff313ba697aecae4a6eed7",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a0cf70fb_0",
+        "pos": 22072,
+        "query": "With whom was the horse trained that won last year's contestant in Tenno Sho Spring?",
+        "fc": "FAST",
+        "own_urls": [
+          "fef0c0792e257cc0df9aee92"
+        ],
+        "l1_index": 0,
+        "l2_index": 21814,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "fef0c0792e257cc0df9aee92",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a377fb63_0",
+        "pos": 22816,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "635e9c3e20c7d3cc440b829c",
+          "635e9c3e20c7d3cc440b829c"
+        ],
+        "l1_index": 0,
+        "l2_index": 22548,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          },
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a3aad92f_1",
+        "pos": 20488,
+        "query": "Who has taken on the responsibility of being coach for the under-21 football team in Ukraine?",
+        "fc": "SLOW",
+        "own_urls": [
+          "dab76dfd47280a8a4371b13e"
+        ],
+        "l1_index": 0,
+        "l2_index": 20247,
+        "matched_query": "Who holds the position of head coach for Ukraine's under-21 football team?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "f87a73cb06708ccd8149afe0",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a7cec67e_0",
+        "pos": 22833,
+        "query": "What is the name of who chairs the National Republican Congressional Committee?",
+        "fc": "SLOW",
+        "own_urls": [
+          "92f42a4557e2780d414bf655",
+          "9f160c645ddb6d883cd9e341"
+        ],
+        "l1_index": 0,
+        "l2_index": 22564,
+        "matched_query": "Who holds the position of chairman in the National Republican Congressional Committee?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "92f42a4557e2780d414bf655",
+            "from_cache": true
+          },
+          {
+            "url_hash": "9f160c645ddb6d883cd9e341",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_b148b3f7_1",
+        "pos": 26116,
+        "query": "The Prix du Cadran winner at the moment, which horse is currently winning?",
+        "fc": "FAST",
+        "own_urls": [
+          "9921bac96dc8bf5ff6a81ccb"
+        ],
+        "l1_index": 0,
+        "l2_index": 25813,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "9921bac96dc8bf5ff6a81ccb",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_b9a75c82_3",
+        "pos": 28887,
+        "query": "Who came out on top in the Men's England Hockey League final?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "2660101d0a4166cb809eb994",
+          "ec2209b28cdc9ff72cd55c58"
+        ],
+        "l1_index": 0,
+        "l2_index": 28550,
+        "matched_query": "Which team triumphed in the Men's England Hockey League?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "2660101d0a4166cb809eb994",
+            "from_cache": true
+          },
+          {
+            "url_hash": "ec2209b28cdc9ff72cd55c58",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_bc882466_0",
+        "pos": 25158,
+        "query": "\ud604\uc7ac \uc0bc\uc131SDI \uc8fc\uac00\uac00 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "78dfd4524290842afa3e4982",
+          "ed73996cbb370266341d298b",
+          "d879bc6c86ab8de3374427e6",
+          "78dfd4524290842afa3e4982"
+        ],
+        "l1_index": 0,
+        "l2_index": 24864,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ed73996cbb370266341d298b",
+            "from_cache": false
+          },
+          {
+            "url_hash": "d879bc6c86ab8de3374427e6",
+            "from_cache": false
+          },
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_c17d761a_1",
+        "pos": 19205,
+        "query": "Which high-speed railway project in Japan has been launched last year?",
+        "fc": "SLOW",
+        "own_urls": [
+          "c4cf08c366fc6bea95d25c2f",
+          "883c46072e04c4ecca097c00"
+        ],
+        "l1_index": 0,
+        "l2_index": 18978,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "c4cf08c366fc6bea95d25c2f",
+            "from_cache": true
+          },
+          {
+            "url_hash": "883c46072e04c4ecca097c00",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_d79c71e4_2",
+        "pos": 20800,
+        "query": "Which dizilness did the latest Miss Universe of Poland achieve?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "ba43ee17d81c2adf10d1131d"
+        ],
+        "l1_index": 0,
+        "l2_index": 20557,
+        "matched_query": "Who recently won the Miss Universe title?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "b7721069be28eb218aed0dde",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_d9e3bc12_2",
+        "pos": 27234,
+        "query": "During their entire administration, how many U.S. presidents have issued just one federal executive order?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1e6f69aae0f7ef952bb2574",
+          "14ea8f36d6dfc9d246d5b8df",
+          "14ea8f36d6dfc9d246d5b8df",
+          "ecad30d2d50b8ac7563e2c20"
+        ],
+        "l1_index": 0,
+        "l2_index": 26917,
+        "matched_query": "Who was the biggest U.S. president to utilize just one federal executive order per year?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e1e6f69aae0f7ef952bb2574",
+            "from_cache": true
+          },
+          {
+            "url_hash": "14ea8f36d6dfc9d246d5b8df",
+            "from_cache": true
+          },
+          {
+            "url_hash": "14ea8f36d6dfc9d246d5b8df",
+            "from_cache": true
+          },
+          {
+            "url_hash": "ecad30d2d50b8ac7563e2c20",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_dc84c82b_0",
+        "pos": 23303,
+        "query": "How did the Mexican forces under command of Santa Anna carry out their siege operation on Feb 23, 1836?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4118c7edbdf6b06b4ace2a96"
+        ],
+        "l1_index": 0,
+        "l2_index": 23030,
+        "matched_query": "On Feb 23, 1836, the Mexican army, under the command of Santa Anna, set siege to what mission?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "4118c7edbdf6b06b4ace2a96",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_0",
+        "pos": 23527,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 0,
+        "l2_index": 23251,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_2",
+        "pos": 18709,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub5a4\uac00\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 0,
+        "l2_index": 18491,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_fea8dfeb_0",
+        "pos": 29007,
+        "query": "Which trainer ran the last vet's Santa Anita Derby winner?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "8e4b5106dfd90b4d7f337233",
+          "7dd4ef31027b3a9465b8f8d6"
+        ],
+        "l1_index": 0,
+        "l2_index": 28670,
+        "matched_query": "Who won last years Santa Anita Derby?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "0bb925a4fb12d9e06a6cbb86",
+            "from_cache": true
+          }
+        ]
+      }
+    ],
+    "FreshCache": [
+      {
+        "query_id": "p_q_000040_0",
+        "pos": 16381,
+        "query": "What is the name given to an algorithm for in-place comparison searching with a worst-case time complexity of O(n log n) and best- case time, time corrected method of combinator/2 times (O(rb->l/k), but no modulo errors?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "0a549b17824b2105efd3c673",
+          "545dceb1d88579a574261c5b",
+          "545dceb1d88579a574261c5b",
+          "0a549b17824b2105efd3c673"
+        ],
+        "l1_index": 15521,
+        "l2_index": 15521,
+        "matched_query": "What is the name of the in-place, stable comparison sorting algorithm with a worst-case time complexity of O(n log n) and a best-case time complexity of O(n)?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_000142_1",
+        "pos": 23844,
+        "query": "With his unconventional insinuations and humorist demeanor, Elon Musk's Twitter bio frequently references his close-knit social standing. What title did Musk choose to address himself in their playful comments?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4ce47e28a2c09cc1f8b5d84c",
+          "57ecd9920f46b14e0b19f4c9",
+          "0f25ecdae5ac7c8211f1265c",
+          "be21f39eafa3d0860e45093b"
+        ],
+        "l1_index": 22640,
+        "l2_index": 22640,
+        "matched_query": "Elon Musk's online persona is synonymous with witty comebacks and sarcastic remarks, often aimed at individuals or institutions. What title did he humorously declare himself as in his Twitter bio just days after closing the acquisition deal to take over the platform?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "68fb12caa3a84edfb7b75d83",
+            "from_cache": true
+          },
+          {
+            "url_hash": "694529ad90e1c4b34e55d4f6",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000331_1",
+        "pos": 28866,
+        "query": "Based on the current air quality assessment, Beijing provides authoritative input.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 27432,
+        "l2_index": 27432,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_000331_3",
+        "pos": 26557,
+        "query": "What are the air quality standards in Beijing at present?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "618770eb951f236662587196",
+          "618770eb951f236662587196",
+          "9b913c300bff654658611b1a",
+          "b85d888235eafb0c731eb319"
+        ],
+        "l1_index": 25234,
+        "l2_index": 25234,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "618770eb951f236662587196",
+            "from_cache": false
+          },
+          {
+            "url_hash": "9b913c300bff654658611b1a",
+            "from_cache": false
+          },
+          {
+            "url_hash": "b85d888235eafb0c731eb319",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_0b7949bb_0",
+        "pos": 20986,
+        "query": "Which drama series has won the best dramatic show in recent Primetime Emmy award?",
+        "fc": "FAST",
+        "own_urls": [
+          "b5b91a88c42b654629cb215c",
+          "b5b91a88c42b654629cb215c"
+        ],
+        "l1_index": 19909,
+        "l2_index": 19909,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "b5b91a88c42b654629cb215c",
+            "from_cache": true
+          },
+          {
+            "url_hash": "b5b91a88c42b654629cb215c",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_13071539_2",
+        "pos": 25496,
+        "query": "Guess who came out on top in the ASA 4A football conference?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "bc55e592886b95f8f439875e"
+        ],
+        "l1_index": 24209,
+        "l2_index": 24209,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "bc55e592886b95f8f439875e",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_177880b1_0",
+        "pos": 27335,
+        "query": "Who is in charge of coaching the Washington Mystics?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "0f5373533d339d5387519481"
+        ],
+        "l1_index": 25971,
+        "l2_index": 25971,
+        "matched_query": "Who currently heads the coaching staff for the Washington Mystics?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_1ef7404e_2",
+        "pos": 25611,
+        "query": "Who finished in the second position at Delray Beach Open?",
+        "fc": "FAST",
+        "own_urls": [
+          "40abbbe4762218d8dcd9be6a",
+          "909780701a243c1110d8eaba"
+        ],
+        "l1_index": 24321,
+        "l2_index": 24321,
+        "matched_query": "Which organization secured the second place in today's Delray Beach Open doubles final?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "0a23ed371d8e951cab7db0b8",
+            "from_cache": true
+          },
+          {
+            "url_hash": "909780701a243c1110d8eaba",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_26309cb6_1",
+        "pos": 15870,
+        "query": "Could you inform me of the plot involving Charlotte Gainsbourg's latest film?",
+        "fc": "FAST",
+        "own_urls": [
+          "0eeef3f90e2fa6c9e25440ce"
+        ],
+        "l1_index": 15030,
+        "l2_index": 15030,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "0eeef3f90e2fa6c9e25440ce",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_35a57f29_2",
+        "pos": 21153,
+        "query": "What island nation had its inaugural underwater cabinet meeting to publicize global warming?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "5d82a666685d499db1db31ba"
+        ],
+        "l1_index": 20069,
+        "l2_index": 20069,
+        "matched_query": "Which island nation held the world's first underwater cabinet meeting to publicize global warming?",
+        "path": "L1",
+        "served": []
+      },
+      {
+        "query_id": "p_q_3704b8f2_3",
+        "pos": 23572,
+        "query": "From which town in Iran does the grape syrah' originate?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "6c9afb76796e267931b27085"
+        ],
+        "l1_index": 22375,
+        "l2_index": 22375,
+        "matched_query": "The grape variety `syrah' takes its name from which town in Iran?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "6c9afb76796e267931b27085",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_43affc2b_0",
+        "pos": 19207,
+        "query": "\"How has the phrase \"Bill and Ben, the .... Men\" from the British TV program that debuted in 1952 been lost with its missing words?\"",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "919c10e50d8b80a6b48e2da7",
+          "bf31f4409d788d6f919c9265"
+        ],
+        "l1_index": 18209,
+        "l2_index": 18209,
+        "matched_query": "\"What are the missing words in this phrase from the UK TV series starting in 1952 \"\"Bill and Ben, the .... Men\"\"?\"",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "919c10e50d8b80a6b48e2da7",
+            "from_cache": true
+          },
+          {
+            "url_hash": "bf31f4409d788d6f919c9265",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_4d556954_1",
+        "pos": 29418,
+        "query": "From 2013 to 2016, did Fitbit and Fitbug receive legal recourse for their innovative technology development?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "66f7140d467f645afa6d476d"
+        ],
+        "l1_index": 27960,
+        "l2_index": 27960,
+        "matched_query": "The fitness corporations Fitbit and Fitbug, subject of legal actions 2013-16, pioneered?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "66f7140d467f645afa6d476d",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_57755f05_2",
+        "pos": 21796,
+        "query": "What is the identity of the Postmaster General in Nigeria?",
+        "fc": "SLOW",
+        "own_urls": [
+          "8b40aaae16dc8917da02b333"
+        ],
+        "l1_index": 20682,
+        "l2_index": 20682,
+        "matched_query": "Who is the Nigerian Postmaster general?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "8b40aaae16dc8917da02b333",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_5e007db1_0",
+        "pos": 25654,
+        "query": "\ud604\uc7ac \uc774\ub354\ub9ac\uc6c0 \uac00\uaca9\uc774 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "0481edfb07247802707828ae",
+          "0481edfb07247802707828ae",
+          "373cb362fecf4a2d374dbe91"
+        ],
+        "l1_index": 24363,
+        "l2_index": 24363,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0481edfb07247802707828ae",
+            "from_cache": false
+          },
+          {
+            "url_hash": "373cb362fecf4a2d374dbe91",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_6566e4ed_3",
+        "pos": 18071,
+        "query": "Who won with the club manager most of other clubs Scottish League championship?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "5147f4d48b6a78820b4b869b"
+        ],
+        "l1_index": 17126,
+        "l2_index": 17126,
+        "matched_query": "When did the club claim victory in winning the Scottish League Championship, and who was exclusively managing that team?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "5147f4d48b6a78820b4b869b",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_6e543930_3",
+        "pos": 26262,
+        "query": "In which video game does the world of Azeroth occur?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "2e1ff05f7fa5113968ae5832",
+          "46e5aff47495ac46819259b0"
+        ],
+        "l1_index": 24951,
+        "l2_index": 24951,
+        "matched_query": "The land of Azeroth features in which video game?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "2e1ff05f7fa5113968ae5832",
+            "from_cache": true
+          },
+          {
+            "url_hash": "46e5aff47495ac46819259b0",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_75db3e8b_1",
+        "pos": 25401,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub300\uae30\uc9c8 \uc9c0\uc218\uc758 \uac00\uaca9\uc744 \uc54c\ub824\uc8fc\uc138\uc694.",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "24c2c98e6ec19750e95cca13",
+          "24c2c98e6ec19750e95cca13",
+          "4bc535aed1ace0a50df2aebe",
+          "0f9b669b95bf25b94acd638a"
+        ],
+        "l1_index": 24118,
+        "l2_index": 24118,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "24c2c98e6ec19750e95cca13",
+            "from_cache": false
+          },
+          {
+            "url_hash": "4bc535aed1ace0a50df2aebe",
+            "from_cache": false
+          },
+          {
+            "url_hash": "0f9b669b95bf25b94acd638a",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_7b820346_0",
+        "pos": 30925,
+        "query": "Which outfit is currently offering the kits for Mansfield Town F.C.?",
+        "fc": "SLOW",
+        "own_urls": [
+          "401f8cad5f002e5078a77409"
+        ],
+        "l1_index": 29408,
+        "l2_index": 29408,
+        "matched_query": "WHO is up to date With Mansfield Town F.C: Club Kit?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "401f8cad5f002e5078a77409",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_813d0e0a_2",
+        "pos": 19364,
+        "query": "Can you tell me the location of the Copa de Espaol final?",
+        "fc": "FAST",
+        "own_urls": [
+          "e272ee4560e16bb68b5eaeed"
+        ],
+        "l1_index": 18354,
+        "l2_index": 18354,
+        "matched_query": "What is the venue for Copa de Espaol's final match?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e272ee4560e16bb68b5eaeed",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_86cff9f1_0",
+        "pos": 23534,
+        "query": "What is the name of the author who wrote the book for the newest StarKid play?",
+        "fc": "SLOW",
+        "own_urls": [
+          "fea00cc67b4c2aff0f628b58"
+        ],
+        "l1_index": 22338,
+        "l2_index": 22338,
+        "matched_query": "Who writes the music and lyrics for this year's StarKid Productions musical?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "f8129d6c163cc0ec13c91a7f",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_89f7697b_3",
+        "pos": 22879,
+        "query": "Who answers the prayer of Jeram?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1af2e588a11d75fb9ac7788"
+        ],
+        "l1_index": 21714,
+        "l2_index": 21714,
+        "matched_query": "Can you tell me who holds the seat in Jeram?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e1af2e588a11d75fb9ac7788",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_8b7e079f_3",
+        "pos": 29461,
+        "query": "When did the Women's PGA Championship last take place?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "3d7f26198f3b99232c9a3a96",
+          "547ccdd22c10b7147d30f446"
+        ],
+        "l1_index": 28001,
+        "l2_index": 28001,
+        "matched_query": "What was the following place for the Women's PGA Championship?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "3d7f26198f3b99232c9a3a96",
+            "from_cache": true
+          },
+          {
+            "url_hash": "547ccdd22c10b7147d30f446",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_90168b95_3",
+        "pos": 29769,
+        "query": "What is the count of tornadoes recorded in America this year?",
+        "fc": "FAST",
+        "own_urls": [
+          "788faca319d3291cb30a9c09",
+          "788faca319d3291cb30a9c09"
+        ],
+        "l1_index": 28298,
+        "l2_index": 28298,
+        "matched_query": "How many tornadoes have been recorded throughout the entirety of America in 2016?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "788faca319d3291cb30a9c09",
+            "from_cache": true
+          },
+          {
+            "url_hash": "788faca319d3291cb30a9c09",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_91bc1860_3",
+        "pos": 19252,
+        "query": "Who recently won the Australian National Under-23 Men's Road Race Championship?",
+        "fc": "FAST",
+        "own_urls": [
+          "e464b7ea8747515264b4e24e",
+          "812bc386d0b7244e4b61f65e"
+        ],
+        "l1_index": 18251,
+        "l2_index": 18251,
+        "matched_query": "Who exited the recently held Australian National Under-23 Men's Road Race Championship with a silver medal?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e464b7ea8747515264b4e24e",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_99ec603a_3",
+        "pos": 22439,
+        "query": "Who holds the record of being the most prolific scorer for Palermo FC?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "edff313ba697aecae4a6eed7"
+        ],
+        "l1_index": 21297,
+        "l2_index": 21297,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "edff313ba697aecae4a6eed7",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a0cf70fb_0",
+        "pos": 22072,
+        "query": "With whom was the horse trained that won last year's contestant in Tenno Sho Spring?",
+        "fc": "FAST",
+        "own_urls": [
+          "fef0c0792e257cc0df9aee92"
+        ],
+        "l1_index": 20949,
+        "l2_index": 20949,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "fef0c0792e257cc0df9aee92",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a377fb63_0",
+        "pos": 22816,
+        "query": "\uc9c0\uae08 \uc778\ucc9c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "635e9c3e20c7d3cc440b829c",
+          "635e9c3e20c7d3cc440b829c"
+        ],
+        "l1_index": 21653,
+        "l2_index": 21653,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          },
+          {
+            "url_hash": "635e9c3e20c7d3cc440b829c",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a3aad92f_1",
+        "pos": 20488,
+        "query": "Who has taken on the responsibility of being coach for the under-21 football team in Ukraine?",
+        "fc": "SLOW",
+        "own_urls": [
+          "dab76dfd47280a8a4371b13e"
+        ],
+        "l1_index": 19429,
+        "l2_index": 19429,
+        "matched_query": "Who holds the position of head coach for Ukraine's under-21 football team?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "f87a73cb06708ccd8149afe0",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_a7cec67e_0",
+        "pos": 22833,
+        "query": "What is the name of who chairs the National Republican Congressional Committee?",
+        "fc": "SLOW",
+        "own_urls": [
+          "92f42a4557e2780d414bf655",
+          "9f160c645ddb6d883cd9e341"
+        ],
+        "l1_index": 21669,
+        "l2_index": 21669,
+        "matched_query": "Who holds the position of chairman in the National Republican Congressional Committee?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "92f42a4557e2780d414bf655",
+            "from_cache": true
+          },
+          {
+            "url_hash": "9f160c645ddb6d883cd9e341",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_b148b3f7_1",
+        "pos": 26116,
+        "query": "The Prix du Cadran winner at the moment, which horse is currently winning?",
+        "fc": "FAST",
+        "own_urls": [
+          "9921bac96dc8bf5ff6a81ccb"
+        ],
+        "l1_index": 24810,
+        "l2_index": 24810,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "9921bac96dc8bf5ff6a81ccb",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_b9a75c82_3",
+        "pos": 28887,
+        "query": "Who came out on top in the Men's England Hockey League final?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "2660101d0a4166cb809eb994",
+          "ec2209b28cdc9ff72cd55c58"
+        ],
+        "l1_index": 27452,
+        "l2_index": 27452,
+        "matched_query": "Which team triumphed in the Men's England Hockey League?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "2660101d0a4166cb809eb994",
+            "from_cache": true
+          },
+          {
+            "url_hash": "ec2209b28cdc9ff72cd55c58",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_bc882466_0",
+        "pos": 25158,
+        "query": "\ud604\uc7ac \uc0bc\uc131SDI \uc8fc\uac00\uac00 \uc5bc\ub9c8\uc608\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "78dfd4524290842afa3e4982",
+          "ed73996cbb370266341d298b",
+          "d879bc6c86ab8de3374427e6",
+          "78dfd4524290842afa3e4982"
+        ],
+        "l1_index": 23893,
+        "l2_index": 23893,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ed73996cbb370266341d298b",
+            "from_cache": false
+          },
+          {
+            "url_hash": "d879bc6c86ab8de3374427e6",
+            "from_cache": false
+          },
+          {
+            "url_hash": "78dfd4524290842afa3e4982",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_c17d761a_1",
+        "pos": 19205,
+        "query": "Which high-speed railway project in Japan has been launched last year?",
+        "fc": "SLOW",
+        "own_urls": [
+          "c4cf08c366fc6bea95d25c2f",
+          "883c46072e04c4ecca097c00"
+        ],
+        "l1_index": 18207,
+        "l2_index": 18207,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "c4cf08c366fc6bea95d25c2f",
+            "from_cache": true
+          },
+          {
+            "url_hash": "883c46072e04c4ecca097c00",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_d79c71e4_2",
+        "pos": 20800,
+        "query": "Which dizilness did the latest Miss Universe of Poland achieve?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "ba43ee17d81c2adf10d1131d"
+        ],
+        "l1_index": 19730,
+        "l2_index": 19730,
+        "matched_query": null,
+        "path": "miss",
+        "served": [
+          {
+            "url_hash": "ba43ee17d81c2adf10d1131d",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_d9e3bc12_2",
+        "pos": 27234,
+        "query": "During their entire administration, how many U.S. presidents have issued just one federal executive order?",
+        "fc": "SLOW",
+        "own_urls": [
+          "e1e6f69aae0f7ef952bb2574",
+          "14ea8f36d6dfc9d246d5b8df",
+          "14ea8f36d6dfc9d246d5b8df",
+          "ecad30d2d50b8ac7563e2c20"
+        ],
+        "l1_index": 25875,
+        "l2_index": 25875,
+        "matched_query": "Who was the biggest U.S. president to utilize just one federal executive order per year?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "e1e6f69aae0f7ef952bb2574",
+            "from_cache": true
+          },
+          {
+            "url_hash": "14ea8f36d6dfc9d246d5b8df",
+            "from_cache": true
+          },
+          {
+            "url_hash": "14ea8f36d6dfc9d246d5b8df",
+            "from_cache": true
+          },
+          {
+            "url_hash": "ecad30d2d50b8ac7563e2c20",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_dc84c82b_0",
+        "pos": 23303,
+        "query": "How did the Mexican forces under command of Santa Anna carry out their siege operation on Feb 23, 1836?",
+        "fc": "TIMELESS",
+        "own_urls": [
+          "4118c7edbdf6b06b4ace2a96"
+        ],
+        "l1_index": 22118,
+        "l2_index": 22118,
+        "matched_query": "On Feb 23, 1836, the Mexican army, under the command of Santa Anna, set siege to what mission?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "4118c7edbdf6b06b4ace2a96",
+            "from_cache": true
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_0",
+        "pos": 23527,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub54c\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 22332,
+        "l2_index": 22332,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_ef7d80f1_2",
+        "pos": 18709,
+        "query": "\uc9c0\uae08 \ub300\uad6c \ub0a0\uc528\uc740 \uc5b4\ub5a4\uac00\uc694?",
+        "fc": "REAL_TIME",
+        "own_urls": [
+          "a4bd5b94910549fa1790557f",
+          "a4bd5b94910549fa1790557f",
+          "ce995640f1d51dcc1860ce4b"
+        ],
+        "l1_index": 17738,
+        "l2_index": 17738,
+        "matched_query": null,
+        "path": "realtime_bypass",
+        "served": [
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "a4bd5b94910549fa1790557f",
+            "from_cache": false
+          },
+          {
+            "url_hash": "ce995640f1d51dcc1860ce4b",
+            "from_cache": false
+          }
+        ]
+      },
+      {
+        "query_id": "p_q_fea8dfeb_0",
+        "pos": 29007,
+        "query": "Which trainer ran the last vet's Santa Anita Derby winner?",
+        "fc": "MEDIUM",
+        "own_urls": [
+          "8e4b5106dfd90b4d7f337233",
+          "7dd4ef31027b3a9465b8f8d6"
+        ],
+        "l1_index": 27565,
+        "l2_index": 27565,
+        "matched_query": "Who won last years Santa Anita Derby?",
+        "path": "L2",
+        "served": [
+          {
+            "url_hash": "0bb925a4fb12d9e06a6cbb86",
+            "from_cache": true
+          }
+        ]
+      }
+    ]
+  }
+}

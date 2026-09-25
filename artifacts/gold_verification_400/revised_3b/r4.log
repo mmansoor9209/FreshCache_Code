@@ -1,0 +1,71 @@
+  units judged by the primary pair: 715
+  units judged by the third model : 331
+
+  PAIR resolution    : {'VALID_AT_T': 94, 'JUDGE_DISAGREEMENT': 331, 'INDETERMINATE_AT_T': 64, 'SUPERSEDED_AT_T': 224, 'CONTRADICTED_AS_STATED': 2}
+  MAJORITY resolution: {'VALID_AT_T': 277, 'NO_MAJORITY': 61, 'INDETERMINATE_AT_T': 114, 'SUPERSEDED_AT_T': 261, 'CONTRADICTED_AS_STATED': 2}
+  majority source    : {'pair_agreement': 384, 'three_way_split': 61, 'third_judge_majority': 270}
+
+  vs ORIGINAL Stage 3b: {'VALID_AT_T': 95, 'SUPERSEDED_AT_T': 175, 'INDETERMINATE_AT_T': 124, 'JUDGE_DISAGREEMENT': 321}
+  transition old -> revised(majority), top 12:
+    JUDGE_DISAGREEMENT     -> VALID_AT_T                 159
+    SUPERSEDED_AT_T        -> SUPERSEDED_AT_T            150
+    JUDGE_DISAGREEMENT     -> SUPERSEDED_AT_T            97
+    VALID_AT_T             -> VALID_AT_T                 92
+    INDETERMINATE_AT_T     -> INDETERMINATE_AT_T         78
+    JUDGE_DISAGREEMENT     -> INDETERMINATE_AT_T         32
+    JUDGE_DISAGREEMENT     -> NO_MAJORITY                32
+    INDETERMINATE_AT_T     -> NO_MAJORITY                24
+    SUPERSEDED_AT_T        -> VALID_AT_T                 15
+    INDETERMINATE_AT_T     -> VALID_AT_T                 11
+    INDETERMINATE_AT_T     -> SUPERSEDED_AT_T            11
+    SUPERSEDED_AT_T        -> NO_MAJORITY                5
+
+  by question mode (majority):
+    AS_STATED  n= 108  {'VALID_AT_T': 79, 'NO_MAJORITY': 22, 'CONTRADICTED_AS_STATED': 2, 'INDETERMINATE_AT_T': 5}
+    CURRENT    n= 607  {'INDETERMINATE_AT_T': 109, 'VALID_AT_T': 198, 'SUPERSEDED_AT_T': 261, 'NO_MAJORITY': 39}
+  by freshness class (majority VALID rate):
+    TIMELESS  VALID 145/171  =  84.8%
+    SLOW      VALID  63/179  =  35.2%
+    MEDIUM    VALID  37/180  =  20.6%
+    FAST      VALID  32/185  =  17.3%
+  by gold source (majority VALID rate):
+    freshqa              VALID  21/46   =  45.7%
+    temporal_align_qa    VALID 124/513  =  24.2%
+    triviaqa             VALID 132/156  =  84.6%
+
+  EVIDENCE-VALID requests (pair): 77
+
+  EVIDENCE-VALID requests (majority): 215
+
+  full-sample reproduction gate: PASSED ['400/400', '66/66', '6/6', '58/58', '400/400', '81/81', '7/7', '64/64']
+
+  === mixed_age_400 ===
+    metric                             published       orig Stage4      revised PAIR    revised MAJORITY
+    N                                        400                39                39                 110
+    fresh correct                             66                31                32                  52
+    FreshCache correct                        61                29                30                  47
+    FreshCache WAI                             6                 2                 2                   5
+    FreshCache cond.WAI %                  9.091            6.4516              6.25               9.615
+    gate-off correct                          59                28                28                  47
+    gate-off WAI                               8                 3                 5                   6
+    gate-off cond.WAI %                   12.121            9.6774            15.625              11.538
+    SemanticTTL correct                        9                 5                 5                   7
+    SemanticTTL WAI                           58                26                27                  45
+    SemanticTTL cond.WAI %                87.879            83.871            84.375              86.538
+    paired McNemar full     : {'wai_both': 6, 'only_sttl_k1_8': 52, 'only_on': 0, 'exact_mcnemar_p': 4.440892098500626e-16}
+    paired McNemar PAIR     : {'wai_both': 2, 'only_sttl_k1_8': 25, 'only_on': 0, 'exact_mcnemar_p': 5.960464477539063e-08}
+    paired McNemar MAJORITY : {'wai_both': 5, 'only_sttl_k1_8': 40, 'only_on': 0, 'exact_mcnemar_p': 1.8189894035458565e-12}
+
+  === heldout_400 ===
+    metric                             published       orig Stage4      revised PAIR    revised MAJORITY
+    N                                        400                42                39                 107
+    fresh correct                             81                31                26                  49
+    FreshCache correct                        75                28                24                  45
+    FreshCache WAI                             7                 3                 2                   4
+    FreshCache cond.WAI %                  8.642            9.6774             7.692               8.163
+    SemanticTTL correct                       16                 7                 5                  12
+    SemanticTTL WAI                           64                24                21                  37
+    SemanticTTL cond.WAI %                79.012           77.4194            80.769               75.51
+    paired McNemar full     : {'wai_both': 7, 'only_sttl': 57, 'only_fc': 0, 'exact_mcnemar_p': 1.3877787807814457e-17}
+    paired McNemar PAIR     : {'wai_both': 2, 'only_sttl': 19, 'only_fc': 0, 'exact_mcnemar_p': 3.814697265625e-06}
+    paired McNemar MAJORITY : {'wai_both': 4, 'only_sttl': 33, 'only_fc': 0, 'exact_mcnemar_p': 2.3283064365386963e-10}

@@ -1,0 +1,370 @@
+{
+ "n_cases": 20,
+ "entity_guard_alone_blocks": 13,
+ "semantic_equivalent_alone_blocks": 17,
+ "full_L1_gate_blocks": 19,
+ "by_category": {
+  "modifier": {
+   "ent": 3,
+   "full": 7,
+   "n": 7
+  },
+  "entity": {
+   "ent": 7,
+   "full": 7,
+   "n": 7
+  },
+  "no_span": {
+   "ent": 3,
+   "full": 5,
+   "n": 6
+  }
+ },
+ "gate": "full L1 admission = experiment._entity_match AND experiment.semantic_equivalent(q1,q2,cosine); cosine is BGE-M3 dense CLS, L2-normalised, the same encoder the replay uses",
+ "cases": [
+  {
+   "category": "modifier",
+   "query_a": "What is the battery life of the iPhone 16?",
+   "query_b": "What is the battery life of the iPhone 16 Pro?",
+   "bge_m3_cosine": 0.9064,
+   "entities_a": [],
+   "entities_b": [],
+   "entity_guard_blocks": false,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "Jaccard or answer-type"
+   ]
+  },
+  {
+   "category": "modifier",
+   "query_a": "When does the Galaxy S24 go on sale?",
+   "query_b": "When does the Galaxy S24 Ultra go on sale?",
+   "bge_m3_cosine": 0.9156,
+   "entities_a": [],
+   "entities_b": [],
+   "entity_guard_blocks": false,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "Jaccard or answer-type"
+   ]
+  },
+  {
+   "category": "modifier",
+   "query_a": "How fast is the RTX 4080?",
+   "query_b": "How fast is the RTX 4080 Super?",
+   "bge_m3_cosine": 0.942,
+   "entities_a": [],
+   "entities_b": [],
+   "entity_guard_blocks": false,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "Jaccard or answer-type"
+   ]
+  },
+  {
+   "category": "modifier",
+   "query_a": "What is the price of a Tesla Model 3?",
+   "query_b": "What is the price of a Tesla Model 3 Performance?",
+   "bge_m3_cosine": 0.922,
+   "entities_a": [
+    "model 3"
+   ],
+   "entities_b": [
+    "model 3 performance"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "Jaccard or answer-type"
+   ]
+  },
+  {
+   "category": "modifier",
+   "query_a": "Who won the 2024 Australian Open?",
+   "query_b": "Who won the 2024 Australian Open doubles?",
+   "bge_m3_cosine": 0.9087,
+   "entities_a": [
+    "the 2024 australian open"
+   ],
+   "entities_b": [
+    "the 2024 australian open"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "Jaccard or answer-type"
+   ]
+  },
+  {
+   "category": "modifier",
+   "query_a": "What is the population of Kansas City?",
+   "query_b": "What is the population of Kansas City, Kansas?",
+   "bge_m3_cosine": 0.9904,
+   "entities_a": [
+    "kansas city"
+   ],
+   "entities_b": [
+    "kansas",
+    "kansas city"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": false,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard"
+   ]
+  },
+  {
+   "category": "modifier",
+   "query_a": "When is the next SpaceX Starship launch?",
+   "query_b": "When is the next SpaceX Starship orbital launch?",
+   "bge_m3_cosine": 0.9701,
+   "entities_a": [],
+   "entities_b": [],
+   "entity_guard_blocks": false,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "Jaccard or answer-type"
+   ]
+  },
+  {
+   "category": "entity",
+   "query_a": "What is the current CEO of Microsoft?",
+   "query_b": "What is the current CEO of Meta?",
+   "bge_m3_cosine": 0.7383,
+   "entities_a": [
+    "microsoft"
+   ],
+   "entities_b": [
+    "meta"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "entity",
+   "query_a": "What is the inflation rate in Germany?",
+   "query_b": "What is the inflation rate in France?",
+   "bge_m3_cosine": 0.782,
+   "entities_a": [
+    "germany"
+   ],
+   "entities_b": [
+    "france"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "entity",
+   "query_a": "Who is the head coach of the Lakers?",
+   "query_b": "Who is the head coach of the Celtics?",
+   "bge_m3_cosine": 0.7387,
+   "entities_a": [
+    "lakers"
+   ],
+   "entities_b": [
+    "celtics"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "entity",
+   "query_a": "What is the stock price of Nvidia?",
+   "query_b": "What is the stock price of Intel?",
+   "bge_m3_cosine": 0.766,
+   "entities_a": [
+    "nvidia"
+   ],
+   "entities_b": [
+    "intel"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "entity",
+   "query_a": "When did Argentina last win the World Cup?",
+   "query_b": "When did Brazil last win the World Cup?",
+   "bge_m3_cosine": 0.7929,
+   "entities_a": [
+    "argentina",
+    "the world cup"
+   ],
+   "entities_b": [
+    "brazil",
+    "the world cup"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "entity",
+   "query_a": "What is the capital of Slovenia?",
+   "query_b": "What is the capital of Slovakia?",
+   "bge_m3_cosine": 0.7781,
+   "entities_a": [
+    "slovenia"
+   ],
+   "entities_b": [
+    "slovakia"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "entity",
+   "query_a": "How many employees does Amazon have?",
+   "query_b": "How many employees does Apple have?",
+   "bge_m3_cosine": 0.7799,
+   "entities_a": [
+    "amazon"
+   ],
+   "entities_b": [
+    "apple"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "no_span",
+   "query_a": "how much is it going up by this month",
+   "query_b": "how much did it go up last month",
+   "bge_m3_cosine": 0.9123,
+   "entities_a": [
+    "this month"
+   ],
+   "entities_b": [
+    "last month"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": false,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard"
+   ]
+  },
+  {
+   "category": "no_span",
+   "query_a": "what did they announce yesterday",
+   "query_b": "what did they announce today",
+   "bge_m3_cosine": 0.9256,
+   "entities_a": [
+    "yesterday"
+   ],
+   "entities_b": [
+    "today"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "Jaccard or answer-type"
+   ]
+  },
+  {
+   "category": "no_span",
+   "query_a": "is it still down",
+   "query_b": "is it back up",
+   "bge_m3_cosine": 0.695,
+   "entities_a": [],
+   "entities_b": [],
+   "entity_guard_blocks": false,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "no_span",
+   "query_a": "who won last night",
+   "query_b": "who won this afternoon",
+   "bge_m3_cosine": 0.7989,
+   "entities_a": [
+    "last night"
+   ],
+   "entities_b": [
+    "this afternoon"
+   ],
+   "entity_guard_blocks": true,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "entity guard",
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "no_span",
+   "query_a": "what is the latest number",
+   "query_b": "what was the previous number",
+   "bge_m3_cosine": 0.77,
+   "entities_a": [],
+   "entities_b": [],
+   "entity_guard_blocks": false,
+   "semantic_equivalent_blocks": true,
+   "full_gate_blocks": true,
+   "blocked_by": [
+    "cosine < 0.80"
+   ]
+  },
+  {
+   "category": "no_span",
+   "query_a": "has it been updated yet",
+   "query_b": "was it updated earlier",
+   "bge_m3_cosine": 0.8818,
+   "entities_a": [],
+   "entities_b": [],
+   "entity_guard_blocks": false,
+   "semantic_equivalent_blocks": false,
+   "full_gate_blocks": false,
+   "blocked_by": null
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+STAGE 4 — combine fidelity + timestamp-aware validity; recompute audits
+  Stage 3c skipped by instruction; no plausibility signal is used
+  original answers, judgments and gold labels are read-only
+
+  unique requests combined: 786
+  fidelity: {'JUDGE_DISAGREEMENT': 200, 'DIFFERENT': 57, 'SAME': 411, 'BASE_QUERY': 118}
+  validity: {'JUDGE_DISAGREEMENT': 352, 'SUPERSEDED_AT_T': 191, 'INDETERMINATE_AT_T': 133, 'VALID_AT_T': 110}
+  EVIDENCE-VALID requests (SAME-or-base AND dual-judge VALID_AT_T): 81
+  exclusion reasons: {'paraphrase_judge_disagreement': 200, 'paraphrase_different': 57, 'validity_judge_disagreement': 235, 'validity_indeterminate_at_t': 91, 'validity_superseded_at_t': 122}
+
+  REPRODUCTION GATE on the FULL sample (must match published)
+    PASS  primary fresh correct              66 vs 66
+    PASS  primary gate-on correct            61 vs 61
+    PASS  primary gate-on WAI                6 vs 6
+    PASS  primary gate-off WAI               8 vs 8
+    PASS  primary SemanticTTL correct        9 vs 9
+    PASS  primary SemanticTTL WAI            58 vs 58
+    PASS  held-out fresh correct             81 vs 81
+    PASS  held-out FreshCache correct        75 vs 75
+    PASS  held-out FreshCache WAI            7 vs 7
+    PASS  held-out SemanticTTL correct       16 vs 16
+    PASS  held-out SemanticTTL WAI           64 vs 64
+  full-sample reproduction: PASSED
+
+  mixed_age_400 — PUBLISHED (n=400) vs EVIDENCE-VALID SUBSET (n=39)
+    metric                                   published                evidence-valid
+    fresh accuracy                      66/400 (16.5%)              31/39 (79.4872%)
+    FreshCache accuracy                61/400 (15.25%)               29/39 (74.359%)
+    FreshCache WAI                        6/400 (1.5%)                2/39 (5.1282%)
+    FreshCache conditional WAI            6/66 (9.0909%)                2/31 (6.4516%)
+    gate-off accuracy                  59/400 (14.75%)              28/39 (71.7949%)
+    gate-off WAI                          8/400 (2.0%)                3/39 (7.6923%)
+    gate-off conditional WAI           8/66 (12.1212%)                3/31 (9.6774%)
+    SemanticTTL accuracy                 9/400 (2.25%)               5/39 (12.8205%)
+    SemanticTTL WAI                     58/400 (14.5%)              26/39 (66.6667%)
+    SemanticTTL conditional WAI          58/66 (87.8788%)               26/31 (83.871%)
+
+  heldout_400 — PUBLISHED (n=400) vs EVIDENCE-VALID SUBSET (n=42)
+    metric                                   published                evidence-valid
+    fresh accuracy                     81/400 (20.25%)              31/42 (73.8095%)
+    FreshCache accuracy                75/400 (18.75%)              28/42 (66.6667%)
+    FreshCache WAI                       7/400 (1.75%)                3/42 (7.1429%)
+    FreshCache conditional WAI             7/81 (8.642%)                3/31 (9.6774%)
+    SemanticTTL accuracy                 16/400 (4.0%)               7/42 (16.6667%)
+    SemanticTTL WAI                     64/400 (16.0%)              24/42 (57.1429%)
+    SemanticTTL conditional WAI          64/81 (79.0123%)              24/31 (77.4194%)
+
+  PAIRED WAI (FreshCache vs SemanticTTL)
+    mixed_age_400    full    {"wai_both": 6, "wai_only_on": 0, "wai_only_sttl_k1_8": 52, "exact_mcnemar_p": 4.440892098500626e-16}
+    mixed_age_400    subset  {"wai_both": 2, "wai_only_on": 0, "wai_only_sttl_k1_8": 24, "exact_mcnemar_p": 1.1920928955078125e-07}
+    heldout_400      full    {"wai_both": 7, "wai_only_fc": 0, "wai_only_sttl": 57, "exact_mcnemar_p": 1.3877787807814457e-17}
+    heldout_400      subset  {"wai_both": 3, "wai_only_fc": 0, "wai_only_sttl": 21, "exact_mcnemar_p": 9.5367431640625e-07}
+
+  EVIDENCE-VALID SUBSET COMPOSITION
+    by gold source: {'freshqa': 6, 'temporal_align_qa': 18, 'triviaqa': 57}
+    by freshness class: {'FAST': 1, 'MEDIUM': 1, 'SLOW': 18, 'TIMELESS': 61}
+    by annotation year: {'(none)': 57, '2022': 3, '2023': 18, 'before 2022': 3}
+    by volatility: {'NOT_TIME_KEYED': 57, 'SINGLE_YEAR': 6, 'VOLATILE': 18}
+
+  ORIGINAL WAI EVENTS RETAINED IN THE EVIDENCE-VALID SUBSET
+    mixed_age_400    on           2 of 6 retained
+    mixed_age_400    off          3 of 8 retained
+    mixed_age_400    sttl_k1_8    26 of 58 retained
+    mixed_age_400    ANY arm      27 of 59 distinct
+    heldout_400      fc           3 of 7 retained
+    heldout_400      sttl         24 of 64 retained
+    heldout_400      ANY arm      24 of 64 distinct
+
+  wrote combined_request_status.csv, subset_per_request.csv, stage4_summary.json, stage4.log

@@ -1,0 +1,15 @@
+{"sig": ["495d34d0cc8ac19c", "e9b71faf590e7cbf", "6eb5d76e50f5e0d8"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["5859bb252c5524bc", "6c34f7b390a6a99c", "551c5c38698c7777"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["12d4fa712090eeab", "01b38e55879e89a6", "81f2cc6f928ad76e"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["851d31886abdbc62", "0d9e498b8981d7b2", "cdb4ee2aea69cc6a"], "judge": "llama8b", "label": "CORRECT"}
+{"sig": ["83ee298577ad0c8d", "6b7770251f4c3a32", "482416e9d868f265"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["c20f71e498d94d1d", "28f8a6411ac62876", "d772de197a2c8e1f"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["d2b65b47d3bf95ef", "3ed5a49636a1c7db", "38960889e10b7977"], "judge": "llama8b", "label": "CORRECT"}
+{"sig": ["b2eb245e7346f195", "34cb0b1606eaa0dd", "c719e8cc1c3e7d5c"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["9134df1fd297cd96", "80db4ccdca106d37", "e3621b1d0c4bce59"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["f552eafa6b4a53c9", "935adf1d17c2946a", "ae196f29404e1fa1"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["ba7df5bb5d9f772e", "111045f894f810c5", "f0f3f6af353ae312"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["090e720b489b89a8", "b1fdd76be905c43b", "48dc9e0b13bad39c"], "judge": "llama8b", "label": "CORRECT"}
+{"sig": ["ad27e11bb6b0de57", "10c664f02ee84263", "c1f530a7ae687bbc"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["889eff586c259058", "a12c28391432ff53", "b32eee4173e4478a"], "judge": "llama8b", "label": "INCORRECT"}
+{"sig": ["5626fd9804491a9e", "24a866f4940f1b00", "8365385a552d1f62"], "judge": "llama8b", "label": "CORRECT"}
