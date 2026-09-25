@@ -1,0 +1,61 @@
+{
+  "FreshCache": {
+    "n": 400,
+    "clusters": 374,
+    "correct": 75,
+    "accuracy_pct": 18.75,
+    "accuracy_wilson95": [
+      15.229,
+      22.866
+    ],
+    "accuracy_cluster_boot95": [
+      14.824,
+      22.922
+    ],
+    "wai": 7,
+    "wai_pct": 1.75,
+    "wai_wilson95": [
+      0.85,
+      3.568
+    ],
+    "wai_cluster_boot95": [
+      0.505,
+      3.053
+    ]
+  },
+  "SemanticTTL (kappa=1/16)": {
+    "n": 400,
+    "clusters": 374,
+    "correct": 16,
+    "accuracy_pct": 4.0,
+    "accuracy_wilson95": [
+      2.477,
+      6.398
+    ],
+    "accuracy_cluster_boot95": [
+      2.005,
+      6.266
+    ],
+    "wai": 64,
+    "wai_pct": 16.0,
+    "wai_wilson95": [
+      12.733,
+      19.914
+    ],
+    "wai_cluster_boot95": [
+      12.312,
+      19.802
+    ]
+  },
+  "paired_wai": {
+    "fc_only": 0,
+    "sttl_only": 57,
+    "both": 7,
+    "mcnemar_p": 1.3877787807814457e-17
+  },
+  "cluster_level_wai_mcnemar": {
+    "sttl_only": 54,
+    "fc_only": 0,
+    "p": 1.1102230246251565e-16
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "n_scored": 400,
+ "gate": {
+  "fc": 7,
+  "sttl_k1_16": 64,
+  "sttl_t060_k1_2": 25,
+  "passed": true
+ },
+ "arms": {
+  "sttl_t060_k1_2": {
+   "label": "SemanticTTL theta=0.60 kappa=1/2 (quality-selected)",
+   "request_level": {
+    "baseline_only": 18,
+    "freshcache_only": 0,
+    "both": 7,
+    "exact_mcnemar_p": 7.62939453125e-06
+   },
+   "cluster_level": {
+    "clusters": 374,
+    "baseline_only": 18,
+    "freshcache_only": 0,
+    "both": 7,
+    "exact_mcnemar_p": 7.62939453125e-06
+   },
+   "baseline_wai": 25,
+   "freshcache_wai": 7
+  },
+  "sttl_k1_16": {
+   "label": "SemanticTTL kappa=1/16 (drift-selected)",
+   "request_level": {
+    "baseline_only": 57,
+    "freshcache_only": 0,
+    "both": 7,
+    "exact_mcnemar_p": 1.3877787807814457e-17
+   },
+   "cluster_level": {
+    "clusters": 374,
+    "baseline_only": 54,
+    "freshcache_only": 0,
+    "both": 7,
+    "exact_mcnemar_p": 1.1102230246251565e-16
+   },
+   "baseline_wai": 64,
+   "freshcache_wai": 7
+  }
+ },
+ "note": "The 54-vs-0 cluster result previously quoted belongs to the drift-selected kappa=1/16 arm. This file gives each arm its own cluster-level test."
+}
