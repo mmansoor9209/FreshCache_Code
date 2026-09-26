@@ -1,0 +1,17 @@
+LearnedRiskModel: loaded data/risk_model.pt (T=1.4672)
+  MLP risk model: loaded
+deployed (experiment.py HALF_LIFE)
+   HL {'TIMELESS': 720.0, 'SLOW': 276.0, 'MEDIUM': 127.2, 'FAST': 124.8}  saved 62.732%  drift 3.5266%  cov 45.7133%  L1/L2/L3 1175/18398/33907  fetches 10959
+   outcome differs vs deployed: 0 requests; among the 400 audited: 0
+recomputed, hand-dict filter (713.81->720 clamp/276.47/126.06/124.94)
+   HL {'TIMELESS': 720.0, 'SLOW': 276.47, 'MEDIUM': 126.06, 'FAST': 124.94}  saved 62.6807%  drift 3.5325%  cov 45.5466%  L1/L2/L3 1175/18382/33825  fetches 10988
+   outcome differs vs deployed: 172 requests; among the 400 audited: 2
+observed 1h+24h lookup (calibrate.py patch intent)
+   HL {'TIMELESS': 805.94, 'SLOW': 289.52, 'MEDIUM': 128.8, 'FAST': 122.03}  saved 62.8602%  drift 3.4944%  cov 45.4921%  L1/L2/L3 1203/18410/33780  fetches 10947
+   outcome differs vs deployed: 719 requests; among the 400 audited: 10
+fit-rounds-only 1h+12h lookup (control)
+   HL {'TIMELESS': 811.65, 'SLOW': 291.99, 'MEDIUM': 128.44, 'FAST': 121.51}  saved 62.8505%  drift 3.5229%  cov 45.4889%  L1/L2/L3 1204/18406/33787  fetches 10965
+   outcome differs vs deployed: 783 requests; among the 400 audited: 9
+no domain filter
+   HL {'TIMELESS': 817.21, 'SLOW': 301.11, 'MEDIUM': 133.93, 'FAST': 125.64}  saved 63.3986%  drift 3.6%  cov 45.6716%  L1/L2/L3 1230/18551/33855  fetches 10820
+   outcome differs vs deployed: 1111 requests; among the 400 audited: 18

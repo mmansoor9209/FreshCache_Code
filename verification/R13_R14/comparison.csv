@@ -1,0 +1,29 @@
+section,variant,TIMELESS_h,SLOW_h,MEDIUM_h,FAST_h,search_saved_pct,drift_pct,coverage_pct,determinable,l1_hits,l2_hits,l3_hits,fetches,requests_differing_vs_deployed,audited400_differing
+deployed (experiment.py),deployed,720,276,127.2,124.8,62.732,3.5266,45.7133,14263,1175,18398,33907,10959,0,0
+isolation,baseline_hand_dict,713.81,276.47,126.06,124.94,,,,,,,,,,
+isolation,later_rounds_removed,419.16,159.3,126.06,124.94,,,,,,,,,,
+isolation,later_rounds_perturbed,419.16,159.3,126.06,124.94,,,,,,,,,,
+isolation,positive_control_12h_removed,707.83,285.38,21.47,24.24,,,,,,,,,,
+filter_variant_fit,hand_dict (in force),713.81,276.47,126.06,124.94,,,,,,,,,,
+filter_variant_fit,no_filter,817.21,301.11,133.93,125.64,,,,,,,,,,
+filter_variant_fit,observed_1h+24h (calibrate.py patch intent),805.94,289.52,128.8,122.03,,,,,,,,,,
+filter_variant_fit,fit_rounds_only_1h+12h (control),811.65,291.99,128.44,121.51,,,,,,,,,,
+filter_variant_fit,all_four_rounds (manuscript wording),811.26,287.31,127.36,119.03,,,,,,,,,,
+replay_control,"recomputed, hand-dict filter (713.81->720 clamp/276.47/126.06/124.94)",720.0,276.47,126.06,124.94,62.6807,3.5325,45.5466,14211,1175,18382,33825,10988,172,2
+replay_control,observed 1h+24h lookup (calibrate.py patch intent),805.94,289.52,128.8,122.03,62.8602,3.4944,45.4921,14194,1203,18410,33780,10947,719,10
+replay_control,fit-rounds-only 1h+12h lookup (control),811.65,291.99,128.44,121.51,62.8505,3.5229,45.4889,14193,1204,18406,33787,10965,783,9
+replay_control,no domain filter,817.21,301.11,133.93,125.64,63.3986,3.6,45.6716,14250,1230,18551,33855,10820,1111,18
+addendum_day_rounding,TIMELESS,713.81,720.0,30.0,720.0,720,MATCH,,,,,,,,
+addendum_day_rounding,SLOW,276.47,276.47,11.5,276.0,276,MATCH,,,,,,,,
+addendum_day_rounding,MEDIUM,126.06,126.06,5.3,127.2,127.2,MATCH,,,,,,,,
+addendum_day_rounding,FAST,124.94,124.94,5.2,124.8,124.8,MATCH,,,,,,,,
+addendum_isolation_TIMELESS,baseline,713.81,720.0,2553,9217,447.47,,,,,,,,,
+addendum_isolation_TIMELESS,7d_48h_removed,713.81,720.0,2553,9217,447.47,,,,,,,,,
+addendum_isolation_TIMELESS,7d_48h_perturbed,713.81,720.0,2553,9217,447.47,,,,,,,,,
+addendum_isolation_SLOW,baseline,276.47,276.47,1138,12992,171.82,,,,,,,,,
+addendum_isolation_SLOW,7d_48h_removed,276.47,276.47,1138,12992,171.82,,,,,,,,,
+addendum_isolation_SLOW,7d_48h_perturbed,276.47,276.47,1138,12992,171.82,,,,,,,,,
+addendum_lookup_scope,TIMELESS,811.65,811.41,219,228,,,,,,,,,,
+addendum_lookup_scope,SLOW,291.99,287.44,421,631,,,,,,,,,,
+addendum_lookup_scope,MEDIUM,128.44,128.44,336,336,,,,,,,,,,
+addendum_lookup_scope,FAST,121.51,121.51,303,303,,,,,,,,,,

@@ -1,0 +1,44 @@
+
+SCALM-style   source of N_h: scalm_hit_judgment_summary_24h.json   N=30,067  judged n=600
+   0.40-0.50  N_h 24,252  n_h 100  y_h 100  p_h  100.0%  w=N_h/n_h   242.52
+   0.50-0.60  N_h  3,625  n_h 100  y_h 100  p_h  100.0%  w=N_h/n_h    36.25
+   0.60-0.70  N_h  1,166  n_h 100  y_h  97  p_h   97.0%  w=N_h/n_h    11.66
+   0.70-0.80  N_h    352  n_h 100  y_h  65  p_h   65.0%  w=N_h/n_h     3.52
+   0.80-0.90  N_h    330  n_h 100  y_h  35  p_h   35.0%  w=N_h/n_h     3.30
+   0.90-1.01  N_h    342  n_h 100  y_h   3  p_h    3.0%  w=N_h/n_h     3.42
+   weighted mismatch 97.66%   old CI (stratified_wald_fpc) [97.48, 97.84]   stratified bootstrap [97.45, 97.85]   cluster-aware [97.44, 97.87]   clusters 504 (90 with >1 judged item)
+
+SemanticTTL permissive (theta=0.40)   source of N_h: semanticttl_hit_judgment_summary_24h.json   N=22,561  judged n=600
+   0.40-0.50  N_h  5,255  n_h 100  y_h 100  p_h  100.0%  w=N_h/n_h    52.55
+   0.50-0.60  N_h  8,470  n_h 100  y_h  99  p_h   99.0%  w=N_h/n_h    84.70
+   0.60-0.70  N_h  5,550  n_h 100  y_h  96  p_h   96.0%  w=N_h/n_h    55.50
+   0.70-0.80  N_h  2,058  n_h 100  y_h  88  p_h   88.0%  w=N_h/n_h    20.58
+   0.80-0.90  N_h    932  n_h 100  y_h  68  p_h   68.0%  w=N_h/n_h     9.32
+   0.90-1.01  N_h    296  n_h 100  y_h  37  p_h   37.0%  w=N_h/n_h     2.96
+   weighted mismatch 95.40%   old CI (stratified_wald_fpc) [94.03, 96.76]   stratified bootstrap [93.90, 96.68]   cluster-aware [93.86, 96.66]   clusters 528 (61 with >1 judged item)
+
+FreshCache L1   source of N_h: l1_hit_judgment_summary_24h.json   N=1,164  judged n=140
+   0.80-0.90  N_h    483  n_h  70  y_h  28  p_h   40.0%  w=N_h/n_h     6.90
+   0.90-1.01  N_h    681  n_h  70  y_h   3  p_h    4.3%  w=N_h/n_h     9.73
+   weighted mismatch 19.11%   old CI (stratified_wald_fpc) [13.97, 24.24]   stratified bootstrap [13.63, 24.71]   cluster-aware [13.88, 24.69]   clusters 127 (13 with >1 judged item)
+
+FreshCache L2   source of N_h: l2_hit_judgment_summary_24h.json   N=24,021  judged n=590
+   0.70-0.80  N_h  2,213  n_h 150  y_h 101  p_h   67.3%  w=N_h/n_h    14.75
+   0.80-0.90  N_h  8,982  n_h 220  y_h  75  p_h   34.1%  w=N_h/n_h    40.83
+   0.90-1.01  N_h 12,826  n_h 220  y_h  24  p_h   10.9%  w=N_h/n_h    58.30
+   weighted mismatch 24.78%   old CI (stratified_wald_fpc) [21.53, 28.02]   stratified bootstrap [21.55, 28.13]   cluster-aware [21.53, 28.12]   clusters 567 (23 with >1 judged item)
+
+SemanticTTL quality-selected (0.60, 1/2)   source of N_h: artifacts/q16/semanticttl_selected_hits_t24h.jsonl   N=12,795  judged n=400
+   0.60-0.70  N_h  3,585  n_h 100  y_h  94  p_h   94.0%  w=N_h/n_h    35.85
+   0.70-0.80  N_h  3,185  n_h 100  y_h  79  p_h   79.0%  w=N_h/n_h    31.85
+   0.80-0.90  N_h  3,178  n_h 100  y_h  27  p_h   27.0%  w=N_h/n_h    31.78
+   0.90-1.01  N_h  2,847  n_h 100  y_h   3  p_h    3.0%  w=N_h/n_h    28.47
+   weighted mismatch 53.38%   old CI (wilson_on_total_judged) [48.48, 58.21]   stratified bootstrap [50.14, 56.65]   cluster-aware [50.10, 56.67]   clusters 378 (22 with >1 judged item)
+
+ACCOUNTING: judged items per row: {'SCALM-style': 600, 'SemanticTTL permissive (theta=0.40)': 600, 'FreshCache L1': 140, 'FreshCache L2': 590, 'SemanticTTL quality-selected (0.60, 1/2)': 400} | four published rows total 1930
+wrote R17_results.json
+SCALM-style                                est  97.66  old [97.477, 97.837]  boot [97.446, 97.852]  JEFFREYS [95.57, 97.74]  uniform [94.6, 97.61]  sat=2 (92.7% weight)
+SemanticTTL permissive (theta=0.40)        est  95.40  old [94.032, 96.763]  boot [93.904, 96.676]  JEFFREYS [93.2, 96.26]  uniform [92.63, 95.95]  sat=1 (23.3% weight)
+FreshCache L1                              est  19.11  old [13.972, 24.239]  boot [13.634, 24.713]  JEFFREYS [14.27, 25.34]  uniform [14.68, 25.81]  sat=0 (0.0% weight)
+FreshCache L2                              est  24.78  old [21.527, 28.024]  boot [21.55, 28.131]  JEFFREYS [21.72, 28.29]  uniform [21.81, 28.4]  sat=0 (0.0% weight)
+SemanticTTL quality-selected (0.60, 1/2)   est  53.38  old [48.479, 58.21]  boot [50.137, 56.651]  JEFFREYS [50.01, 56.63]  uniform [49.94, 56.62]  sat=0 (0.0% weight)

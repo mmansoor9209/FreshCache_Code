@@ -1,0 +1,244 @@
+run.log  executed 2026-09-24T01:03:07Z  <HOME>/miniconda3/envs/graphrag/bin/python observability_recompute.py
+LearnedRiskModel: loaded data/risk_model.pt (T=1.4672)
+  MLP risk model: loaded
+URL level: {
+ "unique_urls_with_any_snapshot": 8635,
+ "v9_timeline_urls": 8635,
+ "url_round_observations": 41938,
+ "v9_flag_mismatches_vs_rebuild": 0,
+ "reason_taxonomy": {
+  "substantive": 21962,
+  "short_text_under_400": 19819,
+  "block_page_pattern": 157
+ },
+ "status_codes_by_run": {
+  "rerun_12h:200": 8358,
+  "rerun_1h:200": 8429,
+  "rerun_24h:200": 8348,
+  "rerun_7d:200": 8168,
+  "run_00:200": 8635
+ },
+ "substantive_but_non200": 0,
+ "urls_with_run00_and_rerun24h_snapshot": 8348,
+ "body_observable_24h_urls": 4382,
+ "reported": "4,382 of 8,635",
+ "rule_actually_coded": "len(strip(extracted_text)) >= 400 AND no block-page regex in first 400 chars; HTTP status is NOT tested in v9/build_version_timeline.py:46-49"
+}
+v13: {'urls': 8635, 'url_round_entries': 42098, 'body_observable_24h_urls': 4382, 'identical_set_to_v9': True, 'entries_disagreeing_with_v9_sub': 0}
+requests: {
+ "records": 31201,
+ "reported": "18,216 of 31,201",
+ "kept_if_ANY_url_observable": 18216,
+ "kept_if_ALL_urls_observable": 12813,
+ "records_with_no_url": 0,
+ "url_refs_with_no_snapshot_at_all": 0,
+ "urls_per_record": {
+  "4": 1424,
+  "3": 912,
+  "2": 9386,
+  "1": 19474,
+  "5": 5
+ },
+ "includes_REAL_TIME": true,
+ "by_class": {
+  "TIMELESS": {
+   "requests": 6929,
+   "kept_any_url": 3942,
+   "kept_all_urls": 2924,
+   "kept_any_pct": 56.89
+  },
+  "SLOW": {
+   "requests": 8137,
+   "kept_any_url": 4576,
+   "kept_all_urls": 3114,
+   "kept_any_pct": 56.24
+  },
+  "MEDIUM": {
+   "requests": 7626,
+   "kept_any_url": 4319,
+   "kept_all_urls": 3202,
+   "kept_any_pct": 56.64
+  },
+  "FAST": {
+   "requests": 8155,
+   "kept_any_url": 5035,
+   "kept_all_urls": 3439,
+   "kept_any_pct": 61.74
+  },
+  "REAL_TIME": {
+   "requests": 354,
+   "kept_any_url": 344,
+   "kept_all_urls": 134,
+   "kept_any_pct": 97.18
+  }
+ },
+ "rule": "record kept when at least ONE of its URLs is body observable at both run_00 and rerun_24h (v10_remaining_feedback/e1_c1_observable_refit.py:194; validation/observability_by_class/analyze.py:259)"
+}
+class units: {
+ "a_manifest_rows_query_x_url": {
+  "per_class": {
+   "TIMELESS": {
+    "tracked_rows": 3071,
+    "observable": 1787,
+    "not_observable": 1284,
+    "pct": 58.19,
+    "unique_urls_in_rows": 1564,
+    "unique_queries": 1336
+   },
+   "SLOW": {
+    "tracked_rows": 4304,
+    "observable": 2457,
+    "not_observable": 1847,
+    "pct": 57.09,
+    "unique_urls_in_rows": 2176,
+    "unique_queries": 2019
+   },
+   "MEDIUM": {
+    "tracked_rows": 3956,
+    "observable": 2406,
+    "not_observable": 1550,
+    "pct": 60.82,
+    "unique_urls_in_rows": 1877,
+    "unique_queries": 1567
+   },
+   "FAST": {
+    "tracked_rows": 4692,
+    "observable": 2746,
+    "not_observable": 1946,
+    "pct": 58.53,
+    "unique_urls_in_rows": 2156,
+    "unique_queries": 1751
+   },
+   "REAL_TIME": {
+    "tracked_rows": 1328,
+    "observable": 973,
+    "not_observable": 355,
+    "pct": 73.27,
+    "unique_urls_in_rows": 185,
+    "unique_queries": 168
+   }
+  },
+  "chi": {
+   "N": 17351,
+   "chi2": 121.5301,
+   "df": 4,
+   "p": 2.516588455396792e-25,
+   "cramers_v": 0.0837,
+   "min_expected": 534.4
+  },
+  "reported": "chi2 121.53 df 4 p 2.5e-25 V 0.084; TIMELESS 58.19 SLOW 57.09 MEDIUM 60.82 FAST 58.53 REAL_TIME 73.27"
+ },
+ "b_unique_url_class_pairs": {
+  "per_class": {
+   "TIMELESS": {
+    "unique_urls": 1564,
+    "observable": 867,
+    "not_observable": 697,
+    "pct": 55.43
+   },
+   "SLOW": {
+    "unique_urls": 2176,
+    "observable": 1159,
+    "not_observable": 1017,
+    "pct": 53.26
+   },
+   "MEDIUM": {
+    "unique_urls": 1877,
+    "observable": 1034,
+    "not_observable": 843,
+    "pct": 55.09
+   },
+   "FAST": {
+    "unique_urls": 2156,
+    "observable": 1150,
+    "not_observable": 1006,
+    "pct": 53.34
+   },
+   "REAL_TIME": {
+    "unique_urls": 185,
+    "observable": 124,
+    "not_observable": 61,
+    "pct": 67.03
+   }
+  },
+  "chi": {
+   "N": 7958,
+   "chi2": 15.027,
+   "df": 4,
+   "p": 0.004645494544766888,
+   "cramers_v": 0.0435,
+   "min_expected": 84.2
+  },
+  "sum_of_class_urls": 7958
+ },
+ "c_unique_url_single_class": {
+  "per_class": {
+   "TIMELESS": {
+    "unique_urls": 1552,
+    "observable": 857,
+    "not_observable": 695,
+    "pct": 55.22
+   },
+   "SLOW": {
+    "unique_urls": 2050,
+    "observable": 1095,
+    "not_observable": 955,
+    "pct": 53.41
+   },
+   "MEDIUM": {
+    "unique_urls": 1715,
+    "observable": 953,
+    "not_observable": 762,
+    "pct": 55.57
+   },
+   "FAST": {
+    "unique_urls": 2001,
+    "observable": 1058,
+    "not_observable": 943,
+    "pct": 52.87
+   },
+   "REAL_TIME": {
+    "unique_urls": 177,
+    "observable": 116,
+    "not_observable": 61,
+    "pct": 65.54
+   }
+  },
+  "chi": {
+   "N": 7495,
+   "chi2": 12.8947,
+   "df": 4,
+   "p": 0.01180202584270205,
+   "cramers_v": 0.0415,
+   "min_expected": 80.7
+  },
+  "multi_class_urls_excluded": 228,
+  "multi_class_observable": 125
+ }
+}
+partition: {'urls_tracked_at_rerun_24h_after_noise_filter': 7723, 'of_8635_timeline_urls': 8635, 'timeline_urls_not_in_any_class_row': 912, 'urls_in_more_than_one_class': 228, 'class_sets_partition_url_pool': False, 'observable_urls_covered_by_class_rows': 4204, 'of_4382': 4382}
+paired: {
+ "thr400": {
+  "stream_rows": 21848,
+  "paired": 16813,
+  "jointly_observable": 9184,
+  "coverage_pct": 54.62,
+  "unobs_on": 7033,
+  "unobs_off": 7004,
+  "drift_on_pct": 3.3101,
+  "drift_off_pct": 6.7073
+ },
+ "thr50": {
+  "stream_rows": 21848,
+  "paired": 16813,
+  "jointly_observable": 13396,
+  "coverage_pct": 79.68,
+  "unobs_on": 3070,
+  "unobs_off": 3113,
+  "drift_on_pct": 2.4336,
+  "drift_off_pct": 5.315
+ },
+ "reported": "54.62% -> 79.68%",
+ "unit": "held-out replay request (21,848 stream; paired = both arms emit an outcome, i.e. non-REAL_TIME with a comparison snapshot)"
+}
+HAVE_SCIPY True

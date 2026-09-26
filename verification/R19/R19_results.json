@@ -1,0 +1,388 @@
+{
+ "stored_result_utc": "2026-09-21T12:00:44Z",
+ "script_mtime": "2026-09-21T12:00",
+ "stored_vs_copy_sha256_first16": "e91183304a2994fb (identical)",
+ "runtime_params": {
+  "AGE_s": 86400.0,
+  "NATURAL_AGE_s": {
+   "EvolvingQA": 2592000.0,
+   "DailyQA": 86400.0
+  },
+  "HALF_LIFE": {
+   "REAL_TIME": 30.0,
+   "FAST": 449280.0,
+   "MEDIUM": 457920.0,
+   "SLOW": 993600.0,
+   "TIMELESS": 2592000.0
+  },
+  "FIXED_TTL": {
+   "TIMELESS": 2592000,
+   "SLOW": 604800,
+   "MEDIUM": 86400,
+   "FAST": 3600,
+   "REAL_TIME": 0
+  },
+  "EPS_ANSWER": 0.1,
+  "TIER_MULT": {
+   "answer": 1.5,
+   "url_list": 1.2,
+   "content": 1.0
+  }
+ },
+ "effective": {
+  "fixed_ttl_h": {
+   "TIMELESS": 720.0,
+   "SLOW": 168.0,
+   "MEDIUM": 24.0,
+   "FAST": 1.0,
+   "REAL_TIME": 0.0
+  },
+  "freshcache_L1_admit_age_h": {
+   "REAL_TIME": 0.0008444616302502775,
+   "FAST": 12.646657374628157,
+   "MEDIUM": 12.889862324140237,
+   "SLOW": 27.968569193889195,
+   "TIMELESS": 72.96148485362399
+  },
+  "admits_at_24h": {
+   "REAL_TIME": false,
+   "FAST": false,
+   "MEDIUM": false,
+   "SLOW": true,
+   "TIMELESS": true
+  }
+ },
+ "inputs": {
+  "DailyQA": {
+   "files": 29,
+   "date_span": [
+    "qa_250104",
+    "qa_250201"
+   ],
+   "sha256_first16": {
+    "qa_250104": "e60e397384ce9b48",
+    "qa_250105": "87c63c3737c6e7e0",
+    "qa_250106": "3c42ddea600ef0ce",
+    "qa_250107": "1d61320d25e950a1",
+    "qa_250108": "4b1fbd9d4d71d106",
+    "qa_250109": "d596eb10bcdf8c4a",
+    "qa_250110": "7cf894b717a7a26d",
+    "qa_250111": "42c14f0562e70505",
+    "qa_250112": "c8ea8926a79b7f0d",
+    "qa_250113": "a826099f7a550d78",
+    "qa_250114": "1e8ec430230f92f1",
+    "qa_250115": "14cedd6d8f4b5da0",
+    "qa_250116": "a5a6ebf0df6bef26",
+    "qa_250117": "7e852137ee140b5f",
+    "qa_250118": "77e1279c8b5e5ebd",
+    "qa_250119": "a1cf6eac041586ba",
+    "qa_250120": "f94761b5c769fe16",
+    "qa_250121": "5f2175f1955f6b29",
+    "qa_250122": "235119a8dec5ab80",
+    "qa_250123": "9102df19c5484e29",
+    "qa_250124": "b8c2c424621bbebe",
+    "qa_250125": "1d74d9aad0d9a3f3",
+    "qa_250126": "d4a1550b86eea529",
+    "qa_250127": "88e658c8a6486eff",
+    "qa_250128": "aa1c73f6f109821d",
+    "qa_250129": "291af5dbb7a20acd",
+    "qa_250130": "26fe995d1699b4c0",
+    "qa_250131": "1caafc5a35e537c7",
+    "qa_250201": "a4df92f07e250207"
+   }
+  },
+  "EvolvingQA": {
+   "source": "HuggingFace kat-research/EvolvingQA, configs edited+unchanged, all splits",
+   "local_cache": "~/.cache/huggingface/datasets/kat-research___evolving_qa (fingerprint 5eb679ac6cead846..., cached 2026-06-09)",
+   "pool": {
+    "edited": 18968,
+    "unchanged": 129497
+   },
+   "caps": {
+    "edited": 10000,
+    "unchanged": 33456
+   },
+   "seed": 42
+  }
+ },
+ "table_rows": [
+  {
+   "dataset": "EvolvingQA",
+   "policy": "FreshCache",
+   "n": 43456,
+   "reuse_num": 8606,
+   "error_num": 2411,
+   "correct_num": 41045,
+   "reuse_pct_stored": 19.8039,
+   "error_pct_stored": 5.5481,
+   "acc_pct_stored": 94.4519,
+   "printed": [
+    19.8,
+    5.55,
+    94.45
+   ],
+   "recomputed_reuse": 8606,
+   "recomputed_error": 2411,
+   "match_recompute": true,
+   "printed_matches_stored": true
+  },
+  {
+   "dataset": "EvolvingQA",
+   "policy": "SemanticTTL",
+   "n": 43456,
+   "reuse_num": 40009,
+   "error_num": 9057,
+   "correct_num": 34399,
+   "reuse_pct_stored": 92.0678,
+   "error_pct_stored": 20.8418,
+   "acc_pct_stored": 79.1582,
+   "printed": [
+    92.07,
+    20.84,
+    79.16
+   ],
+   "recomputed_reuse": 40009,
+   "recomputed_error": 9057,
+   "match_recompute": true,
+   "printed_matches_stored": true
+  },
+  {
+   "dataset": "EvolvingQA",
+   "policy": "ExactNoTTL",
+   "n": 43456,
+   "reuse_num": 43456,
+   "error_num": 9963,
+   "correct_num": 33493,
+   "reuse_pct_stored": 100.0,
+   "error_pct_stored": 22.9266,
+   "acc_pct_stored": 77.0734,
+   "printed": [
+    100.0,
+    22.93,
+    77.07
+   ],
+   "recomputed_reuse": 43456,
+   "recomputed_error": 9963,
+   "match_recompute": true,
+   "printed_matches_stored": true
+  },
+  {
+   "dataset": "DailyQA",
+   "policy": "FreshCache",
+   "n": 227065,
+   "reuse_num": 43341,
+   "error_num": 1848,
+   "correct_num": 225217,
+   "reuse_pct_stored": 19.0875,
+   "error_pct_stored": 0.8139,
+   "acc_pct_stored": 99.1861,
+   "printed": [
+    19.09,
+    0.81,
+    99.19
+   ],
+   "recomputed_reuse": 43341,
+   "recomputed_error": 1848,
+   "match_recompute": true,
+   "printed_matches_stored": true
+  },
+  {
+   "dataset": "DailyQA",
+   "policy": "SemanticTTL",
+   "n": 227065,
+   "reuse_num": 177621,
+   "error_num": 10778,
+   "correct_num": 216287,
+   "reuse_pct_stored": 78.2247,
+   "error_pct_stored": 4.7467,
+   "acc_pct_stored": 95.2533,
+   "printed": [
+    78.22,
+    4.75,
+    95.25
+   ],
+   "recomputed_reuse": 177621,
+   "recomputed_error": 10778,
+   "match_recompute": true,
+   "printed_matches_stored": true
+  },
+  {
+   "dataset": "DailyQA",
+   "policy": "ExactNoTTL",
+   "n": 227065,
+   "reuse_num": 227065,
+   "error_num": 13336,
+   "correct_num": 213729,
+   "reuse_pct_stored": 100.0,
+   "error_pct_stored": 5.8732,
+   "acc_pct_stored": 94.1268,
+   "printed": [
+    100.0,
+    5.87,
+    94.13
+   ],
+   "recomputed_reuse": 227065,
+   "recomputed_error": 13336,
+   "match_recompute": true,
+   "printed_matches_stored": true
+  }
+ ],
+ "recount": {
+  "EvolvingQA": {
+   "pairs": 43456,
+   "unique_questions": 40824
+  },
+  "DailyQA": {
+   "pairs": 227065,
+   "unique_questions": 8346
+  }
+ },
+ "dailyqa_per_day": {
+  "qa_250104": [
+   8360,
+   8360
+  ],
+  "qa_250105": [
+   8360,
+   8360
+  ],
+  "qa_250106": [
+   8360,
+   8360
+  ],
+  "qa_250107": [
+   8360,
+   8360
+  ],
+  "qa_250108": [
+   8360,
+   8360
+  ],
+  "qa_250109": [
+   8360,
+   8360
+  ],
+  "qa_250110": [
+   8360,
+   8360
+  ],
+  "qa_250111": [
+   8360,
+   8360
+  ],
+  "qa_250112": [
+   8360,
+   8360
+  ],
+  "qa_250113": [
+   8360,
+   8360
+  ],
+  "qa_250114": [
+   8360,
+   8360
+  ],
+  "qa_250115": [
+   8360,
+   8360
+  ],
+  "qa_250116": [
+   8360,
+   8360
+  ],
+  "qa_250117": [
+   8360,
+   8360
+  ],
+  "qa_250118": [
+   8360,
+   8360
+  ],
+  "qa_250119": [
+   8360,
+   8360
+  ],
+  "qa_250120": [
+   8360,
+   8360
+  ],
+  "qa_250121": [
+   8360,
+   8360
+  ],
+  "qa_250122": [
+   8360,
+   8360
+  ],
+  "qa_250123": [
+   8360,
+   8360
+  ],
+  "qa_250124": [
+   8360,
+   8360
+  ],
+  "qa_250125": [
+   8360,
+   8360
+  ],
+  "qa_250126": [
+   8360,
+   8360
+  ],
+  "qa_250127": [
+   8360,
+   8360
+  ],
+  "qa_250128": [
+   8360,
+   8360
+  ],
+  "qa_250129": [
+   8360,
+   8360
+  ],
+  "qa_250130": [
+   8360,
+   8360
+  ],
+  "qa_250131": [
+   8360,
+   8360
+  ],
+  "qa_250201": [
+   8360,
+   8360
+  ]
+ },
+ "scoring_rule": {
+  "class": "fclass(question) -> _classify_freshness on question text only (run_external.py:108-110,210)",
+  "changed": "not answers_match(cached, fresh) (:211)",
+  "served": "cached_answer if reuse else fresh_answer (:230)",
+  "correct": "answers_match(served, fresh_answer) (:231); on a miss served==fresh so correct by construction",
+  "accuracy": "corr/n (:242) == 1 - error/query exactly; no generation, no LLM judge, no gold substitution beyond the dataset's own next-snapshot answer",
+  "answers_match": "normalize (lowercase, strip punctuation, collapse whitespace) then equality, or containment when the shorter side is <= 40 chars (:91-105)"
+ },
+ "older_cise": {
+  "file": "cise_eval.py / data/cise_summary.json (2026-06-17)",
+  "dataset": "EvolvingQA only",
+  "n_total": 43453,
+  "age_h": 24,
+  "semanticttl_ttls_s": {
+   "TIMELESS": 604800,
+   "SLOW": 259200,
+   "MEDIUM": 172800,
+   "FAST": 21600,
+   "REAL_TIME": 300
+  },
+  "expiry": "age < TTL (strict)",
+  "methods": [
+   "NoCache",
+   "SemanticTTL",
+   "TieredFixedTTL",
+   "FreshCache_RuleBased",
+   "FreshCache_MLP",
+   "OracleFreshness"
+  ]
+ }
+}

@@ -1,0 +1,143 @@
+run.log (addendum) executed 2026-09-24T01:20:33Z  <HOME>/miniconda3/envs/graphrag/bin/python addendum_recompute.py
+LearnedRiskModel: loaded data/risk_model.pt (T=1.4672)
+  MLP risk model: loaded
+TAX {"baseline_non_sub_47.20": 47.2032, "five_round_non_sub_47.63": 47.6322, "six_round_non_sub_47.62": 47.6175, "six_round_short_only_47.24": 47.2445} {"snapshots": 41938, "substantive": 21962, "short_text_under_400": 19819, "block_page_400plus": 157, "non_substantive_pct": 47.6322, "short_pct": 47.2579, "block_pct": 0.3744}
+URLS {"manuscript": "freshcache_pro.tex:672 'one Serper search returns at most two URLs'", "run_00_manifest_rows_per_query": {"4": 1030, "5": 2, "1": 27, "2": 8128}, "run_00_available_rows_per_query": {"4": 285, "5": 1, "2": 2307, "3": 183, "1": 4474}, "rank_values_at_run_00": {"1": 10216, "2": 10197}, "queries_with_duplicate_url_hash_among_available_rows": 434, "distinct_retrieval_timestamps_per_query_at_run_00": {"4": 1030, "5": 2, "1": 27, "2": 8128}, "record_url_list_size_base_queries": {"4": 285, "3": 183, "2": 1883, "1": 3906, "5": 1}, "record_url_list_size_all_requests": {"4": 1424, "3": 912, "2": 9386, "1": 19474, "5": 5}, "records_whose_url_list_repeats_a_url_hash": 434, "distinct_hash_list_size_base_queries": {"3": 220, "2": 1925, "1": 4036, "4": 77}, "code_path": "experiment.build_query_records:503-518 takes EVERY run_00 manifest row with snapshot_available for the query, sorted by rank; no cap; paraphrases inherit the base list (:541-556)"}
+[
+ {
+  "query_id": "q_000001",
+  "query": "Who holds the all-time record at the Grammys for the most wins in the album of t",
+  "n_urls": 4,
+  "run_00_rows": [
+   "rank 1 hash 015ecb20 at 2026-05-15T07:30:23 avail=True",
+   "rank 2 hash 344b4f27 at 2026-05-15T07:30:26 avail=True",
+   "rank 1 hash 015ecb20 at 2026-06-01T09:38:51 avail=True",
+   "rank 2 hash eb4a52dd at 2026-06-01T09:38:51 avail=True"
+  ]
+ },
+ {
+  "query_id": "q_000013",
+  "query": "How many of the top 20 most-liked Instagram posts by non-football-related accoun",
+  "n_urls": 3,
+  "run_00_rows": [
+   "rank 1 hash ca744e69 at 2026-05-15T07:18:22 avail=True",
+   "rank 2 hash 349037b0 at 2026-05-15T07:18:24 avail=False",
+   "rank 1 hash ca744e69 at 2026-06-01T09:32:38 avail=True",
+   "rank 2 hash 49ebb5e3 at 2026-06-01T09:32:38 avail=True"
+  ]
+ },
+ {
+  "query_id": "q_000015",
+  "query": "How many of the top 30 most-liked YouTube videos belong to MrBeast?",
+  "n_urls": 4,
+  "run_00_rows": [
+   "rank 1 hash 556bc267 at 2026-05-15T07:22:13 avail=True",
+   "rank 2 hash c5ac0ca1 at 2026-05-15T07:22:15 avail=True",
+   "rank 1 hash 556bc267 at 2026-06-01T09:34:45 avail=True",
+   "rank 2 hash 23d40aaf at 2026-06-01T09:34:45 avail=True"
+  ]
+ },
+ {
+  "query_id": "q_000021",
+  "query": "Of the drivers who have won consecutive World Drivers' Championships, how many c",
+  "n_urls": 3,
+  "run_00_rows": [
+   "rank 1 hash d9f335ff at 2026-05-15T07:26:35 avail=True",
+   "rank 2 hash 2d0a3416 at 2026-05-15T07:26:38 avail=False",
+   "rank 1 hash d9f335ff at 2026-06-01T09:37:16 avail=True",
+   "rank 2 hash 7a5ef09f at 2026-06-01T09:37:16 avail=True"
+  ]
+ }
+]
+PAIRED {
+ "stream_requests": 21848,
+ "csv_rows": 21848,
+ "support_S": 12568,
+ "paired": 16813,
+ "intersection": 9864,
+ "paired_only": 6949,
+ "support_only": 2704,
+ "jointly_observable_400": 9184,
+ "jo_subset_of_S": false,
+ "S_subset_of_paired": false,
+ "paired_only_by_class": {
+  "MEDIUM": 1655,
+  "SLOW": 2035,
+  "TIMELESS": 1729,
+  "FAST": 1530
+ },
+ "support_only_by_class": {
+  "FAST": 921,
+  "MEDIUM": 781,
+  "SLOW": 521,
+  "TIMELESS": 481
+ },
+ "paired_by_class": {
+  "MEDIUM": 3913,
+  "FAST": 4190,
+  "SLOW": 4747,
+  "TIMELESS": 3963
+ },
+ "S_by_class": {
+  "FAST": 3581,
+  "MEDIUM": 3039,
+  "SLOW": 3233,
+  "TIMELESS": 2715
+ },
+ "paired_only_outcomes": {
+  "UNOBSERVABLE|UNOBSERVABLE": 5938,
+  "UNCHANGED|UNCHANGED": 399,
+  "CHANGED|CHANGED": 22,
+  "UNOBSERVABLE|UNCHANGED": 358,
+  "UNCHANGED|UNOBSERVABLE": 164,
+  "UNCHANGED|CHANGED": 10,
+  "UNOBSERVABLE|CHANGED": 52,
+  "CHANGED|UNOBSERVABLE": 6
+ },
+ "paired_only_has_run00_and_arrival_substantive_url": 0,
+ "rules": {
+  "S": "e1_robustness.support_of:50-61: non-REAL_TIME request with >=1 URL substantive at run_00 AND at version_at(arrival t); same zipf_uniform seed-42 stream, same corrected_round_table",
+  "paired": "recover_and_recompute.py:152-153: both arms' mixed_engine.replay per-request outcome is not None (CHANGED/UNCHANGED/UNOBSERVABLE)"
+ }
+}
+FIX {
+ "a_manifest_rows_query_x_url": {
+  "chi2": 121.5301,
+  "N": 17351,
+  "cramers_v_6dp": 0.083691,
+  "mean_FAST_REALTIME_minus_mean_TIMELESS_SLOW_pp": 8.258638,
+  "pct_unrounded": {
+   "TIMELESS": 58.189515,
+   "SLOW": 57.086431,
+   "MEDIUM": 60.819009,
+   "FAST": 58.525149,
+   "REAL_TIME": 73.268072
+  }
+ },
+ "b_unique_url_class_pairs": {
+  "chi2": 15.027,
+  "N": 7958,
+  "cramers_v_6dp": 0.043454,
+  "mean_FAST_REALTIME_minus_mean_TIMELESS_SLOW_pp": 5.834447,
+  "pct_unrounded": {
+   "TIMELESS": 55.434783,
+   "SLOW": 53.262868,
+   "MEDIUM": 55.087906,
+   "FAST": 53.339518,
+   "REAL_TIME": 67.027027
+  }
+ },
+ "c_unique_url_single_class": {
+  "chi2": 12.8947,
+  "N": 7495,
+  "cramers_v_6dp": 0.041478,
+  "mean_FAST_REALTIME_minus_mean_TIMELESS_SLOW_pp": 4.88829,
+  "pct_unrounded": {
+   "TIMELESS": 55.219072,
+   "SLOW": 53.414634,
+   "MEDIUM": 55.568513,
+   "FAST": 52.873563,
+   "REAL_TIME": 65.536723
+  }
+ }
+}

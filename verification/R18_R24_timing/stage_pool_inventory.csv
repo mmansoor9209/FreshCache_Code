@@ -1,0 +1,9 @@
+stage,file,n,units,sampling,source
+embedding,validation/latency_e2e/stage_b_gpu_timings.json[embed].samples_ms,200,"ms per query, BGE-M3 batch 1 GPU","with replacement, one draw per request that embeds (stage_e_compose.py:108)","separate microbenchmark (stage_b_gpu.py), 200 timed calls, seed 42, GPU index 4 on host node1"
+llm_generation,stage_b_gpu_timings.json[generate].samples_ms,120,"ms per generation, Llama-3.2-3B greedy max_new_tokens 80","with replacement, one draw per generating request (:134)",separate microbenchmark (stage_b_gpu.py) on real stored contexts
+l1/l2 lookup (ANN),stage_c1_ann_timings.json[ann][size].samples_ms,"{'1000': 200, '5000': 200, '10000': 200, '20000': 200, '31000': 200}","ms per FAISS IndexFlatIP search, k=5, sizes 1000/5000/10000/20000/31000","draw from nearest measured size, rescaled by log-linear interpolated p50 at the request's live index size (:74-88)","separate microbenchmark (stage_c1_ann.py), 200 trials per size after 20 warm-ups"
+entity gate,stage_c2_gate_timings.json[entity].samples_ms,200,ms,"with replacement, added to every L1 lookup of C18 policies (:112-114)","separate microbenchmark (stage_c2_gates.py), CPU"
+lexical gate,stage_c2_gate_timings.json[lexical].samples_ms,200,ms,as entity,same
+l3_processing,stage_c2_gate_timings.json[l3_lookup].samples_ms,200,ms per reused page,"one draw per reused page, summed per request (:117-124)",same
+search_api,stage_d_live_raw.jsonl kind=search ok=true,40,ms per live Serper call,"with replacement, one draw per search (:133)","separate live microbenchmark (stage_d_live.py), 40 attempted / 40 ok; NOT the 40-request direct run"
+page_fetch,stage_d_live_raw.jsonl kind=fetch ok=true,53,ms per live cold GET,"one draw per fetched page, summed per request (:125-132)","separate live microbenchmark, 60 attempted / 53 ok (7 failures excluded from the pool)"

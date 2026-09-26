@@ -1,0 +1,12 @@
+LearnedRiskModel: loaded data/risk_model.pt (T=1.4672)
+  MLP risk model: loaded
+q_000299 build_query_records url list (rank, hash): [(1, 'f8c04b002d0425f6ebbe85fa'), (1, 'f8c04b002d0425f6ebbe85fa'), (2, 'f48deeec5d7be2fa36e342a6'), (2, '7d6d1eb83645663b92ac0116'), (2, 'f48deeec5d7be2fa36e342a6')] | positions 5 | distinct 3
+raw-list histogram {1: 3906, 2: 1883, 3: 183, 4: 285, 5: 1} distinct-hash histogram {1: 4036, 2: 1925, 3: 220, 4: 77}
+positions 9366 distinct 8854 repeated 512 affected records 434 repeats per affected {1: 356, 2: 78}
+unique IDs: manifest run_00 9187 | manifest run_00 with >=1 available 7250 | queries file 8072 (rows 8072 ) | retained base 6258
+M&Q 8005 M-Q 1182 Q-M 67 | B==Q&Mav: True | Q&Mav 6258 | Q-Mav 1814 (of which in M but no available snapshot 1747 )
+manifest questions with >1 distinct query text 0 | shared IDs whose query-file text is absent from manifest text 0 []
+paraphrase base ids 6258 in retained 6258 not retained 0
+panel 8,635 == run_00 snapshot files: True | panel & any manifest url 8635 | panel in run_00 rows 8635
+panel URLs belonging to query-file questions 8124 | ONLY to manifest questions outside the query file 511 | to retained base records 8124 | in no run_00 row 0
+manifest run_00 rows: total 20413 available 10782 | available rows whose hash lacks a run_00 file 0 | unavailable rows with a file 44

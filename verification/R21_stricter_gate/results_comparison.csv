@@ -1,0 +1,25 @@
+quantity,arm,manuscript_claim (appendix_pro.tex:81-91 / supplementary_35.tex:939-964),historical_record (FINAL_REPORT.md; summary.json; logs/08_analysis.log),recomputed_now (r21_recompute.py; run.log),source_rows,status
+realised L1 hits,published,806,806,806,heldout_l1_hits_judged.csv arm=published; heldout_per_request.csv tier_published=L1,EXECUTED: matches
+realised L1 hits,strict090,450,450,450,heldout_l1_hits_judged.csv; heldout_per_request.csv,EXECUTED: matches
+realised L1 hits,precision,314,314,314,heldout_l1_hits_judged.csv; heldout_per_request.csv,EXECUTED: matches
+mismatch ties->DIFFERENT (%),published,43.30,43.30 (349/806; Wilson [39.92; 46.74]),43.30 (244 DIFFERENT + 105 ties over 806; Wilson [39.92; 46.74]),equivalence column of heldout_l1_hits_judged.csv; jury_results.jsonl,EXECUTED: matches
+mismatch ties->DIFFERENT (%),strict090,18.22,18.22 (82/450),18.22 (45 + 37 over 450; Wilson [14.93; 22.05]),same,EXECUTED: matches
+mismatch ties->DIFFERENT (%),precision,14.97,14.97 (47/314),14.97 (23 + 24 over 314; Wilson [11.45; 19.34]),same,EXECUTED: matches
+mismatch ties excluded (%),published,not stated,34.81 (244/701),34.81,same,EXECUTED: matches record
+mismatch ties excluded (%),strict090,not stated,10.90 (45/413),10.90,same,EXECUTED: matches record
+mismatch ties excluded (%),precision,not stated,7.93 (23/290),7.93,same,EXECUTED: matches record
+jury ties,published/strict090/precision,not stated,105 / 37 / 24,105 / 37 / 24,same,EXECUTED: matches record
+search savings (%),published,60.58,60.5776,60.5776 (1 - (8363 miss + 250 REAL_TIME)/21848),heldout_per_request.csv,EXECUTED: matches (rounding)
+search savings (%),strict090,not stated separately,60.5776,60.5776,heldout_per_request.csv,EXECUTED: matches
+search savings (%),precision,60.56,60.5593,60.5593 (1 - (8367 + 250)/21848),heldout_per_request.csv,EXECUTED: matches (rounding)
+savings delta published - precision (pp),precision,"""move only from 60.58 to 60.56""",0.0183,0.0183,derived,EXECUTED: matches
+generations per 1k requests,published/strict090/precision,not stated,963.11 / 979.40 / 985.63,not recomputed (needs search_calls + l2_hits from replay metrics; only tiers are in the per-request file),summary.json cost block,HISTORICAL RECORD ONLY
+published L1 hits displaced under precision,precision,"""L2 supplies most of the avoidance""",rejected 511 -> L2 480; fresh search 31; newly L1 19,L1->L2 480; L1->miss 31; L1->L1 295; L2->L1 18 + miss->L1 1 = 19 newly L1,heldout_per_request.csv,EXECUTED: matches
+published L1 hits displaced under strict090,strict090,not stated,rejected 379 -> L2 357; fresh search 22; newly L1 23,L1->L2 357; L1->miss 22; L1->L1 427; L2->L1 21 + miss->L1 2 = 23,heldout_per_request.csv,EXECUTED: matches
+WAI (of 400),published,7/400,7 (1.75%),7; IDs q_96543752 p_q_e5616ef7_3 p_q_3055ab76_1 p_q_5abb871e_2 q_a8f577f5 q_f93213af q_e2f9f525,answer_audit.csv,EXECUTED: matches
+WAI (of 400),strict090,not stated,7,7; identical IDs,answer_audit.csv,EXECUTED: matches
+WAI (of 400),precision,7/400,7,7; identical IDs,answer_audit.csv,EXECUTED: matches
+tier of the 7 WAI events,all arms,not stated,not stated,all 7 are L2 hits in every arm (none is an L1 hit),answer_audit.csv *_tier columns,EXECUTED (new finding)
+L1-tier requests inside the 400 audit,published/strict090/precision,not stated,15 / 5 / 4,15 / 5 / 4,answer_audit.csv; heldout_audit_sample.json composition,EXECUTED: matches
+audit request IDs identical to answer_audit_k1_16,all arms,implied (same 400),SAMPLE GATE PASSED (logs/06_heldout.log),True (400 IDs; same order),heldout_audit_sample.json vs validation/heldout_baseline_tuning/answer_audit_k1_16/sample.json,EXECUTED: matches
+earlier experiment mismatch (ties->DIFF; published),published,not in manuscript,43.55 (351/806; 839 pairs; 108 ties) in final_three_issues/02_l1_strict_gate/summary.json,not recomputed from its rows; 21 of 3356 juror labels on the 839 shared pairs differ between the two runs,equiv_*.jsonl of both studies,EXECUTED (cross-run comparison only)

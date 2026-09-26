@@ -1,0 +1,775 @@
+{
+ "audit": "R13/R14 later-round information in half-life calibration via domain-volatility filtering",
+ "executed_utc": "2026-09-23T15:01:25Z",
+ "verdict": {
+  "later_round_dependence_in_MEDIUM_FAST_fit": false,
+  "reason": "the filter in force is a hand-curated constant dictionary; removing or perturbing every 24h/7d/48h record leaves MEDIUM and FAST bit-identical while dropping the in-window 12h round moves them",
+  "exposure_in_code": "calibrate.py:493-517 computes an observed lookup from 1h+24h and calibrate.py:745 writes it into risk_model.py; this path never took effect (5/34 overlapping entries equal observed values; .bak and v8 backup dictionaries identical to current)",
+  "TIMELESS_SLOW": "24h is inside their fit window by design; they move when 24h is removed, which is in-sample use, not leakage"
+ },
+ "isolation_test": {
+  "baseline_hand_dict": {
+   "TIMELESS": 713.81,
+   "SLOW": 276.47,
+   "MEDIUM": 126.06,
+   "FAST": 124.94
+  },
+  "later_rounds_removed": {
+   "TIMELESS": 419.16,
+   "SLOW": 159.3,
+   "MEDIUM": 126.06,
+   "FAST": 124.94
+  },
+  "later_rounds_perturbed": {
+   "TIMELESS": 419.16,
+   "SLOW": 159.3,
+   "MEDIUM": 126.06,
+   "FAST": 124.94
+  },
+  "positive_control_12h_removed": {
+   "TIMELESS": 707.83,
+   "SLOW": 285.38,
+   "MEDIUM": 21.47,
+   "FAST": 24.24
+  },
+  "observed_lookup": {
+   "n_domains_1h24h": 3291,
+   "n_domains_without_24h": 828,
+   "values_changed": 92,
+   "domains_lost": 2463
+  },
+  "filter_dict_vs_observed": {
+   "n_dict": 43,
+   "n_overlap": 34,
+   "n_equal": 5
+  },
+  "filter_variants": {
+   "hand_dict (in force)": {
+    "TIMELESS": {
+     "half_life_h": 713.81,
+     "removed_fit_window": 2553,
+     "tracked_fit_window": 9217
+    },
+    "SLOW": {
+     "half_life_h": 276.47,
+     "removed_fit_window": 1138,
+     "tracked_fit_window": 12992
+    },
+    "MEDIUM": {
+     "half_life_h": 126.06,
+     "removed_fit_window": 482,
+     "tracked_fit_window": 7863
+    },
+    "FAST": {
+     "half_life_h": 124.94,
+     "removed_fit_window": 52,
+     "tracked_fit_window": 9378
+    }
+   },
+   "no_filter": {
+    "TIMELESS": {
+     "half_life_h": 817.21,
+     "removed_fit_window": 0,
+     "tracked_fit_window": 11770
+    },
+    "SLOW": {
+     "half_life_h": 301.11,
+     "removed_fit_window": 0,
+     "tracked_fit_window": 14130
+    },
+    "MEDIUM": {
+     "half_life_h": 133.93,
+     "removed_fit_window": 0,
+     "tracked_fit_window": 8345
+    },
+    "FAST": {
+     "half_life_h": 125.64,
+     "removed_fit_window": 0,
+     "tracked_fit_window": 9430
+    }
+   },
+   "observed_1h+24h (calibrate.py patch intent)": {
+    "TIMELESS": {
+     "half_life_h": 805.94,
+     "removed_fit_window": 437,
+     "tracked_fit_window": 11333
+    },
+    "SLOW": {
+     "half_life_h": 289.52,
+     "removed_fit_window": 535,
+     "tracked_fit_window": 13595
+    },
+    "MEDIUM": {
+     "half_life_h": 128.8,
+     "removed_fit_window": 314,
+     "tracked_fit_window": 8031
+    },
+    "FAST": {
+     "half_life_h": 122.03,
+     "removed_fit_window": 266,
+     "tracked_fit_window": 9164
+    }
+   },
+   "fit_rounds_only_1h+12h (control)": {
+    "TIMELESS": {
+     "half_life_h": 811.65,
+     "removed_fit_window": 219,
+     "tracked_fit_window": 11551
+    },
+    "SLOW": {
+     "half_life_h": 291.99,
+     "removed_fit_window": 421,
+     "tracked_fit_window": 13709
+    },
+    "MEDIUM": {
+     "half_life_h": 128.44,
+     "removed_fit_window": 336,
+     "tracked_fit_window": 8009
+    },
+    "FAST": {
+     "half_life_h": 121.51,
+     "removed_fit_window": 303,
+     "tracked_fit_window": 9127
+    }
+   },
+   "all_four_rounds (manuscript wording)": {
+    "TIMELESS": {
+     "half_life_h": 811.26,
+     "removed_fit_window": 234,
+     "tracked_fit_window": 11536
+    },
+    "SLOW": {
+     "half_life_h": 287.31,
+     "removed_fit_window": 637,
+     "tracked_fit_window": 13493
+    },
+    "MEDIUM": {
+     "half_life_h": 127.36,
+     "removed_fit_window": 402,
+     "tracked_fit_window": 7943
+    },
+    "FAST": {
+     "half_life_h": 119.03,
+     "removed_fit_window": 486,
+     "tracked_fit_window": 8944
+    }
+   }
+  },
+  "fit_windows": {
+   "MEDIUM": [
+    "rerun_1h",
+    "rerun_12h"
+   ],
+   "FAST": [
+    "rerun_1h",
+    "rerun_12h"
+   ],
+   "TIMELESS": [
+    "rerun_1h",
+    "rerun_12h",
+    "rerun_24h"
+   ],
+   "SLOW": [
+    "rerun_1h",
+    "rerun_12h",
+    "rerun_24h"
+   ],
+   "REAL_TIME": []
+  },
+  "run_ages_s": {
+   "rerun_1h": 3600,
+   "rerun_12h": 43200,
+   "rerun_24h": 86400,
+   "rerun_7d": 604800
+  }
+ },
+ "deployed_half_life_h": {
+  "TIMELESS": 720,
+  "SLOW": 276,
+  "MEDIUM": 127.2,
+  "FAST": 124.8
+ },
+ "reproduction_of_deployed": {
+  "TIMELESS": "713.81 h unclamped -> 720 h by the 30-day floor (risk_model.py MIN_HALF_LIVES); reproduces",
+  "SLOW": "276.47 h vs 276.0 deployed (0.17%); reproduces to the printed precision",
+  "MEDIUM": "126.06 h vs 127.2 deployed (0.9%); NOT reproduced by any tested variant",
+  "FAST": "124.94 h vs 124.8 deployed (0.11%); NOT reproduced exactly by any tested variant",
+  "on_disk_report": "data/calibration_report.json (2026-06-30) records a 1h-only fit (MEDIUM 21.5 h, FAST 24.2 h), not the deployed run; risk_model.py _DEFAULT_HALF_LIFE holds a third set (FAST 3.2 h, MEDIUM 15.1 h); experiment.py HALF_LIFE was 'synced manually'"
+ },
+ "calibration_error_12_75": {
+  "definition": "unweighted mean of |observed_denoised - model| over 19 class-by-age cells on validation-only L3 page-change observations (validation_V3/parameter_calibration/02_targets)",
+  "mae_pp_recomputed": 12.7496,
+  "n_weighted_mae_pp_recomputed": 10.0783,
+  "cells": [
+   {
+    "class": "REAL_TIME",
+    "age_h": 1.0,
+    "n": 33,
+    "observed_raw_pct": 63.6364,
+    "observed_denoised_pct": 63.6364,
+    "model_pct": 100.0,
+    "model_recomputed_pct": 100.0,
+    "abs_err_pp": 36.3636
+   },
+   {
+    "class": "REAL_TIME",
+    "age_h": 12.0,
+    "n": 34,
+    "observed_raw_pct": 76.4706,
+    "observed_denoised_pct": 76.4706,
+    "model_pct": 100.0,
+    "model_recomputed_pct": 100.0,
+    "abs_err_pp": 23.5294
+   },
+   {
+    "class": "REAL_TIME",
+    "age_h": 24.0,
+    "n": 31,
+    "observed_raw_pct": 74.1935,
+    "observed_denoised_pct": 74.1935,
+    "model_pct": 100.0,
+    "model_recomputed_pct": 100.0,
+    "abs_err_pp": 25.8065
+   },
+   {
+    "class": "FAST",
+    "age_h": 1.0,
+    "n": 286,
+    "observed_raw_pct": 13.2867,
+    "observed_denoised_pct": 13.2867,
+    "model_pct": 0.5539,
+    "model_recomputed_pct": 0.5539,
+    "abs_err_pp": 12.7328
+   },
+   {
+    "class": "FAST",
+    "age_h": 12.0,
+    "n": 286,
+    "observed_raw_pct": 19.5804,
+    "observed_denoised_pct": 19.5804,
+    "model_pct": 6.4476,
+    "model_recomputed_pct": 6.4476,
+    "abs_err_pp": 13.1328
+   },
+   {
+    "class": "FAST",
+    "age_h": 24.0,
+    "n": 285,
+    "observed_raw_pct": 19.2982,
+    "observed_denoised_pct": 19.2982,
+    "model_pct": 12.4795,
+    "model_recomputed_pct": 12.4795,
+    "abs_err_pp": 6.8187
+   },
+   {
+    "class": "FAST",
+    "age_h": 168.0,
+    "n": 279,
+    "observed_raw_pct": 31.8996,
+    "observed_denoised_pct": 31.5412,
+    "model_pct": 60.6661,
+    "model_recomputed_pct": 60.6661,
+    "abs_err_pp": 29.1249
+   },
+   {
+    "class": "MEDIUM",
+    "age_h": 1.0,
+    "n": 267,
+    "observed_raw_pct": 9.3633,
+    "observed_denoised_pct": 8.9888,
+    "model_pct": 0.5434,
+    "model_recomputed_pct": 0.5434,
+    "abs_err_pp": 8.4453
+   },
+   {
+    "class": "MEDIUM",
+    "age_h": 12.0,
+    "n": 266,
+    "observed_raw_pct": 12.406,
+    "observed_denoised_pct": 11.2782,
+    "model_pct": 6.3299,
+    "model_recomputed_pct": 6.3299,
+    "abs_err_pp": 4.9483
+   },
+   {
+    "class": "MEDIUM",
+    "age_h": 24.0,
+    "n": 264,
+    "observed_raw_pct": 14.7727,
+    "observed_denoised_pct": 13.2576,
+    "model_pct": 12.2591,
+    "model_recomputed_pct": 12.2591,
+    "abs_err_pp": 0.9984
+   },
+   {
+    "class": "MEDIUM",
+    "age_h": 168.0,
+    "n": 262,
+    "observed_raw_pct": 23.6641,
+    "observed_denoised_pct": 22.9008,
+    "model_pct": 59.9675,
+    "model_recomputed_pct": 59.9675,
+    "abs_err_pp": 37.0667
+   },
+   {
+    "class": "SLOW",
+    "age_h": 1.0,
+    "n": 281,
+    "observed_raw_pct": 7.4733,
+    "observed_denoised_pct": 6.4057,
+    "model_pct": 0.2508,
+    "model_recomputed_pct": 0.2508,
+    "abs_err_pp": 6.1549
+   },
+   {
+    "class": "SLOW",
+    "age_h": 12.0,
+    "n": 280,
+    "observed_raw_pct": 11.4286,
+    "observed_denoised_pct": 9.6429,
+    "model_pct": 2.9687,
+    "model_recomputed_pct": 2.9687,
+    "abs_err_pp": 6.6741
+   },
+   {
+    "class": "SLOW",
+    "age_h": 24.0,
+    "n": 284,
+    "observed_raw_pct": 14.4366,
+    "observed_denoised_pct": 12.3239,
+    "model_pct": 5.8493,
+    "model_recomputed_pct": 5.8493,
+    "abs_err_pp": 6.4746
+   },
+   {
+    "class": "SLOW",
+    "age_h": 168.0,
+    "n": 271,
+    "observed_raw_pct": 22.1402,
+    "observed_denoised_pct": 20.6642,
+    "model_pct": 34.4211,
+    "model_recomputed_pct": 34.4211,
+    "abs_err_pp": 13.7569
+   },
+   {
+    "class": "TIMELESS",
+    "age_h": 1.0,
+    "n": 289,
+    "observed_raw_pct": 4.1522,
+    "observed_denoised_pct": 2.7682,
+    "model_pct": 0.0962,
+    "model_recomputed_pct": 0.0962,
+    "abs_err_pp": 2.6719
+   },
+   {
+    "class": "TIMELESS",
+    "age_h": 12.0,
+    "n": 288,
+    "observed_raw_pct": 3.8194,
+    "observed_denoised_pct": 2.4306,
+    "model_pct": 1.1486,
+    "model_recomputed_pct": 1.1486,
+    "abs_err_pp": 1.282
+   },
+   {
+    "class": "TIMELESS",
+    "age_h": 24.0,
+    "n": 289,
+    "observed_raw_pct": 4.1522,
+    "observed_denoised_pct": 2.7682,
+    "model_pct": 2.284,
+    "model_recomputed_pct": 2.284,
+    "abs_err_pp": 0.4842
+   },
+   {
+    "class": "TIMELESS",
+    "age_h": 168.0,
+    "n": 273,
+    "observed_raw_pct": 13.1868,
+    "observed_denoised_pct": 9.1575,
+    "model_pct": 14.9333,
+    "model_recomputed_pct": 14.9333,
+    "abs_err_pp": 5.7758
+   }
+  ],
+  "n_in_cells": 4548,
+  "n_stated": 4568,
+  "gap_explained": "REAL_TIME 7d cell (20 observations) is present in l3_observations.csv but absent from the 19-cell table",
+  "largest_cells_pp": [
+   [
+    "MEDIUM",
+    168.0,
+    37.0667
+   ],
+   [
+    "REAL_TIME",
+    1.0,
+    36.3636
+   ],
+   [
+    "FAST",
+    168.0,
+    29.1249
+   ],
+   [
+    "REAL_TIME",
+    24.0,
+    25.8065
+   ],
+   [
+    "REAL_TIME",
+    12.0,
+    23.5294
+   ]
+  ]
+ },
+ "replay_control": {
+  "deployed (experiment.py HALF_LIFE)": {
+   "half_life_h": {
+    "TIMELESS": 720.0,
+    "SLOW": 276.0,
+    "MEDIUM": 127.2,
+    "FAST": 124.8
+   },
+   "search_saved_pct": 62.732,
+   "drift_pct": 3.5266,
+   "determinable": 14263,
+   "coverage_pct": 45.7133,
+   "l1_hits": 1175,
+   "l2_hits": 18398,
+   "l3_hits": 33907,
+   "fetches": 10959,
+   "requests_with_different_outcome_vs_deployed": 0,
+   "audited_400_requests_with_different_outcome": 0
+  },
+  "recomputed, hand-dict filter (713.81->720 clamp/276.47/126.06/124.94)": {
+   "half_life_h": {
+    "TIMELESS": 720.0,
+    "SLOW": 276.47,
+    "MEDIUM": 126.06,
+    "FAST": 124.94
+   },
+   "search_saved_pct": 62.6807,
+   "drift_pct": 3.5325,
+   "determinable": 14211,
+   "coverage_pct": 45.5466,
+   "l1_hits": 1175,
+   "l2_hits": 18382,
+   "l3_hits": 33825,
+   "fetches": 10988,
+   "requests_with_different_outcome_vs_deployed": 172,
+   "audited_400_requests_with_different_outcome": 2
+  },
+  "observed 1h+24h lookup (calibrate.py patch intent)": {
+   "half_life_h": {
+    "TIMELESS": 805.94,
+    "SLOW": 289.52,
+    "MEDIUM": 128.8,
+    "FAST": 122.03
+   },
+   "search_saved_pct": 62.8602,
+   "drift_pct": 3.4944,
+   "determinable": 14194,
+   "coverage_pct": 45.4921,
+   "l1_hits": 1203,
+   "l2_hits": 18410,
+   "l3_hits": 33780,
+   "fetches": 10947,
+   "requests_with_different_outcome_vs_deployed": 719,
+   "audited_400_requests_with_different_outcome": 10
+  },
+  "fit-rounds-only 1h+12h lookup (control)": {
+   "half_life_h": {
+    "TIMELESS": 811.65,
+    "SLOW": 291.99,
+    "MEDIUM": 128.44,
+    "FAST": 121.51
+   },
+   "search_saved_pct": 62.8505,
+   "drift_pct": 3.5229,
+   "determinable": 14193,
+   "coverage_pct": 45.4889,
+   "l1_hits": 1204,
+   "l2_hits": 18406,
+   "l3_hits": 33787,
+   "fetches": 10965,
+   "requests_with_different_outcome_vs_deployed": 783,
+   "audited_400_requests_with_different_outcome": 9
+  },
+  "no domain filter": {
+   "half_life_h": {
+    "TIMELESS": 817.21,
+    "SLOW": 301.11,
+    "MEDIUM": 133.93,
+    "FAST": 125.64
+   },
+   "search_saved_pct": 63.3986,
+   "drift_pct": 3.6,
+   "determinable": 14250,
+   "coverage_pct": 45.6716,
+   "l1_hits": 1230,
+   "l2_hits": 18551,
+   "l3_hits": 33855,
+   "fetches": 10820,
+   "requests_with_different_outcome_vs_deployed": 1111,
+   "audited_400_requests_with_different_outcome": 18
+  }
+ },
+ "evaluation_population_effect": {
+  "mixed_age_primary_results": "NOT filtered: mixed_engine.outcome (v16_exp12/mixed_engine.py:87-93) reads corrected_round_table labels built from snapshot content hashes and substantiveness only (v13_corrected/a1_dataset_audit.py:160-172); the noise flag is stored as previous_label for comparison and not applied",
+  "legacy_fixed_age_path": "FILTERED: experiment.build_stale_sets (experiment.py:566-578) drops change_log rows with noise=True; that flag was written by recompute_changes.py:25,48 with the same hand dictionary and agrees with today's is_noise_url on 3246/3246 rows"
+ },
+ "noise_flag_consistency": {
+  "rows": 3246,
+  "agree_with_current_is_noise_url": 3246,
+  "disagree": 0
+ },
+ "addendum": {
+  "day_rounding": {
+   "TIMELESS": {
+    "full_h": 713.81,
+    "after_floor_h": 720.0,
+    "days_1dp": 30.0,
+    "back_h": 720.0,
+    "deployed_h": 720,
+    "match": true,
+    "deployed_seconds": 2592000
+   },
+   "SLOW": {
+    "full_h": 276.47,
+    "after_floor_h": 276.47,
+    "days_1dp": 11.5,
+    "back_h": 276.0,
+    "deployed_h": 276,
+    "match": true,
+    "deployed_seconds": 993600
+   },
+   "MEDIUM": {
+    "full_h": 126.06,
+    "after_floor_h": 126.06,
+    "days_1dp": 5.3,
+    "back_h": 127.2,
+    "deployed_h": 127.2,
+    "match": true,
+    "deployed_seconds": 457920.0
+   },
+   "FAST": {
+    "full_h": 124.94,
+    "after_floor_h": 124.94,
+    "days_1dp": 5.2,
+    "back_h": 124.8,
+    "deployed_h": 124.8,
+    "match": true,
+    "deployed_seconds": 449280.0
+   }
+  },
+  "timeless_slow_isolation": {
+   "TIMELESS": {
+    "baseline": {
+     "unclamped_h": 713.81,
+     "operational_h_after_floor": 720.0,
+     "mask_removed_in_window": 2553,
+     "tracked_in_window": 9217,
+     "weights_window_ages_s": [
+      3600,
+      43200,
+      86400
+     ],
+     "equiv_ttl_L3_h": 447.47
+    },
+    "7d_48h_removed": {
+     "unclamped_h": 713.81,
+     "operational_h_after_floor": 720.0,
+     "mask_removed_in_window": 2553,
+     "tracked_in_window": 9217,
+     "weights_window_ages_s": [
+      3600,
+      43200,
+      86400
+     ],
+     "equiv_ttl_L3_h": 447.47
+    },
+    "7d_48h_perturbed": {
+     "unclamped_h": 713.81,
+     "operational_h_after_floor": 720.0,
+     "mask_removed_in_window": 2553,
+     "tracked_in_window": 9217,
+     "weights_window_ages_s": [
+      3600,
+      43200,
+      86400
+     ],
+     "equiv_ttl_L3_h": 447.47
+    }
+   },
+   "SLOW": {
+    "baseline": {
+     "unclamped_h": 276.47,
+     "operational_h_after_floor": 276.47,
+     "mask_removed_in_window": 1138,
+     "tracked_in_window": 12992,
+     "weights_window_ages_s": [
+      3600,
+      43200,
+      86400
+     ],
+     "equiv_ttl_L3_h": 171.82
+    },
+    "7d_48h_removed": {
+     "unclamped_h": 276.47,
+     "operational_h_after_floor": 276.47,
+     "mask_removed_in_window": 1138,
+     "tracked_in_window": 12992,
+     "weights_window_ages_s": [
+      3600,
+      43200,
+      86400
+     ],
+     "equiv_ttl_L3_h": 171.82
+    },
+    "7d_48h_perturbed": {
+     "unclamped_h": 276.47,
+     "operational_h_after_floor": 276.47,
+     "mask_removed_in_window": 1138,
+     "tracked_in_window": 12992,
+     "weights_window_ages_s": [
+      3600,
+      43200,
+      86400
+     ],
+     "equiv_ttl_L3_h": 171.82
+    }
+   }
+  },
+  "lookup_scope": {
+   "TIMELESS": {
+    "common_1h12h": {
+     "h": 811.65,
+     "removed": 219,
+     "lookup_domains": 3303
+    },
+    "class_specific": {
+     "h": 811.41,
+     "removed": 228,
+     "lookup_domains": 3320,
+     "rounds": [
+      "rerun_1h",
+      "rerun_12h",
+      "rerun_24h"
+     ]
+    }
+   },
+   "SLOW": {
+    "common_1h12h": {
+     "h": 291.99,
+     "removed": 421,
+     "lookup_domains": 3303
+    },
+    "class_specific": {
+     "h": 287.44,
+     "removed": 631,
+     "lookup_domains": 3320,
+     "rounds": [
+      "rerun_1h",
+      "rerun_12h",
+      "rerun_24h"
+     ]
+    }
+   },
+   "MEDIUM": {
+    "common_1h12h": {
+     "h": 128.44,
+     "removed": 336,
+     "lookup_domains": 3303
+    },
+    "class_specific": {
+     "h": 128.44,
+     "removed": 336,
+     "lookup_domains": 3303,
+     "rounds": [
+      "rerun_1h",
+      "rerun_12h"
+     ]
+    }
+   },
+   "FAST": {
+    "common_1h12h": {
+     "h": 121.51,
+     "removed": 303,
+     "lookup_domains": 3303
+    },
+    "class_specific": {
+     "h": 121.51,
+     "removed": 303,
+     "lookup_domains": 3303,
+     "rounds": [
+      "rerun_1h",
+      "rerun_12h"
+     ]
+    }
+   }
+  },
+  "sandbox_double_run": {
+   "runs": 2,
+   "printed_labels_both_runs": {
+    "TIMELESS": "30d",
+    "SLOW": "11.5d",
+    "MEDIUM": "5.3d",
+    "FAST": "5.2d"
+   },
+   "report_fit_windows": {
+    "TIMELESS": [
+     "rerun_1h",
+     "rerun_12h",
+     "rerun_24h"
+    ],
+    "SLOW": [
+     "rerun_1h",
+     "rerun_12h",
+     "rerun_24h"
+    ],
+    "MEDIUM": [
+     "rerun_1h",
+     "rerun_12h"
+    ],
+    "FAST": [
+     "rerun_1h",
+     "rerun_12h"
+    ]
+   },
+   "report_half_lives_h": {
+    "TIMELESS": 713.81,
+    "SLOW": 276.47,
+    "MEDIUM": 126.06,
+    "FAST": 124.94
+   },
+   "risk_model_DEFAULT_HALF_LIFE_after_run_s": {
+    "FAST": 449768.7,
+    "MEDIUM": 453810.3,
+    "SLOW": 995303.1,
+    "TIMELESS": 2569717.4
+   },
+   "domain_dictionary_entries_changed": {
+    "run1": 0,
+    "run2": 0
+   },
+   "why_zero": "patch_risk_model rewrites only the 20 most volatile observed domains that already exist in the dictionary; all 20 have observed volatility 1.0 and the matching hand values are already 1.0, so the write is a no-op on current data",
+   "noise_flags_vs_post_run_filter": {
+    "rows": 3246,
+    "disagree": 0
+   }
+  },
+  "cell_rule": {
+   "source": "build_targets.py:116-117 `if len(g) < 30: continue`",
+   "omitted": "REAL_TIME 7d, n=20",
+   "raw_rows": 4568,
+   "rows_in_19_cells": 4548
+  },
+  "import_time_all_round_fit": {
+   "where": "experiment.py:172 _MLP_RISK.calibrate() -> RuleBasedRiskModel.calibrate (risk_model.py:309-316), excluded_runs defaults to none in current code, so all non-baseline rounds including 24h/48h/7d feed that instance's _half_life and _domain_vol",
+   "consumers": "LearnedRiskModel._mlp_features uses self._domain_vol (risk_model.py:620); p_stale_mlp is called only by the learned variant path (experiment.py:1585)",
+   "manuscript_results_using_it": "none of the primary results; only the auxiliary learned variant (freshcache_pro.tex:434, :729, and the earlier single-dataset inert-transfer sentence at :1374)"
+  },
+  "supersedes": "R13_R14_verification.md section 4 statement that MEDIUM/FAST are unreproduced: they reproduce exactly under the display-rounding convention; section 7 blocker 1 is downgraded accordingly"
+ }
+}

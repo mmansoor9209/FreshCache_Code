@@ -1,0 +1,198 @@
+run.log executed 2026-09-24T03:48:07Z  python r16_recompute.py
+PREREG {'embedded_hash': '18c7e0a965846311e4576eb7ab331feb6f38d8512cd5022d9783538ecdff3b69', 'recomputed_content_hash': '18c7e0a965846311e4576eb7ab331feb6f38d8512cd5022d9783538ecdff3b69', 'file_sha256': '29c01922b9134cac69dba5b8edbee8469549900caf8d75b1a1d336041b5d8296', 'mtime_utc': '2026-09-21T10:34:11.915460', 'content_hash_matches': True}
+LearnedRiskModel: loaded data/risk_model.pt (T=1.4672)
+  MLP risk model: loaded
+LABELS {'rows': 600, 'label_counts': {'INSUFFICIENT': 298, 'SUFFICIENT': 171, 'JUDGE_DISAGREEMENT': 131}, 'usable': 463, 'n_insufficient': 292, 'n_sufficient': 171, 'usable_with_null_score': 6, 'ids_in_300_audit': 0, 'audit_300_incoming_ids': 300, 'ids_in_validation_clusters': 600, 'ids_in_test_clusters': 0, 'distinct_validation_clusters': 534, 's3b_build': {'validation_l2_hits': 5034, 'excluded_audited': 75, 'eligible': 4959, 'sampled': 600, 'seed': 42, 'strata': 20}}
+GAMMA {'grid_size': 91, 'selected': {'gamma': 0.55, 'tpr_reject_insufficient': 0.6952, 'fpr_reject_sufficient': 0.2398, 'youden_j': 0.4554, 'reject_rate': 0.527}, 'gammas_tied_at_max_J': [0.55], 'auc_sufficient_scores_higher': 0.7787, 'auc_rejection_score_insufficient_positive': 0.7787, 'recorded': {'selected_gamma': 0.55, 'selected': {'gamma': 0.55, 'tpr_reject_insufficient': 0.6952, 'fpr_reject_sufficient': 0.2398, 'youden_j': 0.4554, 'reject_rate': 0.527}, 'auc': 0.7787}, 'sweep_identical_to_record': True}
+ACCOUNTING {
+ "FreshCache": {
+  "N": 21848,
+  "tiers": {
+   "miss": 8363,
+   "L2": 12429,
+   "REAL_TIME": 250,
+   "L1": 806
+  },
+  "search_calls": 8613,
+  "search_saved_pct": 60.5776,
+  "l2_hits": 12429,
+  "l1_hits": 806,
+  "fetches": 7791,
+  "fetches_per_1k": 356.6,
+  "generations": 21042,
+  "generations_per_1k": 963.11,
+  "verdicts": {
+   "null": 21848
+  }
+ },
+ "L2Verify_g0.55": {
+  "N": 21848,
+  "tiers": {
+   "miss": 7421,
+   "L2": 7110,
+   "miss_rejected": 6261,
+   "REAL_TIME": 250,
+   "L1": 806
+  },
+  "search_calls": 13932,
+  "search_saved_pct": 36.2321,
+  "l2_hits": 7110,
+  "l1_hits": 806,
+  "fetches": 8311,
+  "fetches_per_1k": 380.4,
+  "generations": 21042,
+  "generations_per_1k": 963.11,
+  "verdicts": {
+   "null": 8477,
+   "ACCEPT": 6832,
+   "REJECT": 6261,
+   "ACCEPT_UNSCORED": 278
+  }
+ },
+ "scores_file": {
+  "rows": 13371,
+  "verdicts": {
+   "ACCEPT": 6832,
+   "REJECT": 6261,
+   "ACCEPT_UNSCORED": 278
+  },
+  "scored": 13093,
+  "unique_query_ids": 13371,
+  "L2_hits_reaching_verification_point_in_rows": 13371,
+  "every_reaching_hit_has_score_row": true
+ },
+ "tier_transition_FC_to_LV": {
+  "L1->L1": 806,
+  "L2->L2": 6749,
+  "L2->miss": 146,
+  "L2->miss_rejected": 5534,
+  "REAL_TIME->REAL_TIME": 250,
+  "miss->L2": 361,
+  "miss->miss": 7275,
+  "miss->miss_rejected": 727
+ },
+ "record": {
+  "FreshCache": {
+   "search_calls": 8613,
+   "search_saved_pct": 60.5776,
+   "l1_hits": 806,
+   "l2_hits": 12429,
+   "l3_hits": 23446,
+   "fetches": 8076,
+   "generations": 21042,
+   "fetches_per_1k": 369.64,
+   "generations_per_1k": 963.11,
+   "l2_accepted": 0,
+   "l2_rejected": 0,
+   "l2_unscored": 0
+  },
+  "L2Verify_g0.55": {
+   "search_calls": 13932,
+   "search_saved_pct": 36.2321,
+   "l1_hits": 806,
+   "l2_hits": 7110,
+   "l3_hits": 23015,
+   "fetches": 8596,
+   "generations": 21042,
+   "fetches_per_1k": 393.45,
+   "generations_per_1k": 963.11,
+   "l2_accepted": 6832,
+   "l2_rejected": 6261,
+   "l2_unscored": 278
+  }
+ },
+ "savings_arithmetic": {
+  "delta_pp": 24.3455,
+  "extra_search_calls": 5319,
+  "rejections": 6261,
+  "rejections_over_N_pp": 28.6571,
+  "FC_L2_hits_that_become_L2_in_LV": 6749,
+  "FC_miss_that_become_L2_in_LV": 361,
+  "FC_L2_that_become_rejected": 5534,
+  "FC_miss_that_become_rejected": 727
+ }
+}
+AUDIT400 {
+ "n": 400,
+ "ids_identical_in_order_to_answer_audit_k1_16": true,
+ "rows_with_all_three_labels": 400,
+ "rows_dropped_missing_label": 0,
+ "fresh_correct": 81,
+ "fc": {
+  "correct": 75,
+  "wai": 7,
+  "wai_ids": [
+   "q_96543752",
+   "p_q_e5616ef7_3",
+   "p_q_3055ab76_1",
+   "p_q_5abb871e_2",
+   "q_a8f577f5",
+   "q_f93213af",
+   "q_e2f9f525"
+  ],
+  "suff_SUFFICIENT": 129,
+  "suff_INSUFFICIENT": 180,
+  "suff_JUDGE_DISAGREEMENT": 91,
+  "suff_other": {}
+ },
+ "lv": {
+  "correct": 79,
+  "wai": 4,
+  "wai_ids": [
+   "q_96543752",
+   "p_q_e5616ef7_3",
+   "p_q_3055ab76_1",
+   "p_q_5abb871e_2"
+  ],
+  "suff_SUFFICIENT": 145,
+  "suff_INSUFFICIENT": 161,
+  "suff_JUDGE_DISAGREEMENT": 94,
+  "suff_other": {}
+ },
+ "paired_wai": {
+  "both": 4,
+  "fc_only": 3,
+  "lv_only": 0,
+  "exact_mcnemar_p": 0.25
+ },
+ "paired_correctness": {
+  "fc_only": 0,
+  "lv_only": 4,
+  "exact_mcnemar_p": 0.125
+ },
+ "sufficiency_transition_table": {
+  "INSUFFICIENT->INSUFFICIENT": 157,
+  "INSUFFICIENT->JUDGE_DISAGREEMENT": 6,
+  "INSUFFICIENT->SUFFICIENT": 17,
+  "JUDGE_DISAGREEMENT->INSUFFICIENT": 1,
+  "JUDGE_DISAGREEMENT->JUDGE_DISAGREEMENT": 88,
+  "JUDGE_DISAGREEMENT->SUFFICIENT": 2,
+  "SUFFICIENT->INSUFFICIENT": 3,
+  "SUFFICIENT->SUFFICIENT": 126
+ },
+ "paired_sufficiency_binary_rule": {
+  "rule": "SUFFICIENT (both judges) vs everything else (INSUFFICIENT or JUDGE_DISAGREEMENT); all 400 rows enter",
+  "fc_sufficient_only": 3,
+  "lv_sufficient_only": 19,
+  "exact_mcnemar_p": 0.0008554458618164062,
+  "of_which_disagreement_involved": {
+   "fc_SUFF->lv_DISAGREE": 0,
+   "fc_DISAGREE->lv_SUFF": 2,
+   "fc_SUFF->lv_INSUFF": 3,
+   "fc_INSUFF->lv_SUFF": 17
+  }
+ },
+ "paired_sufficiency_agreed_both_arms_only": {
+  "n": 303,
+  "fc_only": 3,
+  "lv_only": 17,
+  "exact_mcnemar_p": 0.0025768280029296875
+ },
+ "serving_changed": 166,
+ "lv_verdicts_in_400": {
+  "null": 152,
+  "ACCEPT": 130,
+  "REJECT": 116,
+  "ACCEPT_UNSCORED": 2
+ }
+}

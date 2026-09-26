@@ -1,0 +1,216 @@
+{
+ "utc": "2026-09-24T05:25:50.814971Z",
+ "ids": {
+  "n": 400,
+  "unique": 400,
+  "duplicates": []
+ },
+ "classification": {
+  "gv_coverage": 400,
+  "recomputed": {
+   "CONTRADICTED": 101,
+   "TEMPORALLY_AMBIGUOUS": 178,
+   "UNVERIFIABLE": 64,
+   "SUPPORTED": 57
+  },
+  "recorded_in_reference_and_diagnosis": {
+   "CONTRADICTED": 101,
+   "TEMPORALLY_AMBIGUOUS": 178,
+   "UNVERIFIABLE": 64,
+   "SUPPORTED": 57
+  },
+  "mismatches_vs_recorded": 0,
+  "raw_stage3b_pair_status_on_400": {
+   "SUPERSEDED_AT_T": 101,
+   "JUDGE_DISAGREEMENT": 168,
+   "INDETERMINATE_AT_T": 74,
+   "VALID_AT_T": 57
+  },
+  "ambiguity_rule": "UNVERIFIABLE (INDETERMINATE or JUDGE_DISAGREEMENT) relabelled TEMPORALLY_AMBIGUOUS when volatility==VOLATILE and the question has no 4-digit year (verify_and_diagnose.py:128-129,153-156)",
+  "unit_round_equals_version_at_request_t": true,
+  "requests_mapped_to_more_than_one_unit": 0
+ },
+ "sets": {
+  "screened_107": 107,
+  "supported_57": 57,
+  "intersection": 41,
+  "supported_only": 16,
+  "screened_only": 66,
+  "matches_crosswalk_file": true,
+  "fidelity_labels_on_400": {
+   "JUDGE_DISAGREEMENT": 109,
+   "DIFFERENT": 25,
+   "SAME": 207,
+   "BASE_QUERY": 59
+  },
+  "revised_majority_on_400": {
+   "SUPERSEDED_AT_T": 139,
+   "VALID_AT_T": 159,
+   "INDETERMINATE_AT_T": 72,
+   "NO_MAJORITY": 29,
+   "CONTRADICTED_AS_STATED": 1
+  },
+  "revised_pair_on_400": {
+   "SUPERSEDED_AT_T": 125,
+   "JUDGE_DISAGREEMENT": 176,
+   "INDETERMINATE_AT_T": 44,
+   "VALID_AT_T": 54,
+   "CONTRADICTED_AS_STATED": 1
+  },
+  "why_supported_not_screened": {
+   "DIFFERENT|VALID_AT_T": 1,
+   "SAME|SUPERSEDED_AT_T": 1,
+   "JUDGE_DISAGREEMENT|VALID_AT_T": 14
+  },
+  "why_screened_not_supported": {
+   "JUDGE_DISAGREEMENT": 58,
+   "SUPERSEDED_AT_T": 6,
+   "INDETERMINATE_AT_T": 2
+  }
+ },
+ "evidence": {
+  "requests_with_unit": 400,
+  "orig_task_present": 400,
+  "orig_labels_present_both": 400,
+  "supported57_all_both_VALID_raw": true,
+  "supported57_orig_evidence_chars": [
+   224,
+   249,
+   271,
+   438,
+   609
+  ],
+  "evidence_fetched_at_range_by_round": {
+   "rerun_24h": [
+    "2026-05-17T00:19:50.503967+00:00",
+    "2026-06-13T17:31:45.194587+00:00"
+   ],
+   "rerun_12h": [
+    "2026-05-23T19:39:46.326382+00:00",
+    "2026-06-13T06:14:05.449452+00:00"
+   ],
+   "rerun_1h": [
+    "2026-06-01T18:09:28.249584+00:00",
+    "2026-06-12T19:12:40.604647+00:00"
+   ],
+   "run_00": [
+    "2026-06-12T10:59:09.690349+00:00",
+    "2026-06-12T10:59:12.102051+00:00"
+   ]
+  },
+  "fresh_versions_without_snapshot_entry": 8,
+  "rounds_on_400": {
+   "rerun_24h": 365,
+   "rerun_12h": 18,
+   "rerun_1h": 16,
+   "run_00": 1
+  },
+  "orig_prompt_evidence_cap": "2000 chars/page, 2800 budget (stage3b_validity.py:29-31)",
+  "revised_prompt": "r_validity_tasks: per-unit mode + expanded evidence (see r1_build.py)"
+ },
+ "table15": {
+  "rows_scored": 400,
+  "dropped_missing_label": [],
+  "recomputed": {
+   "all_400": {
+    "N": 400,
+    "fresh_correct": 81,
+    "fc": {
+     "correct": 75,
+     "acc_pct": 18.75,
+     "wai": 7,
+     "abstain": 2
+    },
+    "sttl": {
+     "correct": 64,
+     "acc_pct": 16.0,
+     "wai": 25,
+     "abstain": 3
+    }
+   },
+   "screened_107": {
+    "N": 107,
+    "fresh_correct": 49,
+    "fc": {
+     "correct": 45,
+     "acc_pct": 42.06,
+     "wai": 4,
+     "abstain": 0
+    },
+    "sttl": {
+     "correct": 38,
+     "acc_pct": 35.51,
+     "wai": 15,
+     "abstain": 0
+    }
+   },
+   "supported_57": {
+    "N": 57,
+    "fresh_correct": 40,
+    "fc": {
+     "correct": 37,
+     "acc_pct": 64.91,
+     "wai": 3,
+     "abstain": 0
+    },
+    "sttl": {
+     "correct": 28,
+     "acc_pct": 49.12,
+     "wai": 13,
+     "abstain": 0
+    }
+   },
+   "intersection_41": {
+    "N": 41,
+    "fresh_correct": 30,
+    "fc": {
+     "correct": 27,
+     "acc_pct": 65.85,
+     "wai": 3,
+     "abstain": 0
+    },
+    "sttl": {
+     "correct": 22,
+     "acc_pct": 53.66,
+     "wai": 9,
+     "abstain": 0
+    }
+   }
+  },
+  "manuscript": {
+   "all_400": [
+    400,
+    81,
+    "18.75",
+    7,
+    "16.00",
+    25
+   ],
+   "screened_107": [
+    107,
+    49,
+    "42.06",
+    4,
+    "35.51",
+    15
+   ],
+   "supported_57": [
+    57,
+    40,
+    "64.91",
+    3,
+    "49.12",
+    13
+   ],
+   "intersection_41": [
+    41,
+    30,
+    "65.85",
+    3,
+    "53.66",
+    9
+   ]
+  },
+  "rules": "abstention pattern -> ABSTAIN (excluded from correct, not a WAI event); CORRECT only if both judges say CORRECT; WAI = fresh CORRECT and policy WRONG (crosswalk_57_107.py:24-30, 49-52)"
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "SCALM-style": {
+  "estimate": 97.66,
+  "jeffreys_stratified_95": [
+   95.57,
+   97.74
+  ],
+  "uniform_prior_stratified_95": [
+   94.6,
+   97.61
+  ],
+  "old_printed": [
+   97.477,
+   97.837
+  ],
+  "bootstrap": [
+   97.446,
+   97.852
+  ],
+  "sum_wilson_bound": [
+   93.785,
+   98.004
+  ],
+  "saturated_strata": 2,
+  "weight_in_saturated_strata_pct": 92.7
+ },
+ "SemanticTTL permissive (theta=0.40)": {
+  "estimate": 95.4,
+  "jeffreys_stratified_95": [
+   93.2,
+   96.26
+  ],
+  "uniform_prior_stratified_95": [
+   92.63,
+   95.95
+  ],
+  "old_printed": [
+   94.032,
+   96.763
+  ],
+  "bootstrap": [
+   93.904,
+   96.676
+  ],
+  "sum_wilson_bound": [
+   90.202,
+   97.234
+  ],
+  "saturated_strata": 1,
+  "weight_in_saturated_strata_pct": 23.3
+ },
+ "FreshCache L1": {
+  "estimate": 19.11,
+  "jeffreys_stratified_95": [
+   14.27,
+   25.34
+  ],
+  "uniform_prior_stratified_95": [
+   14.68,
+   25.81
+  ],
+  "old_printed": [
+   13.972,
+   24.239
+  ],
+  "bootstrap": [
+   13.634,
+   24.713
+  ],
+  "sum_wilson_bound": [
+   13.031,
+   28.394
+  ],
+  "saturated_strata": 0,
+  "weight_in_saturated_strata_pct": 0.0
+ },
+ "FreshCache L2": {
+  "estimate": 24.78,
+  "jeffreys_stratified_95": [
+   21.72,
+   28.29
+  ],
+  "uniform_prior_stratified_95": [
+   21.81,
+   28.4
+  ],
+  "old_printed": [
+   21.527,
+   28.024
+  ],
+  "bootstrap": [
+   21.55,
+   28.131
+  ],
+  "sum_wilson_bound": [
+   19.978,
+   30.414
+  ],
+  "saturated_strata": 0,
+  "weight_in_saturated_strata_pct": 0.0
+ },
+ "SemanticTTL quality-selected (0.60, 1/2)": {
+  "estimate": 53.38,
+  "jeffreys_stratified_95": [
+   50.01,
+   56.63
+  ],
+  "uniform_prior_stratified_95": [
+   49.94,
+   56.62
+  ],
+  "old_printed": [
+   48.479,
+   58.21
+  ],
+  "bootstrap": [
+   50.137,
+   56.651
+  ],
+  "sum_wilson_bound": [
+   46.967,
+   59.536
+  ],
+  "saturated_strata": 0,
+  "weight_in_saturated_strata_pct": 0.0
+ }
+}

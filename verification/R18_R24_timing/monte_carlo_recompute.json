@@ -1,0 +1,76 @@
+{
+ "seed": 42,
+ "generator": "numpy.random.default_rng(42), one draw per operation, single pass (no replicates)",
+ "population": "31,201 replay requests per policy from opcounts_<policy>.csv (stage_a_opcounts.py replay)",
+ "results": {
+  "NoCache": {
+   "N": 31201,
+   "mean_ms": 3940.4108,
+   "p50_ms": 3417.3504,
+   "p95_ms": 7860.862,
+   "recorded_mean": 3940.410830585558,
+   "recorded_p50": 3417.3504,
+   "recorded_p95": 7860.861999999999,
+   "op_counts": {
+    "search_calls": 31201,
+    "l1_hits": 0,
+    "l2_hits": 0,
+    "fetches": 46703,
+    "generations": 31201
+   },
+   "mean_matches_record_to_1e-6": true
+  },
+  "SemanticTTL_k1_16": {
+   "N": 31201,
+   "mean_ms": 328.7957,
+   "p50_ms": 11.362,
+   "p95_ms": 3056.1689,
+   "recorded_mean": 328.7956756479369,
+   "recorded_p50": 11.36198482348947,
+   "recorded_p95": 3056.1688700000004,
+   "op_counts": {
+    "search_calls": 2322,
+    "l1_hits": 28879,
+    "l2_hits": 0,
+    "fetches": 4113,
+    "generations": 2322
+   },
+   "mean_matches_record_to_1e-6": true
+  },
+  "FreshCache_NoL1": {
+   "N": 31201,
+   "mean_ms": 1534.047,
+   "p50_ms": 795.5849,
+   "p95_ms": 4621.7276,
+   "recorded_mean": 1534.0469778888425,
+   "recorded_p50": 795.5849495081442,
+   "recorded_p95": 4621.727599999999,
+   "op_counts": {
+    "search_calls": 11623,
+    "l1_hits": 0,
+    "l2_hits": 19578,
+    "fetches": 10961,
+    "generations": 31201
+   },
+   "mean_matches_record_to_1e-6": true
+  },
+  "FreshCache": {
+   "N": 31201,
+   "mean_ms": 1514.86,
+   "p50_ms": 759.6799,
+   "p95_ms": 4624.1467,
+   "recorded_mean": 1514.8600242149223,
+   "recorded_p50": 759.6798500686015,
+   "recorded_p95": 4624.146727282739,
+   "op_counts": {
+    "search_calls": 11628,
+    "l1_hits": 1175,
+    "l2_hits": 18398,
+    "fetches": 10959,
+    "generations": 30026
+   },
+   "mean_matches_record_to_1e-6": true
+  }
+ },
+ "constants_role": "stage_e_compose.py:182-185 writes 500/800/2000/5/5/5 into latency_results.json under 'simulator_constants_for_reference' only; they are never read into any draw"
+}

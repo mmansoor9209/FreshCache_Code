@@ -1,0 +1,273 @@
+{
+ "utc": "2026-09-24T02:58:20.391185Z",
+ "grid": {
+  "eps_L1": [
+   0.05,
+   0.1,
+   0.15,
+   0.2
+  ],
+  "eps_L2": [
+   0.1,
+   0.2,
+   0.3,
+   0.35
+  ],
+  "eps_L3": [
+   0.25,
+   0.35,
+   0.45
+  ],
+  "product": "4x4x3=48",
+  "cells_in_sweep": 48,
+  "grid_equals_sweep_keys": true
+ },
+ "constraints_recomputed": {
+  "C1_drift_max": 3.6487,
+  "C2_l1_max": 285,
+  "C3_coverage_min": 40.943575,
+  "recorded": {
+   "C1_drift_max": 3.6487,
+   "C2_l1_max": 285,
+   "C3_coverage_min": 40.943575
+  },
+  "published_validation": {
+   "eps_answer": 0.1,
+   "eps_url_list": 0.2,
+   "eps_content": 0.35,
+   "k_answer": 0.101335,
+   "k_url_list": 0.268273,
+   "k_content": 0.621488,
+   "search_saved_pct": 56.8695,
+   "l1_hits": 285,
+   "l2_hits": 5034,
+   "l3_hits": 9730,
+   "coverage_pct": 43.0985,
+   "drift_pct": 3.3987
+  }
+ },
+ "selection": {
+  "n_feasible": 10,
+  "recorded_n_feasible": 10,
+  "selected": [
+   0.1,
+   0.35,
+   0.25
+  ],
+  "recorded_selected": [
+   0.1,
+   0.35,
+   0.25
+  ],
+  "frozen": [
+   0.1,
+   0.35,
+   0.25
+  ],
+  "selected_metrics": {
+   "search_saved_pct": 67.4864,
+   "drift_pct": 2.6802,
+   "coverage_pct": 41.0884,
+   "l1_hits": 285,
+   "l2_hits": 6027,
+   "l3_hits": 9228
+  },
+  "feasible_ranked": [
+   {
+    "eps": [
+     0.1,
+     0.35,
+     0.25
+    ],
+    "saved": 67.4864,
+    "drift": 2.6802,
+    "cov": 41.0884,
+    "L1": 285
+   },
+   {
+    "eps": [
+     0.05,
+     0.35,
+     0.25
+    ],
+    "saved": 67.4864,
+    "drift": 2.6809,
+    "cov": 41.0777,
+    "L1": 167
+   },
+   {
+    "eps": [
+     0.1,
+     0.3,
+     0.25
+    ],
+    "saved": 64.5354,
+    "drift": 2.6739,
+    "cov": 41.1846,
+    "L1": 285
+   },
+   {
+    "eps": [
+     0.05,
+     0.3,
+     0.25
+    ],
+    "saved": 64.5141,
+    "drift": 2.6781,
+    "cov": 41.1205,
+    "L1": 167
+   },
+   {
+    "eps": [
+     0.1,
+     0.2,
+     0.35
+    ],
+    "saved": 56.8695,
+    "drift": 3.3987,
+    "cov": 43.0985,
+    "L1": 285
+   },
+   {
+    "eps": [
+     0.05,
+     0.2,
+     0.35
+    ],
+    "saved": 56.8267,
+    "drift": 3.4003,
+    "cov": 43.0771,
+    "L1": 167
+   },
+   {
+    "eps": [
+     0.1,
+     0.1,
+     0.35
+    ],
+    "saved": 42.0828,
+    "drift": 2.5475,
+    "cov": 42.8098,
+    "L1": 285
+   },
+   {
+    "eps": [
+     0.1,
+     0.1,
+     0.45
+    ],
+    "saved": 42.0828,
+    "drift": 3.078,
+    "cov": 44.8092,
+    "L1": 285
+   },
+   {
+    "eps": [
+     0.05,
+     0.1,
+     0.35
+    ],
+    "saved": 41.9545,
+    "drift": 2.5475,
+    "cov": 42.8098,
+    "L1": 167
+   },
+   {
+    "eps": [
+     0.05,
+     0.1,
+     0.45
+    ],
+    "saved": 41.9545,
+    "drift": 3.078,
+    "cov": 44.8092,
+    "L1": 167
+   }
+  ],
+  "tie_on_primary_objective": [
+   [
+    0.05,
+    0.35,
+    0.25
+   ],
+   [
+    0.1,
+    0.35,
+    0.25
+   ]
+  ],
+  "objective_and_tiebreak_as_coded": "sweep_validation.py:122-124 sort key (-saved, drift, l1_hits, eps_L1, eps_L2, eps_L3)"
+ },
+ "heldout": {
+  "recomputed": {
+   "A_original": {
+    "N": 21848,
+    "outcomes": {
+     "UNCHANGED": 9517,
+     "CHANGED": 311,
+     "None": 4950,
+     "UNOBSERVABLE": 7070
+    },
+    "observable_n": 9828,
+    "coverage_pct": 44.9835,
+    "drift_pct": 3.1644
+   },
+   "C_budget_only": {
+    "N": 21848,
+    "outcomes": {
+     "UNCHANGED": 9078,
+     "CHANGED": 286,
+     "None": 5629,
+     "UNOBSERVABLE": 6855
+    },
+    "observable_n": 9364,
+    "coverage_pct": 42.8598,
+    "drift_pct": 3.0543
+   }
+  },
+  "recorded_C": {
+   "search_saved_pct": 70.2444,
+   "l1_hits": 806,
+   "l2_hits": 14541,
+   "l3_hits": 22395,
+   "observable_n": 9364,
+   "coverage_pct": 42.8598,
+   "drift_pct": 3.0543,
+   "drift_ci95": [
+    2.5234,
+    3.6105
+   ]
+  },
+  "recorded_A": {
+   "search_saved_pct": 60.5776,
+   "l1_hits": 806,
+   "l2_hits": 12429,
+   "coverage_pct": 44.9835,
+   "drift_pct": 3.1644
+  },
+  "savings_note": "search_saved_pct is not recomputable from heldout_per_request.csv (outcomes only); value is the study's record, anchored by config A reproducing 60.5776/806/12,429"
+ },
+ "wai": {
+  "n": 400,
+  "A": 7,
+  "C": 7,
+  "C_ids": [
+   "q_96543752",
+   "p_q_e5616ef7_3",
+   "p_q_3055ab76_1",
+   "p_q_3cae62d9_1",
+   "q_a8f577f5",
+   "q_f93213af",
+   "q_e2f9f525"
+  ],
+  "shared_ids": 6,
+  "C_tiers": {
+   "miss": 118,
+   "L2": 267,
+   "L1": 15
+  },
+  "C_wai_tiers": {
+   "L2": 7
+  }
+ }
+}

@@ -1,0 +1,136 @@
+inputs: manifest 89494 change_log 3246
+
+[0] replication of calibrate.compute_run_class_rates: identical on 25 (run,class) cells
+
+[1] BASELINE fit with current code + current inputs + is_noise_url (hand dict):
+   TIMELESS  windows ['rerun_1h', 'rerun_12h', 'rerun_24h']  rates [0.009443, 0.011382, 0.014328]  -> 713.81 h
+   SLOW      windows ['rerun_1h', 'rerun_12h', 'rerun_24h']  rates [0.024229, 0.031533, 0.035548]  -> 276.47 h
+   MEDIUM    windows ['rerun_1h', 'rerun_12h']  rates [0.031766, 0.038442]  -> 126.06 h
+   FAST      windows ['rerun_1h', 'rerun_12h']  rates [0.028187, 0.042599]  -> 124.94 h
+   deployed HALF_LIFE (experiment.py): TIMELESS 720 h, SLOW 276 h, MEDIUM 127.2 h, FAST 124.8 h
+   retained (tracked) per (run,class) and removed by domain filter:
+     TIMELESS  rerun_1h  tracked   3071  removed   851  changed    29
+     TIMELESS  rerun_12h tracked   3075  removed   851  changed    35
+     TIMELESS  rerun_24h tracked   3071  removed   851  changed    44
+     TIMELESS  rerun_7d  tracked   1672  removed   409  changed   147
+     SLOW      rerun_1h  tracked   4375  removed   379  changed   106
+     SLOW      rerun_12h tracked   4313  removed   379  changed   136
+     SLOW      rerun_24h tracked   4304  removed   380  changed   153
+     SLOW      rerun_7d  tracked   2537  removed   218  changed   282
+     MEDIUM    rerun_1h  tracked   3935  removed   241  changed   125
+     MEDIUM    rerun_12h tracked   3928  removed   241  changed   151
+     MEDIUM    rerun_24h tracked   3956  removed   243  changed   179
+     MEDIUM    rerun_7d  tracked   2180  removed   127  changed   318
+     FAST      rerun_1h  tracked   4683  removed    26  changed   132
+     FAST      rerun_12h tracked   4695  removed    26  changed   200
+     FAST      rerun_24h tracked   4692  removed    27  changed   217
+     FAST      rerun_7d  tracked   2523  removed    12  changed   338
+
+[2] LATER ROUNDS REMOVED (24h, 7d, 48h dropped from manifest+change_log; filter = same hand dict):
+   TIMELESS  713.81 h -> 419.16 h   delta -294.654 h
+   SLOW      276.47 h -> 159.3 h   delta -117.178 h
+   MEDIUM    126.06 h -> 126.06 h   delta 0.0 h
+   FAST      124.94 h -> 124.94 h   delta 0.0 h
+
+[3] LATER ROUNDS PERTURBED (24h/7d change events removed, 24h/7d denominators halved; fitting rounds untouched):
+   TIMELESS  713.81 h -> 419.16 h
+   SLOW      276.47 h -> 159.3 h
+   MEDIUM    126.06 h -> 126.06 h
+   FAST      124.94 h -> 124.94 h
+
+[4] POSITIVE CONTROL: rerun_12h removed (an in-window round) -> fits must move:
+   TIMELESS  713.81 h -> 707.83 h
+   SLOW      276.47 h -> 285.38 h
+   MEDIUM    126.06 h -> 21.47 h
+   FAST      124.94 h -> 24.24 h
+
+[5] OBSERVED volatility lookup (1h+24h in code): 3291 domains; without 24h: 828; values changed 92, domains lost 2463
+    -> this lookup DOES depend on the 24h round. But is it what the filter reads?
+[6] FILTER dict (_DEFAULT_DOMAIN_VOLATILITY): 43 hand-set entries; 34 also have observed values; 5 equal the observed value
+     x.com                    dict 0.95  observed(1h+24h) 0.574
+     reddit.com               dict 0.85  observed(1h+24h) 0.0
+     finance.yahoo.com        dict 0.95  observed(1h+24h) 0.458
+     coindesk.com             dict 1.0   observed(1h+24h) 1.0
+     bbc.com                  dict 0.75  observed(1h+24h) 0.022
+     cnn.com                  dict 0.75  observed(1h+24h) 0.227
+     nytimes.com              dict 0.7   observed(1h+24h) 0.083
+     theguardian.com          dict 0.7   observed(1h+24h) 0.161
+     weather.com              dict 0.9   observed(1h+24h) 0.6
+     accuweather.com          dict 0.9   observed(1h+24h) 0.261
+     arstechnica.com          dict 0.45  observed(1h+24h) 0.0
+     github.com               dict 0.35  observed(1h+24h) 0.0
+
+[7] FILTER VARIANTS, same estimator, same inputs (half-life h; removed/tracked over the class's fit windows):
+   hand_dict (in force)
+      TIMELESS     713.81 h   removed  2553 / tracked 9217
+      SLOW         276.47 h   removed  1138 / tracked 12992
+      MEDIUM       126.06 h   removed   482 / tracked 7863
+      FAST         124.94 h   removed    52 / tracked 9378
+   no_filter
+      TIMELESS     817.21 h   removed     0 / tracked 11770
+      SLOW         301.11 h   removed     0 / tracked 14130
+      MEDIUM       133.93 h   removed     0 / tracked 8345
+      FAST         125.64 h   removed     0 / tracked 9430
+   observed_1h+24h (calibrate.py patch intent)
+      TIMELESS     805.94 h   removed   437 / tracked 11333
+      SLOW         289.52 h   removed   535 / tracked 13595
+      MEDIUM        128.8 h   removed   314 / tracked 8031
+      FAST         122.03 h   removed   266 / tracked 9164
+   fit_rounds_only_1h+12h (control)
+      TIMELESS     811.65 h   removed   219 / tracked 11551
+      SLOW         291.99 h   removed   421 / tracked 13709
+      MEDIUM       128.44 h   removed   336 / tracked 8009
+      FAST         121.51 h   removed   303 / tracked 9127
+   all_four_rounds (manuscript wording)
+      TIMELESS     811.26 h   removed   234 / tracked 11536
+      SLOW         287.31 h   removed   637 / tracked 13493
+      MEDIUM       127.36 h   removed   402 / tracked 7943
+      FAST         119.03 h   removed   486 / tracked 8944
+
+wrote results.json
+
+[replay_control.py]
+  deployed (experiment.py HALF_LIFE): HL {'TIMELESS': 720.0, 'SLOW': 276.0, 'MEDIUM': 127.2, 'FAST': 124.8} saved 62.732 drift 3.5266 cov 45.7133 L1/L2/L3 1175/18398/33907 fetches 10959 differing 0 audited400 0
+  recomputed, hand-dict filter (713.81->720 clamp/276.47/126.06/124.94): HL {'TIMELESS': 720.0, 'SLOW': 276.47, 'MEDIUM': 126.06, 'FAST': 124.94} saved 62.6807 drift 3.5325 cov 45.5466 L1/L2/L3 1175/18382/33825 fetches 10988 differing 172 audited400 2
+  observed 1h+24h lookup (calibrate.py patch intent): HL {'TIMELESS': 805.94, 'SLOW': 289.52, 'MEDIUM': 128.8, 'FAST': 122.03} saved 62.8602 drift 3.4944 cov 45.4921 L1/L2/L3 1203/18410/33780 fetches 10947 differing 719 audited400 10
+  fit-rounds-only 1h+12h lookup (control): HL {'TIMELESS': 811.65, 'SLOW': 291.99, 'MEDIUM': 128.44, 'FAST': 121.51} saved 62.8505 drift 3.5229 cov 45.4889 L1/L2/L3 1204/18406/33787 fetches 10965 differing 783 audited400 9
+  no domain filter: HL {'TIMELESS': 817.21, 'SLOW': 301.11, 'MEDIUM': 133.93, 'FAST': 125.64} saved 63.3986 drift 3.6 cov 45.6716 L1/L2/L3 1230/18551/33855 fetches 10820 differing 1111 audited400 18
+[12.75 recompute] MAE 12.7496 n-weighted 10.0783 over 19 cells, n=4548 (stated 4568)
+
+[addendum_tests.py]
+(1) hours -> floor -> days -> round 1dp -> hours:
+   TIMELESS  713.81 h -> 720.0 h -> 30.0 d -> 720.0 h   deployed 720 h   MATCH
+   SLOW      276.47 h -> 276.47 h -> 11.5 d -> 276.0 h   deployed 276 h   MATCH
+   MEDIUM    126.06 h -> 126.06 h -> 5.3 d -> 127.2 h   deployed 127.2 h   MATCH
+   FAST      124.94 h -> 124.94 h -> 5.2 d -> 124.8 h   deployed 124.8 h   MATCH
+   calibrate._fmt_hl prints half-lives >= 2 days as f'{seconds/86400:.1f}d'; experiment.py HALF_LIFE comments read '5.2d','5.3d','11.5d','30d' and its seconds equal those day values x 86400
+(2) TIMELESS/SLOW: 1h/12h/24h retained; 7d and 48h removed, then perturbed (7d/48h change events deleted, denominators halved)
+   TIMELESS  baseline          unclamped 713.81 h  operational 720.0 h  mask removed 2553/9217  L3 equiv-TTL 447.47 h
+   TIMELESS  7d_48h_removed    unclamped 713.81 h  operational 720.0 h  mask removed 2553/9217  L3 equiv-TTL 447.47 h
+   TIMELESS  7d_48h_perturbed  unclamped 713.81 h  operational 720.0 h  mask removed 2553/9217  L3 equiv-TTL 447.47 h
+   TIMELESS  lookup: hand dictionary, identical across conditions (constant); weights: window ages, identical
+   SLOW      baseline          unclamped 276.47 h  operational 276.47 h  mask removed 1138/12992  L3 equiv-TTL 171.82 h
+   SLOW      7d_48h_removed    unclamped 276.47 h  operational 276.47 h  mask removed 1138/12992  L3 equiv-TTL 171.82 h
+   SLOW      7d_48h_perturbed  unclamped 276.47 h  operational 276.47 h  mask removed 1138/12992  L3 equiv-TTL 171.82 h
+   SLOW      lookup: hand dictionary, identical across conditions (constant); weights: window ages, identical
+(2b) lookup scope: existing 'fitting-rounds-only' control used a COMMON 1h+12h cutoff for every class; class-specific variant uses each class's own fit rounds:
+   TIMELESS  common 811.65 h (removed 219, 3303 domains)   class-specific 811.41 h (removed 228, 3320 domains, rounds ['rerun_1h', 'rerun_12h', 'rerun_24h'])
+   SLOW      common 291.99 h (removed 421, 3303 domains)   class-specific 287.44 h (removed 631, 3320 domains, rounds ['rerun_1h', 'rerun_12h', 'rerun_24h'])
+   MEDIUM    common 128.44 h (removed 336, 3303 domains)   class-specific 128.44 h (removed 336, 3303 domains, rounds ['rerun_1h', 'rerun_12h'])
+   FAST      common 121.51 h (removed 303, 3303 domains)   class-specific 121.51 h (removed 303, 3303 domains, rounds ['rerun_1h', 'rerun_12h'])
+wrote addendum_results.json
+
+[sandbox two fresh runs of calibrate.py]
+-- run 1 --
+    SLOW                   11.5d
+    MEDIUM                  5.3d
+    FAST                    5.2d
+    REAL_TIME                30s
+
+-- run 2 --
+    SLOW                   11.5d
+    MEDIUM                  5.3d
+    FAST                    5.2d
+    REAL_TIME                30s
+
+dictionary entries changed: run1 0, run2 0; stored noise flags disagreeing with post-run is_noise_url: 0/3246

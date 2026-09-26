@@ -1,0 +1,25 @@
+# run_retrieval_correction.log  executed 2026-09-24; script (verbatim) followed by output
+# rule: rows of one question sorted by retrieval_timestamp; a new call starts when the gap to the previous row exceeds 120 s
+# --- script ---
+import sys,collections,datetime as dt; sys.path.insert(0,'.'); import experiment as exp
+m=exp.load_jsonl(exp.MANIFEST_FILE); q=exp.load_jsonl(exp.QUERIES_FILE); pa=exp.load_jsonl(exp.PARAPHRASE_FILE)
+records=exp.build_query_records(q,m,pa); retained={r['query_id'] for r in records if not r['is_paraphrase']}
+per=collections.defaultdict(list)
+for x in m:
+    if x.get('run_id')=='run_00': per[x['query_id']].append(x)
+def calls(rows,gap=120):
+    rows=sorted(rows,key=lambda x:x['retrieval_timestamp']); out=[]; last=None
+    for x in rows:
+        t=dt.datetime.fromisoformat(x['retrieval_timestamp'])
+        if last is None or (t-last).total_seconds()>gap: out.append([x])
+        else: out[-1].append(x)
+        last=t
+    return out
+# per population: calls per question, rows per call, calls with a repeated rank, fetch dates per question
+# --- output ---
+LearnedRiskModel: loaded data/risk_model.pt (T=1.4672)
+  MLP risk model: loaded
+all run_00 questions | questions 9187 | calls per question (120 s gap): {1: 8155, 2: 1030, 3: 2} | rows per call: {1: 29, 2: 10192} | calls with a repeated rank: 0
+   distinct fetch dates per question: {'2026-06-12': 5491, '2026-06-01': 1947, '2026-05-23': 611, '2026-05-20/2026-06-01': 509, '2026-05-23/2026-06-01': 398, '2026-05-15/2026-06-01': 125}
+retained 6,258 base | questions 6258 | calls per question (120 s gap): {1: 5330, 2: 926, 3: 2} | rows per call: {1: 19, 2: 7169} | calls with a repeated rank: 0
+   distinct fetch dates per question: {'2026-06-12': 4270, '2026-06-01': 1060, '2026-05-20/2026-06-01': 470, '2026-05-23/2026-06-01': 336, '2026-05-15/2026-06-01': 122}

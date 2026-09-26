@@ -1,0 +1,289 @@
+{
+ "SCALM-style": {
+  "weighted_mismatch_pct": 97.657,
+  "old_ci_pct": [
+   97.477,
+   97.837
+  ],
+  "old_ci_method": "stratified_wald_fpc",
+  "stratified_bootstrap_ci_pct": [
+   97.446,
+   97.852
+  ],
+  "cluster_aware_ci_pct": [
+   97.44,
+   97.867
+  ],
+  "judged_n": 600,
+  "population_N": 30067,
+  "N_source": "scalm_hit_judgment_summary_24h.json",
+  "strata": {
+   "0.40-0.50": {
+    "N_h": 24252,
+    "n_h": 100,
+    "y_h": 100,
+    "p_h": 1.0,
+    "weight_N_over_n": 242.52
+   },
+   "0.50-0.60": {
+    "N_h": 3625,
+    "n_h": 100,
+    "y_h": 100,
+    "p_h": 1.0,
+    "weight_N_over_n": 36.25
+   },
+   "0.60-0.70": {
+    "N_h": 1166,
+    "n_h": 100,
+    "y_h": 97,
+    "p_h": 0.97,
+    "weight_N_over_n": 11.66
+   },
+   "0.70-0.80": {
+    "N_h": 352,
+    "n_h": 100,
+    "y_h": 65,
+    "p_h": 0.65,
+    "weight_N_over_n": 3.52
+   },
+   "0.80-0.90": {
+    "N_h": 330,
+    "n_h": 100,
+    "y_h": 35,
+    "p_h": 0.35,
+    "weight_N_over_n": 3.3
+   },
+   "0.90-1.01": {
+    "N_h": 342,
+    "n_h": 100,
+    "y_h": 3,
+    "p_h": 0.03,
+    "weight_N_over_n": 3.42
+   }
+  },
+  "n_clusters": 504,
+  "clusters_with_multiple_items": 90,
+  "saturated_strata": 2,
+  "conservative_bound_pct_sum_of_stratum_wilson": [
+   93.785,
+   98.004
+  ]
+ },
+ "SemanticTTL permissive (theta=0.40)": {
+  "weighted_mismatch_pct": 95.397,
+  "old_ci_pct": [
+   94.032,
+   96.763
+  ],
+  "old_ci_method": "stratified_wald_fpc",
+  "stratified_bootstrap_ci_pct": [
+   93.904,
+   96.676
+  ],
+  "cluster_aware_ci_pct": [
+   93.864,
+   96.664
+  ],
+  "judged_n": 600,
+  "population_N": 22561,
+  "N_source": "semanticttl_hit_judgment_summary_24h.json",
+  "strata": {
+   "0.40-0.50": {
+    "N_h": 5255,
+    "n_h": 100,
+    "y_h": 100,
+    "p_h": 1.0,
+    "weight_N_over_n": 52.55
+   },
+   "0.50-0.60": {
+    "N_h": 8470,
+    "n_h": 100,
+    "y_h": 99,
+    "p_h": 0.99,
+    "weight_N_over_n": 84.7
+   },
+   "0.60-0.70": {
+    "N_h": 5550,
+    "n_h": 100,
+    "y_h": 96,
+    "p_h": 0.96,
+    "weight_N_over_n": 55.5
+   },
+   "0.70-0.80": {
+    "N_h": 2058,
+    "n_h": 100,
+    "y_h": 88,
+    "p_h": 0.88,
+    "weight_N_over_n": 20.58
+   },
+   "0.80-0.90": {
+    "N_h": 932,
+    "n_h": 100,
+    "y_h": 68,
+    "p_h": 0.68,
+    "weight_N_over_n": 9.32
+   },
+   "0.90-1.01": {
+    "N_h": 296,
+    "n_h": 100,
+    "y_h": 37,
+    "p_h": 0.37,
+    "weight_N_over_n": 2.96
+   }
+  },
+  "n_clusters": 528,
+  "clusters_with_multiple_items": 61,
+  "saturated_strata": 1,
+  "conservative_bound_pct_sum_of_stratum_wilson": [
+   90.202,
+   97.234
+  ]
+ },
+ "FreshCache L1": {
+  "weighted_mismatch_pct": 19.105,
+  "old_ci_pct": [
+   13.972,
+   24.239
+  ],
+  "old_ci_method": "stratified_wald_fpc",
+  "stratified_bootstrap_ci_pct": [
+   13.634,
+   24.713
+  ],
+  "cluster_aware_ci_pct": [
+   13.877,
+   24.686
+  ],
+  "judged_n": 140,
+  "population_N": 1164,
+  "N_source": "l1_hit_judgment_summary_24h.json",
+  "strata": {
+   "0.80-0.90": {
+    "N_h": 483,
+    "n_h": 70,
+    "y_h": 28,
+    "p_h": 0.4,
+    "weight_N_over_n": 6.9
+   },
+   "0.90-1.01": {
+    "N_h": 681,
+    "n_h": 70,
+    "y_h": 3,
+    "p_h": 0.04285714285714286,
+    "weight_N_over_n": 9.728571428571428
+   }
+  },
+  "n_clusters": 127,
+  "clusters_with_multiple_items": 13,
+  "saturated_strata": 0,
+  "conservative_bound_pct_sum_of_stratum_wilson": [
+   13.031,
+   28.394
+  ]
+ },
+ "FreshCache L2": {
+  "weighted_mismatch_pct": 24.776,
+  "old_ci_pct": [
+   21.527,
+   28.024
+  ],
+  "old_ci_method": "stratified_wald_fpc",
+  "stratified_bootstrap_ci_pct": [
+   21.55,
+   28.131
+  ],
+  "cluster_aware_ci_pct": [
+   21.525,
+   28.119
+  ],
+  "judged_n": 590,
+  "population_N": 24021,
+  "N_source": "l2_hit_judgment_summary_24h.json",
+  "strata": {
+   "0.70-0.80": {
+    "N_h": 2213,
+    "n_h": 150,
+    "y_h": 101,
+    "p_h": 0.6733333333333333,
+    "weight_N_over_n": 14.753333333333334
+   },
+   "0.80-0.90": {
+    "N_h": 8982,
+    "n_h": 220,
+    "y_h": 75,
+    "p_h": 0.3409090909090909,
+    "weight_N_over_n": 40.82727272727273
+   },
+   "0.90-1.01": {
+    "N_h": 12826,
+    "n_h": 220,
+    "y_h": 24,
+    "p_h": 0.10909090909090909,
+    "weight_N_over_n": 58.3
+   }
+  },
+  "n_clusters": 567,
+  "clusters_with_multiple_items": 23,
+  "saturated_strata": 0,
+  "conservative_bound_pct_sum_of_stratum_wilson": [
+   19.978,
+   30.414
+  ]
+ },
+ "SemanticTTL quality-selected (0.60, 1/2)": {
+  "weighted_mismatch_pct": 53.376,
+  "old_ci_pct": [
+   48.479,
+   58.21
+  ],
+  "old_ci_method": "wilson_on_total_judged",
+  "stratified_bootstrap_ci_pct": [
+   50.137,
+   56.651
+  ],
+  "cluster_aware_ci_pct": [
+   50.101,
+   56.667
+  ],
+  "judged_n": 400,
+  "population_N": 12795,
+  "N_source": "artifacts/q16/semanticttl_selected_hits_t24h.jsonl",
+  "strata": {
+   "0.60-0.70": {
+    "N_h": 3585,
+    "n_h": 100,
+    "y_h": 94,
+    "p_h": 0.94,
+    "weight_N_over_n": 35.85
+   },
+   "0.70-0.80": {
+    "N_h": 3185,
+    "n_h": 100,
+    "y_h": 79,
+    "p_h": 0.79,
+    "weight_N_over_n": 31.85
+   },
+   "0.80-0.90": {
+    "N_h": 3178,
+    "n_h": 100,
+    "y_h": 27,
+    "p_h": 0.27,
+    "weight_N_over_n": 31.78
+   },
+   "0.90-1.01": {
+    "N_h": 2847,
+    "n_h": 100,
+    "y_h": 3,
+    "p_h": 0.03,
+    "weight_N_over_n": 28.47
+   }
+  },
+  "n_clusters": 378,
+  "clusters_with_multiple_items": 22,
+  "saturated_strata": 0,
+  "conservative_bound_pct_sum_of_stratum_wilson": [
+   46.967,
+   59.536
+  ]
+ }
+}

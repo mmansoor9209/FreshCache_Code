@@ -1,0 +1,490 @@
+{
+ "params": {
+  "AGE_s": 86400.0,
+  "NATURAL_AGE_s": {
+   "EvolvingQA": 2592000.0,
+   "DailyQA": 86400.0
+  },
+  "HALF_LIFE": {
+   "REAL_TIME": 30.0,
+   "FAST": 449280.0,
+   "MEDIUM": 457920.0,
+   "SLOW": 993600.0,
+   "TIMELESS": 2592000.0
+  },
+  "FIXED_TTL": {
+   "TIMELESS": 2592000,
+   "SLOW": 604800,
+   "MEDIUM": 86400,
+   "FAST": 3600,
+   "REAL_TIME": 0
+  },
+  "EPS_ANSWER": 0.1,
+  "TIER_MULT": {
+   "answer": 1.5,
+   "url_list": 1.2,
+   "content": 1.0
+  }
+ },
+ "effective": {
+  "fixed_ttl_h": {
+   "TIMELESS": 720.0,
+   "SLOW": 168.0,
+   "MEDIUM": 24.0,
+   "FAST": 1.0,
+   "REAL_TIME": 0.0
+  },
+  "freshcache_L1_admit_age_h": {
+   "REAL_TIME": 0.0008444616302502775,
+   "FAST": 12.646657374628157,
+   "MEDIUM": 12.889862324140237,
+   "SLOW": 27.968569193889195,
+   "TIMELESS": 72.96148485362399
+  },
+  "admits_at_24h": {
+   "REAL_TIME": false,
+   "FAST": false,
+   "MEDIUM": false,
+   "SLOW": true,
+   "TIMELESS": true
+  }
+ },
+ "DailyQA": {
+  "recount": {
+   "pairs": 227065,
+   "unique_questions": 8346
+  },
+  "per_day_rows_unique": {
+   "qa_250104": [
+    8360,
+    8360
+   ],
+   "qa_250105": [
+    8360,
+    8360
+   ],
+   "qa_250106": [
+    8360,
+    8360
+   ],
+   "qa_250107": [
+    8360,
+    8360
+   ],
+   "qa_250108": [
+    8360,
+    8360
+   ],
+   "qa_250109": [
+    8360,
+    8360
+   ],
+   "qa_250110": [
+    8360,
+    8360
+   ],
+   "qa_250111": [
+    8360,
+    8360
+   ],
+   "qa_250112": [
+    8360,
+    8360
+   ],
+   "qa_250113": [
+    8360,
+    8360
+   ],
+   "qa_250114": [
+    8360,
+    8360
+   ],
+   "qa_250115": [
+    8360,
+    8360
+   ],
+   "qa_250116": [
+    8360,
+    8360
+   ],
+   "qa_250117": [
+    8360,
+    8360
+   ],
+   "qa_250118": [
+    8360,
+    8360
+   ],
+   "qa_250119": [
+    8360,
+    8360
+   ],
+   "qa_250120": [
+    8360,
+    8360
+   ],
+   "qa_250121": [
+    8360,
+    8360
+   ],
+   "qa_250122": [
+    8360,
+    8360
+   ],
+   "qa_250123": [
+    8360,
+    8360
+   ],
+   "qa_250124": [
+    8360,
+    8360
+   ],
+   "qa_250125": [
+    8360,
+    8360
+   ],
+   "qa_250126": [
+    8360,
+    8360
+   ],
+   "qa_250127": [
+    8360,
+    8360
+   ],
+   "qa_250128": [
+    8360,
+    8360
+   ],
+   "qa_250129": [
+    8360,
+    8360
+   ],
+   "qa_250130": [
+    8360,
+    8360
+   ],
+   "qa_250131": [
+    8360,
+    8360
+   ],
+   "qa_250201": [
+    8360,
+    8360
+   ]
+  },
+  "compare": {
+   "NoCache": {
+    "reuse": [
+     0,
+     0
+    ],
+    "error_n": [
+     0,
+     0
+    ],
+    "acc_pct": [
+     100.0,
+     100.0
+    ],
+    "n": [
+     227065,
+     227065
+    ],
+    "match": true
+   },
+   "ExactNoTTL": {
+    "reuse": [
+     227065,
+     227065
+    ],
+    "error_n": [
+     13336,
+     13336
+    ],
+    "acc_pct": [
+     94.1268,
+     94.1268
+    ],
+    "n": [
+     227065,
+     227065
+    ],
+    "match": true
+   },
+   "ExactTTL": {
+    "reuse": [
+     177621,
+     177621
+    ],
+    "error_n": [
+     10778,
+     10778
+    ],
+    "acc_pct": [
+     95.2533,
+     95.2533
+    ],
+    "n": [
+     227065,
+     227065
+    ],
+    "match": true
+   },
+   "SemanticTTL": {
+    "reuse": [
+     177621,
+     177621
+    ],
+    "error_n": [
+     10778,
+     10778
+    ],
+    "acc_pct": [
+     95.2533,
+     95.2533
+    ],
+    "n": [
+     227065,
+     227065
+    ],
+    "match": true
+   },
+   "FreshCache-L1Only": {
+    "reuse": [
+     43341,
+     43341
+    ],
+    "error_n": [
+     1848,
+     1848
+    ],
+    "acc_pct": [
+     99.1861,
+     99.1861
+    ],
+    "n": [
+     227065,
+     227065
+    ],
+    "match": true
+   },
+   "FreshCache": {
+    "reuse": [
+     43341,
+     43341
+    ],
+    "error_n": [
+     1848,
+     1848
+    ],
+    "acc_pct": [
+     99.1861,
+     99.1861
+    ],
+    "n": [
+     227065,
+     227065
+    ],
+    "match": true
+   }
+  },
+  "recomputed": {
+   "NoCache": {
+    "n_pairs": 227065,
+    "reuse": 0,
+    "cache_induced_error_n": 0,
+    "accuracy_pct": 100.0
+   },
+   "ExactNoTTL": {
+    "n_pairs": 227065,
+    "reuse": 227065,
+    "cache_induced_error_n": 13336,
+    "accuracy_pct": 94.1268
+   },
+   "ExactTTL": {
+    "n_pairs": 227065,
+    "reuse": 177621,
+    "cache_induced_error_n": 10778,
+    "accuracy_pct": 95.2533
+   },
+   "SemanticTTL": {
+    "n_pairs": 227065,
+    "reuse": 177621,
+    "cache_induced_error_n": 10778,
+    "accuracy_pct": 95.2533
+   },
+   "FreshCache-L1Only": {
+    "n_pairs": 227065,
+    "reuse": 43341,
+    "cache_induced_error_n": 1848,
+    "accuracy_pct": 99.1861
+   },
+   "FreshCache": {
+    "n_pairs": 227065,
+    "reuse": 43341,
+    "cache_induced_error_n": 1848,
+    "accuracy_pct": 99.1861
+   }
+  }
+ },
+ "EvolvingQA": {
+  "recount": {
+   "pairs": 43456,
+   "unique_questions": 40824
+  },
+  "compare": {
+   "NoCache": {
+    "reuse": [
+     0,
+     0
+    ],
+    "error_n": [
+     0,
+     0
+    ],
+    "acc_pct": [
+     100.0,
+     100.0
+    ],
+    "n": [
+     43456,
+     43456
+    ],
+    "match": true
+   },
+   "ExactNoTTL": {
+    "reuse": [
+     43456,
+     43456
+    ],
+    "error_n": [
+     9963,
+     9963
+    ],
+    "acc_pct": [
+     77.0734,
+     77.0734
+    ],
+    "n": [
+     43456,
+     43456
+    ],
+    "match": true
+   },
+   "ExactTTL": {
+    "reuse": [
+     40009,
+     40009
+    ],
+    "error_n": [
+     9057,
+     9057
+    ],
+    "acc_pct": [
+     79.1582,
+     79.1582
+    ],
+    "n": [
+     43456,
+     43456
+    ],
+    "match": true
+   },
+   "SemanticTTL": {
+    "reuse": [
+     40009,
+     40009
+    ],
+    "error_n": [
+     9057,
+     9057
+    ],
+    "acc_pct": [
+     79.1582,
+     79.1582
+    ],
+    "n": [
+     43456,
+     43456
+    ],
+    "match": true
+   },
+   "FreshCache-L1Only": {
+    "reuse": [
+     8606,
+     8606
+    ],
+    "error_n": [
+     2411,
+     2411
+    ],
+    "acc_pct": [
+     94.4519,
+     94.4519
+    ],
+    "n": [
+     43456,
+     43456
+    ],
+    "match": true
+   },
+   "FreshCache": {
+    "reuse": [
+     8606,
+     8606
+    ],
+    "error_n": [
+     2411,
+     2411
+    ],
+    "acc_pct": [
+     94.4519,
+     94.4519
+    ],
+    "n": [
+     43456,
+     43456
+    ],
+    "match": true
+   }
+  },
+  "recomputed": {
+   "NoCache": {
+    "n_pairs": 43456,
+    "reuse": 0,
+    "cache_induced_error_n": 0,
+    "accuracy_pct": 100.0
+   },
+   "ExactNoTTL": {
+    "n_pairs": 43456,
+    "reuse": 43456,
+    "cache_induced_error_n": 9963,
+    "accuracy_pct": 77.0734
+   },
+   "ExactTTL": {
+    "n_pairs": 43456,
+    "reuse": 40009,
+    "cache_induced_error_n": 9057,
+    "accuracy_pct": 79.1582
+   },
+   "SemanticTTL": {
+    "n_pairs": 43456,
+    "reuse": 40009,
+    "cache_induced_error_n": 9057,
+    "accuracy_pct": 79.1582
+   },
+   "FreshCache-L1Only": {
+    "n_pairs": 43456,
+    "reuse": 8606,
+    "cache_induced_error_n": 2411,
+    "accuracy_pct": 94.4519
+   },
+   "FreshCache": {
+    "n_pairs": 43456,
+    "reuse": 8606,
+    "cache_induced_error_n": 2411,
+    "accuracy_pct": 94.4519
+   }
+  }
+ }
+}

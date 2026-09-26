@@ -1,0 +1,7 @@
+dataset,policy,n,reuse_num,error_num,correct_num,reuse_pct_stored,error_pct_stored,acc_pct_stored,printed,recomputed_reuse,recomputed_error,match_recompute,printed_matches_stored
+EvolvingQA,FreshCache,43456,8606,2411,41045,19.8039,5.5481,94.4519,"(19.8, 5.55, 94.45)",8606,2411,True,True
+EvolvingQA,SemanticTTL,43456,40009,9057,34399,92.0678,20.8418,79.1582,"(92.07, 20.84, 79.16)",40009,9057,True,True
+EvolvingQA,ExactNoTTL,43456,43456,9963,33493,100.0,22.9266,77.0734,"(100.0, 22.93, 77.07)",43456,9963,True,True
+DailyQA,FreshCache,227065,43341,1848,225217,19.0875,0.8139,99.1861,"(19.09, 0.81, 99.19)",43341,1848,True,True
+DailyQA,SemanticTTL,227065,177621,10778,216287,78.2247,4.7467,95.2533,"(78.22, 4.75, 95.25)",177621,10778,True,True
+DailyQA,ExactNoTTL,227065,227065,13336,213729,100.0,5.8732,94.1268,"(100.0, 5.87, 94.13)",227065,13336,True,True
