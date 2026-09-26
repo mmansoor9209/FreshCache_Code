@@ -1,0 +1,20 @@
+{
+ "gate": {
+  "expected": 22561,
+  "observed": 22561,
+  "passed": true
+ },
+ "published": {
+  "theta": 0.4,
+  "kappa": 1.0,
+  "hits": 22561
+ },
+ "selected": {
+  "theta": 0.6,
+  "kappa": 0.5,
+  "hits": 12795,
+  "stale_error_rate": 0.0721
+ },
+ "overlap_with_published_hits": 1535,
+ "generator": "replay_baseline_hits.py :: replay_semantic_ttl (published path, two constants changed)"
+}

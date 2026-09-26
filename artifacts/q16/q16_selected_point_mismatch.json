@@ -1,0 +1,43 @@
+{
+ "policy": "SemanticTTL",
+ "theta": 0.6,
+ "kappa": 0.5,
+ "operating_point": "fixed-24h simulated age, published generator",
+ "population_realized_hits": 12795,
+ "judged": 400,
+ "jurors": [
+  "llama3b",
+  "llama8b",
+  "qwen7b",
+  "mistral7b"
+ ],
+ "tie_rule": "2-2 resolves to DIFFERENT",
+ "mismatch_pct": 53.38,
+ "ci95": [
+  48.48,
+  58.21
+ ],
+ "fleiss_kappa": 0.73,
+ "by_band": {
+  "0.60-0.70": {
+   "judged": 100,
+   "population": 3585,
+   "mismatch_rate": 0.94
+  },
+  "0.70-0.80": {
+   "judged": 100,
+   "population": 3185,
+   "mismatch_rate": 0.79
+  },
+  "0.80-0.90": {
+   "judged": 100,
+   "population": 3178,
+   "mismatch_rate": 0.27
+  },
+  "0.90-1.01": {
+   "judged": 100,
+   "population": 2847,
+   "mismatch_rate": 0.03
+  }
+ }
+}

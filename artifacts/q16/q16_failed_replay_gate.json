@@ -1,0 +1,71 @@
+{
+ "run_id": "q16-direct-replay-attempt-2026-09-23",
+ "purpose": "Reproduce SemanticTTL at its quality-selected operating point (theta=0.60, kappa=1/2) directly, to give Table 'mismatch' a matched quality-selected row instead of a post-hoc restriction.",
+ "script": "scripts/q16/run_replay.py",
+ "engine": "scripts/q16/mixed_engine_q16.py (verbatim copy of v16_exp12/mixed_engine.py plus a logging-only PAIRS hook; diff is additions only, no control flow changed)",
+ "gate": {
+  "why": "A selected-point number is only believable from a path that first reproduces the published one.",
+  "criterion": "Running the SAME code path at the PUBLISHED permissive operating point must yield exactly the 22,561 realized L1 hits reported for SemanticTTL in Table 'mismatch'.",
+  "tolerance": "exact equality; no tolerance band",
+  "expected_realized_l1_hits": 22561,
+  "observed": [
+   {
+    "attempt": 1,
+    "config": "exp.FIXED_TTL as shipped (per-class ladder: TIMELESS 30d, SLOW 7d, MEDIUM 24h, FAST 1h)",
+    "realized_l1_hits": 30169,
+    "delta_vs_expected": 7608
+   },
+   {
+    "attempt": 2,
+    "config": "uniform 24h TTL for every non-REAL_TIME class",
+    "realized_l1_hits": 29378,
+    "delta_vs_expected": 6817
+   }
+  ],
+  "result": "FAILED",
+  "conclusion": "Neither reconstruction reproduces the published hit population, so the operating point this path builds is NOT the one Table 'mismatch' reports. The script therefore produced no number that is used anywhere in the paper, and it exits non-zero before writing any selected-point output."
+ },
+ "what_was_reported_instead": {
+  "method": "scripts/q16/theta_restricted_mismatch.py",
+  "relationship_to_this_failed_run": "NOT a substitute for it and not its result. It does not replay anything: it re-slices the already-judged sample from the PUBLISHED theta=0.40 replay to cosine >= 0.60 and reweights to the hits clearing that bar.",
+  "its_own_gate": {
+   "criterion": "the unrestricted recomputation must reproduce the published 95.4% mismatch",
+   "observed_pct": 94.98,
+   "published_pct": 95.4,
+   "result": "PASSED (three jurors rather than four)"
+  },
+  "scope_limits": [
+   "three of the four jurors",
+   "kappa TTL halving not applied",
+   "conditioned on the theta=0.40 replay's own hit population",
+   "a frozen (0.60, 1/2) policy would admit a different hit population, which is not measured"
+  ]
+ },
+ "recorded_utc": "2026-09-23T02:19:20Z",
+ "RESOLVED": {
+  "resolved_utc": "2026-09-23T03:05:33Z",
+  "what_the_failure_actually_meant": "Not a defect in the published baseline. We were reconstructing the WRONG experiment. The fixed-24h SemanticTTL baseline does not come from the timestamped mixed-age replay at all; it comes from replay_baseline_hits.py, which sweeps the 31,201 records once in a fixed order with no arrival times and assigns every cached entry the SAME simulated age of 24 h, compared against that entry's per-class FIXED_TTL. 't=24h' names that simulated age, not a TTL.",
+  "published_baseline_reproduced": {
+   "expected": 22561,
+   "observed": 22561,
+   "row_for_row_identical_to_frozen_artifact": true,
+   "evidence": "artifacts/q16/semanticttl_baseline_identity.json"
+  },
+  "matched_selected_point_now_measured": {
+   "theta": 0.6,
+   "kappa": 0.5,
+   "realized_hits": 12795,
+   "overlap_with_published_hits": 1535,
+   "mismatch_pct": 53.4,
+   "ci95": [
+    48.5,
+    58.2
+   ],
+   "fleiss_kappa": 0.73,
+   "jurors": 4,
+   "judged": 400,
+   "evidence": "artifacts/q16/q16_selected_point_mismatch.json"
+  },
+  "superseded": "The post-hoc theta>=0.60 slice reported 88.7%. The matched measurement is 53.4%, so the slice materially OVERSTATED the quality-selected policy's mismatch. The slice is retired from the paper; this record is retained so the correction is traceable."
+ }
+}

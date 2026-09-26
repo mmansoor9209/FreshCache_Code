@@ -1,0 +1,25 @@
+{
+ "finding": "The published SemanticTTL baseline is reproduced exactly. The earlier 30,169 / 29,378 figures came from a DIFFERENT experiment, not from a failure of the published one.",
+ "published_generator": "replay_baseline_hits.py :: replay_semantic_ttl",
+ "operating_point": {
+  "name": "fixed-24h",
+  "meaning": "every cached entry is given the SAME simulated age of 24 h, which is compared against that entry's per-class FIXED_TTL; it is NOT a 24 h TTL",
+  "sim_age_seconds": 86400,
+  "FIXED_TTL": {
+   "TIMELESS": 2592000,
+   "SLOW": 604800,
+   "MEDIUM": 86400,
+   "FAST": 3600,
+   "REAL_TIME": 0
+  },
+  "cosine_threshold": 0.4,
+  "selection": "nearest neighbour over the whole cache (highest cosine), no equivalence check",
+  "order": "records swept once, sorted by (cluster_id, base-before-paraphrase, query_id); no arrival times"
+ },
+ "why_the_earlier_attempt_differed": "mixed_engine.replay drives a timestamped arrival stream in which every entry carries its own real age, and we varied FIXED_TTL rather than holding a uniform simulated age. That is a different estimand, so it could not have reproduced this number.",
+ "recomputed_l1_hits": 22561,
+ "frozen_artifact_rows": 22561,
+ "published_in_table3": 22561,
+ "row_for_row_identical": true,
+ "reproduced": true
+}

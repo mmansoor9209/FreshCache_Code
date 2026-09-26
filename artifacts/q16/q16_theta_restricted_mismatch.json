@@ -1,0 +1,90 @@
+{
+ "gate": {
+  "published_pct": 95.4,
+  "reproduced_pct": 94.98,
+  "passed": true
+ },
+ "unrestricted": {
+  "label": "SemanticTTL, theta=0.40 (published operating point)",
+  "population": 22561,
+  "judged": 600,
+  "mismatch_pct": 94.98,
+  "ci95": [
+   92.93,
+   96.46
+  ],
+  "by_band": {
+   "0.40-0.50": {
+    "judged": 100,
+    "population": 5255,
+    "mismatch_rate": 0.99
+   },
+   "0.50-0.60": {
+    "judged": 100,
+    "population": 8470,
+    "mismatch_rate": 0.99
+   },
+   "0.60-0.70": {
+    "judged": 100,
+    "population": 5550,
+    "mismatch_rate": 0.96
+   },
+   "0.70-0.80": {
+    "judged": 100,
+    "population": 2058,
+    "mismatch_rate": 0.86
+   },
+   "0.80-0.90": {
+    "judged": 100,
+    "population": 932,
+    "mismatch_rate": 0.68
+   },
+   "0.90-1.01": {
+    "judged": 100,
+    "population": 296,
+    "mismatch_rate": 0.37
+   }
+  }
+ },
+ "restricted_theta_060": {
+  "label": "SemanticTTL restricted to similarity >= 0.60",
+  "population": 8836,
+  "judged": 400,
+  "mismatch_pct": 88.74,
+  "ci95": [
+   85.27,
+   91.48
+  ],
+  "by_band": {
+   "0.60-0.70": {
+    "judged": 100,
+    "population": 5550,
+    "mismatch_rate": 0.96
+   },
+   "0.70-0.80": {
+    "judged": 100,
+    "population": 2058,
+    "mismatch_rate": 0.86
+   },
+   "0.80-0.90": {
+    "judged": 100,
+    "population": 932,
+    "mismatch_rate": 0.68
+   },
+   "0.90-1.01": {
+    "judged": 100,
+    "population": 296,
+    "mismatch_rate": 0.37
+   }
+  }
+ },
+ "restricted_fleiss_kappa": 0.716,
+ "population_surviving_pct": 39.16,
+ "fleiss_kappa_unrestricted": 0.738,
+ "jurors": [
+  "llama8b",
+  "mistral7b",
+  "qwen7b"
+ ],
+ "caveat": "This is a threshold-restricted RE-ANALYSIS of the judged sample from the published theta=0.40 replay, not a fresh replay at (0.60, 1/2). Raising theta changes which entries are admitted and therefore the cache's later state, so the selected point's realized-hit set is not exactly this subset. The kappa=1/2 TTL halving is NOT applied: the released hit population carries similarity but not hit age."
+}
