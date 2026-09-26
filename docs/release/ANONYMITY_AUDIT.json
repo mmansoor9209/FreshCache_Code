@@ -1,0 +1,20 @@
+{
+ "audited_utc": "2026-09-23T03:07:02Z",
+ "scope": "frozen release archive (freshcache-bench-v1)",
+ "n_files_scanned": 1141,
+ "pattern_names": [
+  "author_surnames",
+  "author_usernames",
+  "author_institution",
+  "author_home_paths"
+ ],
+ "pattern_sha256": {
+  "author_surnames": "d6f86de98c59c46d5ea26798deb20669d52db36d999143663af913473686d107",
+  "author_usernames": "de87ae83eed8508a391229a8ee6b4f7daa55031e0b4405d5f0b24d3eb2cd44b8",
+  "author_institution": "fa6b0ddb40ad29360d07b3604e74b5b980283024c70f523c68f2ae14eccc32c2",
+  "author_home_paths": "ceb543571956a64eac8eeb9f51ef206e5a1df778c16a638d330a81e220033c21"
+ },
+ "n_files_flagged": 0,
+ "files_flagged": {},
+ "note": "Only author-identifying patterns are audited; the literal regexes are withheld because they spell out the identifiers, and each is pinned by the SHA-256 of its regex. Third-party names and domains inside crawled page text are evaluation data and are retained verbatim. Earlier defects on record: an empty pattern string that matched every file (meaningless count of 132), and __pycache__ bytecode embedding absolute build paths; neither is shipped now."
+}

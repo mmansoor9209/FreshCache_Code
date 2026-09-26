@@ -1,0 +1,141 @@
+{
+  "generated_utc": "2026-09-22T07:59:07Z",
+  "frozen_configs": {
+    "validation_V3/parameter_calibration/04_budgets/frozen_config.json": {
+      "sha256": "a05df97037e22e68e78889ddabafde26fa7803c1b743b8e29b257d5ce5f55abc",
+      "bytes": 493
+    },
+    "validation_V3/parameter_calibration/04_budgets/prereg.json": {
+      "sha256": "85be2c4d6fa70a0da3299348140ed20d4535c4c84d15527a9ff71efe9a931758",
+      "bytes": 3348
+    },
+    "validation_V3/l1_precision_gate/frozen_l1_precision_gate.json": {
+      "sha256": "8ca7c50daa70b5b609174b6874f1cc30f14450b9b9a42ad3c65f27c8c5895b8b",
+      "bytes": 2314
+    },
+    "validation_V3/l1_precision_gate/l1_precision_prereg.json": {
+      "sha256": "d6e310678ce2c6932cad87af9d0ab1960e6a5f3e84dd8562662c90882ac0445d",
+      "bytes": 7288
+    },
+    "validation_V3/l1_precision_gate/l1_guards.py": {
+      "sha256": "952e8c9cb59a796328481bc8cc23d7dc9042db09cd96980d6be9fecc972c3873",
+      "bytes": 11857
+    },
+    "validation_V3/remaining_critical_issues/05_prospective_temporal/freeze_manifest.json": {
+      "sha256": "d8b9259ab9ce1996b8df1aaf23fc4abc1f4fadad2fc44240367799e7ffc74c99",
+      "bytes": 2256
+    },
+    "validation_V3/remaining_critical_issues/00_audit/audit_inventory.json": {
+      "sha256": "2c2baa7a7a5f9dd159b40687c119ab98291498c1b1240d8a08c1c6120351f9c0",
+      "bytes": 10707
+    }
+  },
+  "core_code": {
+    "experiment.py": {
+      "sha256": "3ed363e342b6788a9e1e53b3486072224341cb48dd70683872740b81f5c96de1",
+      "bytes": 83990
+    },
+    "collect.py": {
+      "sha256": "5bf65ec5a56c9c74019599a541159819af210a2ede000e47ca3c3f23042c3955",
+      "bytes": 24998
+    },
+    "calibrate.py": {
+      "sha256": "afa5c445ac8fa7b6796e240b1985992cd49c4c5b3327a7d5ce894b6bfddd14bc",
+      "bytes": 56802
+    },
+    "v16_exp12/schedules.py": {
+      "sha256": "1435434d144e3fb2cf55f23e8408c7b4b216dd92f5813d904dcf0cace1ba2037",
+      "bytes": 4365
+    },
+    "v14_baselines/engine_all.py": {
+      "sha256": "f38bf7b41c06e2470460919d2473ba4211b18274ed6ce06b03951ddc5a5f1524",
+      "bytes": 19039
+    },
+    "v16_exp12/mixed_engine.py": {
+      "sha256": "c070c952958c5bac791c7e72210efd60cfc36fe6e2ff0388825889af39c303f9",
+      "bytes": 14105
+    },
+    "v13_corrected/corrected_engine.py": {
+      "sha256": "f09fe0d05d10034f0c40d9a4c698a634af858e72a870e06a19c4839d6c272ca8",
+      "bytes": 14592
+    },
+    "v9/mixed_age_v2.py": {
+      "sha256": "bcaa9373e780cb16382a3f2a693272eb364c7522308d4ee79e5a64ff8e5b6708",
+      "bytes": 14716
+    },
+    "vcache_implementation.py": {
+      "sha256": "74a9aa3c4f4b2663276370e45b9a115c873b3cd1a36d649bf1b8f7b8078b85cb",
+      "bytes": 22106
+    },
+    "validation/mixed_age_full_policy_audit/prep2.py": {
+      "sha256": "ad0dd73fadb2fc166df76e8fba40dd26d23df665db2e91080245f1270157f67f",
+      "bytes": 16248
+    }
+  },
+  "row_level_artifacts": {
+    "v16_validation_wai_depth/wai_by_tier.json": {
+      "sha256": "c39dc3f50506eac0b0ed7e150af4ff6298d299012eac6f75ccee13be4a0d73d1",
+      "bytes": 101258
+    },
+    "validation/actual_l2_artifact_audit/a_per_case.csv": {
+      "sha256": "59934ca4e2f1a40e156e80c6268fe58889343e565158a5357bf3c56799815eb9",
+      "bytes": 93596
+    },
+    "validation/fresh_path_failure_audit/fresh_path_failure_per_request.csv": {
+      "sha256": "92ed5554397c312920c4065ac6d41a25372c948b382eae291e2fce32db91759e",
+      "bytes": 263169
+    },
+    "validation/l2_independent_audit_300/results_canonical/per_case_overlap.csv": {
+      "sha256": "ba6edfeb5d9e27d96a6de746f51390e373f07ebebcc539f203bd7f693800a090",
+      "bytes": 68309
+    },
+    "validation_V3/baseline_fidelity_resolution/03_exactttl_mixed/exactttl_mixed_per_request.csv": {
+      "sha256": "1f8924580f4ebf4ddac21c1e3d4ae1ddd33972a620a377f360e2b01f54d127c6",
+      "bytes": 1840329
+    },
+    "validation_V3/final_three_issues/01_prospective_24h/per_request_retrospective.csv": {
+      "sha256": "301dafc0e321959e27880c72e0fb33a1d59df3f76305d31405e151320f0d3dfa",
+      "bytes": 1684855
+    },
+    "validation_V3/final_three_issues/01_prospective_24h/prospective_per_request_retrospective.csv": {
+      "sha256": "ea8f8f7dc1183546cc553b9e7c8a1423b4e26ac2fc80174016838bcb3f92e320",
+      "bytes": 2196518
+    },
+    "validation_V3/final_three_issues/01_prospective_24h/routing_per_request_retrospective.csv": {
+      "sha256": "d52187d7b07078a732da3d8c16e66fdb0a595060a3ff7b1e3f6b155afd9ea676",
+      "bytes": 4104932
+    },
+    "validation_V3/final_three_issues/02_l1_strict_gate/per_request.csv": {
+      "sha256": "13b02c2ec9b90dfa87dc9173a47918f17ce29d040936b08a10749be0f4152c31",
+      "bytes": 1841361
+    },
+    "validation_V3/final_three_issues/03_observability_bounds/per_request_pair.csv": {
+      "sha256": "db1780d01bf4a467364ccabcad66368a779893c931bb04c13f7ec7f89c35395b",
+      "bytes": 2064306
+    },
+    "validation_V3/l1_precision_gate/heldout_per_request.csv": {
+      "sha256": "31e89373076e759de0f4b35f4ccf4b0e0fb94ea5596f81457143ef1749b5975d",
+      "bytes": 1881627
+    },
+    "validation_V3/observability_resolution/02_recovery/per_request_recovered.csv": {
+      "sha256": "c9b2161e852484c9e0020a2167874fd7a990bf1a1de97685173d213657874713",
+      "bytes": 1357495
+    },
+    "validation_V3/parameter_calibration/05_heldout/heldout_per_request.csv": {
+      "sha256": "8ae43122fa3e8f6d9b0afaa91eaf688a9cfd76a9907e2a6f7ce481db0d64bba9",
+      "bytes": 1617767
+    },
+    "validation_V3/parameter_calibration/07_answer_quality/answer_quality_rows.csv": {
+      "sha256": "3d90b835b97b54b53690277a7cef938609fab83f98ebae9a30cf96965fcd704d",
+      "bytes": 31563
+    },
+    "validation_V3/remaining_critical_issues/08_latency/direct_per_request.csv": {
+      "sha256": "c6a9dd9c1df2d10c5c3f6393708146f7a32fb13bb9abd85b516c2b228bfabf45",
+      "bytes": 188834
+    },
+    "validation_V3/strong_reference_evaluation/01_original_reproduction/heldout_per_request.csv": {
+      "sha256": "f2931df08d11500841fc756382da1cda7108bb0ee2accdcf0f355136c47c85fd",
+      "bytes": 64206
+    }
+  }
+}

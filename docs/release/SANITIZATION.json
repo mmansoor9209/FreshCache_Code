@@ -1,0 +1,12 @@
+{
+ "files": 1038,
+ "files_modified": 45,
+ "substitutions": 151,
+ "placeholders": {
+  "<PROJECT_ROOT>": "repository root",
+  "<HOME>": "user home directory",
+  "anon": "author username",
+  "freshcache": "project directory name"
+ },
+ "left_untouched": "third-party emails and paths occurring inside crawled page text are data, not author identifiers, and were not rewritten"
+}
