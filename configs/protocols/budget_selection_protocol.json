@@ -1,0 +1,61 @@
+{
+  "title": "FreshCache temporal-parameter selection -- protocol",
+  "created_before_any_heldout_run": true,
+  "note": "This protocol was written after the recorded configuration already existed; it does not record how the recorded configuration was chosen. It fixes the search space, objective, constraints and tie-break below, which were hashed before any held-out number was computed.",
+  "identified_parameterisation": {
+    "statement": "The gate admits iff age <= h_fc * k_t with k_t = -ln(1-eps_t)/(m_t*ln2). Decisions depend on (m_t, eps_t) only through k_t, so the multiplier/budget split is not identifiable. Selection is therefore over k_t, reported in the manuscript's (m, eps) coordinates with m held at its recorded value.",
+    "recorded_k": {
+      "answer": 0.1013353,
+      "url_list": 0.2682843,
+      "content": 0.6214883
+    }
+  },
+  "search_space": {
+    "eps_answer": [
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "eps_url_list": [
+      0.1,
+      0.2,
+      0.3,
+      0.35
+    ],
+    "eps_content": [
+      0.25,
+      0.35,
+      0.45
+    ],
+    "tier_multipliers": "held at recorded (1.5, 1.2, 1.0); see identified_parameterisation -- varying them is redundant with varying eps",
+    "half_lives": "held at recorded calibrated values; this workstream does not re-fit them",
+    "cells": 48
+  },
+  "data": {
+    "selection_population": "validation clusters only (outputs/validation_split/split.json)",
+    "evaluation_population": "held-out test clusters only (outputs/validation_split/split.json)",
+    "leakage_rule": "no held-out request is replayed until the configuration is frozen and hashed"
+  },
+  "objective": {
+    "primary": "maximise search_saved_pct on validation",
+    "constraints": [
+      "C1: observable content drift must not exceed the recorded configuration's validation drift by more than 0.25 pp (absolute)",
+      "C2: L1 hits must not exceed the recorded configuration's validation L1 hits (each L1 hit is an answer served without regeneration, so this caps answer-risk exposure)",
+      "C3: observable coverage must be at least 95% of the recorded configuration's validation coverage, so drift is not lowered by measuring less"
+    ],
+    "tie_break": [
+      "T1: lower observable content drift",
+      "T2: fewer L1 hits",
+      "T3: lexicographically smallest (eps_answer, eps_url_list, eps_content)"
+    ]
+  },
+  "answer_quality_note": "Answer quality (WAI) is NOT part of the selection objective: scoring it per cell would require generation and judging for all 48 cells, which was not run. C2 caps answer-risk exposure by construction instead. WAI is measured only on the frozen configurations at held-out scripts/evaluation time, and is therefore an out-of-sample check, not a selection criterion.",
+  "configurations_to_evaluate_on_heldout": [
+    "Original FreshCache (recorded)",
+    "Calibrated multipliers only",
+    "Calibrated budgets only",
+    "Fully calibrated FreshCache",
+    "EquivalentTTL derived from the calibrated rule"
+  ]
+}

@@ -1,0 +1,111 @@
+# Generators and judges (Table 3, Appendix B): greedy decoding, FORCED prompt, two-judge correctness.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  models:
+    source: scripts/evaluation/generation_judging_stage.py::MODELS
+    value:
+      llama3b: meta-llama/Llama-3.2-3B-Instruct
+      llama8b: meta-llama/Llama-3.1-8B-Instruct
+      qwen7b: Qwen/Qwen2.5-7B-Instruct
+      mistral7b: mistralai/Mistral-7B-Instruct-v0.3
+  generator_prompt:
+    source: scripts/evaluation/generation_judging_stage.py::FORCED
+    value: 'You are a factual question answering assistant.
+
+      Answer the following question in one sentence using the provided context.
+
+      You must commit to a single best answer. Never reply that you do not know and
+
+      never state that the context is insufficient. If the context is incomplete,
+
+      give the most likely specific answer that the context points toward.
+
+
+      Question: {question}
+
+
+      Context:
+
+      {context}
+
+
+      Answer:'
+  judge_prompt:
+    source: scripts/evaluation/generation_judging_stage.py::JUDGE
+    value: 'You are grading a short answer against the reference answer.
+
+
+      QUESTION: {q}
+
+      REFERENCE ANSWER: {gold}
+
+      CANDIDATE ANSWER: {cand}
+
+
+      Does the candidate convey the same factual answer as the reference? Minor
+
+      wording, extra context, or added detail do not matter. Reply with exactly one
+
+      word: CORRECT or INCORRECT.'
+  equivalence_prompt:
+    source: scripts/evaluation/generation_judging_stage.py::EQUIV
+    value: 'You are comparing two search queries.
+
+
+      QUERY A: {a}
+
+      QUERY B: {b}
+
+
+      Do these two queries ask for the SAME fact, such that a single correct answer
+
+      would answer both? Reply with exactly one word: SAME or DIFFERENT.'
+  sufficiency_prompt:
+    source: scripts/evaluation/generation_judging_stage.py::SUFFV
+    value: 'You are evaluating search-result evidence for retrieval-augmented QA.
+
+
+      Incoming query:
+
+      {q}
+
+
+      Search results served from the cache for this request:
+
+      {ev}
+
+
+      Determine whether these search results contain sufficient information or
+
+      credible evidence that could support answering the incoming query.
+
+
+      Return exactly one label:
+
+
+      SUFFICIENT
+
+      INSUFFICIENT
+
+      UNCLEAR
+
+
+      SUFFICIENT means at least one or more results provide evidence directly
+
+      relevant enough to support answering the query.
+
+      INSUFFICIENT means the results are largely unrelated or do not provide
+
+      useful evidence for answering the query.
+
+      UNCLEAR means relevance cannot be determined reliably from the available
+
+      evidence.'
+  generator_max_input_tokens_and_new_tokens:
+    source: scripts/evaluation/generation_judging_stage.py:~context=c\["context"\]\), (\d+), (\d+), w\)
+    value:
+    - 1024
+    - 80
+  batch_size:
+    source: scripts/evaluation/generation_judging_stage.py:~def batched\(items, mid, build, maxlen, mx, write, bs=(\d+)\)
+    value: 16

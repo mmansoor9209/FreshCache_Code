@@ -1,0 +1,27 @@
+# Tier ablations (Table 10): age gate off, without L1, L2 only. L1Only and ExactTTL: scripts/baselines/exact_ttl_and_l1_only/.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  age_gate_off:
+    source: freshcache/replay_engine/mixed_age_replay.py::VARIANTS['FreshCache_AlwaysPassTemporal']
+    value:
+    - FreshCache_Full
+    - always
+  l2_only:
+    source: freshcache/replay_engine/method_replay.py::CONFIG['L2Only']
+    value:
+      l1: none
+      l2: eq_risk
+      l3: none
+      l2_reg_on_hit: true
+      ttl: null
+      online: false
+  l3_only:
+    source: freshcache/replay_engine/method_replay.py::CONFIG['L3Only']
+    value:
+      l1: none
+      l2: none
+      l3: risk
+      l2_reg_on_hit: false
+      ttl: null
+      online: false
+      rt_bypass: false

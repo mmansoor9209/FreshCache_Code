@@ -1,0 +1,40 @@
+{
+  "preregistered": true,
+  "written_before_any_answer_generation": true,
+  "freshcache_configuration": "unchanged frozen FreshCache (theta=0.40, eps 0.10/0.20/0.35, half-life risk gate)",
+  "candidate_rule": "all cells of the existing 42-cell SemanticTTL validation grid whose validation search savings are at least FreshCache's validation search savings (both computed on validation by semanticttl_joint_grid_sweep.py). Both the similarity threshold theta and the TTL multiplier kappa are tunable.",
+  "quality_constraint": {
+    "primary": "SemanticTTL conditional WAI on the VALIDATION evidence-valid subset must be LESS THAN OR EQUAL TO frozen FreshCache's conditional WAI on the IDENTICAL request set. No slack.",
+    "rationale": "A slack margin would be arbitrary. The no-slack form asks the question this selection addresses directly: is there a SemanticTTL setting that is at least as safe as FreshCache on answer quality while saving more search?",
+    "secondary_sensitivity": "the same rule with a 5 pp slack, reported separately and never used for the headline",
+    "denominator": "requests whose fresh reference is CORRECT, within the validation evidence-valid subset",
+    "identical_requests_across_policies": true
+  },
+  "selection_rule": {
+    "objective": "among candidates satisfying the primary constraint, choose the highest VALIDATION search savings",
+    "tie_breaks": [
+      "lower validation drift",
+      "higher validation coverage",
+      "higher theta",
+      "smaller kappa"
+    ],
+    "if_none_satisfy": "report that no configuration satisfies the constraint. The constraint is NOT relaxed after seeing results; the secondary sensitivity is reported as a separate, clearly-labelled row."
+  },
+  "gold_verification": {
+    "procedure": "timestamp-validity procedure (outputs/gold_verification/timestamp_validity): expanded snapshot evidence (5,000 chars/page, no minimum-length floor, 12,000-char budget), question-type-aware prompts (AS_STATED vs CURRENT), Llama-3.1-8B + Qwen2.5-7B, Mistral-7B-Instruct-v0.3 breaking ties (2-of-3 MAJORITY)",
+    "evidence_valid_rule": "(paraphrase fidelity SAME under both judges OR original base question) AND unit VALID_AT_T",
+    "note": "VALID_AT_T is LLM-supported temporal validity, NOT independently verified factual correctness."
+  },
+  "sample": {
+    "frame": "validation clusters only (outputs/validation_split/split.json)",
+    "target_n": 700,
+    "seed": 42,
+    "stratification": "freshness class x FreshCache serving tier, policy-neutral (strata defined before any policy is run)",
+    "test_clusters_used": 0,
+    "frozen_before_generation": true
+  },
+  "generation_protocol": "identical to both existing audits: Llama-3.2-3B-Instruct, FORCED prompt, greedy, max_new_tokens=80, 1024-token truncation, answer cut at the first '.' or newline",
+  "judging_protocol": "Llama-3.1-8B-Instruct + Qwen2.5-7B-Instruct, chat template, greedy, max_new_tokens=6, both must agree",
+  "heldout_use": "the selected configuration is replayed ONCE on the untouched held-out test split; no tuning occurs there",
+  "instantiation": "quality_selection_protocol.py writes the instantiated pre-registration (this rule plus the validation reference values and the candidate list computed from the grid) to outputs/quality_selection/quality_selection_prereg.json before any answer is generated"
+}

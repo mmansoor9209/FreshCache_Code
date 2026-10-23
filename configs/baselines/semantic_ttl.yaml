@@ -1,0 +1,26 @@
+# SemanticTTL internal control: answer cache with a similarity threshold and class TTLs scaled by kappa.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  replay_engine_policy:
+    source: freshcache/replay_engine/method_replay.py::CONFIG['SemanticTTL']
+    value:
+      l1: sim_ttl
+      l2: none
+      l3: none
+      l2_reg_on_hit: false
+      ttl: fixed
+      online: false
+      rt_bypass: true
+  replay_variant:
+    source: freshcache/replay_engine/mixed_age_replay.py::VARIANTS['SemanticTTL']
+    value:
+    - SemanticTTL
+    - risk
+  base_ttl_seconds:
+    source: freshcache/method/tiered_cache_model.py::FIXED_TTL
+    value:
+      TIMELESS: 2592000
+      SLOW: 604800
+      MEDIUM: 86400
+      FAST: 3600
+      REAL_TIME: 0

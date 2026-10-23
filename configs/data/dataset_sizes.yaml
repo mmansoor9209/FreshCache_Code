@@ -1,0 +1,17 @@
+# Sizes of the full FreshCache-Bench release and of the fixed-size evaluation samples drawn from it.
+# Stages check the data they load against these values through scripts/analysis/dataset_sizes.py. When DATA_DIR is the
+# bundled sample (data/sample, or a re-fetched copy of it: DATA_DIR/sample_summary.json exists) the checks are skipped
+# with a message, because the sample is smaller by construction.
+sizes:
+  primary_requests: 31201              # replay stream built from DATA_DIR (scripts/data/validation_heldout_split.py)
+  validation_requests: 9353            # cluster-disjoint validation split
+  heldout_requests: 21848              # cluster-disjoint held-out split
+  primary_base_requests: 6258          # base (non-paraphrase) requests, one per cluster, primary stream
+  heldout_base_requests: 4381          # base requests in the held-out split
+  paraphrase_requests: 24943           # paraphrase requests in the primary stream
+  audit_sample_requests: 400           # held-out answer audit sample (TARGET in scripts/evaluation/answer_audits/general_audit_sample.py)
+  primary_audit_sample_requests: 400   # mixed-age answer audit sample on the primary stream (outputs/mixed_age_audit/mixed_age_sample.jsonl)
+  quality_selection_sample_requests: 700   # validation quality-selection sample (scripts/evaluation/answer_audits/quality_selection_sample.py)
+  unseen_queries: 1814                 # queries in DATA_DIR/queries.jsonl not used by the replay stream
+  paraphrase_stream_pool: 550          # candidate pool of the live paraphrase stream design
+  deep_list_cases: 150                 # both-evaluable, reference-bearing unseen-query cases of the deep-list study

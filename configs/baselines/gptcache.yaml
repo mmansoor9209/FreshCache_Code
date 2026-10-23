@@ -1,0 +1,17 @@
+# GPTCache (official gptcache==0.1.44, BGE-M3 embeddings): native evaluator and FreshCache-matched admission.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  variants:
+    source: scripts/baselines/gptcache/gptcache_baseline.py::VARS
+    value:
+      GPTCache_native:
+        top_k: 1
+        threshold: 0.8
+        evaluator: official SearchDistanceEvaluation(max_distance=4.0, positive=False)
+      GPTCache_matchedFC:
+        top_k: 40
+        threshold: 0.8
+        evaluator: local FCAdmissionEvaluation (FreshCache primary answer admission)
+  max_cache_size:
+    source: scripts/baselines/gptcache/gptcache_baseline.py::MAX_SIZE
+    value: 1000000

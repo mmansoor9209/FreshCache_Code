@@ -1,0 +1,26 @@
+# TieredFixedTTL internal control: the three tiers with fixed per-class TTLs.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  replay_engine_policy:
+    source: freshcache/replay_engine/method_replay.py::CONFIG['TieredFixedTTL']
+    value:
+      l1: sim_ttl
+      l2: raw_ttl
+      l3: ttl_refetch
+      l2_reg_on_hit: false
+      ttl: halflife
+      online: false
+      rt_bypass: true
+  replay_variant:
+    source: freshcache/replay_engine/mixed_age_replay.py::VARIANTS['TieredFixedTTL']
+    value:
+    - TieredFixedTTL
+    - risk
+  fixed_ttl_seconds:
+    source: freshcache/method/tiered_cache_model.py::FIXED_TTL
+    value:
+      TIMELESS: 2592000
+      SLOW: 604800
+      MEDIUM: 86400
+      FAST: 3600
+      REAL_TIME: 0

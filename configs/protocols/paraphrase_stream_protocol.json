@@ -1,0 +1,19 @@
+{
+ "block_sha256": "4e416e31c97b0c554bf760c6126b5e0de1decf945818c74a3503f99438c68c18",
+ "own_list_depths": [
+  2,
+  5
+ ],
+ "configs": {
+  "P": {
+   "k": 2,
+   "generator": "llama3b_forced_2800chars"
+  },
+  "S": {
+   "k": 5,
+   "generator": "qwen14b_8000tokens"
+  }
+ },
+ "cap_key1": 2400,
+ "retries": 0
+}

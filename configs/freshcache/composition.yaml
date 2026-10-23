@@ -1,0 +1,31 @@
+# Compositions A-D (Table 4): CategoryAware-style answer cache (A) with FreshCache L3 (B), L2 (C) or both (D).
+# D uses the validation-selected theta_L2 = 0.80. The CategoryAware-style thresholds and TTL scale are the validation-selected cell,
+# read at run time from outputs/baseline_selection/frozen_selection.json.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  theta_l2_composition:
+    source: scripts/experiments/main/composition_ablation_replay.py:~floor=([0-9.]+), theta_by_class
+    value: 0.8
+  answer_cache_base_ttl_seconds:
+    source: freshcache/composition/composition_engine.py::BASE_TTL
+    value:
+      TIMELESS: 2592000
+      SLOW: 604800
+      MEDIUM: 86400
+      FAST: 3600
+      REAL_TIME: 0
+  composition_variants:
+    source: scripts/experiments/main/categoryaware_composition.py::VARS
+    value:
+      H75:
+        floor: 0.75
+        gamma: null
+        desc: CategoryAware L1 + FreshCache L2 theta 0.75 + L3
+      H80:
+        floor: 0.8
+        gamma: null
+        desc: CategoryAware L1 + FreshCache L2 theta 0.80 + L3
+      H55:
+        floor: 0.75
+        gamma: 0.55
+        desc: CategoryAware L1 + FreshCache L2 theta 0.75 + verifier gamma 0.55 + L3

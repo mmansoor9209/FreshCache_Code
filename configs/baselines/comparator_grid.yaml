@@ -1,0 +1,37 @@
+# Comparator grid (Appendix A): 36 SemanticTTL cells (theta x kappa) and 20 CategoryAware-style cells (shift x TTL scale);
+# quality-, relaxed- and cost-matched selection runs on the validation requests.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  semantic_ttl_theta:
+    source: scripts/experiments/operating_points/operating_point_validation_replay.py::TG_S
+    value:
+    - 0.6
+    - 0.7
+    - 0.8
+    - 0.85
+    - 0.9
+    - 0.95
+  semantic_ttl_kappa:
+    source: scripts/experiments/operating_points/operating_point_validation_replay.py::KG
+    value:
+    - 0.0625
+    - 0.125
+    - 0.25
+    - 0.5
+    - 1
+    - 2
+  category_aware_threshold_shift:
+    source: scripts/baselines/category_aware_frontier/frontier_validation_sweep.py::DTH
+    value:
+    - 0
+    - 0.025
+    - 0.05
+    - 0.075
+    - 0.1
+  category_aware_ttl_scale:
+    source: scripts/baselines/category_aware_frontier/frontier_validation_sweep.py::MT
+    value:
+    - 1
+    - 0.75
+    - 0.5
+    - 0.25

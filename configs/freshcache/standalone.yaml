@@ -1,0 +1,149 @@
+# FreshCache standalone policy (Sections 3.2-3.5, Table 2): L1 answers, L2 ranked URL lists, L3 page content.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  freshness_classes:
+    source: freshcache/method/tiered_cache_model.py::FRESHNESS_CLASSES
+    value:
+    - TIMELESS
+    - SLOW
+    - MEDIUM
+    - FAST
+    - REAL_TIME
+  half_life_seconds:
+    source: freshcache/method/tiered_cache_model.py::HALF_LIFE
+    value:
+      REAL_TIME: 30
+      FAST: 449280
+      MEDIUM: 457920
+      SLOW: 993600
+      TIMELESS: 2592000
+  eps_l1_answer:
+    source: freshcache/method/tiered_cache_model.py::EPS_ANSWER
+    value: 0.1
+  eps_l2_url_list:
+    source: freshcache/method/tiered_cache_model.py::EPS_URL_LIST
+    value: 0.2
+  eps_l3_content:
+    source: freshcache/method/tiered_cache_model.py::EPS_CONTENT
+    value: 0.35
+  tier_multipliers:
+    source: freshcache/method/tiered_cache_model.py::TIER_MULT
+    value:
+      answer: 1.5
+      url_list: 1.2
+      content: 1
+  l1_prefilter_cosine:
+    source: freshcache/method/tiered_cache_model.py::L1_SIM_THRESHOLD
+    value: 0.4
+  l1_admission_cosine:
+    source: freshcache/method/tiered_cache_model.py::_EQ_SIM_FLOOR
+    value: 0.8
+  l1_content_word_jaccard:
+    source: freshcache/method/tiered_cache_model.py::_EQ_JACCARD_MIN
+    value: 0.3
+  l1_answer_types:
+    source: freshcache/method/tiered_cache_model.py::_EQ_ANSWER_TYPES
+    value:
+      price:
+      - price
+      - cost
+      - worth
+      - 가격
+      - 비용
+      score:
+      - score
+      - result
+      - point
+      - 점수
+      - 결과
+      - 골
+      weather:
+      - weather
+      - temperature
+      - forecast
+      - 날씨
+      - 기온
+      exchange_rate:
+      - exchange rate
+      - dollar
+      - won
+      - yen
+      - 환율
+      - 달러
+      stock:
+      - stock
+      - share
+      - equity
+      - nasdaq
+      - 주가
+      - 주식
+      definition:
+      - what is
+      - explain
+      - define
+      - 설명
+      - 뭐야
+      - 무엇
+      - 뜻
+      biography:
+      - who is
+      - biography
+      - born
+      - 누구
+      - 인물
+      news:
+      - news
+      - breaking
+      - 뉴스
+      - 속보
+      - 사건
+      schedule:
+      - schedule
+      - when does
+      - date
+      - 일정
+      - 언제
+      - 날짜
+  l1_temporal_terms_removed:
+    source: freshcache/method/tiered_cache_model.py::TEMPORAL_KEYWORDS
+    value:
+    - current
+    - currently
+    - latest
+    - live
+    - now
+    - ongoing
+    - recent
+    - this month
+    - this week
+    - today
+  l2_query_cosine_theta_l2:
+    source: freshcache/method/tiered_cache_model.py::_L2_EQ_SIM_FLOOR
+    value: 0.75
+  serial_latency_model_ms:
+    source: freshcache/method/tiered_cache_model.py::LATENCY
+    value:
+      search_api: 500
+      web_fetch: 800
+      conditional_get: 150
+      llm_generate: 2000
+      l1_lookup: 5
+      l2_lookup: 5
+      l3_lookup: 5
+  p95_fetch_multiplier:
+    source: freshcache/method/tiered_cache_model.py::P95_FETCH_MULT
+    value: 3
+  replay_engine_policy:
+    source: freshcache/replay_engine/method_replay.py::CONFIG['FreshCache_Full']
+    value:
+      l1: eqgate_risk
+      l2: eq_risk
+      l3: risk_cget
+      l2_reg_on_hit: true
+      ttl: null
+      online: false
+  replay_variant:
+    source: freshcache/replay_engine/mixed_age_replay.py::VARIANTS['FreshCache']
+    value:
+    - FreshCache_Full
+    - risk

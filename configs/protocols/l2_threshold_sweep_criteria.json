@@ -1,0 +1,8 @@
+{
+ "written_utc": "2026-09-30T10:47:00.347685+00:00",
+ "written_before_any_quality_scoring_of_sweep_points": true,
+ "substantial_savings": "held-out search savings >= 0.75 x primary FreshCache held-out savings (computed at run time by l2_threshold_sweep_scoring.py)",
+ "material_improvement": "paired exact McNemar p < 0.05 favouring the operating point over primary FreshCache on the same 400 requests, for sufficiency (SUFFICIENT vs not) or for WAI (fresh-correct -> WRONG)",
+ "pareto": "non-dominated points on (search savings higher, sufficient % of 400 higher) and on (search savings higher, C-WAI lower)",
+ "use": "descriptive only; no operating point is selected as a new primary policy"
+}

@@ -1,0 +1,18 @@
+# SCALM-style baseline: our reimplementation of SCALM's admission policy, not the complete system (no hierarchy, no eviction).
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  replay_engine_policy:
+    source: freshcache/replay_engine/method_replay.py::CONFIG['SCALM']
+    value:
+      l1: scalm
+      l2: none
+      l3: none
+      l2_reg_on_hit: false
+      ttl: null
+      online: false
+      rt_bypass: true
+  replay_variant:
+    source: freshcache/replay_engine/mixed_age_replay.py::VARIANTS['SCALM']
+    value:
+    - SCALM
+    - risk

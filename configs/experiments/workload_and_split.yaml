@@ -1,0 +1,12 @@
+# Replay workload and split (Section 4.1, Appendix A): seeded seven-day schedule, cluster-disjoint 30/70 split.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  schedule:
+    source: scripts/data/validation_heldout_split.py::SCHEDULE
+    value: zipf_uniform
+  seed:
+    source: scripts/data/validation_heldout_split.py::SEED
+    value: 42
+  validation_fraction:
+    source: scripts/data/validation_heldout_split.py::VAL_FRAC
+    value: 0.3

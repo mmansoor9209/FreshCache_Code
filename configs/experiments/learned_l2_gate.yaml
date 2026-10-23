@@ -1,0 +1,11 @@
+# Learned L2 compatibility gate (Appendix C): gradient boosting on validation labels; candidate features below.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  features:
+    source: scripts/experiments/admission_controls/l2_gate_training.py:~FEATS = \[f for f in R\[0\] if f in \((.*?)\)\]
+    value: "\"qq_sim\", \"qq_jaccard\", \"entity_match\", \"answer_type_match\", \"strict_subset\", \"support_max\", \"support_mean\"\
+      , \"support_min\", \"n_pages\", \"n_pages_text\", \"evidence_chars\",\n                                  \"qtok_coverage_all\"\
+      , \"qtok_coverage_max_page\", \"num_coverage\", \"cap_coverage\", \"entry_age_frac_of_window\") or f.startswith(\"class_\""
+  gradient_boosting:
+    source: scripts/experiments/admission_controls/l2_gate_training.py:~GradientBoostingClassifier\((.*?)\)
+    value: max_depth=3, learning_rate=0.05, max_iter=300, l2_regularization=1.0, random_state=42

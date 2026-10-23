@@ -1,0 +1,10 @@
+# Answer-fit verifier AV (Appendix C): logistic model checking L1 serving and writing; 30 ms per check in the cost model.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  features:
+    source: scripts/experiments/live_streams/answer_verifier.py:~FEATS = (\[.*?\] \+ \[.*?\])
+    value: '["cos_in_stored_q", "cos_in_answer", "cos_stored_q_answer", "answer_len", "abstain", "age_h", "overlap_in_answer",
+      "is_write"] + [f"class_{c}" for c in ("TIMELESS", "SLOW", "MEDIUM", "FAST")]'
+  check_cost_ms:
+    source: scripts/experiments/live_streams/answer_verifier.py::CHECK_MS
+    value: 30

@@ -1,0 +1,33 @@
+# vCache-style baseline: our reimplementation of the per-entry threshold policy with proxy correctness feedback;
+# the published error guarantee is not tested.
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  replay_engine_policy:
+    source: freshcache/replay_engine/method_replay.py::CONFIG['vCache']
+    value:
+      l1: vcache
+      l2: none
+      l3: none
+      l2_reg_on_hit: false
+      ttl: null
+      online: true
+      rt_bypass: true
+  delta:
+    source: scripts/baselines/vcache/vcache_policy.py::PAPER_DELTA
+    value: 0.1
+  delta_sweep:
+    source: scripts/baselines/vcache/vcache_policy.py::DELTA_VALUES
+    value:
+    - 0.01
+    - 0.02
+    - 0.05
+    - 0.1
+    - 0.2
+    - 0.35
+    - 0.5
+  min_observations:
+    source: scripts/baselines/vcache/vcache_policy.py::MIN_OBSERVATIONS
+    value: 6
+  seed:
+    source: scripts/baselines/vcache/vcache_policy.py::RANDOM_SEED
+    value: 42

@@ -1,0 +1,8 @@
+# EquivalentTTL: FreshCache with the age score replaced by the equivalent class-by-tier TTL (Eq. 3; Table 10).
+# Each value mirrors the code location in `source`; scripts/analysis/check_config_consistency.py verifies them.
+parameters:
+  replay_variant:
+    source: freshcache/replay_engine/mixed_age_replay.py::VARIANTS['EquivalentTTL']
+    value:
+    - FreshCache_Full
+    - equiv
