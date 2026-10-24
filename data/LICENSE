@@ -1,0 +1,9 @@
+FreshCache-Bench sample data license
+
+This repository includes a representative sample of FreshCache-Bench (data/sample/) for running the pipeline end to end. Third-party Web
+page content is referenced by URLs and content hashes rather than redistributed.
+
+The sample is derived from SealQA, FreshQA and TemporalAlignQA, plus hand-authored Korean and REAL_TIME questions. Questions and reference
+answers taken from those datasets remain subject to the licenses and terms of the respective source datasets, and the data license follows
+those terms. Search-result titles and snippets are omitted. Pages re-fetched with scripts/data/page_refetch.py remain subject to the terms of
+their publishers and are not part of this repository.

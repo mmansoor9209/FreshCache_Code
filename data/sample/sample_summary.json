@@ -1,0 +1,19 @@
+{
+ "clusters": 60,
+ "requests": 300,
+ "requests_per_class": {
+  "REAL_TIME": 60,
+  "FAST": 60,
+  "TIMELESS": 60,
+  "SLOW": 60,
+  "MEDIUM": 60
+ },
+ "base_questions": 60,
+ "url_manifest_rows": 1203,
+ "urls": 148,
+ "with_reference": 220,
+ "splits": {
+  "heldout": 200,
+  "validation": 100
+ }
+}
